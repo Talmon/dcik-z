@@ -9217,10 +9217,6 @@ a.text-dark:hover {
   }
 }
 
-body {
-  background: url("/img/backgrounds/spiration-light.png");
-}
-
 .font-niconne {
   font-family: Niconne;
 }
@@ -9235,7 +9231,7 @@ body {
 
 .navbar {
   z-index: 9;
-  background: rgba(10, 10, 124, 0.7);
+  background: url("/img/backgrounds/congruent_outline.png");
 }
 
 .navbar a {
@@ -9249,8 +9245,7 @@ body {
 .navbar .nav-link {
   z-index: 9;
   margin-top: 20px;
-  font: 25px Marmelad;
-  font-family: 'Handlee', cursive;
+  font: 22px Maven Pro;
 }
 
 .navbar .dropdown-menu a:hover {
@@ -9259,8 +9254,7 @@ body {
 
 .navbar .dropdown-menu a {
   color: #000;
-  font: 20px Marmelad;
-  font-family: 'Handlee', cursive;
+  font: 20px Maven Pro;
 }
 
 .navbar .dropdown-menu {
@@ -9273,7 +9267,6 @@ body {
 /* Carousel base class */
 
 .carousel {
-  margin-top: -100px;
   font-family: 'Handlee', cursive;
   /* Since positioning the image, we need to help out the caption */
   /* Declare heights because of positioning of img element */
@@ -9301,7 +9294,7 @@ body {
 }
 
 .carousel .carousel-item {
-  height: 52rem;
+  height: 45rem;
   background-color: #777;
 }
 
@@ -9310,7 +9303,7 @@ body {
   top: 0;
   left: 0;
   min-width: 100%;
-  height: 52rem;
+  height: 45rem;
 }
 
 .carousel .indicators {

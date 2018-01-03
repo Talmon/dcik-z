@@ -136,11 +136,11 @@
       </div>
   </div>
   <div class="col-lg-4 order-1">
-   <img class="h-100 w-100" src="../img/bg-1.jpg" alt="" >
+   <img class="h-100 w-100" src="../img/bg-1.JPG" alt="" >
   </div>
   
   <div class="col-lg-4 order-3">
-  <img class="h-100 w-100" src="../img/service3.jpg" alt="" >    
+  <img class="h-100 w-100" src="../img/service3.JPG" alt="" >    
   </div>
 </div>
 <!-- END OF SERVICES -->

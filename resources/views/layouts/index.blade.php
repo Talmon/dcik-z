@@ -118,27 +118,41 @@
 
 <!-- END OF CAROUSEL -->
 
+<hr class="w-25 mx-auto" style="border: 4px solid darkblue">
+<h1 class="text-center display-4 mx-auto text-danger">Our Services</h1>
+
 <!-- SERVICES -->
-<div class="list-inline bg-danger text-white mt-5 font-niconne animate-plus" data-animations="" data-animation-delay="0s" data-animation-duration="3s" data-animation-repeat="">
-<h1 class="list-inline-item text-dark display-2">Our Sunday Services :</h1>
-<p class="list-inline-item display-4">Express Service - 7:00am - 8:30am |</p>
-<p class="list-inline-item display-4">Celebration Service - 8:45am - 10:45am |</p>
-<p class="list-inline-item display-4">Miracle Service - 11:00am - 1:00pm</p>
-
-<div class="list-inline">
-<h1 class="list-inline-item text-dark display-2">Our Midweek Service :</h1>
-<p class="list-inline-item display-4">Wednesday:  6:30pm - 8:00pm</p>
+<div class="row font-pacifico">
+  <div class="col-lg-4 order-2">
+    <div class="card animate-plus" data-animations="" data-animation-delay="0s" data-animation-duration="3s" data-animation-repeat="" style="background: url(../img/backgrounds/logo_x_pattern.png); ">
+      <div class="card-title text-primary ml-3"><h1> Sunday </h1> </div>
+      <div class="card-body display-5">
+      <h3 class="card-text">Express Service - 7:00am - 8:30am </h3>
+      <h3 class="card-text">Celebration Service - 8:45am - 10:45am </h3>
+      <h3 class="card-text">Miracle Service - 11:00am - 1:00pm</h3>
+      </div>
+      <div class="card-title text-primary ml-3"><h1> Wednesday </h1> </div>
+      <h3 class="card-text mb-2">Midweek Service - 6:30pm - 8:00pm</h3>
+      </div>
+  </div>
+  <div class="col-lg-4 order-1">
+   <img class="h-100 w-100" src="../img/bg-1.jpg" alt="" >
+  </div>
+  
+  <div class="col-lg-4 order-3">
+  <img class="h-100 w-100" src="../img/service3.jpg" alt="" >    
+  </div>
 </div>
+<!-- END OF SERVICES -->
 
-</div>
+<hr class="w-25 mx-auto" style="border: 4px solid darkblue">
+<h1 class="text-center display-4 mx-auto text-danger">Upcoming Events</h1>
 
 <!-- EVENTS -->
 
 <div id="events" class="font-pacifico bg-dark text-white text-center mt-5" >
-    <h4 class="display-4 text-center mb-5 w-50 mx-auto pb-3" style="border-bottom: 5px solid red;" >UPCOMING EVENTS</h4>
 
-
-    <div class="row mt-5 w-75 mx-auto bg-light">
+    <div class="row mt-5 w-75 mx-auto bg-light" style="background: url(../img/backgrounds/greyfloral.png); ">
       <div class="col-lg-4 mt-3">
         <img src="img/events/events-1.jpg" alt="" class="" style="height: 200px; width: 250px;">
       </div>
@@ -152,7 +166,7 @@
     </div>
 
 
-    <div class="row mt-5 w-75 mx-auto bg-light">
+    <div class="row mt-5 w-75 mx-auto bg-light" style="background: url(../img/backgrounds/greyfloral.png); ">
         <div class="col-lg-4 mt-3">
         <img src="img/events/icc-conference.jpg" alt="" class="" style="height: 200px; width: 250px;">
         </div>
@@ -165,7 +179,7 @@
         </div>
     </div>
 
-    <div class="row mt-5 w-75  mx-auto bg-light">
+    <div class="row mt-5 w-75  mx-auto bg-light" style="background: url(../img/backgrounds/greyfloral.png); ">
         <div class="col-lg-4 mt-3">
           <img src="img/events/grand-opening.jpg" alt="" class="" style="height: 200px; width: 250px;">
         </div>
@@ -178,7 +192,7 @@
         </div>
     </div>
 
-      <div class="row mt-5 mb-5 w-75  mx-auto bg-light">
+      <div class="row mt-5 mb-5 w-75  mx-auto bg-light" style="background: url(../img/backgrounds/greyfloral.png); ">
           <div class="col-lg-12 mt-3">
             <a href="/events" class="display-3">VIEW ALL EVENTS</a>
           </div>
@@ -190,84 +204,136 @@
 
 
 
-
 <!-- ABOUT OUR CHURCH -->
-<div class="card my-3 mt-5 font-pacifico" style=" background: rgba(10, 10, 124, 0.7);">
-  <img class="card-img-top mt-5 text-center mx-auto h-50" src="img/grand opening/cathedral2.jpg" alt="Card image cap" style="width: 700px; height: 500px; margin-left: 500px;">
-  <div class="card-body text-center text-white">
-    <h4 class="card-title display-4">ABOUT OUR CHURCH</h4>
-    <p class="card-text display-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur, eligendi dignissimos repellat inventore nemo odit
-      modi molestias aperiam nisi. Aut cupiditate cum, velit minima rem, eum minus fugit aspernatur recusandae quas ipsum
-      illo voluptatibus doloribus quo! Accusamus, vel dolor suscipit nesciunt velit soluta iusto debitis aliquam itaque illum
-      quia odit.</p>
-    <p>
-      <a href="#">
-        <button class="btn btn-lg bg-primary text-white">KNOW MORE </button>
-      </a>
-    </p>
-    <p class="card-text">
-      <small class="">The Church of Choice</small>
-    </p>
+<div class="row ">
+  <div class="col-lg-9">
+    <div class="card my-3 mt-5 font-official" style=" background: url(../img/backgrounds/gplaypattern.png); ">
+      <div class="card-body text-center">
+        <h4 class="card-title display-4 text-danger">ABOUT OUR CHURCH</h4>
+        <p class="card-text display-5 text-dark">Deliverance Church Kasarani Zimmerman was established on November 4, 1984 by Bishop Dr. Jimmy Kimani. The church is situated in Zimmerman Estate in Nairobi Kenya, opposite Mirema Drive, off Kamiti Road. Over the time we have grown in leaps and bounds establishing, supporting and building other churches around the Kasarani region as well as in other parts of the country. Among the many Deliverance churches that we have planted are Mwirigo, Mwiki, Kiamumbi, Ihururu and Kahawa West.</p>
+        <p>
+
+        <h3>Want to know more?See Below</h3>
+        <ul class="list-inline-group">
+        <li class="list-inline-item">
+            <a href="/what-we-believe">
+                <button class="btn btn-lg bg-primary text-white">WHAT WE BELIEVE </button>
+              </a>
+        </li>  
+        <li class="list-inline-item">
+            <a href="/pastors">
+                <button class="btn btn-lg bg-primary text-white">PASTORS </button>
+              </a>
+        </li> 
+        <li class="list-inline-item">
+            <a href="/fathers-vision">
+                <button class="btn btn-lg bg-primary text-white">FATHER'S VISION</button>
+              </a>
+        </li> 
+        <li class="list-inline-item">
+            <a href="/become-a-member">
+                <button class="btn btn-lg bg-primary text-white">BECOME A MEMBER </button>
+              </a>
+        </li> 
+        <li class="list-inline-item">
+            <a href="/cornerstone-academy">
+                <button class="btn btn-lg bg-primary text-white">CORNERSTONE ACADEMY </button>
+              </a>
+        </li> 
+        </ul>  
+         
+        </p>
+        
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3">
+        <img src="../img/Bish and mum.jpg" alt="" class="h-100 w-100">
   </div>
 </div>
 
 <!-- END OF ABOUT -->
 
-<!-- INFORMATION DESK -->
-<!-- <div id="info-desk" class="row" style="overflow:hidden">
-  <div class="col-lg-4 h-75" style="overflow:hidden">
-    <div class="hovereffect">
-      <img class="img-responsive" src="img/bible.jpeg" alt="">
-      <div class="overlay">
-        <h2 class="display-5 mb-5">
-          <strong> SERMONS </strong>
-        </h2>
-        <p>
-          <a href="#">
-            <button class="btn btn-lg text-white" style="background-color: #00004c;"> CLICK HERE TO VIEW </button>
-          </a>
-        </p>
-      </div>
-    </div>
-  </div>
-
-  <div class="col-lg-4 h-75" style="overflow:hidden">
-    <div class="hovereffect">
-      <img class="img-responsive" src="img/events5.jpeg" alt="">
-      <div class="overlay">
-        <h2 class="display-5 mb-5">
-          <strong> EVENTS </strong>
-        </h2>
-        <p>
-          <a href="#">
-            <button class="btn btn-lg text-white" style="background-color: #00004c;"> CLICK HERE TO VIEW </button>
-          </a>
-        </p>
-      </div>
-    </div>
-  </div>
-
-  <div class="col-lg-4 h-75" style="overflow:hidden">
-    <div class="hovereffect">
-      <img class="img-responsive" src="img/announcements1.jpeg" alt="">
-      <div class="overlay">
-        <h2 class="display-5 mb-5">
-          <strong> ANNOUNCEMENTS </strong>
-        </h2>
-        <p>
-          <a href="#">
-            <button class="btn btn-lg text-white" style="background-color: #00004c;"> CLICK HERE TO VIEW </button>
-          </a>
-        </p>
-      </div>
-    </div>
-  </div>
-
-</div> -->
+<hr class="w-25 mx-auto" style="border: 4px solid darkblue">
+<h1 class="text-center display-4 mx-auto text-danger mb-3">Latest Sermons</h1>
 
 <!-- LATEST SERMONS -->
-<h4 class="display-4 text-center mb-5 w-50 mx-auto pb-3" style="border-bottom: 5px solid red;">LATEST SERMONS</h4>
 <div class="row">
+  <div class="col-lg-4 mb-3" >
+    <div class="card font-official" style=" background: url(../img/backgrounds/greyfloral.png);">
+      <img src="" alt="" class="img-top">
+      <div class="card-title bg-light"><h1 class=""> <span class="text-primary"> Speaker: </span> Bishop Dr. Jimmy Kimani</div>
+        <div class="card-title bg-light mb-3"><h1> <span class="text-primary"> Message: </span> Divine Elevation</h1></div>            
+      <iframe class="mx-auto mt-3" width="420" height="345" src="https://www.youtube.com/embed/6AuAUUnuyUE" allowfullscreen>
+      </iframe>
+      <p class="card-text">
+          <ul class="list-inline mx-auto bg-light">
+            <li class="list-inline-item">
+              <i class="fa fa-headphones fa-border fa-3x " aria-hidden="true"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fa fa-file-pdf-o fa-border  fa-3x " aria-hidden="true"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fa fa-download fa-border  fa-3x " aria-hidden="true"></i>
+            </li>
+          </ul>
+      </p>
+    </div>
+
+  </div>
+
+  <div class="col-lg-4 mb-3">
+      <div class="card font-official" style=" background: url(../img/backgrounds/greyfloral.png);">
+        <img src="" alt="" class="img-top">
+        <div class="card-title bg-light"><h1 class=""> <span class="text-primary"> Speaker: </span> Bishop Dr. Jimmy Kimani</div>
+          <div class="card-title bg-light mb-3"><h1> <span class="text-primary"> Message: </span> The 1st Christmas</h1></div>            
+        <iframe class="mx-auto mt-3" width="420" height="345" src="https://www.youtube.com/embed/KDobDfg-nSo" allowfullscreen>
+        </iframe>
+        <p class="card-text">
+            <ul class="list-inline mx-auto bg-light">
+              <li class="list-inline-item">
+                <i class="fa fa-headphones fa-border fa-3x " aria-hidden="true"></i>
+              </li>
+              <li class="list-inline-item">
+                <i class="fa fa-file-pdf-o fa-border  fa-3x " aria-hidden="true"></i>
+              </li>
+              <li class="list-inline-item">
+                <i class="fa fa-download fa-border  fa-3x " aria-hidden="true"></i>
+              </li>
+            </ul>
+        </p>
+      </div>  
+            
+  </div>
+
+  <div class="col-lg-4 mb-3">
+      <div class="card font-official" style=" background: url(../img/backgrounds/greyfloral.png);">
+      <img src="" alt="" class="img-top">
+      <div class="card-title bg-light"><h1 class=""> <span class="text-primary"> Speaker: </span> Pastor Francis Omedo</div>
+      <div class="card-title bg-light mb-3"><h1> <span class="text-primary"> Message: </span> Righteousness</h1></div>      
+      <iframe class="mx-auto mt-3" width="420" height="345" src="https://www.youtube.com/embed//rYC8pfiJoCk" allowfullscreen>
+      </iframe>
+      <p class="card-text">
+          <ul class="list-inline mx-auto bg-light">
+            <li class="list-inline-item">
+              <i class="fa fa-headphones fa-border fa-3x " aria-hidden="true"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fa fa-file-pdf-o fa-border  fa-3x " aria-hidden="true"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fa fa-download fa-border  fa-3x " aria-hidden="true"></i>
+            </li>
+          </ul>
+      </p>
+    </div>
+          
+  </div>      
+</div>
+
+
+<!-- <div class="row">
   <div class="col-lg-6">
     <div class="card mb-3">
       <img class="card-img-top" src="img/church-2.jpg" alt="Card image cap">
@@ -435,27 +501,9 @@
 
   </div>
 
-</div>
+</div> -->
 
 <!-- END OF LATEST SERMONS  -->
-
-
-<!-- ADVERTISEMENT -->
-<div class="bg-overlay mt-5" style="height:800px; margin-top: -20px; z-index:9; font-family:'Handlee', cursive ;">
-  <div class="row text-right" style="margin-top: 500px;">
-    <div class="col-12 mt-5  ml-auto">
-      <h1 class="animate-plus" data-animations="bounceInDown" data-animation-delay="0s" data-animation-duration="7s" >Do you want to join our church?</h1>
-        <button type="button" class="btn btn-lg bg-danger animate-plus" data-animations="slideInLeft" data-animation-delay="0s" data-animation-duration="7s">
-          <h4 class="display-4">
-            <a class="text-white" href="/become-a-member">BECOME A MEMBER</a>
-          </h4>
-        </button>
-    </div>
-  </div>
-</div>
-
-<!-- END OF ADVERTISEMENT -->
-
 
 
 <!-- BLOG -->

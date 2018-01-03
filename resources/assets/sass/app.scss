@@ -35,8 +35,7 @@ $carousel-control-color: $blue;
 }
 
 body{
-  //background: url("/img/backgrounds/spiration-light.png");
-
+  background: url("/img/backgrounds/spiration-light.png");
 }
 
 .font-niconne{
@@ -47,6 +46,9 @@ body{
 }
 .font-pacifico{
 	font-family: Gloria Hallelujah ;
+}
+.font-official{
+  font-family: $font-type;
 }
 
     .navbar{
@@ -377,4 +379,8 @@ width: 100%;
     -webkit-transition-delay: 0.3s;
     transition-delay: 0.3s;
   }
+}
+
+footer {
+  background: url("/img/backgrounds/darkness.png");
 }

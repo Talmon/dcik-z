@@ -9217,6 +9217,10 @@ a.text-dark:hover {
   }
 }
 
+body {
+  background: url("/img/backgrounds/spiration-light.png");
+}
+
 .font-niconne {
   font-family: Niconne;
 }
@@ -9227,6 +9231,10 @@ a.text-dark:hover {
 
 .font-pacifico {
   font-family: Gloria Hallelujah;
+}
+
+.font-official {
+  font-family: Maven Pro;
 }
 
 .navbar {
@@ -9547,5 +9555,9 @@ a {
   transform: translateY(0px);
   -webkit-transition-delay: 0.3s;
   transition-delay: 0.3s;
+}
+
+footer {
+  background: url("/img/backgrounds/darkness.png");
 }
 

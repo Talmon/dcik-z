@@ -1,5 +1,5 @@
 <!-- FOOTER -->
-<div class="bg-danger  row w-100 h-50 footer mx-auto mt-5">
+<footer class="row w-100 h-50 footer mx-auto mt-5">
                 <div class="col-4 ml-5 text-white">
                   <h4 class="mt-5">EXPLORE</h4>
                   <a href="#">> Home</a><br>
@@ -31,7 +31,7 @@
                     </form>
 
                 </div>    
-              </div>
+</footer>
 
 
 

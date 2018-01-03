@@ -154,13 +154,17 @@ a {
   }
 }
 
+bg-test{
+  background: rgba(236, 232, 232, 0.24);
+}
+
 #events{
   // height: 1200px;
-  background-image: url("/img/church-4.jpg");
+  background-image: url("/img/homepage/grand-opening3.JPG");
 }
 .bg-overlay {
     //background: #ccc;
-  background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url("/img/retreat.jpg");
+  background: linear-gradient(rgba(0,0,0,.6), rgba(0, 0, 0, 0.6)), url("/img/retreat.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;

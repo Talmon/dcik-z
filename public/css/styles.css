@@ -9337,8 +9337,12 @@ a {
   background-color: rgba(0, 0, 0, 0.7);
 }
 
+bg-test {
+  background: rgba(236, 232, 232, 0.24);
+}
+
 #events {
-  background-image: url("/img/church-4.jpg");
+  background-image: url("/img/homepage/grand-opening3.JPG");
 }
 
 .bg-overlay {

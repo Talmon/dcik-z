@@ -9,12 +9,12 @@
 </div>
 </div>
 
-<div class="card mx-auto" style="margin-top: -380px; width:70rem;" data-aos="slide-down">
+<div class="card mx-auto w-100 mt-5" style="background: url(../img/backgrounds/greyfloral.png);" data-aos="zoom-in">
 <img class="card-img w-50 mx-auto mt-3 h-25" src="img/what-we-believe.jpg" alt="Card image cap">
-  <div class="card-body">
+  <div class="card-body" >
     <div class="row">
     <div class="col-lg-6 mt-3">
-    <div class="card border-0">
+    <div class="card border-0" style="background: rgba(236, 232, 232, 0.24);">
   <div class="ih-item circle effect1 mx-auto ">
         <a href="#">
             <div class="spinner"></div>
@@ -36,7 +36,7 @@
     </div>
 
     <div class="col-lg-6 mt-3">
-        <div class="card border-0">
+        <div class="card border-0" style="background: rgba(236, 232, 232, 0.24);">
       <div class="ih-item circle effect1 mx-auto ">
             <a href="#">
                 <div class="spinner"></div>
@@ -61,7 +61,7 @@
     <div class="row">
 
         <div class="col-lg-4 mt-3">
-            <div class="card border-0">
+            <div class="card border-0" style="background: rgba(236, 232, 232, 0.24);">
           <div class="ih-item circle effect1 mx-auto ">
                 <a href="#">
                     <div class="spinner"></div>
@@ -85,8 +85,8 @@
 
 
         <div class="col-lg-4 mt-3">
-            <div class="card border-0">
-          <div class="ih-item circle effect1 mx-auto ">
+            <div class="card border-0" style="background: rgba(236, 232, 232, 0.24);">
+          <div class="ih-item circle effect1 mx-auto">
                 <a href="#">
                     <div class="spinner"></div>
                     <div class="img card-img-top">
@@ -108,7 +108,7 @@
 
 
         <div class="col-lg-4 mt-3">
-            <div class="card border-0">
+            <div class="card border-0" style="background: rgba(236, 232, 232, 0.24);">
           <div class="ih-item circle effect1 mx-auto ">
                 <a href="#">
                     <div class="spinner"></div>
@@ -135,7 +135,7 @@
     <div class="row">
     
             <div class="col-lg-4 mt-3">
-                <div class="card border-0">
+                <div class="card border-0" style="background: rgba(236, 232, 232, 0.24);">
               <div class="ih-item circle effect1 mx-auto ">
                     <a href="#">
                         <div class="spinner"></div>
@@ -159,7 +159,7 @@
     
     
             <div class="col-lg-4 mt-3">
-                <div class="card border-0">
+                <div class="card border-0" style="background: rgba(236, 232, 232, 0.24);">
               <div class="ih-item circle effect1 mx-auto ">
                     <a href="#">
                         <div class="spinner"></div>
@@ -182,7 +182,7 @@
     
     
             <div class="col-lg-4 mt-3">
-                <div class="card border-0">
+                <div class="card border-0" style="background: rgba(236, 232, 232, 0.24);">
               <div class="ih-item circle effect1 mx-auto ">
                     <a href="#">
                         <div class="spinner"></div>

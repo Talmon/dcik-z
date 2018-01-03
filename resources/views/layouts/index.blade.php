@@ -12,9 +12,9 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="../img/ladies/doi-1.JPG" alt="First slide">
+      <img class="d-block  w-100" src="../img/ladies/doi-1.JPG" alt="First slide">
       <div class="container">
-        <div class="carousel-caption text-bottom">
+        <div class="carousel-caption d-md-block d-none text-bottom">
           <h1 class="animate-plus font-pacifico display-1  ml-5 text-center" data-animations="zoomIn,bounce"  data-animation-delay="0s" data-animation-duration="4s">
            LADIES' MINISTRY   
           </h1>
@@ -33,7 +33,7 @@
     <div class="carousel-item">
     <img class="d-block w-100" src="../img/men/men-4.JPG" alt="First slide">
     <div class="container">
-      <div class="carousel-caption text-bottom">
+      <div class="carousel-caption d-md-block d-none text-bottom">
         <h1 class="animate-plus display-1  ml-5 text-bottom" data-animations="zoomIn,bounce"  data-animation-delay="0s" data-animation-duration="4s" style="color: white; margin-top:100px;" style="font-family: Gloria Hallelujah;">
          MEN'S MINISTRY   
         </h1>
@@ -51,7 +51,7 @@
     <div class="carousel-item">
     <img class="d-block w-100" src="../img/youth/youth-ministry.JPG" alt="First slide">
     <div class="container">
-      <div class="carousel-caption text-bottom">
+      <div class="carousel-caption d-md-block d-none text-bottom">
         <h1 class="animate-plus display-1  ml-5 text-center" data-animations="zoomIn,bounce"  data-animation-delay="0s" data-animation-duration="4s" style="color: yellow;">
          YOUTH MINISTRY   
         </h1>
@@ -69,7 +69,7 @@
     <div class="carousel-item">
     <img class="d-block w-100" src="../img/couples/couples.jpg" alt="First slide">
     <div class="container">
-      <div class="carousel-caption text-bottom">
+      <div class="carousel-caption d-md-block d-none text-bottom">
         <h1 class="animate-plus display-1  ml-5 text-center" data-animations="zoomIn,bounce"  data-animation-delay="0s" data-animation-duration="4s">
          COUPLES' MINISTRY   
         </h1>
@@ -89,7 +89,7 @@
     <div class="carousel-item">
     <img class="d-block w-100" src="../img/children/children-1.JPG" alt="First slide">
     <div class="container">
-      <div class="carousel-caption text-bottom">
+      <div class="carousel-caption d-md-block d-none text-bottom">
         <h1 class="animate-plus display-2  ml-5 text-center" data-animations="zoomIn,bounce"  data-animation-delay="0s" data-animation-duration="4s" style="color: white; margin-top:100px;">
          CHILDREN'S MINISTRY   
         </h1>

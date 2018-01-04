@@ -12,17 +12,16 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block  w-100" src="../img/ladies/doi-1.JPG" alt="First slide">
+      <img class="d-sm-block  w-100" src="../img/ladies/doi-1.JPG" alt="First slide">
       <div class="container">
-        <div class="carousel-caption d-md-block d-none text-bottom">
+        <div class="carousel-caption text-bottom">
           <h1 class="animate-plus font-pacifico display-1  ml-5 text-center" data-animations="zoomIn,bounce"  data-animation-delay="0s" data-animation-duration="4s">
            LADIES' MINISTRY   
           </h1>
           <!-- <p class="lead display-7 animated slideInUp">Amazing ministry for the ladies</p> -->
           <a href="/ladies">
             <button class="animate-plus mt-2 btn btn-lg" data-animations="bounceInRight" data-animation-delay="2s" data-animation-duration="4s">
-              <h4 class="display-5 text-white"> VIEW MINISTRY </h4>
-              
+              <h4 class="display-5 text-white"> VIEW MINISTRY </h4> 
             </button>
           </a>
 
@@ -33,8 +32,8 @@
     <div class="carousel-item">
     <img class="d-block w-100" src="../img/men/men-4.JPG" alt="First slide">
     <div class="container">
-      <div class="carousel-caption d-md-block d-none text-bottom">
-        <h1 class="animate-plus display-1  ml-5 text-bottom" data-animations="zoomIn,bounce"  data-animation-delay="0s" data-animation-duration="4s" style="color: white; margin-top:100px;" style="font-family: Gloria Hallelujah;">
+    <div class="carousel-caption text-bottom">
+    <h1 class="animate-plus display-1  ml-5 text-bottom" data-animations="zoomIn,bounce"  data-animation-delay="0s" data-animation-duration="4s" style="color:green;">
          MEN'S MINISTRY   
         </h1>
         <!-- <p class="lead display-7 animated slideInUp">Amazing ministry for the ladies</p> -->
@@ -51,8 +50,8 @@
     <div class="carousel-item">
     <img class="d-block w-100" src="../img/youth/youth-ministry.JPG" alt="First slide">
     <div class="container">
-      <div class="carousel-caption d-md-block d-none text-bottom">
-        <h1 class="animate-plus display-1  ml-5 text-center" data-animations="zoomIn,bounce"  data-animation-delay="0s" data-animation-duration="4s" style="color: yellow;">
+    <div class="carousel-caption text-bottom">
+    <h1 class="animate-plus display-1  ml-5 text-center" data-animations="zoomIn,bounce"  data-animation-delay="0s" data-animation-duration="4s" style="color: yellow;">
          YOUTH MINISTRY   
         </h1>
         <!-- <p class="lead display-7 animated slideInUp">Amazing ministry for the ladies</p> -->
@@ -69,8 +68,8 @@
     <div class="carousel-item">
     <img class="d-block w-100" src="../img/couples/couples.jpg" alt="First slide">
     <div class="container">
-      <div class="carousel-caption d-md-block d-none text-bottom">
-        <h1 class="animate-plus display-1  ml-5 text-center" data-animations="zoomIn,bounce"  data-animation-delay="0s" data-animation-duration="4s">
+    <div class="carousel-caption text-bottom">
+    <h1 class="animate-plus display-1  ml-5 text-center" data-animations="zoomIn,bounce"  data-animation-delay="0s" data-animation-duration="4s">
          COUPLES' MINISTRY   
         </h1>
         <!-- <p class="lead display-7 animated slideInUp">Amazing ministry for the ladies</p> -->
@@ -89,8 +88,8 @@
     <div class="carousel-item">
     <img class="d-block w-100" src="../img/children/children-1.JPG" alt="First slide">
     <div class="container">
-      <div class="carousel-caption d-md-block d-none text-bottom">
-        <h1 class="animate-plus display-2  ml-5 text-center" data-animations="zoomIn,bounce"  data-animation-delay="0s" data-animation-duration="4s" style="color: white; margin-top:100px;">
+    <div class="carousel-caption text-bottom">
+    <h1 class="animate-plus display-2  ml-5 text-center" data-animations="zoomIn,bounce"  data-animation-delay="0s" data-animation-duration="4s" style="color: white;">
          CHILDREN'S MINISTRY   
         </h1>
         <!-- <p class="lead display-7 animated slideInUp">Amazing ministry for the ladies</p> -->
@@ -122,7 +121,7 @@
 <h1 class="text-center display-4 mx-auto text-danger">Our Services</h1>
 
 <!-- SERVICES -->
-<div class="row font-pacifico">
+<div class="row font-official">
   <div class="col-lg-4 order-2">
     <div class="card animate-plus" data-animations="" data-animation-delay="0s" data-animation-duration="3s" data-animation-repeat="" style="background: url(../img/backgrounds/logo_x_pattern.png); ">
       <div class="card-title text-primary ml-3"><h1> Sunday </h1> </div>

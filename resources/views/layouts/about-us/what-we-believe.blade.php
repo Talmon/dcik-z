@@ -12,10 +12,10 @@
 
 
 <div class="card mx-auto w-100 mt-5 font-official" style="background: url(../img/backgrounds/greyfloral.png);" data-aos="zoom-in">
-  <img class="card-img w-50 mx-auto mt-3 h-25" src="img/what-we-believe.jpg" alt="Card image cap">
+  <!-- <img class="card-img w-50 mx-auto mt-3 h-25" src="img/what-we-believe.jpg" alt="Card image cap"> -->
   <div class="card-body  mt-5 text-dark text-center" style= "background: url(../img/backgrounds/greyfloral.png); font:40px;">
-  <div class="jumbotron" style= "background: url(https://static.pexels.com/photos/235985/pexels-photo-235985.jpeg) no-repeat; background-size:cover; font:40px;">
-  <ol class="display-5  text-dark" style= "margin-left:200px; margin-top:200px; font:40px; color:rgba(15, 1, 1, 0);">  
+  <div class="jumbotron" style="background: none;">
+  <ol class="display-5 mx-auto  text-dark">  
   <li class="">
   <h1 class="display-5">The Bible is the inspired, only infallible word of God (2 Tim 3:15-17; 2 Peter 1:19-21; 1 Thessalonians 2:13).</h1>
   <hr class="my-4">

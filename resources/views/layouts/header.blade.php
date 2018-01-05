@@ -4,7 +4,7 @@
   </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
     aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon " style="cursor: pointer;"> <i class="fa fa-expand fa-2x text-white" aria-hidden="true"></i> </span>
+    <span class="navbar-toggler-icon mr-5" style="cursor: pointer;"> <i class="fa fa-bars fa-2x text-white " aria-hidden="true"></i> </span>
   </button>
 
   <div class="collapse navbar-collapse " id="navbarSupportedContent">
@@ -20,22 +20,36 @@
           About Us
         </a>
         <div class="dropdown-menu mega-menu" aria-labelledby="navbarDropdown">
-              <div class="row" style="overflow-x: hidden;">
-                  <div class="col-lg ml-auto">
-                    <img src="img/what-we-believe2.jpg" alt="" class="img-fluid" style="height:auto; max-width:100%;">
+          <div class="container">
+              <div class="row">
+                  <div class="col-sm ">
+                    <img src="img/what-we-believe2.jpg" alt="" class="img-fluid" style="height:auto; max-width:100%;" >
                     <a class="display-7" href="/what-we-believe">What We Believe</a>
                   </div>
-                  <div class="col-lg">
+                  <div class="col-sm">
                     <img src="img/the-fathers-vision2.jpg" alt="" class="img-fluid" style="height:auto; max-width:100%;">
                     <a class="display-7" href="/the-fathers-vision">The Father's Vision</a>
                   </div>
-                  <div class="col-lg">
-                    <img src="http://www.soulshepherding.org/wp-content/uploads/2016/09/Pastor.jpg" alt="" class="img-fluid" style="height:auto; max-width:100%;">
+                  <div class="col-sm">
+                    <img src="img/Bish and mum.jpg" alt="" class="img-fluid" style="height:auto; max-width:100%;">
                     <a class="display-7" href="/pastors">Pastors</a>
                   </div>
                   
-              </div>            
+              </div>
+              
+             <div class="row">
+                <div class="col-sm-4">
+                    <img src="img/member1.jpg" alt="" class="img-fluid" style="height:auto; max-width:100%;">
+                    <a class="display-7" href="/become-a-member">Become a Member</a>
+                </div>
+                <div class="col-sm-4">
+                    <img src="img/academy1.png" alt="" class="img-fluid" style="height:auto; max-width:100%;">
+                    <a class="display-7" href="/cornerstone-academy">Cornerstone Academy</a>
+                </div>  
+             </div> 
         </div>
+          </div>
+              
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
@@ -43,9 +57,10 @@
           Ministries
         </a>
         <div class="dropdown-menu mega-menu" aria-labelledby="navbarDropdown">
-          <div class="row">
-            <div class="col-lg-3 col-sm-5">
-              <img src="img/networks1.jpg" alt="" class="w-100 img-fluid" style="height: 150px; width:200px;">
+         <div class="container">
+          <div class="row" >
+          <div class="col-md">
+          <img src="img/networks1.jpg" alt="" class="img-fluid" style="height:auto; max-width:100%;">
               <h4 style="color:orangered">Networks</h4>
               <p>
                 <a href="/men">Men</a>
@@ -63,8 +78,8 @@
                 <a href="/couples">Couples.</a>
               </p>
             </div>
-            <div class="col-lg-3 col-sm-5">
-              <img src="img/service2.jpg" alt="" class="w-100 img-fluid" style="height: 150px; width:200px;">
+            <div class="col-md">
+              <img src="img/service2.jpg" alt="" class="img-fluid" style="height:auto; max-width:100%;">
               <h4 style="color:orangered">Service Ministiries</h4>
               <p>
                 <a href="/ushering">Ushering</a>
@@ -88,8 +103,8 @@
                 <a href="/new-believers">New Believers</a>
               </p>
             </div>
-            <div class="col-lg-3 col-sm-5">
-              <img src="img/welfare&compassion.jpg" alt="" class="w-100 img-fluid" style="height: 150px; width:200px;">
+            <div class="col-md">
+              <img src="img/welfare&compassion.jpg" alt="" class="img-fluid" style="height:auto; max-width:100%;">
               <h4 style="color:orangered">Welfare & Compassion</h4>
               <p>
                 <a href="/welfare">Welfare</a>
@@ -106,8 +121,8 @@
 
             </div>
 
-            <div class="col-lg-3 col-sm-5">
-              <img src="img/missions&outreach.jpg" alt="" class="w-100 img-fluid" style="height: 150px; width:200px;">
+            <div class="col-md">
+              <img src="img/missions&outreach.jpg" alt="" class="img-fluid" style="height:auto; max-width:100%;">
               <h4 style="color:orangered">Missions & Outreach</h4>
               <p>
                 <a href="/missions">Missions</a>
@@ -124,6 +139,7 @@
 
             </div>
           </div>
+          </div>
         </div>
       </li>
       <li class="nav-item dropdown">
@@ -131,38 +147,42 @@
           aria-expanded="false">
           Resources
         </a>
-        <div class="dropdown-menu mega-menu" aria-labelledby="navbarDropdown">
+        <div class="dropdown-menu mega-menu resources" aria-labelledby="navbarDropdown">
+         <div class="container">
           <div class="row">
-              <div class="col-lg-3 col-sm-5">
-              <img src="img/careers1.jpg" alt="" class="w-100 img-fluid" style="height: 150px; width:200px;">
+              <div class="col-md">
+              <img src="img/careers1.jpg" alt="" class="img-fluid" style="height:auto; max-width:100%;">
               <a class=" display-7" href="/careers">Careers</a>
             </div>
-            <div class="col-lg-3 col-sm-5">
-              <img src="img/news2.jpg" alt="" class="w-100 img-fluid" style="height: 150px; width:200px;">
+            <div class="col-md">
+              <img src="img/news2.jpg" alt="" class="img-fluid" style="height:auto; max-width:100%;">
               <a class="ml-auto display-7" href="/news">News</a>
             </div>
-            <div class="col-lg-3 col-sm-5">
-              <img src="img/blog2.jpg" alt="" class="w-100 h-75 img-fluid" style="height: 150px; width:200px;">
+            <div class="col-md">
+              <img src="img/blog3.jpg" alt="" class="img-fluid" style="height:auto; max-width:100%;">
               <a class="ml-auto display-7" href="/blog">Weekly Articles</a>
             </div>
-            <div class="col-lg-3 col-sm-5">
-              <img src="img/tender2.jpg" alt="" class="w-100 img-fluid" style="height: 150px; width:200px;">
-              <a class="ml-auto display-7" href="/tenders">Tenders</a>
-            </div>
+            <div class="col-md">
+                <img src="img/events/navbar-events.jpg" alt="" class="img-fluid" style="height:auto; max-width:100%;">
+                
+                <a class="display-7" href="/events">Events</a>
+              </div>
           </div>
           <div class="row">
-              <div class="col-lg-3 col-sm-5">
-              <img src="img/prayers1.jpg" alt="" class="w-100 img-fluid" style="height: 150px; width:200px;">
-              <a class="ml-auto display-7" href="/prayers">Prayers</a>
+              <div class="col-md-3 ">
+              <img src="img/prayers1.jpg" alt="" class="img-fluid" style="height:auto; max-width:100%;">
+              <a class="display-7" href="/prayers">Prayers</a>
             </div>
-            <div class="col-lg-3 col-sm-5">
-              <img src="img/events1.jpg" alt="" class="w-100 img-fluid" style="height: 150px; width:200px;">
-              <a class="ml-auto display-7" href="/events">Events</a>
+            <div class="col-md-3">
+              <img src="img/what-we-believe1.jpg" alt="" class="img-fluid" style="height:auto; max-width:100%;">
+              
+              <a class="display-7" href="/sermons">Sermons</a>
             </div>
-            <div class="col-lg-3 col-sm-5">
-              <img src="img/what-we-believe1.jpg" alt="" class="w-100 img-fluid" style="height: 150px; width:200px;">
-              <a class="ml-auto display-7" href="/sermons">Sermons</a>
-            </div>
+            <div class="col-md-3">
+                <img src="img/tender2.jpg" alt="" class="img-fluid" style="height:auto; max-width:100%;">
+                <a class="ml-auto display-7" href="/tenders">Tenders</a>
+              </div>
+          </div>
           </div>
         </div>
       </li>

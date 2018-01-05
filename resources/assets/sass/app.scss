@@ -9,33 +9,11 @@ $dark-overlay: rgba(0,0,0,0.7);
 $carousel-control-color: $blue;
 
 /*Only for Bootstrap version 4 Beta and up*/
-@media screen and (min-width: 576px) {
-	.mega-menu {
-  		width: 250px;
-	}
-}
 
-@media screen and (min-width: 768px) {
-	.has-mega-menu .container-md {
-  		width: 750px;
-	}
-}
-
-@media screen and (min-width: 992px) {
-	.has-mega-menu .container-lg {
-  		width: 990px;
-	}
-}
-
-@media screen and (min-width: 1200px) {
-	.has-mega-menu .container-xl {
-  		width: 1170px;
-	}
-
-}
 
 body{
   background: url("/img/backgrounds/spiration-light.png");
+  overflow-x: hidden;
 }
 
 .font-niconne{
@@ -106,7 +84,6 @@ body{
   .carousel-caption {
     bottom: 10rem;
     z-index: 10;
-    border-left: 1px solid $font-color;
     height:20em;
   }
   .carousel-caption button{
@@ -135,6 +112,8 @@ body{
     margin-left: 50px;
     height:60px;
   }
+  
+  
 
   @include media-breakpoint-down(sm) {
     .carousel-item {
@@ -150,14 +129,14 @@ body{
       height: 25rem;
     }
     .carousel-caption h1{
-         margin-top: 270px;
+         margin-top: 250px;
          font-size: 35px;
     }
     .carousel-caption button{
-         margin-left: 50px;
+         margin-left: 0px;
          height:40px;
 
-    }
+    }  
     
   }  
   
@@ -267,6 +246,7 @@ bg-test{
 #events{
   // height: 1200px;
   background-image: url("/img/homepage/grand-opening3.JPG");
+  color: brown;
 }
 .bg-overlay {
     //background: #ccc;

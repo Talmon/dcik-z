@@ -11,7 +11,7 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-sm-block  w-100" src="../img/ladies/doi-1.JPG" alt="First slide">
+      <img class="d-sm-block  w-100" src="../img/ladies/homepage.JPG" alt="First slide">
       <div class="container">
         <div class="carousel-caption text-bottom">
           <h1 class="animate-plus font-pacifico display-1  text-left" data-animations="zoomIn,bounce" data-animation-delay="0s" data-animation-duration="4s">
@@ -28,7 +28,7 @@
     </div>
 
     <div class="carousel-item">
-      <img class="d-block w-100" src="../img/men/men-4.JPG" alt="First slide">
+      <img class="d-block w-100" src="../img/men/homepage.JPG" alt="First slide">
       <div class="container">
         <div class="carousel-caption text-bottom">
           <h1 class="animate-plus display-1  text-left" data-animations="zoomIn,bounce" data-animation-delay="0s" data-animation-duration="4s"
@@ -46,7 +46,7 @@
     </div>
 
     <div class="carousel-item">
-      <img class="d-block w-100" src="../img/youth/youth-ministry.JPG" alt="First slide">
+      <img class="d-block w-100" src="../img/youth/homepage.JPG" alt="First slide">
       <div class="container">
         <div class="carousel-caption text-bottom">
           <h1 class="animate-plus display-1 text-left" data-animations="zoomIn,bounce" data-animation-delay="0s" data-animation-duration="4s"
@@ -64,7 +64,7 @@
     </div>
 
     <div class="carousel-item">
-      <img class="d-block w-100" src="../img/couples/couples.jpg" alt="First slide">
+      <img class="d-block w-100" src="../img/couples/homepage.jpg" alt="First slide">
       <div class="container">
         <div class="carousel-caption text-bottom">
           <h1 class="animate-plus display-1  text-left" data-animations="zoomIn,bounce" data-animation-delay="0s" data-animation-duration="4s">
@@ -84,7 +84,7 @@
 
 
     <div class="carousel-item">
-      <img class="d-block w-100" src="../img/children/children-1.JPG" alt="First slide">
+      <img class="d-block w-100" src="../img/children/homepage.JPG" alt="First slide">
       <div class="container">
         <div class="carousel-caption text-bottom">
           <h1 class="animate-plus display-2 text-left" data-animations="zoomIn,bounce" data-animation-delay="0s" data-animation-duration="4s"

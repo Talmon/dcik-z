@@ -14,12 +14,12 @@
       <img class="d-sm-block  w-100" src="../img/ladies/homepage.JPG" alt="First slide">
       <div class="container">
         <div class="carousel-caption text-bottom">
-          <h1 class="animate-plus font-pacifico display-1  text-left" data-animations="zoomIn,bounce" data-animation-delay="0s" data-animation-duration="4s">
+          <h1 class="animate-plus font-pacifico -1  text-left" data-animations="zoomIn,bounce" data-animation-delay="0s" data-animation-duration="4s">
             LADIES' MINISTRY
           </h1>
           <a href="/ladies">
-            <button class="animate-plus mt-2 btn btn-lg" data-animations="bounceInRight" data-animation-delay="2s" data-animation-duration="4s">
-              <h4 class="display-5 text-white"> VIEW MINISTRY </h4>
+            <button class="animate-plus mt btn btn-lg" data-animations="bounceInRight" data-animation-delay="2s" data-animation-duration="4s">
+              <h4 class=" text-white"> VIEW MINISTRY </h4>
             </button>
           </a>
 
@@ -31,13 +31,13 @@
       <img class="d-block w-100" src="../img/men/homepage.JPG" alt="First slide">
       <div class="container">
         <div class="carousel-caption text-bottom">
-          <h1 class="animate-plus display-1  text-left" data-animations="zoomIn,bounce" data-animation-delay="0s" data-animation-duration="4s"
+          <h1 class="animate-plus -1  text-left" data-animations="zoomIn,bounce" data-animation-delay="0s" data-animation-duration="4s"
             style="color:green;">
             MEN'S MINISTRY
           </h1>
           <a href="/men">
-            <button class="animate-plus mt-2 btn btn-lg" data-animations="bounceInRight" data-animation-delay="2s" data-animation-duration="4s">
-              <h4 class="display-5 text-white"> VIEW MINISTRY </h4>
+            <button class="animate-plus mt btn btn-lg" data-animations="bounceInRight" data-animation-delay="2s" data-animation-duration="4s">
+              <h4 class=" text-white"> VIEW MINISTRY </h4>
 
             </button>
           </a>
@@ -49,13 +49,13 @@
       <img class="d-block w-100" src="../img/youth/homepage.JPG" alt="First slide">
       <div class="container">
         <div class="carousel-caption text-bottom">
-          <h1 class="animate-plus display-1 text-left" data-animations="zoomIn,bounce" data-animation-delay="0s" data-animation-duration="4s"
+          <h1 class="animate-plus -1 text-left" data-animations="zoomIn,bounce" data-animation-delay="0s" data-animation-duration="4s"
             style="color: yellow;">
             YOUTH MINISTRY
           </h1>
           <a href="/youth">
-            <button class="animate-plus mt-2 btn btn-lg" data-animations="bounceInRight" data-animation-delay="2s" data-animation-duration="4s">
-              <h4 class="display-5 text-white"> VIEW MINISTRY </h4>
+            <button class="animate-plus mt btn btn-lg" data-animations="bounceInRight" data-animation-delay="2s" data-animation-duration="4s">
+              <h4 class=" text-white"> VIEW MINISTRY </h4>
 
             </button>
           </a>
@@ -67,13 +67,13 @@
       <img class="d-block w-100" src="../img/couples/homepage.jpg" alt="First slide">
       <div class="container">
         <div class="carousel-caption text-bottom">
-          <h1 class="animate-plus display-1  text-left" data-animations="zoomIn,bounce" data-animation-delay="0s" data-animation-duration="4s">
+          <h1 class="animate-plus -1  text-left" data-animations="zoomIn,bounce" data-animation-delay="0s" data-animation-duration="4s">
             COUPLES' MINISTRY
           </h1>
-          <!-- <p class="lead display-7 animated slideInUp">Amazing ministry for the ladies</p> -->
+          <!-- <p class="lead -7 animated slideInUp">Amazing ministry for the ladies</p> -->
           <a href="/couples">
-            <button class="animate-plus mt-2 btn btn-lg" data-animations="bounceInRight" data-animation-delay="2s" data-animation-duration="4s">
-              <h4 class="display-5 text-white"> VIEW MINISTRY </h4>
+            <button class="animate-plus mt btn btn-lg" data-animations="bounceInRight" data-animation-delay="2s" data-animation-duration="4s">
+              <h4 class=" text-white"> VIEW MINISTRY </h4>
 
             </button>
           </a>
@@ -81,19 +81,17 @@
       </div>
     </div>
 
-
-
     <div class="carousel-item">
-      <img class="d-block w-100" src="../img/children/homepage.JPG" alt="First slide">
+      <img class="d-block img-fluid" src="../img/children/homepage.JPG" alt="First slide">
       <div class="container">
         <div class="carousel-caption text-bottom">
-          <h1 class="animate-plus display-2 text-left" data-animations="zoomIn,bounce" data-animation-delay="0s" data-animation-duration="4s"
+          <h1 class="animate-plus  text-left" data-animations="zoomIn,bounce" data-animation-delay="0s" data-animation-duration="4s"
             style="color: white; margin-left:-10px;">
             CHILDREN'S MINISTRY
           </h1>
           <a href="/children">
-            <button class="animate-plus mt-2 btn btn-lg" data-animations="bounceInRight" data-animation-delay="2s" data-animation-duration="4s">
-              <h4 class="display-5 text-white"> VIEW MINISTRY </h4>
+            <button class="animate-plus mt btn btn-lg" data-animations="bounceInRight" data-animation-delay="2s" data-animation-duration="4s">
+              <h4 class=" text-white"> VIEW MINISTRY </h4>
 
             </button>
           </a>
@@ -115,91 +113,86 @@
 
 <!-- END OF CAROUSEL -->
 
-<hr class="w-25 mx-auto" style="border: 4px solid darkblue">
-<h1 class="text-center display-4 mx-auto text-danger">Our Services</h1>
+
 
 <!-- SERVICES -->
-<div class="row font-official">
-  <div class="col-lg-4 order-2">
-    <div class="card animate-plus" data-animations="" data-animation-delay="0s" data-animation-duration="3s" data-animation-repeat=""
-      style="background: url(../img/backgrounds/logo_x_pattern.png); ">
-      <div class="card-title text-primary ml-3">
-        <h1> Sunday </h1>
+<div class="container">
+    <hr class="w-25 mx-auto" style="border: 4px solid darkblue">
+    <h1 class="text-center  mx-auto text-danger">Our Services</h1>
+  <div class="row font-official">
+    <div class="col-md order-2 ">
+      <div class="card bg-primary text-white animate-plus" data-animations="" data-animation-delay="0s" data-animation-duration="3s"
+        data-animation-eat="">
+        <div class="card-title text-primary ">
+          <h1 class="text-dark"> Sunday </h1>
+        </div>
+          <h3 class="card-text">Express Service - 7:00am - 8:30am </h3>
+          <h3 class="card-text">Celebration Service - 8:45am - 10:45am </h3>
+          <h3 class="card-text">Miracle Service - 11:00am - 1:00pm</h3>
+        <div class="card-title text-primary">
+          <h1 class="text-dark"> Wednesday </h1>
+        </div>
+        <h3 class="card-text">Midweek Service - 6:30pm - 8:00pm</h3>
       </div>
-      <div class="card-body display-5">
-        <h3 class="card-text">Express Service - 7:00am - 8:30am </h3>
-        <h3 class="card-text">Celebration Service - 8:45am - 10:45am </h3>
-        <h3 class="card-text">Miracle Service - 11:00am - 1:00pm</h3>
-      </div>
-      <div class="card-title text-primary ml-3">
-        <h1> Wednesday </h1>
-      </div>
-      <h3 class="card-text mb-2">Midweek Service - 6:30pm - 8:00pm</h3>
+    </div>
+    <div class="col-md order-1">
+      <img class="h-100 w-100 d-none d-md-block" src="../img/bg-1.JPG" alt="">
+    </div>
+  
+    <div class="col-md order-3">
+      <img class="h-100 w-100 d-none d-md-block" src="../img/service3.JPG" alt="">
     </div>
   </div>
-  <div class="col-lg-4 order-1">
-    <img class="h-100 w-100" src="../img/bg-1.JPG" alt="">
-  </div>
-
-  <div class="col-lg-4 order-3">
-    <img class="h-100 w-100" src="../img/service3.JPG" alt="">
-  </div>
 </div>
+
 <!-- END OF SERVICES -->
 
 <hr class="w-25 mx-auto" style="border: 4px solid darkblue">
-<h1 class="text-center display-4 mx-auto text-danger">Upcoming Events</h1>
+<h1 class="text-center mx-auto text-danger">Upcoming Events</h1>
 
 <!-- EVENTS -->
-<div class="container">
-<div id="events" class="font-pacifico bg-dark text-white text-center mt-5">
-  <div class="row mt-5 w-75 mx-auto bg-light" style="background: url(../img/backgrounds/greyfloral.png); ">
-    <div class="col-md mt-3">
-      <img src="img/events/navbar-events.jpg" alt="" class="" style="height: 200px; width: 250px;">
-    </div>
-    <div class="col-md text-dark text-left">
-      <h4 class="display-4 text-primary">Crossover 2017</h4>
-      <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, eaque?</p>
-    </div>
-    <div class="col-md ">
-      <button class="btn btn-danger btn-large text-right mt-5">Go To Event</button>
+  <div class="events container-fluid font-official text-white mt mb">
+    <div class="row">
+      <div class="col-md mt-3">
+        <div class="card">
+          <img src="img/events/navbar-events.jpg" alt="" class="card-img-top img-fluid d-none d-md-block" style="height: auto; max-width: 100%;">
+          <div class="card-text">
+            <h4 class=" text-primary">Crossover 2017</h4>
+            <p class="lead text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, eaque?</p>
+          </div>
+          <div class="card-footer ">
+            <button class="btn btn-danger btn-large text-right mt">Go To Event</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md mt-3">
+        <div class="card">
+          <img src="img/events/grand-opening.jpg" alt="" class="card-img-top img-fluid d-none d-md-block" style="height: auto; max-width: 100%;">
+          <div class="card-text">
+            <h4 class=" text-primary">Grand Opening</h4>
+            <p class="lead text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, eaque?</p>
+          </div>
+          <div class="card-footer ">
+            <button class="btn btn-danger btn-large text-right mt">Go To Event</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md mt-3">
+        <div class="card">
+          <img src="img/events/icc-conference.jpg" alt="" class="card-img-top img-fluid d-none d-md-block" style="height: auto; max-width: 100%;">
+          <div class="card-text">
+            <h4 class=" text-primary">ICC Conference</h4>
+            <p class="lead text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, eaque?</p>
+          </div>
+          <div class="card-footer ">
+            <button class="btn btn-danger btn-large text-right mt">Go To Event</button>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-
-
-  <div class="row mt-5 w-75 mx-auto bg-light" style="background: url(../img/backgrounds/greyfloral.png); ">
-    <div class="col-md mt-3">
-      <img src="img/events/icc-conference.jpg" alt="" class="" style="height: 200px; width: 250px;">
-    </div>
-    <div class="col-md text-dark text-left">
-      <h4 class="display-4 text-primary">ICC CONFERENCE 2017</h4>
-      <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis error soluta unde.</p>
-    </div>
-    <div class="col-md ">
-      <button class="btn btn-danger btn-large text-right mt-5">Go To Event</button>
-    </div>
-  </div>
-
-  <div class="row mt-5 w-75  mx-auto bg-light" style="background: url(../img/backgrounds/greyfloral.png); ">
-    <div class="col-lg-4 mt-3">
-      <img src="img/events/grand-opening.jpg" alt="" class="" style="height: 200px; width: 250px;">
-    </div>
-    <div class="col-lg-6 text-dark text-left">
-      <h4 class="display-4 text-primary">CATHEDRAL GRAND OPENING</h4>
-      <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, accusantium.</p>
-    </div>
-    <div class="col-lg-2 ">
-      <button class="btn btn-danger btn-large text-right mt-5">Go To Event</button>
-    </div>
-  </div>
-
-  <div class="row mt-5 mb-5 w-75  mx-auto bg-light" style="background: url(../img/backgrounds/greyfloral.png); ">
-    <div class="col-lg-12 mt-3">
-      <a href="/events" class="display-3">VIEW ALL EVENTS</a>
-    </div>
-  </div>
-</div>
-</div>
 <!-- END OF EVENTS -->
 
 
@@ -208,10 +201,10 @@
 <!-- ABOUT OUR CHURCH -->
 <div class="row ">
   <div class="col-lg-9">
-    <div class="card my-3 mt-5 font-official" style=" background: url(../img/backgrounds/gplaypattern.png); ">
+    <div class="card my-3 mt font-official" style=" background: url(../img/backgrounds/gplaypattern.png); ">
       <div class="card-body text-center">
-        <h4 class="card-title display-4 text-danger">ABOUT OUR CHURCH</h4>
-        <p class="card-text display-5 text-dark">Deliverance Church Kasarani Zimmerman was established on November 4, 1984 by Bishop Dr. Jimmy Kimani. The church
+        <h4 class="card-title  text-danger">ABOUT OUR CHURCH</h4>
+        <p class="card-text  text-dark">Deliverance Church Kasarani Zimmerman was established on November 4, 1984 by Bishop Dr. Jimmy Kimani. The church
           is situated in Zimmerman Estate in Nairobi Kenya, opposite Mirema Drive, off Kamiti Road. Over the time we have
           grown in leaps and bounds establishing, supporting and building other churches around the Kasarani region as well
           as in other parts of the country. Among the many Deliverance churches that we have planted are Mwirigo, Mwiki,
@@ -253,18 +246,18 @@
     </div>
   </div>
   <div class="col-lg-3">
-    <img src="../img/Bish and mum.jpg" alt="" class="h-100 w-100">
+    <img src="../img/Bish and mum.jpg" alt="" class="img-fluid d-none d-md-block" >
   </div>
 </div>
 
 <!-- END OF ABOUT -->
 
-<hr class="w-25 mx-auto" style="border: 4px solid darkblue">
-<h1 class="text-center display-4 mx-auto text-danger mb-3">Latest Sermons</h1>
+<hr class="w5 mx-auto" style="border: 4px solid darkblue">
+<h1 class="text-center  mx-auto text-danger mb-3">Latest Sermons</h1>
 
 <!-- LATEST SERMONS -->
 <div class="row">
-  <div class="col-lg-4 mb-3">
+  <div class="col-lg mb-3">
     <div class="card font-official" style=" background: url(../img/backgrounds/greyfloral.png);">
       <img src="" alt="" class="img-top">
       <div class="card-title bg-light">
@@ -293,7 +286,7 @@
 
   </div>
 
-  <div class="col-lg-4 mb-3">
+  <div class="col-lg mb-3">
     <div class="card font-official" style=" background: url(../img/backgrounds/greyfloral.png);">
       <img src="" alt="" class="img-top">
       <div class="card-title bg-light">
@@ -322,7 +315,7 @@
 
   </div>
 
-  <div class="col-lg-4 mb-3">
+  <div class="col-lg mb-3">
     <div class="card font-official" style=" background: url(../img/backgrounds/greyfloral.png);">
       <img src="" alt="" class="img-top">
       <div class="card-title bg-light">
@@ -356,12 +349,12 @@
 
 
 <!-- BLOG -->
-<div id="blog" class="card-group mt-5">
+<div id="blog" class="card-group mt">
   <div class="row">
     <div class="col-lg-3">
       <div class="card h-100 " style="background-color: #00004c;">
         <div class="card-body">
-          <h4 class="card-title display-4 text-center mt-5 text-white py-auto">LATEST FROM BLOG</h4>
+          <h4 class="card-title  text-center mt text-white py-auto">LATEST FROM BLOG</h4>
         </div>
       </div>
     </div>
@@ -370,10 +363,10 @@
       <div class="card hovereffect" style="height: 250px;">
         <img class="card-img-top img-responsive" src="img/events-1.JPG" alt="Card image cap">
         <div class="card-footer overlay">
-          <h2 class="display-5 mb-5">
+          <h2 class=" mb">
             <strong> STAGES OF DISLOYALTY </strong>
           </h2>
-          <p class="mb-5">
+          <p class="mb">
             <a href="#">
               <button class="btn btn-lg text-white" style="background-color: #00004c;"> CLICK HERE TO VIEW </button>
             </a>
@@ -385,9 +378,9 @@
     <div class="col-lg-3 " style="height: 250px;">
 
       <div class="card hovereffect">
-        <img class="card-img-top img-responsive" src="img/events-2.JPG" alt="Card image cap">
+        <img class="card-img-top img-responsive" src="img/events.JPG" alt="Card image cap">
         <div class="card-footer overlay">
-          <h2 class="display-5 mb-5">
+          <h2 class=" mb">
             <strong> STAGES OF DISLOYALTY PART 2</strong>
           </h2>
           <p>
@@ -404,7 +397,7 @@
       <div class="card hovereffect">
         <img class="card-img-top img-responsive" src="img/events-3.JPG" alt="Card image cap">
         <div class="card-footer overlay ">
-          <h2 class="display-5 mb-5">
+          <h2 class=" mb">
             <strong> STAGES OF DISLOYALTY PART 3 </strong>
           </h2>
           <p>

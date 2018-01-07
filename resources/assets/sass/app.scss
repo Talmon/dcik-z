@@ -12,9 +12,10 @@ $carousel-control-color: $blue;
 
 
 body{
-  background: url("/img/backgrounds/spiration-light.png");
+  //background: url("/img/backgrounds/greyfloral.png");
   overflow-x: hidden;
 }
+
 
 .font-niconne{
 	font-family: Niconne;
@@ -92,8 +93,8 @@ body{
 
   /* Declare heights because of positioning of img element */
   .carousel-item {
-    height: 40rem;
-    background-color: #777;
+    height: 44rem;
+    background-color: #fff;
   }
 
   .carousel-item > img {
@@ -101,7 +102,7 @@ body{
     top: 0;
     left: 0;
     min-width: 100%;
-    height: 40rem;
+    height: 44rem;
   }
 
   .carousel-caption h1{
@@ -118,7 +119,7 @@ body{
   @include media-breakpoint-down(sm) {
     .carousel-item {
       height: 25rem;
-      background-color: #777;
+      background-color: #fff;
     }
   
     .carousel-item > img {
@@ -137,12 +138,15 @@ body{
          height:40px;
 
     }  
-    
+    html {
+      font-size: 1rem;
+    }
   }  
+    
   
   @include media-breakpoint-only(md) {
     .carousel-item {
-      height: 35rem;
+      height: 37rem;
       background-color: #777;
     }
   
@@ -151,7 +155,7 @@ body{
       top: 0;
       left: 0;
       min-width: 100%;
-      height: 35rem;
+      height: 37rem;
     }
     .carousel-caption h1{
       margin-top: 200px;
@@ -168,7 +172,7 @@ body{
 
   @include media-breakpoint-only(lg) {
     .carousel-item {
-      height: 40rem;
+      height: 42rem;
       background-color: #777;
     }
   
@@ -177,7 +181,7 @@ body{
       top: 0;
       left: 0;
       min-width: 100%;
-      height: 40rem;
+      height: 42rem;
     }
     .carousel-caption h1{
       margin-top: 200px;
@@ -243,11 +247,6 @@ bg-test{
   background: rgba(236, 232, 232, 0.24);
 }
 
-#events{
-  // height: 1200px;
-  background-image: url("/img/homepage/grand-opening3.JPG");
-  color: brown;
-}
 .bg-overlay {
     //background: #ccc;
   background: linear-gradient(rgba(0,0,0,.6), rgba(0, 0, 0, 0.6)), url("/img/retreat.jpg");

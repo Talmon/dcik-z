@@ -199,8 +199,8 @@
 
 
 <!-- ABOUT OUR CHURCH -->
-<div class="row ">
-  <div class="col-lg-9">
+<div class="row mt-5">
+  <div class="col-md-9">
     <div class="card my-3 mt font-official" style=" background: url(../img/backgrounds/gplaypattern.png); ">
       <div class="card-body text-center">
         <h4 class="card-title  text-danger">ABOUT OUR CHURCH</h4>
@@ -209,140 +209,109 @@
           grown in leaps and bounds establishing, supporting and building other churches around the Kasarani region as well
           as in other parts of the country. Among the many Deliverance churches that we have planted are Mwirigo, Mwiki,
           Kiamumbi, Ihururu and Kahawa West.</p>
-        <p>
-
-          <h3>Want to know more?See Below</h3>
-          <ul class="list-inline-group">
-            <li class="list-inline-item">
-              <a href="/what-we-believe">
-                <button class="btn btn-lg bg-primary text-white">WHAT WE BELIEVE </button>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="/pastors">
-                <button class="btn btn-lg bg-primary text-white">PASTORS </button>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="/fathers-vision">
-                <button class="btn btn-lg bg-primary text-white">FATHER'S VISION</button>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="/become-a-member">
-                <button class="btn btn-lg bg-primary text-white">BECOME A MEMBER </button>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="/cornerstone-academy">
-                <button class="btn btn-lg bg-primary text-white">CORNERSTONE ACADEMY </button>
-              </a>
-            </li>
-          </ul>
-
-        </p>
-
+              <p>
+                  <a href="#">
+                    <button class="btn btn-lg bg-primary text-white"> KNOW MORE </button>
+                  </a>
+              </p>
       </div>
     </div>
   </div>
-  <div class="col-lg-3">
-    <img src="../img/Bish and mum.jpg" alt="" class="img-fluid d-none d-md-block" >
+  <div class="col-md-3">
+    <img src="../img/Bish and mum.jpg" alt="" class="img-fluid d-none d-md-block" style="height:auto; max-width:100%;" >
   </div>
 </div>
 
 <!-- END OF ABOUT -->
-
-<hr class="w5 mx-auto" style="border: 4px solid darkblue">
+<hr class="w-25 mx-auto" style="border: 4px solid darkblue">
 <h1 class="text-center  mx-auto text-danger mb-3">Latest Sermons</h1>
 
+
 <!-- LATEST SERMONS -->
-<div class="row">
-  <div class="col-lg mb-3">
-    <div class="card font-official" style=" background: url(../img/backgrounds/greyfloral.png);">
-      <img src="" alt="" class="img-top">
-      <div class="card-title bg-light">
-        <h1 class="">
-          <span class="text-primary"> Speaker: </span> Bishop Dr. Jimmy Kimani</div>
-      <div class="card-title bg-light mb-3">
-        <h1>
-          <span class="text-primary"> Message: </span> Divine Elevation</h1>
+<div class="container-fluid">
+    
+    <div class="row">
+      <div class="col-md mb-3">
+        <div class="card font-official">
+          <img src="" alt="" class="img-top">
+          <div class="card-title bg-light">
+            <h3 class="">
+            <p>Speaker: Bishop Dr. Jimmy Kimani</p> 
+             <p>Message: Divine Elevation</p> 
+             </h3>
+            </div>
+          <iframe class="mx-auto mt-3" width="420" height="345" src="https://www.youtube.com/embed/6AuAUUnuyUE" allowfullscreen>
+          </iframe>
+          <p class="card-text">
+            <ul class="list-inline mx-auto bg-light">
+              <li class="list-inline-item">
+                <i class="fa fa-headphones fa-border fa-3x " aria-hidden="true"></i>
+              </li>
+              <li class="list-inline-item">
+                <i class="fa fa-file-pdf-o fa-border  fa-3x " aria-hidden="true"></i>
+              </li>
+              <li class="list-inline-item">
+                <i class="fa fa-download fa-border  fa-3x " aria-hidden="true"></i>
+              </li>
+            </ul>
+          </p>
+        </div>
       </div>
-      <iframe class="mx-auto mt-3" width="420" height="345" src="https://www.youtube.com/embed/6AuAUUnuyUE" allowfullscreen>
-      </iframe>
-      <p class="card-text">
-        <ul class="list-inline mx-auto bg-light">
-          <li class="list-inline-item">
-            <i class="fa fa-headphones fa-border fa-3x " aria-hidden="true"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fa fa-file-pdf-o fa-border  fa-3x " aria-hidden="true"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fa fa-download fa-border  fa-3x " aria-hidden="true"></i>
-          </li>
-        </ul>
-      </p>
+    
+      <div class="col-md mb-3">
+          <div class="card font-official">
+            <img src="" alt="" class="img-top">
+            <div class="card-title bg-light">
+              <h3 class="">
+              <p>Speaker: Bishop Dr. Jimmy Kimani</p> 
+               <p>Message: The 1st Christmas</p> 
+               </h3>
+              </div>
+              <iframe class="mx-auto mt-3" width="420" height="345" src="https://www.youtube.com/embed/KDobDfg-nSo" allowfullscreen>
+              </iframe>
+            <p class="card-text">
+              <ul class="list-inline mx-auto bg-light">
+                <li class="list-inline-item">
+                  <i class="fa fa-headphones fa-border fa-3x " aria-hidden="true"></i>
+                </li>
+                <li class="list-inline-item">
+                  <i class="fa fa-file-pdf-o fa-border  fa-3x " aria-hidden="true"></i>
+                </li>
+                <li class="list-inline-item">
+                  <i class="fa fa-download fa-border  fa-3x " aria-hidden="true"></i>
+                </li>
+              </ul>
+            </p>
+          </div>
+        </div>
+    
+        <div class="col-md mb-3">
+            <div class="card font-official">
+              <img src="" alt="" class="img-top">
+              <div class="card-title bg-light">
+                <h3 class="">
+                <p>Speaker: Pastor Francis Omedo</p> 
+                 <p>Message: Righteousness</p> 
+                 </h3>
+                </div>
+                <iframe class="mx-auto mt-3" width="420" height="345" src="https://www.youtube.com/embed//rYC8pfiJoCk" allowfullscreen>
+                </iframe>
+              <p class="card-text">
+                <ul class="list-inline mx-auto bg-light">
+                  <li class="list-inline-item">
+                    <i class="fa fa-headphones fa-border fa-3x " aria-hidden="true"></i>
+                  </li>
+                  <li class="list-inline-item">
+                    <i class="fa fa-file-pdf-o fa-border  fa-3x " aria-hidden="true"></i>
+                  </li>
+                  <li class="list-inline-item">
+                    <i class="fa fa-download fa-border  fa-3x " aria-hidden="true"></i>
+                  </li>
+                </ul>
+              </p>
+            </div>
+          </div>
     </div>
-
-  </div>
-
-  <div class="col-lg mb-3">
-    <div class="card font-official" style=" background: url(../img/backgrounds/greyfloral.png);">
-      <img src="" alt="" class="img-top">
-      <div class="card-title bg-light">
-        <h1 class="">
-          <span class="text-primary"> Speaker: </span> Bishop Dr. Jimmy Kimani</div>
-      <div class="card-title bg-light mb-3">
-        <h1>
-          <span class="text-primary"> Message: </span> The 1st Christmas</h1>
-      </div>
-      <iframe class="mx-auto mt-3" width="420" height="345" src="https://www.youtube.com/embed/KDobDfg-nSo" allowfullscreen>
-      </iframe>
-      <p class="card-text">
-        <ul class="list-inline mx-auto bg-light">
-          <li class="list-inline-item">
-            <i class="fa fa-headphones fa-border fa-3x " aria-hidden="true"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fa fa-file-pdf-o fa-border  fa-3x " aria-hidden="true"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fa fa-download fa-border  fa-3x " aria-hidden="true"></i>
-          </li>
-        </ul>
-      </p>
-    </div>
-
-  </div>
-
-  <div class="col-lg mb-3">
-    <div class="card font-official" style=" background: url(../img/backgrounds/greyfloral.png);">
-      <img src="" alt="" class="img-top">
-      <div class="card-title bg-light">
-        <h1 class="">
-          <span class="text-primary"> Speaker: </span> Pastor Francis Omedo</div>
-      <div class="card-title bg-light mb-3">
-        <h1>
-          <span class="text-primary"> Message: </span> Righteousness</h1>
-      </div>
-      <iframe class="mx-auto mt-3" width="420" height="345" src="https://www.youtube.com/embed//rYC8pfiJoCk" allowfullscreen>
-      </iframe>
-      <p class="card-text">
-        <ul class="list-inline mx-auto bg-light">
-          <li class="list-inline-item">
-            <i class="fa fa-headphones fa-border fa-3x " aria-hidden="true"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fa fa-file-pdf-o fa-border  fa-3x " aria-hidden="true"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fa fa-download fa-border  fa-3x " aria-hidden="true"></i>
-          </li>
-        </ul>
-      </p>
-    </div>
-
-  </div>
 </div>
 
 <!-- END OF LATEST SERMONS  -->

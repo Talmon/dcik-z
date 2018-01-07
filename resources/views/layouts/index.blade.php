@@ -116,7 +116,7 @@
 
 
 <!-- SERVICES -->
-<div class="container">
+<div class="container-fluid">
     <hr class="w-25 mx-auto" style="border: 4px solid darkblue">
     <h1 class="text-center  mx-auto text-danger">Our Services</h1>
   <div class="row font-official">

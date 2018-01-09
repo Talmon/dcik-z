@@ -117,10 +117,10 @@
 
 <!-- THEME -->
 <div class="jumbotron bg-danger text-white text-center font-official">
-  <h3 class="display-4"> Theme of The Year: Kingdom Manifestation </h3>
+  <h1 class=""> Theme of The Year: Kingdom Manifestation </h1>
   <p class="lead"> Matthew 6:10: "May your Kingdom come soon.</p>
-  <p class="lead display-5"> May your will be done on earth,</p>
-  <p class="lead display-5">as it is in heaven(NLT)."</p>
+  <p class="lead"> May your will be done on earth,</p>
+  <p class="lead">as it is in heaven(NLT)."</p>
 </div>
 
 <!-- END OF THEME -->

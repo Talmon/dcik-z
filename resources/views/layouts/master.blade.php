@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="css/bs4megamenu.css">
     <link rel="stylesheet" href="css/ihover.css">
     <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.css">
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
 
 
     <title>Deliverance Church International Kasarani</title>
@@ -31,17 +34,23 @@
 
 
 <script src="js/jquery.min.js"></script>
+<script src="owlcarousel/owl.carousel.min.js"></script>
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/animate-plus.min.js"></script>
 <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+<script>
+$(document).ready(function(){
+  $(".owl-carousel").owlCarousel();
+});
+</script>
 <script>
     AOS.init({
         easing: 'ease-out-back',
         duration: 2000
     });
 </script>
-</script>
+
 
 </body>
 </html>

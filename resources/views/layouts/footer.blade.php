@@ -1,6 +1,6 @@
 <!-- FOOTER -->
-<footer class="row w-100 h-50 footer mx-auto mt-5">
-                <div class="col-4 ml-5 text-white">
+<footer class="row  footer mx-auto mt-5">
+                <div class="col-md text-white">
                   <h4 class="mt-5">EXPLORE</h4>
                   <a href="#">> Home</a><br>
                   <a href="#">> About Us</a><br>
@@ -9,7 +9,7 @@
 
                   </div>
                 </div>
-              <div class="col-4 text-white">
+              <div class="col-md text-white">
                   <h4 class="mt-5">TALK TO US</h4>
                   <a href="#">> Contact Us</a><br>
                   <ul class="list-inline mt-3">
@@ -18,7 +18,7 @@
                   <li class="list-inline-item"><i class="fa fa-instagram  fa-2x" aria-hidden="true"></i></li>  
                 </ul>
                 </div>
-              <div class="col-3 text-white">
+              <div class="col-md text-white mb-5">
                   <h4 class="mt-5">NEWSLETTER</h4>
                   <form>
                       <div class="form-group">

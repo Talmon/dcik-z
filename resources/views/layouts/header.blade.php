@@ -1,7 +1,26 @@
-<nav class="navbar navbar-expand-lg ">
-  <a class="navbar-brand" href="#">
-    <img class="" src="img/church-logo.png" alt="" style="height: 60px; width: 100px;">
-  </a>
+<div class="bg-light">
+<div class="row">
+<div class="col-md-4">
+<a class="navbar-brand" href="#">
+    <img class="mx-auto" src="img/church-logo.png" alt="" style="height: 60px; width: 100px;">
+</a>
+<h4>Deliverance Church International Kasarani</h4>
+</div>
+
+<div class="col-md-5 list-inline">
+<h4>Sunday Services</h4>
+<p class="list-inline-item">Express Service: 7:00am - 8:30am</p>
+<p class="list-inline-item">Celebration Service: 9:00am - 10:45am</p>
+<p class="list-inline-item">Miracle Service: 11:00am - 1:00am</p>
+</div>
+<div class="col-md">
+<h4>Midweek Service</h4>
+<p>Every Wednesday: 6:30pm - 8:00pm</p>
+</div>
+</div>
+
+</div>
+<nav class="navbar navbar-expand-lg">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
     aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon mr-5" style="cursor: pointer;"> <i class="fa fa-bars fa-2x text-white " aria-hidden="true"></i> </span>

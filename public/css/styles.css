@@ -9401,8 +9401,9 @@ a {
   color: #ff3232;
 }
 
-.advert .overlay {
-  background-color: rgba(0, 0, 0, 0.7);
+.sermons i {
+  margin-left: 10px;
+  color: #000;
 }
 
 bg-test {

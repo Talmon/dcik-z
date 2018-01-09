@@ -115,84 +115,62 @@
 
 
 
-<!-- SERVICES -->
-<div class="container-fluid">
-    <hr class="w-25 mx-auto" style="border: 4px solid darkblue">
-    <h1 class="text-center  mx-auto text-danger">Our Services</h1>
-  <div class="row font-official">
-    <div class="col-md order-2 ">
-      <div class="card bg-primary text-white animate-plus" data-animations="" data-animation-delay="0s" data-animation-duration="3s"
-        data-animation-eat="">
-        <div class="card-title text-primary ">
-          <h1 class="text-dark"> Sunday </h1>
-        </div>
-          <h3 class="card-text">Express Service - 7:00am - 8:30am </h3>
-          <h3 class="card-text">Celebration Service - 8:45am - 10:45am </h3>
-          <h3 class="card-text">Miracle Service - 11:00am - 1:00pm</h3>
-        <div class="card-title text-primary">
-          <h1 class="text-dark"> Wednesday </h1>
-        </div>
-        <h3 class="card-text">Midweek Service - 6:30pm - 8:00pm</h3>
-      </div>
-    </div>
-    <div class="col-md order-1">
-      <img class="h-100 w-100 d-none d-md-block" src="../img/bg-1.JPG" alt="">
-    </div>
-  
-    <div class="col-md order-3">
-      <img class="h-100 w-100 d-none d-md-block" src="../img/service3.JPG" alt="">
-    </div>
-  </div>
+<!-- THEME -->
+<div class="jumbotron bg-danger text-white text-center font-official">
+  <h3 class="display-4"> Theme of The Year: Kingdom Manifestation </h3>
+  <p class="lead"> Matthew 6:10: "May your Kingdom come soon.</p>
+  <p class="lead display-5"> May your will be done on earth,</p>
+  <p class="lead display-5">as it is in heaven(NLT)."</p>
 </div>
 
-<!-- END OF SERVICES -->
+<!-- END OF THEME -->
 
 <hr class="w-25 mx-auto" style="border: 4px solid darkblue">
 <h1 class="text-center mx-auto text-danger">Upcoming Events</h1>
 
 <!-- EVENTS -->
-  <div class="events container-fluid font-official text-white mt mb">
-    <div class="row">
-      <div class="col-md mt-3">
-        <div class="card">
-          <img src="img/events/navbar-events.jpg" alt="" class="card-img-top img-fluid d-none d-md-block" style="height: auto; max-width: 100%;">
-          <div class="card-text">
-            <h4 class=" text-primary">Crossover 2017</h4>
-            <p class="lead text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, eaque?</p>
-          </div>
-          <div class="card-footer ">
-            <button class="btn btn-danger btn-large text-right mt">Go To Event</button>
-          </div>
+<div class="events container-fluid font-official text-white mt mb">
+  <div class="row">
+    <div class="col-md mt-3">
+      <div class="card">
+        <img src="img/events/navbar-events.jpg" alt="" class="card-img-top img-fluid" style="height: auto; max-width: 100%;">
+        <div class="card-text">
+          <h4 class=" text-primary">Crossover 2017</h4>
+          <p class="lead text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, eaque?</p>
+        </div>
+        <div class="card-footer ">
+          <button class="btn btn-danger btn-large text-right mt">Go To Event</button>
         </div>
       </div>
+    </div>
 
-      <div class="col-md mt-3">
-        <div class="card">
-          <img src="img/events/grand-opening.jpg" alt="" class="card-img-top img-fluid d-none d-md-block" style="height: auto; max-width: 100%;">
-          <div class="card-text">
-            <h4 class=" text-primary">Grand Opening</h4>
-            <p class="lead text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, eaque?</p>
-          </div>
-          <div class="card-footer ">
-            <button class="btn btn-danger btn-large text-right mt">Go To Event</button>
-          </div>
+    <div class="col-md mt-3">
+      <div class="card">
+        <img src="img/events/grand-opening.jpg" alt="" class="card-img-top img-fluid" style="height: auto; max-width: 100%;">
+        <div class="card-text">
+          <h4 class=" text-primary">Grand Opening</h4>
+          <p class="lead text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, eaque?</p>
+        </div>
+        <div class="card-footer ">
+          <button class="btn btn-danger btn-large text-right mt">Go To Event</button>
         </div>
       </div>
+    </div>
 
-      <div class="col-md mt-3">
-        <div class="card">
-          <img src="img/events/icc-conference.jpg" alt="" class="card-img-top img-fluid d-none d-md-block" style="height: auto; max-width: 100%;">
-          <div class="card-text">
-            <h4 class=" text-primary">ICC Conference</h4>
-            <p class="lead text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, eaque?</p>
-          </div>
-          <div class="card-footer ">
-            <button class="btn btn-danger btn-large text-right mt">Go To Event</button>
-          </div>
+    <div class="col-md mt-3">
+      <div class="card">
+        <img src="img/events/icc-conference.jpg" alt="" class="card-img-top img-fluid" style="height: auto; max-width: 100%;">
+        <div class="card-text">
+          <h4 class=" text-primary">ICC Conference</h4>
+          <p class="lead text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, eaque?</p>
+        </div>
+        <div class="card-footer ">
+          <button class="btn btn-danger btn-large text-right mt">Go To Event</button>
         </div>
       </div>
     </div>
   </div>
+</div>
 <!-- END OF EVENTS -->
 
 
@@ -209,16 +187,16 @@
           grown in leaps and bounds establishing, supporting and building other churches around the Kasarani region as well
           as in other parts of the country. Among the many Deliverance churches that we have planted are Mwirigo, Mwiki,
           Kiamumbi, Ihururu and Kahawa West.</p>
-              <p>
-                  <a href="#">
-                    <button class="btn btn-lg bg-primary text-white"> KNOW MORE </button>
-                  </a>
-              </p>
+        <p>
+          <a href="#">
+            <button class="btn btn-lg bg-primary text-white"> KNOW MORE </button>
+          </a>
+        </p>
       </div>
     </div>
   </div>
   <div class="col-md-3">
-    <img src="../img/Bish and mum.jpg" alt="" class="img-fluid d-none d-md-block" style="height:auto; max-width:100%;" >
+    <img src="../img/Bish and mum.jpg" alt="" class="img-fluid d-none d-md-block" style="height:auto; max-width:100%;">
   </div>
 </div>
 
@@ -228,97 +206,75 @@
 
 
 <!-- LATEST SERMONS -->
-<div class="container-fluid">
-    
-    <div class="row">
-      <div class="col-md mb-3">
-        <div class="card font-official">
-          <img src="" alt="" class="img-top">
-          <div class="card-title bg-light">
-            <h3 class="">
-            <p>Speaker: Bishop Dr. Jimmy Kimani</p> 
-             <p>Message: Divine Elevation</p> 
-             </h3>
-            </div>
-          <iframe class="mx-auto mt-3" width="420" height="345" src="https://www.youtube.com/embed/6AuAUUnuyUE" allowfullscreen>
-          </iframe>
-          <p class="card-text">
-            <ul class="list-inline mx-auto bg-light">
-              <li class="list-inline-item">
-                <i class="fa fa-headphones fa-border fa-3x " aria-hidden="true"></i>
-              </li>
-              <li class="list-inline-item">
-                <i class="fa fa-file-pdf-o fa-border  fa-3x " aria-hidden="true"></i>
-              </li>
-              <li class="list-inline-item">
-                <i class="fa fa-download fa-border  fa-3x " aria-hidden="true"></i>
-              </li>
-            </ul>
-          </p>
-        </div>
-      </div>
-    
-      <div class="col-md mb-3">
-          <div class="card font-official">
-            <img src="" alt="" class="img-top">
-            <div class="card-title bg-light">
-              <h3 class="">
-              <p>Speaker: Bishop Dr. Jimmy Kimani</p> 
-               <p>Message: The 1st Christmas</p> 
-               </h3>
-              </div>
-              <iframe class="mx-auto mt-3" width="420" height="345" src="https://www.youtube.com/embed/KDobDfg-nSo" allowfullscreen>
-              </iframe>
-            <p class="card-text">
-              <ul class="list-inline mx-auto bg-light">
-                <li class="list-inline-item">
-                  <i class="fa fa-headphones fa-border fa-3x " aria-hidden="true"></i>
-                </li>
-                <li class="list-inline-item">
-                  <i class="fa fa-file-pdf-o fa-border  fa-3x " aria-hidden="true"></i>
-                </li>
-                <li class="list-inline-item">
-                  <i class="fa fa-download fa-border  fa-3x " aria-hidden="true"></i>
-                </li>
-              </ul>
-            </p>
-          </div>
-        </div>
-    
-        <div class="col-md mb-3">
-            <div class="card font-official">
-              <img src="" alt="" class="img-top">
-              <div class="card-title bg-light">
-                <h3 class="">
-                <p>Speaker: Pastor Francis Omedo</p> 
-                 <p>Message: Righteousness</p> 
-                 </h3>
-                </div>
-                <iframe class="mx-auto mt-3" width="420" height="345" src="https://www.youtube.com/embed//rYC8pfiJoCk" allowfullscreen>
-                </iframe>
-              <p class="card-text">
-                <ul class="list-inline mx-auto bg-light">
-                  <li class="list-inline-item">
-                    <i class="fa fa-headphones fa-border fa-3x " aria-hidden="true"></i>
-                  </li>
-                  <li class="list-inline-item">
-                    <i class="fa fa-file-pdf-o fa-border  fa-3x " aria-hidden="true"></i>
-                  </li>
-                  <li class="list-inline-item">
-                    <i class="fa fa-download fa-border  fa-3x " aria-hidden="true"></i>
-                  </li>
-                </ul>
-              </p>
-            </div>
-          </div>
-    </div>
+
+<div class="container sermons">
+  <div class="row">
+    <col-md-3 class="mt-3">
+    <img src="http://wainwrightpentecostalassembly.ca/wp-content/uploads/2012/07/12874.jpg" class="img-thumbnail" alt="" style="height:200px; width:200px">
+    </col-md-3>
+
+    <col-md-6 class="mx-auto mt-5">
+     <h2>Fake News</h2>
+     <p class="text-muted">Bishop Dr. Jimmy Kimani / 7th Jan 2018</p>
+    </col-md-6>
+
+    <col-md-3 class="list-inline text-center  mt-5 ml-auto">
+   <a href="#"> <i class="list-inline-item fa fa-4x fa-video-camera" aria-hidden="true"></i> </a> 
+   <a href="#"> <i class="list-inline-item fa fa-4x fa-headphones" aria-hidden="true"></i> </a>
+   <a href="#"> <i class="list-inline-item fa fa-4x fa-file-pdf-o" aria-hidden="true"></i> </a>
+   <a href="#"> <i class="list-inline-item fa fa-4x fa-download" aria-hidden="true"></i> </a> 
+    </col-md-3>
+
+  </div>
+
+
+<hr class="">
+
+<div class="row">
+  <col-md-3 class=" mt-3">
+  <img src="https://salemnet.vo.llnwd.net/media/cms/CW/30871-7-sayings.1200w.tn.jpg" class="img-thumbnail" alt="" style="height:200px; width:200px">
+  </col-md-3>
+
+  <col-md-6 class="mx-auto mt-5">
+   <h2>Lorem ipsum dolor sit amet.</h2>
+   <p class="text-muted">Bishop Dr. Jimmy Kimani / 7th Jan 2018</p>
+  </col-md-6>
+
+  <col-md-3 class="list-inline text-center ml-auto mt-5">
+  <a href="#"> <i class="list-inline-item fa fa-4x fa-video-camera" aria-hidden="true"></i> </a>
+  <a href="#"> <i class="list-inline-item fa fa-4x fa-headphones" aria-hidden="true"></i> </a>
+  <a href="#"> <i class="list-inline-item fa fa-4x fa-file-pdf-o" aria-hidden="true"></i> </a>
+  <a href="#"> <i class="list-inline-item fa fa-4x fa-download" aria-hidden="true"></i> </a>
+</div>
+
+<hr>
+
+<div class="row">
+  <col-md-3 class=" mt-3">
+  <img src="http://frankfortumc.org/wp-content/uploads/2016/02/sermonsback.jpg" class="img-thumbnail" alt="" style="height:200px; width:200px">
+  </col-md-3>
+
+  <col-md-6 class="mx-auto mt-5">
+   <h2>Lorem ipsum dolor sit.</h2>
+   <p class="text-muted">Bishop Dr. Jimmy Kimani / 7th Jan 2018</p>
+  </col-md-6>
+
+  <col-md-3 class="list-inline text-center ml-auto mt-5">
+  <a href="#" class=""> <i class="list-inline-item fa fa-4x fa-video-camera" aria-hidden="true"></i> </a>
+  <a href="#"> <i class="list-inline-item fa fa-4x fa-headphones" aria-hidden="true"></i> </a>
+  <a href="#"> <i class="list-inline-item fa fa-4x fa-file-pdf-o" aria-hidden="true"></i> </a>
+  <a href="#"> <i class="list-inline-item fa fa-4x fa-download" aria-hidden="true"></i> </a>
+  </col-md-3>
+
+</div>
+
 </div>
 
 <!-- END OF LATEST SERMONS  -->
 
 
 <!-- BLOG -->
-<div id="blog" class="card-group mt">
+<!-- <div id="blog" class="card-group mt">
   <div class="row">
     <div class="col-lg-3">
       <div class="card h-100 " style="background-color: #00004c;">
@@ -376,7 +332,7 @@
           </p>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <!-- END OF BLOG -->
 

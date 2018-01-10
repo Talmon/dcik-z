@@ -196,7 +196,7 @@
     </div>
   </div>
   <div class="col-md-3">
-    <img src="../img/Bish and mum.jpg" alt="" class="img-fluid d-none d-md-block" style="height:auto; max-width:100%;">
+    <img src="../img/Bish and mum.jpg" alt="" class="img-fluid" style="height:auto; max-width:100%;">
   </div>
 </div>
 
@@ -207,133 +207,111 @@
 
 <!-- LATEST SERMONS -->
 
-<div class="container sermons">
-  <div class="row">
-    <col-md-3 class="mt-3">
-    <img src="http://wainwrightpentecostalassembly.ca/wp-content/uploads/2012/07/12874.jpg" class="img-thumbnail" alt="" style="height:200px; width:200px">
-    </col-md-3>
-
-    <col-md-6 class="mx-auto mt-5">
-     <h2>Fake News</h2>
-     <p class="text-muted">Bishop Dr. Jimmy Kimani / 7th Jan 2018</p>
-    </col-md-6>
-
-    <col-md-3 class="list-inline text-center  mt-5 ml-auto">
-   <a href="#"> <i class="list-inline-item fa fa-4x fa-video-camera" aria-hidden="true"></i> </a> 
-   <a href="#"> <i class="list-inline-item fa fa-4x fa-headphones" aria-hidden="true"></i> </a>
-   <a href="#"> <i class="list-inline-item fa fa-4x fa-file-pdf-o" aria-hidden="true"></i> </a>
-   <a href="#"> <i class="list-inline-item fa fa-4x fa-download" aria-hidden="true"></i> </a> 
-    </col-md-3>
-
+<div class="container sermons card-group">
+  <div class="card border-0">
+    <img src="https://images.pexels.com/photos/372326/pexels-photo-372326.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb" class="rounded-circle img-top mx-auto mt-3" alt="" style="height:200px; width:200px">
+     <div class="card-title mx-auto mt-3 text-danger">
+       <h2>Fake News</h2>
+     </div>
+     <div class="card-body mx-auto mt-3">
+     <div class="card-text">
+     <p class="lead">Bishop Dr. Jimmy Kimani / 7th Jan 2018</p>
+     </div>
+     </div>
+    <div class="card-footer list-inline text-muted mx-auto">
+      <a href="#"> <i class="list-inline-item fa fa-2x fa-video-camera" aria-hidden="true"></i> </a> 
+      <a href="#"> <i class="list-inline-item fa fa-2x fa-headphones" aria-hidden="true"></i> </a>
+      <a href="#"> <i class="list-inline-item fa fa-2x fa-file-pdf-o" aria-hidden="true"></i> </a>
+      <a href="#"> <i class="list-inline-item fa fa-2x fa-download" aria-hidden="true"></i> </a> 
+    </div>
   </div>
 
 
-<hr class="">
+  <div class="card border-0">
+      <img src="https://images.pexels.com/photos/256560/pexels-photo-256560.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb" class="rounded-circle img-top mx-auto mt-3" alt="" style="height:200px; width:200px">
+       <div class="card-title mx-auto mt-3 text-danger text-danger">
+         <h2>Lorem ipsum dolor sit.</h2>
+       </div>
+       <div class="card-body mx-auto mt-3">
+       <div class="card-text">
+       <p class="lead">Bishop Dr. Jimmy Kimani / 1st Jan 2018</p>
+       </div>
+       </div>
+      <div class="card-footer list-inline text-muted mx-auto">
+        <a href="#"> <i class="list-inline-item fa fa-2x fa-video-camera" aria-hidden="true"></i> </a> 
+        <a href="#"> <i class="list-inline-item fa fa-2x fa-headphones" aria-hidden="true"></i> </a>
+        <a href="#"> <i class="list-inline-item fa fa-2x fa-file-pdf-o" aria-hidden="true"></i> </a>
+        <a href="#"> <i class="list-inline-item fa fa-2x fa-download" aria-hidden="true"></i> </a> 
+      </div>
+    </div>
 
-<div class="row">
-  <col-md-3 class=" mt-3">
-  <img src="https://salemnet.vo.llnwd.net/media/cms/CW/30871-7-sayings.1200w.tn.jpg" class="img-thumbnail" alt="" style="height:200px; width:200px">
-  </col-md-3>
-
-  <col-md-6 class="mx-auto mt-5">
-   <h2>Lorem ipsum dolor sit amet.</h2>
-   <p class="text-muted">Bishop Dr. Jimmy Kimani / 7th Jan 2018</p>
-  </col-md-6>
-
-  <col-md-3 class="list-inline text-center ml-auto mt-5">
-  <a href="#"> <i class="list-inline-item fa fa-4x fa-video-camera" aria-hidden="true"></i> </a>
-  <a href="#"> <i class="list-inline-item fa fa-4x fa-headphones" aria-hidden="true"></i> </a>
-  <a href="#"> <i class="list-inline-item fa fa-4x fa-file-pdf-o" aria-hidden="true"></i> </a>
-  <a href="#"> <i class="list-inline-item fa fa-4x fa-download" aria-hidden="true"></i> </a>
-</div>
-
-<hr>
-
-<div class="row">
-  <col-md-3 class=" mt-3">
-  <img src="http://frankfortumc.org/wp-content/uploads/2016/02/sermonsback.jpg" class="img-thumbnail" alt="" style="height:200px; width:200px">
-  </col-md-3>
-
-  <col-md-6 class="mx-auto mt-5">
-   <h2>Lorem ipsum dolor sit.</h2>
-   <p class="text-muted">Bishop Dr. Jimmy Kimani / 7th Jan 2018</p>
-  </col-md-6>
-
-  <col-md-3 class="list-inline text-center ml-auto mt-5">
-  <a href="#" class=""> <i class="list-inline-item fa fa-4x fa-video-camera" aria-hidden="true"></i> </a>
-  <a href="#"> <i class="list-inline-item fa fa-4x fa-headphones" aria-hidden="true"></i> </a>
-  <a href="#"> <i class="list-inline-item fa fa-4x fa-file-pdf-o" aria-hidden="true"></i> </a>
-  <a href="#"> <i class="list-inline-item fa fa-4x fa-download" aria-hidden="true"></i> </a>
-  </col-md-3>
-
-</div>
+    <div class="card border-0">
+        <img src="https://images.pexels.com/photos/272337/pexels-photo-272337.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb" class="rounded-circle img-top mx-auto mt-3" alt="" style="height:200px; width:200px">
+         <div class="card-title mx-auto mt-3 text-danger">
+           <h2>Lorem, ipsum dolor.</h2>
+         </div>
+         <div class="card-body mx-auto mt-3">
+         <div class="card-text">
+         <p class="lead">Bishop Dr. Jimmy Kimani / 24th Dec 2017</p>
+         </div>
+         </div>
+        <div class="card-footer list-inline text-muted mx-auto">
+          <a href="#"> <i class="list-inline-item fa fa-2x fa-video-camera" aria-hidden="true"></i> </a> 
+          <a href="#"> <i class="list-inline-item fa fa-2x fa-headphones" aria-hidden="true"></i> </a>
+          <a href="#"> <i class="list-inline-item fa fa-2x fa-file-pdf-o" aria-hidden="true"></i> </a>
+          <a href="#"> <i class="list-inline-item fa fa-2x fa-download" aria-hidden="true"></i> </a> 
+        </div>
+      </div>
 
 </div>
 
 <!-- END OF LATEST SERMONS  -->
 
-
 <!-- BLOG -->
-<!-- <div id="blog" class="card-group mt">
-  <div class="row">
-    <div class="col-lg-3">
-      <div class="card h-100 " style="background-color: #00004c;">
+  <div class="row mt-5">
+    <div class="col-md">
+      <div class="card h-100 border-0">
         <div class="card-body">
-          <h4 class="card-title  text-center mt text-white py-auto">LATEST FROM BLOG</h4>
-        </div>
-      </div>
-    </div>
-    <div class="col-lg-3">
-
-      <div class="card hovereffect" style="height: 250px;">
-        <img class="card-img-top img-responsive" src="img/events-1.JPG" alt="Card image cap">
-        <div class="card-footer overlay">
-          <h2 class=" mb">
-            <strong> STAGES OF DISLOYALTY </strong>
-          </h2>
-          <p class="mb">
-            <a href="#">
-              <button class="btn btn-lg text-white" style="background-color: #00004c;"> CLICK HERE TO VIEW </button>
-            </a>
-          </p>
+          <h4 class="card-title  text-center  text-dark my-auto">LATEST FROM BLOG</h4>
         </div>
       </div>
     </div>
 
-    <div class="col-lg-3 " style="height: 250px;">
-
-      <div class="card hovereffect">
-        <img class="card-img-top img-responsive" src="img/events.JPG" alt="Card image cap">
-        <div class="card-footer overlay">
-          <h2 class=" mb">
-            <strong> STAGES OF DISLOYALTY PART 2</strong>
-          </h2>
-          <p>
-            <a href="#">
-              <button class="btn btn-lg text-white" style="background-color: #00004c;"> CLICK HERE TO VIEW </button>
-            </a>
-          </p>
-        </div>
-      </div>
+    <div class="col-md">
+        <div class="ih-item square colored effect4"><a href="#">
+            <div class="img"><img src="https://images.pexels.com/photos/459688/pexels-photo-459688.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb" alt="img"></div>
+            <div class="mask1"></div>
+            <div class="mask2"></div>
+            <div class="info">
+              <h3>STAGES OF DISLOYALTY PART 1</h3>
+              <p>Read More</p>
+            </div></a></div>
     </div>
 
-    <div class="col-lg-3" style="height: 250px;">
+    <div class="col-md">
+        <div class="ih-item square colored effect4"><a href="#">
+            <div class="img"><img src="https://images.pexels.com/photos/34601/pexels-photo.jpg?w=1260&h=750&auto=compress&cs=tinysrgb" alt="img"></div>
+            <div class="mask1"></div>
+            <div class="mask2"></div>
+            <div class="info">
+              <h3>STAGES OF DISLOYALTY PART 2</h3>
+              <p>Read More</p>
+            </div></a></div>
+    </div>
 
-      <div class="card hovereffect">
-        <img class="card-img-top img-responsive" src="img/events-3.JPG" alt="Card image cap">
-        <div class="card-footer overlay ">
-          <h2 class=" mb">
-            <strong> STAGES OF DISLOYALTY PART 3 </strong>
-          </h2>
-          <p>
-            <a href="#">
-              <button class="btn btn-lg text-white" style="background-color: #00004c;"> CLICK HERE TO VIEW </button>
-            </a>
-          </p>
-        </div>
-      </div>
-    </div> -->
 
+    <div class="col-md">
+        <div class="ih-item square colored effect4"><a href="#">
+            <div class="img"><img src="https://images.pexels.com/photos/34124/pexels-photo.jpg?w=1260&h=750&auto=compress&cs=tinysrgb" alt="img"></div>
+            <div class="mask1"></div>
+            <div class="mask2"></div>
+            <div class="info">
+              <h3>STAGES OF DISLOYALTY PART 3</h3>
+              <p>Read More</p>
+            </div></a></div>
+    </div>
+
+    </div>
     <!-- END OF BLOG -->
 
 

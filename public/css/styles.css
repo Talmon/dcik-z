@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Tangerine|Marmelad|Artifika|Belleza|Maven+Pro|Niconne|Calligraffitti|Cantarell|Courgette|Bilbo+Swash+Caps|Pacifico|Berkshire+Swash|Bilbo+Swash+Caps|Cookie|Dancing+Script|Gloria+Hallelujah|Great+Vibes|Handlee|Sacramento|Satisfy);/*!
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);@import url(https://fonts.googleapis.com/css?family=Tangerine|Marmelad|Artifika|Belleza|Maven+Pro|Niconne|Calligraffitti|Cantarell|Courgette|Bilbo+Swash+Caps|Pacifico|Berkshire+Swash|Bilbo+Swash+Caps|Cookie|Dancing+Script|Gloria+Hallelujah|Great+Vibes|Handlee|Sacramento|Satisfy);/*!
  * Bootstrap v4.0.0-beta (https://getbootstrap.com)
  * Copyright 2011-2017 The Bootstrap Authors
  * Copyright 2011-2017 Twitter, Inc.
@@ -9191,9 +9191,8 @@ a.text-dark:hover {
   visibility: hidden !important;
 }
 
-/*Only for Bootstrap version 4 Beta and up*/
-
 body {
+  background: url("/img/backgrounds/gplaypattern.png");
   overflow-x: hidden;
 }
 
@@ -9215,15 +9214,15 @@ body {
 
 .navbar {
   z-index: 9;
-  background: url("/img/backgrounds/congruent_outline.png");
+  background: url("/img/backgrounds/gplaypattern.png");
 }
 
 .navbar a {
-  color: #ffffff;
+  color: black;
 }
 
 .navbar a:hover {
-  color: #ffffff;
+  color: black;
 }
 
 .navbar .nav-link {
@@ -9258,22 +9257,26 @@ body {
 }
 
 .carousel .carousel-caption h1 {
-  color: blueviolet;
-  font-family: 'Berkshire Swash',cursive;
+  color: #ede8f1;
+  font-family: Marmelad;
+  font-weight: bold;
 }
 
 .carousel .carousel-caption p {
-  background-color: rgba(128, 14, 14, 0.89);
+  font-size: 22px;
 }
 
 .carousel .carousel-caption {
-  bottom: 10rem;
+  padding: 50px 10px 10px 10px;
+  bottom: 6rem;
   z-index: 10;
   height: 20em;
+  background-color: rgba(0, 0, 0, 0.473);
+  width: 50%;
 }
 
 .carousel .carousel-caption button {
-  background-color: rgba(255, 15, 15, 0.973);
+  background-color: rgba(90, 9, 9, 0.973);
 }
 
 .carousel .carousel-item {
@@ -9287,16 +9290,6 @@ body {
   left: 0;
   min-width: 100%;
   height: 44rem;
-}
-
-.carousel .carousel-caption h1 {
-  margin-top: 200px;
-  font-size: 55px;
-}
-
-.carousel .carousel-caption button {
-  margin-left: 50px;
-  height: 60px;
 }
 
 @media (max-width: 767px) {
@@ -9313,14 +9306,32 @@ body {
     height: 25rem;
   }
 
+  .carousel .carousel-caption {
+    padding: 0px 10px 10px 10px;
+    z-index: 10;
+    height: 17em;
+    background-color: rgba(0, 0, 0, 0.473);
+    width: 70%;
+    font-size: 15px;
+  }
+
   .carousel .carousel-caption h1 {
-    margin-top: 250px;
-    font-size: 35px;
+    margin-top: 20px;
+    font-size: 20px;
+  }
+
+  .carousel .carousel-caption p {
+    margin-top: 5px;
+    font-size: 14px;
   }
 
   .carousel .carousel-caption button {
-    margin-left: 0px;
+    margin-top: 10px;
     height: 40px;
+  }
+
+  .carousel .carousel-caption button h4 {
+    font-size: 15px;
   }
 
   .carousel html {
@@ -9329,6 +9340,10 @@ body {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+  .carousel html {
+    font-size: 0.7rem;
+  }
+
   .carousel .carousel-item {
     height: 37rem;
     background-color: #777;
@@ -9354,6 +9369,10 @@ body {
 
   .carousel .dropdown-menu .row {
     overflow-x: hidden;
+  }
+
+  .carousel .ih-item.square.effect4 .info h3 {
+    font-size: 10px;
   }
 }
 
@@ -9401,6 +9420,11 @@ a {
   color: #ff3232;
 }
 
+.services {
+  color: black;
+  background: rgba(5, 45, 119, 0.473);
+}
+
 .sermons i {
   margin-left: 10px;
   color: #000;
@@ -9432,18 +9456,6 @@ bg-test {
   height: 800px;
   padding-top: 50px;
   width: 100%;
-}
-
-.bg-pattern {
-  background: url("/img/backgrounds/congruent_outline.png");
-}
-
-.footer a {
-  color: #ffffff;
-}
-
-.footer h4 {
-  border-bottom: solid 1px #ffffff;
 }
 
 .hovereffect {
@@ -9627,6 +9639,15 @@ bg-test {
 }
 
 footer {
-  background: url("/img/backgrounds/darkness.png");
+  color: white;
+  background-color: rgba(9, 16, 112, 0.9);
+}
+
+footer a {
+  color: white;
+}
+
+footer a:hover {
+  color: white;
 }
 

@@ -1,18 +1,15 @@
 @import "~bootstrap/scss/bootstrap";
-
-
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
 @import url(https://fonts.googleapis.com/css?family=Tangerine|Marmelad|Artifika|Belleza|Maven+Pro|Niconne|Calligraffitti|Cantarell|Courgette|Bilbo+Swash+Caps|Pacifico|Berkshire+Swash|Bilbo+Swash+Caps|Cookie|Dancing+Script|Gloria+Hallelujah|Great+Vibes|Handlee|Sacramento|Satisfy);
+
 $border-color: #ff1919;
 $font-type: Maven Pro;
 $font-color: #ffffff;
 $dark-overlay: rgba(0,0,0,0.7);
 $carousel-control-color: $blue;
 
-/*Only for Bootstrap version 4 Beta and up*/
-
-
 body{
-  //background: url("/img/backgrounds/greyfloral.png");
+  background: url("/img/backgrounds/gplaypattern.png");
   overflow-x: hidden;
 }
 
@@ -32,16 +29,12 @@ body{
 
     .navbar{
         z-index: 9;
-        //font-weight: 200;
-        //background-color: #cebdbdf5;
-        background: url("/img/backgrounds/congruent_outline.png");
-        //background: rgba(10, 10, 124, 0.7);
-
+        background: url("/img/backgrounds/gplaypattern.png");
         a{
-          color: $font-color;
+          color: black;
       }
        a:hover{
-         color: $font-color;
+         color:black;
        }
 
       .nav-link{
@@ -76,19 +69,25 @@ body{
     /* Since positioning the image, we need to help out the caption */
   .carousel-caption h1{
     // background-color:  rgba(255, 11, 11, 0.89);
-    color: blueviolet;
-    font-family: 'Berkshire Swash',cursive;
+    color: rgb(237, 232, 241);
+    font-family: Marmelad;
+    font-weight: bold; 
   }  
   .carousel-caption p{
-    background-color:  rgba(128, 14, 14, 0.89);
+    font-size: 22px;
+    
+    //background-color:  rgba(128, 14, 14, 0.89);
   } 
   .carousel-caption {
-    bottom: 10rem;
+    padding:50px 10px 10px 10px;
+    bottom: 6rem;
     z-index: 10;
     height:20em;
+    background-color: rgba(0, 0, 0, 0.473);
+    width: 50%;
   }
   .carousel-caption button{
-    background-color:  rgba(255, 15, 15, 0.973);
+    background-color:  rgba(90, 9, 9, 0.973);
   }
 
   /* Declare heights because of positioning of img element */
@@ -105,14 +104,6 @@ body{
     height: 44rem;
   }
 
-  .carousel-caption h1{
-    margin-top: 200px;
-    font-size: 55px;
-  }
-  .carousel-caption button{
-    margin-left: 50px;
-    height:60px;
-  }
   
   
 
@@ -129,15 +120,31 @@ body{
       min-width: 100%;
       height: 25rem;
     }
+    .carousel-caption {
+      padding:0px 10px 10px 10px;
+      //bottom: 6rem;
+      z-index: 10;
+      height:17em;
+      background-color: rgba(0, 0, 0, 0.473);
+      width: 70%;
+      font-size: 15px;
+    }
     .carousel-caption h1{
-         margin-top: 250px;
-         font-size: 35px;
+         margin-top: 20px;
+         font-size: 20px;
+    }
+    .carousel-caption p{
+      margin-top: 5px;
+      font-size: 14px;
     }
     .carousel-caption button{
-         margin-left: 0px;
+         margin-top: 10px;
          height:40px;
+    }
+    .carousel-caption button h4{
 
-    }  
+      font-size: 15px;
+    }
     html {
       font-size: 0.5rem;
     }
@@ -145,6 +152,9 @@ body{
     
   
   @include media-breakpoint-only(md) {
+    html{
+      font-size: 0.7rem;
+    }
     .carousel-item {
       height: 37rem;
       background-color: #777;
@@ -167,6 +177,9 @@ body{
     }
     .dropdown-menu .row{
       overflow-x: hidden;
+    }
+    .ih-item.square.effect4 .info h3{
+      font-size: 10px;
     }
   }
 
@@ -193,28 +206,6 @@ body{
     }
 }
 
-// @include media-breakpoint-only(xl) {
-//   .carousel-item {
-//     height: 40rem;
-//     background-color: #777;
-//   }
-
-//   .carousel-item > img {
-//     position: absolute;
-//     top: 0;
-//     left: 0;
-//     min-width: 100%;
-//     height: 40rem;
-//   }
-//   .carousel-caption h1{
-//     margin-top: 200px;
-//     font-size: 55px;
-//   }
-//   .carousel-caption button{
-//     margin-left: 50px;
-//     height:60px;
-//   }
-// }
 
   /* Change the styles of the indicators */
   .indicators{
@@ -235,6 +226,13 @@ a:hover{
 a {
   color:#ff3232;
 }
+
+.services{
+  color: black;
+  background: rgba(5, 45, 119, 0.473)
+}
+
+
 
 .sermons{
 
@@ -275,21 +273,9 @@ padding-top: 50px;
 width: 100%;
 }
 
-.bg-pattern{
-  background: url("/img/backgrounds/congruent_outline.png");
-  // background-repeat: no-repeat;
-  // background-size: cover;
-  // background-position: center center;
-}
 
-.footer{
-  a{
-    color:$font-color;
-  }
-  h4{
-    border-bottom: solid 1px #ffffff;
-  }
-}
+
+
 
 
 
@@ -475,5 +461,15 @@ width: 100%;
 }
 
 footer {
-  background: url("/img/backgrounds/darkness.png");
+  color: white;
+  background-color: rgba(9, 16, 112, 0.9);
+
+  a{
+    color: white;
+  }
+  a:hover{
+    color:white;
+  }
+ 
 }
+

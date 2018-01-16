@@ -1,29 +1,11 @@
-<div class="" style="background: url(img/backgrounds/gplaypattern.png);">
-<div class="row">
-<div class="col-md-3">
+<nav class="container-fluid navbar navbar-expand-lg ">
 <a class="navbar-brand" href="#">
-    <img class="mx-auto" src="img/church-logo.png" alt="" style="height: 100px; width: 150px;">
+    <img class="mx-auto bg-light" src="img/church-logo.png" alt="" style="height: 70px; width: 100px;">
 </a>
-<h4>Deliverance Church International Kasarani</h4>
-</div>
-
-<div class="col-md-6 mt-5 list-inline">
-<h4>Sunday Services</h4>
-<p class="list-inline-item">Express Service: 7:00am - 8:30am</p>
-<p class="list-inline-item">Celebration Service: 9:00am - 10:45am</p>
-<p class="list-inline-item">Miracle Service: 11:00am - 1:00pm</p>
-</div>
-<div class="col-md mt-5">
-<h4>Midweek Service</h4>
-<p>Every Wednesday: 6:30pm - 8:00pm</p>
-</div>
-</div>
-
-</div>
-<nav class="container-fluid navbar navbar-expand-lg">
+<h4 class="text-dark">Deliverance Church International Kasarani</h4>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
     aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon mr-5" style="cursor: pointer;"> <i class="fa fa-bars fa-2x text-white " aria-hidden="true"></i> </span>
+    <span class="navbar-toggler-icon mr-5" style="cursor: pointer;"> <i class="fa fa-bars fa-2x text-dark " aria-hidden="true"></i> </span>
   </button>
 
   <div class="collapse navbar-collapse " id="navbarSupportedContent">
@@ -56,12 +38,12 @@
                   
               </div>
               
-             <div class="row mb-2 mt-2">
-                <div class="col-md-4 mt-5">
+             <div class="row mb-2">
+                <div class="col-md-4 ">
                     <img src="img/member1.jpg" alt="" class="img-fluid h-75" style="height:auto; max-width:100%;">
                     <a class="display-7" href="/become-a-member">Become a Member</a>
                 </div>
-                <div class="col-md-4 mt-5">
+                <div class="col-md-4">
                     <img src="img/academy1.png" alt="" class="img-fluid h-75" style="height:auto; max-width:100%;">
                     <a class="display-7" href="/cornerstone-academy">Cornerstone Academy</a>
                 </div>  
@@ -77,7 +59,7 @@
         </a>
         <div class="dropdown-menu mega-menu" aria-labelledby="navbarDropdown" style="background: url(img/backgrounds/gplaypattern.png);">
          <div class="container">
-          <div class="row mt-5" >
+          <div class="row " >
           <div class="col-md">
           <img src="img/networks1.jpg" alt="" class="img-fluid h-25" style="height:auto; max-width:100%;">
               <h4 style="color:orangered">Networks</h4>
@@ -168,36 +150,36 @@
         </a>
         <div class="dropdown-menu mega-menu resources" aria-labelledby="navbarDropdown" style="background: url(img/backgrounds/gplaypattern.png);">
          <div class="container">
-          <div class="row mt-5">
-              <div class="col-md mt-5">
-              <img src="img/careers1.jpg" alt="" class="img-fluid h-100" style="height:auto; max-width:100%;">
+          <div class="row">
+              <div class="col-md">
+              <img src="img/careers1.jpg" alt="" class="img-fluid h-75" style="height:auto; max-width:100%;">
               <a class=" display-7" href="/careers">Careers</a>
             </div>
-            <div class="col-md mt-5">
-              <img src="img/news2.jpg" alt="" class="img-fluid h-100" style="height:auto; max-width:100%;">
+            <div class="col-md ">
+              <img src="img/news2.jpg" alt="" class="img-fluid h-75" style="height:auto; max-width:100%;">
               <a class="ml-auto display-7" href="/news">News</a>
             </div>
-            <div class="col-md mt-5">
-              <img src="img/blog3.jpg" alt="" class="img-fluid h-100" style="height:auto; max-width:100%;">
+            <div class="col-md ">
+              <img src="img/blog3.jpg" alt="" class="img-fluid h-75" style="height:auto; max-width:100%;">
               <a class="ml-auto display-7" href="/blog">Weekly Articles</a>
             </div>
-            <div class="col-md mt-5">
-                <img src="img/events/navbar-events.jpg" alt="" class="img-fluid h-100" style="height:auto; max-width:100%;"> 
+            <div class="col-md ">
+                <img src="img/events/navbar-events.jpg" alt="" class="img-fluid h-75" style="height:auto; max-width:100%;">
                 <a class="display-7" href="/events">Events</a>
               </div>
           </div>
-          <div class="row mt-5 mb-2">
-              <div class="col-md-3 mt-5">
-              <img src="img/prayers1.jpg" alt="" class="img-fluid h-100" style="height:auto; max-width:100%;">
+          <div class="row mb-2">
+              <div class="col-md-3">
+              <img src="img/prayers1.jpg" alt="" class="img-fluid h-75" style="height:auto; max-width:100%;">
               <a class="display-7" href="/prayers">Prayers</a>
             </div>
-            <div class="col-md-3 mt-5">
-              <img src="img/what-we-believe1.jpg" alt="" class="img-fluid h-100" style="height:auto; max-width:100%;">
+            <div class="col-md-3">
+              <img src="img/what-we-believe1.jpg" alt="" class="img-fluid h-75" style="height:auto; max-width:100%;">
               
               <a class="display-7" href="/sermons">Sermons</a>
             </div>
-            <div class="col-md-3 mt-5">
-                <img src="img/tender2.jpg" alt="" class="img-fluid h-100" style="height:auto; max-width:100%;">
+            <div class="col-md-3">
+                <img src="img/tender2.jpg" alt="" class="img-fluid h-75" style="height:auto; max-width:100%;">
                 <a class="ml-auto display-7" href="/tenders">Tenders</a>
               </div>
           </div>
@@ -205,7 +187,22 @@
         </div>
       </li>
     </ul>
-    <form class="form-inline my-2 my-lg-0">
+    <div class=" social-media mt-4 list-inline mr-5">
+      <a href="https://www.facebook.com/dczimma/?fref=ts">
+        <i class="fa fa-2x fa-facebook list-inline-item text-dark mr-3 mb-3"></i>
+      </a>
+      <a class="" href="#">
+        <i class="fa fa-2x fa-twitter list-inline-item text-dark mr-3 mb-3"></i>
+      </a>
+      <a class="" href="https://www.youtube.com/channel/UCbFf1WXtK4WRV2tz9Zx6nIg">
+        <i class="fa fa-2x fa-youtube list-inline-item text-dark mr-3 mb-3"></i>
+      </a>
+      <a class="" href="#">
+        <i class="fa fa-2x fa-instagram list-inline-item text-dark mr-3 mb-3"></i>
+      </a>
+    </div>
+
+    <form class="form-inline mt-3">
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
       <button class="btn btn-light my-2 my-sm-0" type="submit">Search</button>
     </form>

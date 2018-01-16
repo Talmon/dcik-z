@@ -140,7 +140,7 @@
           <img src="../img/vision-carriers.jpg" alt="" class="card-img img-fluid" style="height:auto; max-width:100%;">
       </div>
       <div class="col-md-9 my-auto">
-          <h2 class="text-white mx-auto px-5 py-5" style="background-color: #0000fe">WELCOME TO DELIVERANCE CHURCH INTERNATIONAL KASARANI</h2>
+          <h2 class="text-white mx-auto px-2 py-5" style="background-color: #0000fe">WELCOME TO DELIVERANCE CHURCH INTERNATIONAL KASARANI</h2>
           <p class="lead">
               "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid animi, autem beatae cumque, delectus doloremque earum eos est eum excepturi fuga fugit id in laudantium magnam modi necessitatibus nesciunt nihil obcaecati officiis placeat porro sunt tempore ullam, unde velit voluptatibus. At consectetur cupiditate dolorum ducimus ipsam qui, tempora unde. Accusamus aperiam consequatur delectus distinctio dolorem eligendi in laudantium molestias mollitia quas, ratione, recusandae repellat repudiandae sequi soluta voluptate voluptatum. Adipisci architecto consequatur consequuntur cumque, earum fugiat harum id nam nostrum quo, quos recusandae reprehenderit tempora ullam veniam? A consectetur culpa ipsa quae ratione sint, veniam voluptatem. Accusamus adipisci cumque dolorum enim exercitationem illum modi nobis non quae quo rerum tempore vitae, voluptates. Accusantium, ad dolorum eaque eligendi maiores possimus voluptate.
           </p>
@@ -240,7 +240,7 @@
     </div>
 </div>
 
-<h2 class="text-white px-2 py-5 w-75 mx-auto mt-5" style="background-color: #0000fe">DELIVERANCE CHURCH INTERNATIONAL KASARANI MINISTRIES</h2>
+<h2 class="text-white px-2 py-5 w-100 mx-auto mt-5" style="background-color: #0000fe">DELIVERANCE CHURCH INTERNATIONAL KASARANI MINISTRIES</h2>
 
 
 {{--MINISTRIES AND SERMONS--}}

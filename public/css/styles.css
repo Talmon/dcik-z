@@ -9334,6 +9334,10 @@ body {
     font-size: 15px;
   }
 
+  .carousel h2 {
+    font-size: 15px;
+  }
+
   .carousel html {
     font-size: 0.5rem;
   }

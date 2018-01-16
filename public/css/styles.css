@@ -9309,9 +9309,9 @@ body {
   .carousel .carousel-caption {
     padding: 0px 10px 10px 10px;
     z-index: 10;
-    height: 17em;
+    height: 18rem;
     background-color: rgba(0, 0, 0, 0.473);
-    width: 70%;
+    width: 75%;
     font-size: 15px;
   }
 
@@ -9322,7 +9322,7 @@ body {
 
   .carousel .carousel-caption p {
     margin-top: 5px;
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .carousel .carousel-caption button {

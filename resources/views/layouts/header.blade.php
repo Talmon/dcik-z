@@ -1,4 +1,4 @@
-<nav class="container-fluid navbar navbar-expand-lg ">
+<nav class="container-fluid nav-fill navbar navbar-expand-xl">
 <a class="navbar-brand" href="#">
     <img class="mx-auto bg-light" src="img/church-logo.png" alt="" style="height: 70px; width: 100px;">
 </a>
@@ -24,15 +24,15 @@
           <div class="container">
               <div class="row">
                   <div class="col-md">
-                    <img src="img/what-we-believe2.jpg" alt="" class="img-fluid h-75" style="height:auto; max-width:100%;" >
+                    <img src="img/what-we-believe2.jpg" alt="" class="img-fluid " style="height:auto; max-width:100%;" >
                     <a class="display-7" href="/what-we-believe">What We Believe</a>
                   </div>
                   <div class="col-md">
-                    <img src="img/the-fathers-vision2.jpg" alt="" class="img-fluid h-75" style="height:auto; max-width:100%;">
+                    <img src="img/the-fathers-vision2.jpg" alt="" class="img-fluid " style="height:auto; max-width:100%;">
                     <a class="display-7" href="/the-fathers-vision">The Father's Vision</a>
                   </div>
                   <div class="col-md">
-                    <img src="https://www.tms.edu//nas/content/live/tmsbones/m/Pastor.jpg" alt="" class="img-fluid h-75" style="height:inherit; max-width:100%;">
+                    <img src="https://www.tms.edu//nas/content/live/tmsbones/m/Pastor.jpg" alt="" class="img-fluid " style="height:inherit; max-width:100%;">
                     <a class="display-7" href="/pastors">Pastors</a>
                   </div>
                   
@@ -40,11 +40,11 @@
               
              <div class="row mb-2">
                 <div class="col-md-4 ">
-                    <img src="img/member1.jpg" alt="" class="img-fluid h-75" style="height:auto; max-width:100%;">
+                    <img src="img/member1.jpg" alt="" class="img-fluid" style="height:auto; max-width:100%;">
                     <a class="display-7" href="/become-a-member">Become a Member</a>
                 </div>
                 <div class="col-md-4">
-                    <img src="img/academy1.png" alt="" class="img-fluid h-75" style="height:auto; max-width:100%;">
+                    <img src="img/academy1.png" alt="" class="img-fluid" style="height:auto; max-width:100%;">
                     <a class="display-7" href="/cornerstone-academy">Cornerstone Academy</a>
                 </div>  
              </div> 
@@ -61,7 +61,7 @@
          <div class="container">
           <div class="row " >
           <div class="col-md">
-          <img src="img/networks1.jpg" alt="" class="img-fluid h-25" style="height:auto; max-width:100%;">
+          <img src="img/networks1.jpg" alt="" class="img-fluid " style="height:auto; max-width:100%;">
               <h4 style="color:orangered">Networks</h4>
               <p>
                 <a href="/men">Men</a>
@@ -80,7 +80,7 @@
               </p>
             </div>
             <div class="col-md">
-              <img src="img/service2.jpg" alt="" class="img-fluid h-25" style="height:auto; max-width:100%;">
+              <img src="img/service2.jpg" alt="" class="img-fluid " style="height:auto; max-width:100%;">
               <h4 style="color:orangered">Service Ministiries</h4>
               <p>
                 <a href="/ushering">Ushering</a>
@@ -105,7 +105,7 @@
               </p>
             </div>
             <div class="col-md">
-              <img src="img/welfare&compassion.jpg" alt="" class="img-fluid h-25" style="height:auto; max-width:100%;">
+              <img src="img/welfare&compassion.jpg" alt="" class="img-fluid " style="height:auto; max-width:100%;">
               <h4 style="color:orangered">Welfare & Compassion</h4>
               <p>
                 <a href="/welfare">Welfare</a>
@@ -123,7 +123,7 @@
             </div>
 
             <div class="col-md">
-              <img src="img/missions&outreach.jpg" alt="" class="img-fluid h-25" style="height:auto; max-width:100%;">
+              <img src="img/missions&outreach.jpg" alt="" class="img-fluid " style="height:auto; max-width:100%;">
               <h4 style="color:orangered">Missions & Outreach</h4>
               <p>
                 <a href="/missions">Missions</a>
@@ -152,34 +152,34 @@
          <div class="container">
           <div class="row">
               <div class="col-md">
-              <img src="img/careers1.jpg" alt="" class="img-fluid h-75" style="height:auto; max-width:100%;">
+              <img src="img/careers1.jpg" alt="" class="img-fluid" style="height:auto; max-width:100%;">
               <a class=" display-7" href="/careers">Careers</a>
             </div>
             <div class="col-md ">
-              <img src="img/news2.jpg" alt="" class="img-fluid h-75" style="height:auto; max-width:100%;">
+              <img src="img/news2.jpg" alt="" class="img-fluid" style="height:auto; max-width:100%;">
               <a class="ml-auto display-7" href="/news">News</a>
             </div>
             <div class="col-md ">
-              <img src="img/blog3.jpg" alt="" class="img-fluid h-75" style="height:auto; max-width:100%;">
+              <img src="img/blog3.jpg" alt="" class="img-fluid" style="height:auto; max-width:100%;">
               <a class="ml-auto display-7" href="/blog">Weekly Articles</a>
             </div>
             <div class="col-md ">
-                <img src="img/events/navbar-events.jpg" alt="" class="img-fluid h-75" style="height:auto; max-width:100%;">
+                <img src="img/events/navbar-events.jpg" alt="" class="img-fluid" style="height:auto; max-width:100%;">
                 <a class="display-7" href="/events">Events</a>
               </div>
           </div>
           <div class="row mb-2">
               <div class="col-md-3">
-              <img src="img/prayers1.jpg" alt="" class="img-fluid h-75" style="height:auto; max-width:100%;">
+              <img src="img/prayers1.jpg" alt="" class="img-fluid" style="height:auto; max-width:100%;">
               <a class="display-7" href="/prayers">Prayers</a>
             </div>
             <div class="col-md-3">
-              <img src="img/what-we-believe1.jpg" alt="" class="img-fluid h-75" style="height:auto; max-width:100%;">
+              <img src="img/what-we-believe1.jpg" alt="" class="img-fluid" style="height:auto; max-width:100%;">
               
               <a class="display-7" href="/sermons">Sermons</a>
             </div>
             <div class="col-md-3">
-                <img src="img/tender2.jpg" alt="" class="img-fluid h-75" style="height:auto; max-width:100%;">
+                <img src="img/tender2.jpg" alt="" class="img-fluid" style="height:auto; max-width:100%;">
                 <a class="ml-auto display-7" href="/tenders">Tenders</a>
               </div>
           </div>

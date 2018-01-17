@@ -56,7 +56,7 @@ body{
     }
     }
 
-// }
+
 
 
 /* CUSTOMIZE THE CAROUSEL
@@ -138,7 +138,7 @@ body{
       font-size: 12px;
     }
     .carousel-caption button{
-         margin-top: 10px;
+         margin-top: 43px;
          height:40px;
     }
     .carousel-caption button h4{
@@ -160,7 +160,7 @@ body{
     }
     .carousel-item {
       height: 37rem;
-      background-color: #777;
+      background-color: #fff;
     }
   
     .carousel-item > img {
@@ -171,12 +171,16 @@ body{
       height: 37rem;
     }
     .carousel-caption h1{
-      margin-top: 200px;
-      font-size: 45px;
+      margin-top: 0px;
+      font-size: 32px;
+    }
+    .carousel-caption p{
+      margin-top: 10px;
+      font-size: 17px;
     }
     .carousel-caption button{
-      margin-left: 50px;
-      height:50px;
+      margin-top: 10px;
+      height:35px;
     }
     .dropdown-menu .row{
       overflow-x: hidden;
@@ -184,6 +188,11 @@ body{
     .ih-item.square.effect4 .info h3{
       font-size: 10px;
     }
+    .col-lg-7 p{
+      margin-left: 100px;
+    }
+
+
   }
 
   @include media-breakpoint-only(lg) {
@@ -207,6 +216,36 @@ body{
       margin-left: 50px;
       height:60px;
     }
+
+    .navbar{
+      z-index: 9;
+      background: url("/img/backgrounds/gplaypattern.png");
+      a{
+        color: black;
+      }
+      a:hover{
+        color:black;
+      }
+
+      .nav-link{
+        z-index:9;
+        margin-top: 20px;
+        font:10px $font-type;
+        //font-family:'Maven Pro', cursive ;
+      }
+      .dropdown-menu a:hover{
+        color: $border-color;
+
+      }
+      .dropdown-menu a{
+        color:#000;
+        font:20px $font-type;
+      }
+      .dropdown-menu{
+        background-color: #fff;
+      }
+    }
+
 }
 
 

@@ -9326,7 +9326,7 @@ body {
   }
 
   .carousel .carousel-caption button {
-    margin-top: 10px;
+    margin-top: 43px;
     height: 40px;
   }
 
@@ -9350,7 +9350,7 @@ body {
 
   .carousel .carousel-item {
     height: 37rem;
-    background-color: #777;
+    background-color: #fff;
   }
 
   .carousel .carousel-item > img {
@@ -9362,13 +9362,18 @@ body {
   }
 
   .carousel .carousel-caption h1 {
-    margin-top: 200px;
-    font-size: 45px;
+    margin-top: 0px;
+    font-size: 32px;
+  }
+
+  .carousel .carousel-caption p {
+    margin-top: 10px;
+    font-size: 17px;
   }
 
   .carousel .carousel-caption button {
-    margin-left: 50px;
-    height: 50px;
+    margin-top: 10px;
+    height: 35px;
   }
 
   .carousel .dropdown-menu .row {
@@ -9377,6 +9382,10 @@ body {
 
   .carousel .ih-item.square.effect4 .info h3 {
     font-size: 10px;
+  }
+
+  .carousel .col-lg-7 p {
+    margin-left: 100px;
   }
 }
 
@@ -9402,6 +9411,38 @@ body {
   .carousel .carousel-caption button {
     margin-left: 50px;
     height: 60px;
+  }
+
+  .carousel .navbar {
+    z-index: 9;
+    background: url("/img/backgrounds/gplaypattern.png");
+  }
+
+  .carousel .navbar a {
+    color: black;
+  }
+
+  .carousel .navbar a:hover {
+    color: black;
+  }
+
+  .carousel .navbar .nav-link {
+    z-index: 9;
+    margin-top: 20px;
+    font: 10px Maven Pro;
+  }
+
+  .carousel .navbar .dropdown-menu a:hover {
+    color: #ff1919;
+  }
+
+  .carousel .navbar .dropdown-menu a {
+    color: #000;
+    font: 20px Maven Pro;
+  }
+
+  .carousel .navbar .dropdown-menu {
+    background-color: #fff;
   }
 }
 

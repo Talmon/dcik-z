@@ -335,9 +335,9 @@
 
 <h3 class="text-left ml-3 mt-5">Latest From Our Blog</h3>
 <div class="row">
-    <div class="col-md-7">
+    <div class="col-lg-8">
         <div class="row mt-1">
-            <div class="col-md-4 mt-3 blog">
+            <div class="col-lg-3 mt-3  blog">
                 <div class="ih-item square colored effect4 mx-auto"><a href="#">
                         <div class="img-fluid"><img src="https://images.pexels.com/photos/459688/pexels-photo-459688.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb" alt="img"></div>
                         <div class="mask1"></div>
@@ -347,19 +347,19 @@
                             <p>Read More</p>
                         </div></a>
                 </div>
-                <div class="mt-3 text-center">
+                <div class="mt-3 ml-5">
                     <a href="#" class="text-dark">STAGES OF DISLOYALTY PART 1</a>
                 </div>
             </div>
-            <div class="col-md-8 mt-3 text-center">
-                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci amet aperiam cupiditate dicta dolorum expedita fuga minima nesciunt perferendis provident. Amet debitis enim fugiat harum iste maxime odio quidem. Consequatur consequuntur error est in inventore ipsum laboriosam odit quibusdam sequi tenetur? Cupiditate itaque obcaecati odit, sint tempora ut. Adipisci, incidunt.</p>
+            <div class="col-lg-6 mt-3 ml-auto text-center">
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi commodi consequuntur culpa dolorem mollitia, pariatur possimus quasi repudiandae vel. Ad aliquid cumque doloremque modi obcaecati pariatur soluta unde velit, voluptatibus..</p>
                 <a href="">Read More</a>
             </div>
         </div>
 
 
         <div class="row">
-            <div class="col-md-4 mt-3 blog">
+            <div class="col-lg-3 mt-3 blog">
                 <div class="ih-item square colored effect4 mx-auto"><a href="#">
                         <div class="img-fluid"><img src="https://images.pexels.com/photos/34601/pexels-photo.jpg?w=1260&h=750&auto=compress&cs=tinysrgb" alt="img"></div>
                         <div class="mask1"></div>
@@ -368,19 +368,19 @@
                             <h3>STAGES OF DISLOYALTY PART 2</h3>
                             <p>Read More</p>
                         </div></a></div>
-                <div class="mt-3  text-center">
+                <div class="mt-3  ml-5">
                     <a href="#" class="text-dark">STAGES OF DISLOYALTY PART 2</a>
                 </div>
             </div>
-            <div class="col-md-8 mt-3 text-center">
-                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci amet aperiam cupiditate dicta dolorum expedita fuga minima nesciunt perferendis provident. Amet debitis enim fugiat harum iste maxime odio quidem. Consequatur consequuntur error est in inventore ipsum laboriosam odit quibusdam sequi tenetur? Cupiditate itaque obcaecati odit, sint tempora ut. Adipisci, incidunt.</p>
+            <div class="col-lg-6 mt-3 ml-auto text-center">
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi commodi consequuntur culpa dolorem mollitia, pariatur possimus quasi repudiandae vel. Ad aliquid cumque doloremque modi obcaecati pariatur soluta unde velit, voluptatibus..</p>
                 <a href="">Read More</a>
             </div>
         </div>
 
 
         <div class="row">
-            <div class="col-md-4 mt-3 blog">
+            <div class="col-lg-3 mt-3 blog">
                 <div class="ih-item square colored effect4 mx-auto"><a href="#">
                         <div class="img-fluid"><img src="https://images.pexels.com/photos/34124/pexels-photo.jpg?w=1260&h=750&auto=compress&cs=tinysrgb" alt="img"></div>
                         <div class="mask1"></div>
@@ -389,18 +389,18 @@
                             <h3>STAGES OF DISLOYALTY PART 3</h3>
                             <p>Read More</p>
                         </div></a></div>
-                <div class="mt-3 text-center">
+                <div class="mt-3 ml-5">
                     <a href="#" class="text-dark">STAGES OF DISLOYALTY PART 3</a>
                 </div>
             </div>
-            <div class="col-md-8 mt-3 text-center">
-                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci amet aperiam cupiditate dicta dolorum expedita fuga minima nesciunt perferendis provident. Amet debitis enim fugiat harum iste maxime odio quidem. Consequatur consequuntur error est in inventore ipsum laboriosam odit quibusdam sequi tenetur? Cupiditate itaque obcaecati odit, sint tempora ut. Adipisci, incidunt.</p>
+            <div class="col-lg-6 mt-3 ml-auto text-center">
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi commodi consequuntur culpa dolorem mollitia, pariatur possimus quasi repudiandae vel. Ad aliquid cumque doloremque modi obcaecati pariatur soluta unde velit, voluptatibus..</p>
                 <a href="">Read More</a>
             </div>
         </div>
 
         <div class="row">
-            <div class="col-md-4 mt-3 blog">
+            <div class="col-lg-3 mt-3 blog">
                 <div class="ih-item square colored effect4 mx-auto"><a href="#">
                         <div class="img-fluid"><img src="https://images.pexels.com/photos/34124/pexels-photo.jpg?w=1260&h=750&auto=compress&cs=tinysrgb" alt="img"></div>
                         <div class="mask1"></div>
@@ -409,19 +409,19 @@
                             <h3>STAGES OF DISLOYALTY PART 3</h3>
                             <p>Read More</p>
                         </div></a></div>
-                <div class="mt-3 text-center">
+                <div class="mt-3 ml-5">
                     <a href="#" class="text-dark">STAGES OF DISLOYALTY PART 4</a>
                 </div>
             </div>
-            <div class="col-md-8 mt-3 text-center">
-                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci amet aperiam cupiditate dicta dolorum expedita fuga minima nesciunt perferendis provident. Amet debitis enim fugiat harum iste maxime odio quidem. Consequatur consequuntur error est in inventore ipsum laboriosam odit quibusdam sequi tenetur? Cupiditate itaque obcaecati odit, sint tempora ut. Adipisci, incidunt.</p>
+            <div class="col-lg-6 mt-3 ml-auto text-center">
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi commodi consequuntur culpa dolorem mollitia, pariatur possimus quasi repudiandae vel. Ad aliquid cumque doloremque modi obcaecati pariatur soluta unde velit, voluptatibus..</p>
                 <a href="">Read More</a>
             </div>
         </div>
 
     </div>
 
-    <div class="col-md-5">
+    <div class="col-lg-4">
             <h3 class="text-right text-center">Latest Sermons</h3>
 
             <div class="card">

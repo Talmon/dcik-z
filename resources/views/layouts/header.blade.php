@@ -23,15 +23,15 @@
         <div class="dropdown-menu mega-menu" aria-labelledby="navbarDropdown" style="background: url(img/backgrounds/gplaypattern.png);">
           <div class="container">
               <div class="row">
-                  <div class="col-md">
+                  <div class="col-md col-xs">
                     <img src="img/what-we-believe2.jpg" alt="" class="img-fluid " style="height:auto; max-width:100%;" >
                     <a class="display-7" href="/what-we-believe">What We Believe</a>
                   </div>
-                  <div class="col-md">
+                  <div class="col-md col-xs">
                     <img src="img/the-fathers-vision2.jpg" alt="" class="img-fluid " style="height:auto; max-width:100%;">
                     <a class="display-7" href="/the-fathers-vision">The Father's Vision</a>
                   </div>
-                  <div class="col-md">
+                  <div class="col-md col-xs">
                     <img src="https://www.tms.edu//nas/content/live/tmsbones/m/Pastor.jpg" alt="" class="img-fluid " style="height:inherit; max-width:100%;">
                     <a class="display-7" href="/pastors">Pastors</a>
                   </div>

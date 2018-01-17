@@ -19,7 +19,7 @@
                   COME AS YOU ARE
               </h1>
               <p class="animate-plus lead display-4" data-animations="bounceInLeft" data-animation-delay="4s" data-animation-duration="5s">We are a church for the tribe of Kenya,no matter your look,your denomination,your religion,your race,no matter your social status,you are welcome</p>
-              <a href="/im-new">
+              <a href="/guests">
                   <button class="animate-plus mt btn btn-lg" data-animations="bounceInLeft" data-animation-delay="3s" data-animation-duration="4s">
                       <h4 class=" text-white">I'M NEW HERE </h4>
                   </button>
@@ -77,7 +77,7 @@
     </div>
 
     <div class="carousel-item">
-      <img class="d-block w-100" src="../img/dcik-youth.jpg" alt="First slide">
+      <img class="d-block w-100" src="../img/fathers-vision.jpeg" alt="First slide">
      {{-- <div class="container">
         <div class="carousel-caption text-bottom">
           <h1 class="animate-plus -1  text-left" data-animations="zoomIn,bounce" data-animation-delay="0s" data-animation-duration="4s"

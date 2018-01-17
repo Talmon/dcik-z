@@ -15,6 +15,12 @@ Route::get('/', function () {
     return view('layouts.index');
 });
 
+Route::get('/guests', function () {
+    return view('layouts.guests');
+});
+
+
+
 Route::get('/our-history', function () {
     return view('layouts.about-us/our-history');
 });

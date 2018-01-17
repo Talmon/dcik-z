@@ -14,7 +14,13 @@
 }
 @media (min-width: 1200px) {
     .mega-menu{
-
+        width: 750px;
+    }
+    .ministries{
+        margin-left: -200px;
+    }
+    .resources{
+        margin-left: -200px;
     }
   }
 

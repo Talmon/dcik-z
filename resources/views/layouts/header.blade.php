@@ -57,7 +57,7 @@
           aria-expanded="false">
           Ministries
         </a>
-        <div class="dropdown-menu mega-menu" aria-labelledby="navbarDropdown" style="background: url(img/backgrounds/gplaypattern.png);">
+        <div class="dropdown-menu mega-menu ministries" aria-labelledby="navbarDropdown" style="background: url(img/backgrounds/gplaypattern.png);">
          <div class="container">
           <div class="row " >
           <div class="col-md">

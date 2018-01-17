@@ -9267,6 +9267,8 @@ body {
 }
 
 .carousel .carousel-caption {
+  position: absolute;
+  top: 100px;
   padding: 50px 10px 10px 10px;
   z-index: 10;
   height: 25em;

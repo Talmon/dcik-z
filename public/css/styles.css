@@ -9268,9 +9268,8 @@ body {
 
 .carousel .carousel-caption {
   padding: 50px 10px 10px 10px;
-  bottom: 6rem;
   z-index: 10;
-  height: 20em;
+  height: 25em;
   background-color: rgba(0, 0, 0, 0.473);
   width: 50%;
 }
@@ -9404,45 +9403,20 @@ body {
   }
 
   .carousel .carousel-caption h1 {
-    margin-top: 200px;
-    font-size: 55px;
+    margin-top: 10px;
+    font-size: 45px;
   }
 
   .carousel .carousel-caption button {
-    margin-left: 50px;
-    height: 60px;
-  }
-
-  .carousel .navbar {
-    z-index: 9;
-    background: url("/img/backgrounds/gplaypattern.png");
-  }
-
-  .carousel .navbar a {
-    color: black;
-  }
-
-  .carousel .navbar a:hover {
-    color: black;
+    margin-left: 20px;
+    margin-top: 10px;
+    height: 40px;
   }
 
   .carousel .navbar .nav-link {
     z-index: 9;
     margin-top: 20px;
     font: 10px Maven Pro;
-  }
-
-  .carousel .navbar .dropdown-menu a:hover {
-    color: #ff1919;
-  }
-
-  .carousel .navbar .dropdown-menu a {
-    color: #000;
-    font: 20px Maven Pro;
-  }
-
-  .carousel .navbar .dropdown-menu {
-    background-color: #fff;
   }
 }
 

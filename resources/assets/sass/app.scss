@@ -80,9 +80,8 @@ body{
   } 
   .carousel-caption {
     padding:50px 10px 10px 10px;
-    bottom: 6rem;
     z-index: 10;
-    height:20em;
+    height:25em;
     background-color: rgba(0, 0, 0, 0.473);
     width: 50%;
   }
@@ -209,23 +208,16 @@ body{
       height: 42rem;
     }
     .carousel-caption h1{
-      margin-top: 200px;
-      font-size: 55px;
+      margin-top: 10px;
+      font-size: 45px;
     }
     .carousel-caption button{
-      margin-left: 50px;
-      height:60px;
+      margin-left: 20px;
+      margin-top: 10px;
+      height:40px;
     }
 
     .navbar{
-      z-index: 9;
-      background: url("/img/backgrounds/gplaypattern.png");
-      a{
-        color: black;
-      }
-      a:hover{
-        color:black;
-      }
 
       .nav-link{
         z-index:9;
@@ -233,17 +225,7 @@ body{
         font:10px $font-type;
         //font-family:'Maven Pro', cursive ;
       }
-      .dropdown-menu a:hover{
-        color: $border-color;
 
-      }
-      .dropdown-menu a{
-        color:#000;
-        font:20px $font-type;
-      }
-      .dropdown-menu{
-        background-color: #fff;
-      }
     }
 
 }

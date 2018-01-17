@@ -1,6 +1,6 @@
-<nav class="container-fluid nav-fill navbar navbar-expand-xl">
+<nav class="container-fluid  navbar navbar-expand-xl">
 <a class="navbar-brand" href="#">
-    <img class="mx-auto bg-light" src="img/church-logo.png" alt="" style="height: 70px; width: 100px;">
+    <img class="mr-auto bg-light" src="img/church-logo.png" alt="" style="height: 70px; width: 100px;">
 </a>
 <h4 class="text-dark">Deliverance Church International Kasarani</h4>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -9,7 +9,7 @@
   </button>
 
   <div class="collapse navbar-collapse " id="navbarSupportedContent">
-    <ul class="navbar-nav mx-auto">
+    <ul class="navbar-nav">
       <li class="nav-item active">
         <a class="nav-link" href="/">Home
           <span class="sr-only">(current)</span>
@@ -186,25 +186,36 @@
           </div>
         </div>
       </li>
-    </ul>
-    <div class=" social-media mt-4 list-inline mr-5">
-      <a href="https://www.facebook.com/dczimma/?fref=ts">
-        <i class="fa fa-2x fa-facebook list-inline-item text-dark mr-3 mb-3"></i>
-      </a>
-      <a class="" href="#">
-        <i class="fa fa-2x fa-twitter list-inline-item text-dark mr-3 mb-3"></i>
-      </a>
-      <a class="" href="https://www.youtube.com/channel/UCbFf1WXtK4WRV2tz9Zx6nIg">
-        <i class="fa fa-2x fa-youtube list-inline-item text-dark mr-3 mb-3"></i>
-      </a>
-      <a class="" href="#">
-        <i class="fa fa-2x fa-instagram list-inline-item text-dark mr-3 mb-3"></i>
-      </a>
-    </div>
 
-    <form class="form-inline mt-3">
+    </ul>
+
+    <form class="form-inline mt-3 ml-auto">
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
       <button class="btn btn-light my-2 my-sm-0" type="submit">Search</button>
     </form>
+
+
+    <ul class="navbar-nav">
+        <li class="nav-item active">
+            <a class="nav-link" href="https://www.facebook.com/dczimma/?fref=ts">
+                <i class="fa  fa-facebook list-inline-item text-dark mr-3 mb-3"></i>
+            </a>
+        </li>
+        <li class="nav-item active">
+            <a class="nav-link" href="#">
+                <i class="fa  fa-twitter list-inline-item text-dark mr-3 mb-3"></i>
+            </a>
+        </li>
+        <li class="nav-item active">
+            <a class="nav-link" href="#">
+                <i class="fa  fa-instagram list-inline-item text-dark mr-3 mb-3"></i>
+            </a>
+        </li>
+        <li class="nav-item active">
+            <a class="nav-link" href="https://www.youtube.com/channel/UCbFf1WXtK4WRV2tz9Zx6nIg">
+                <i class="fa  fa-youtube list-inline-item text-dark mr-3 mb-3"></i>
+            </a>
+        </li>
+    </ul>
   </div>
 </nav>

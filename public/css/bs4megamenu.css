@@ -9,14 +9,12 @@
 
 @media (min-width: 992px) and (max-width: 1199.99px) { 
     .resources{
-        width:700px;
-        margin-left:-200px;
+
     }
 }
 @media (min-width: 1200px) {
     .mega-menu{
-        width:800px;
-        margin-left:-200px;
+
     }
   }
 

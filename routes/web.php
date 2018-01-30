@@ -19,6 +19,14 @@ Route::get('/guests', function () {
     return view('layouts.guests');
 });
 
+Route::get('/visit-us', function () {
+    return view('layouts.visit-us');
+});
+
+Route::get('/give', function () {
+    return view('layouts.give');
+});
+
 
 
 Route::get('/our-history', function () {

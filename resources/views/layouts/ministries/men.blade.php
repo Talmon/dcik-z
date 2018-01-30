@@ -9,39 +9,39 @@
 </div>
 </div>
 
-<div class="card mx-auto" style="margin-top: -380px; width:70rem;" data-aos="slide-down">
-<img class="card-img w-50 mx-auto mt-3 h-25" src="img/men/men-4.jpg" alt="Card image cap">
-  <div class="card-body">
+<div class="container mx-auto" style="" data-aos="zoom-in">
+  <div class="">
  <!-- START THE FEATURETTES -->
 
  <hr class="featurette-divider">
 
-        <div class="row featurette">
-          <div class="col-md-7">
-            <h2 class="featurette-heading">Our Vision <span class="text-muted">What we see.</span></h2>
+        <div class="row featurette py-5 ">
+          <div class="col-md-7 order-2">
+            <h2 class="featurette-heading">Why We Exist <span class="text-muted"> What we Envision </span></h2>
             <p class="lead">We envision to develop Christ-like men who shall flow in The Father's Vision, Go ye and fill the earth - Gen. 1:28</p>
           </div>
-          <div class="col-md-5">
-            <img class="featurette-image img-fluid mx-auto" src="img/men/men-1.jpg" alt="Generic placeholder image">
+          <div class="col-md-5 order-1">
+            <img class="featurette-image img-fluid mx-auto" src="https://www.afcu.org.uk/wp-content/uploads/2016/04/What-is-Mens-Min.png" alt="Generic placeholder image">
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row py-5 featurette">
+          <div class="col-md-7 ">
+            <h2 class="featurette-heading">Men's Program <span class="text-muted">These are our activities.</span></h2>
+            <p class="lead">We exist to provide men with the resources to develop Godly character and to equip them to influence their world for Jesus Christ.</p>
+              <p class="lead">We have lots of activities lined up....</p>
+          </div>
+          <div class="col-md-5 ">
+            <img class="featurette-image img-fluid mx-auto" src="http://www.southlakechurchofchrist.com/home/180016536/180016536/images/calendar1.jpg" alt="Generic placeholder image">
           </div>
         </div>
 
         <hr class="featurette-divider">
 
         <div class="row featurette">
-          <div class="col-md-7 order-md-2">
-            <h2 class="featurette-heading">Mission Statement <span class="text-muted">Our rallying cry!</span></h2>
-            <p class="lead">We exist to provide men with the resources to develop godly character and to equip them to influence their world for Jesus Christ.</p>
-          </div>
-          <div class="col-md-5 order-md-1">
-            <img class="featurette-image img-fluid mx-auto" src="img/men/men-4.jpg" alt="Generic placeholder image">
-          </div>
-        </div>
-
-        <hr class="featurette-divider">
-
-        <div class="row featurette">
-          <div class="col-md-7">
+          <div class="col-md-7 mx-auto offset-3">
             <h2 class="featurette-heading">Statement of Purpose <span class="text-muted">Why we are here.</span></h2>
             <p class="lead">The purpose of this ministry is as revealed through Jesus Christ in the New Testament:
             <ul>
@@ -76,9 +76,7 @@
 </li>
             </ul>
           </div>
-          <div class="col-md-5">
-            <img class="featurette-image img-fluid mx-auto mt-5" src="img/men/men-5.jpg" alt="Generic placeholder image">
-          </div>
+
         </div>
 
         <hr class="featurette-divider">
@@ -87,20 +85,25 @@
 
   </div>
 
-  <p class="card-text ml-5 lead">
-    Some of the men groups include:
-    <ul>
-      <li>Lorem, ipsum dolor.</li>
-      <li>Lorem, ipsum dolor.</li>
-      <li>Lorem, ipsum dolor.</li>
-      <li>Lorem, ipsum dolor.</li>
-      <li>Lorem, ipsum dolor.</li>
-      <li>Lorem, ipsum dolor.</li>
-      <li>Lorem, ipsum dolor.</li>
-      <li>Lorem, ipsum dolor.</li>
-      <li>Lorem, ipsum dolor.</li>
-    </ul>
-  </p>
+  <div class="text-center">
+      <p class="lead">
+          Some of the men groups include:
+      <ul style="list-style: none;">
+          <li class="textcenter">Lorem, ipsum dolor.</li>
+          <li class="textcenter">Lorem, ipsum dolor.</li>
+          <li class="textcenter">Lorem, ipsum dolor.</li>
+          <li class="textcenter">Lorem, ipsum dolor.</li>
+          <li class="textcenter">Lorem, ipsum dolor.</li>
+          <li class="textcenter">Lorem, ipsum dolor.</li>
+          <li class="textcenter">Lorem, ipsum dolor.</li>
+          <li class="textcenter">Lorem, ipsum dolor.</li>
+          <li class="textcenter">Lorem, ipsum dolor.</li>
+      </ul>
+
+      Do you wish to join the men's ministry?For more information call <strong> +254 728 886 364 </strong>
+      </p>
+  </div>
+
 </div>    
 
 </div>

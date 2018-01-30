@@ -4,19 +4,16 @@
 
 
 <div class="card" style="margin-top: -80px; border-top: 2px solid #fff;" data-aos="slide-down">
-    <img src="img/the-fathers-vision2.jpg" alt="" class="card-img w-100" style="height: 800px;">
-    <div class="card-img-overlay text-center text-white" style="font-family: Belleza; padding-top: 200px;">
-    <hr class="bg-white  w-75" style="margin-top:5rem;">
-    <h3 class="display-3  card-title mt-5" style="background: rgba(241, 3, 3, 0.7);">The Father's Vision</h3>
+    <img src="img/fathers-vision.jpeg" alt="" class="card-img w-100" style="height: 800px;">
     </div>
 </div>
 
 
-<div class="card w-100 mt-5" data-aos="zoom-in">
-  <div class="card-body mt-5 text-dark" style="background: url(http://blog.hostbaby.com/backgrounds/bg_lightwoodfloor.jpg) center no-repeat;background-size:cover;" >
+<div class=" w-100 mt-5" data-aos="zoom-in">
+  <div class=" mt-5 text-dark" style="" >
   
       <div class="container-fluid py-3">
-          <div class="row">
+          <div class="row text-dark">
               <div class="col-10 mx-auto">
                   <ul class="nav nav-tabs small nav-fill bg-light" role="tablist">
                       <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#tab1" role="tab"><h3> Home </h3> </a></li>
@@ -26,7 +23,7 @@
                       <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tab5" role="tab"> <h3> School of Leaders </h3> </a></li>
                   </ul>
                   <div class="tab-content py-4">
-                      <div class="tab-pane active text-white font-official" id="tab1" role="tabpanel" >
+                      <div class="tab-pane active text-dark font-official" id="tab1" role="tabpanel" >
                           <p class="lead"> Then God said, "Let Us make man in Our image, according to Our likeness; let them have dominion over the fish of the sea, over the birds of the air, and over the cattle, over all the earth and over every creeping thing that creeps on the earth. "So God created man in His own image; in the image of God He created him; male and female He created them. Then God blessed them, and God said to them, "Be fruitful and multiply; fill the earth and subdue it; have dominion over the fish of the sea, over the birds of the air, and over every living thing that moves on the earth."
                           Genesis 1:26-28 (NKJV)</p>
                           <p class="lead"> When we talk about The Father’s Vision, we’re talking about the central passion of God’s heart: fruitfulness and multiplication by winning souls and making disciples.
@@ -43,8 +40,8 @@
                       </div>
       
                       <div class="tab-pane" id="tab2" role="tabpanel">
-                          <div class="card text-white font-official mb-3" style="background:none;">
-                              <div class="card-body">
+                          <div class="text-dark font-official mb-3" style="background:none;">
+                              <div class="">
                                   <p class="card-text lead">
                                       
                                   The Father's Vision starts with the Nuts and Bolts seminar which is a two day seminar that normally takes place on a Friday and a Saturday. The purpose of the seminar is to help a believer develop a great compassion for lost souls, a strong sense of purpose and a love for the Father.
@@ -66,9 +63,8 @@
                       </div>
       
                       <div class="tab-pane" id="tab3" role="tabpanel">
-                      <div class="card text-white font-official mb-3" style="background:none;">
-                      <img src="" alt="" class="card-img-top">
-                              <div class="card-body">
+                      <div class="text-dark font-official mb-3" style="background:none;">
+                              <div class="">
                               <p class="lead  my-3">
                               This is a three-day guided spiritual retreat where:
                           Salvation is verified. It has been our experience that many people have a knowledge of the Lord Jesus which does not affect their lifestyles. Many people say that the Encounter brought them to a full understanding of what it means to be a Christian. Many of the attendees make life-changing decisions for the first time at the Encounter.
@@ -90,9 +86,9 @@
                       </div>
       
                       <div class="tab-pane" id="tab4" role="tabpanel">
-                      <div class="card text-white font-official mb-3" style="background:none;">
-                      <img src="" alt="" class="card-img-top">
-                              <div class="card-body">
+                      <div class="text-dark font-official mb-3" style="background:none;">
+                      <img src="" alt="" class="">
+                              <div class="">
                               <p class="lead  my-3">
                               This is a ten-week program that follows the Encounter. It entails ten lessons of basic Christian instructions. Below is a list of the lessons covered in this program:
                               <ul>
@@ -113,9 +109,8 @@
                       </div>
       
                       <div class="tab-pane" id="tab5" role="tabpanel">
-                      <div class="card text-white font-official mb-3" style="background:none;">
-                      <img src="" alt="" class="card-img-top">
-                              <div class="card-body">
+                      <div class=" text-dark font-official mb-3" style="background:none;">
+                              <div class="">
                               <p class="lead  my-3">
                               Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita eius nemo quod, exercitationem repellat provident sequi nihil, reiciendis, ducimus hic libero unde est! Amet eum numquam veritatis architecto porro perferendis consequuntur quibusdam ipsam omnis, aliquid corporis mollitia perspiciatis provident dolores? Molestiae ab repellendus accusantium molestias explicabo quisquam odio eaque ipsum.  
                               </p> 

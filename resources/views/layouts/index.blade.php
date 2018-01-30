@@ -25,15 +25,15 @@
                   </button>
               </a>
 
-              <a href="/im-new">
+              <a href="/visit-us">
                   <button class="animate-plus mt btn btn-lg" data-animations="bounceInLeft" data-animation-delay="2s" data-animation-duration="4s">
                       <h4 class=" text-white">VISIT US </h4>
                   </button>
               </a>
 
-              <a href="/im-new">
+              <a href="/give">
                   <button class="animate-plus mt btn btn-lg" data-animations="bounceInLeft" data-animation-delay="1s" data-animation-duration="4s">
-                      <h4 class=" text-white">GIVE ONLINE </h4>
+                      <h4 class=" text-white">GIVE</h4>
                   </button>
               </a>
 

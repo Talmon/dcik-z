@@ -9,9 +9,9 @@
 </div>
 </div>
 
-<div class="card mx-auto w-100 mt-5" style="background: url(../img/backgrounds/greyfloral.png);" data-aos="zoom-in">
+<div class="mx-auto w-100 mt-5" style="" data-aos="zoom-in">
 <!-- <img class="card-img w-50 mx-auto mt-3 h-25" src="img/what-we-believe.jpg" alt="Card image cap"> -->
-  <div class="card-body" >
+  <div class="" >
     <div class="row">
     <div class="col-lg-6 mt-3">
     <div class="card border-0" style="background: rgba(236, 232, 232, 0.24);">

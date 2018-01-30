@@ -1,21 +1,16 @@
 @extends('layouts.master') @section('content')
 
-<div class="card" style="margin-top: -100px; border-top: 2px solid #fff;" data-aos="slide-down">
-  <img src="img/cathedral1.jpg" alt="" class="card-img w-100" style="height: 800px;">
-  <div class="card-img-overlay text-center text-white" style="font-family: Belleza; padding-top: 200px;">
-    <hr class="bg-white  w-75" style="margin-top:5rem;">
-    <h3 class="display-3  card-title mt-5" style="background: rgba(241, 3, 3, 0.7);">Youth Ministry</h3>
-  </div>
+<div class="card" style="border-top: 2px solid #fff;" data-aos="slide-down">
+  <img class="card-image-top img-fluid"  src="img/youth.png"  alt="Card image cap">
 </div>
 
 
-<div class="card mx-auto" style="margin-top: -380px; width:70rem;" data-aos="slide-down">
-  <img class="card-img" src="img/logos/youth.png" alt="Card image cap">
-  <div class="card-body">
+<div class="card mx-auto"  data-aos="zoom-in">
+  <div class="">
     <div class="container py-3">
       <div class="row">
         <div class="col-10 mx-auto">
-          <ul class="nav nav-tabs small justify-content-end" role="tablist">
+          <ul class="nav nav-tabs  justify-content-end" role="tablist">
             <li class="nav-item">
               <a class="nav-link active" data-toggle="tab" href="#youth-home" role="tab">Home</a>
             </li>
@@ -35,7 +30,7 @@
               <a class="nav-link" data-toggle="tab" href="#ropes" role="tab">Ropes</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" data-toggle="tab" href="#ropes" role="tab">Deservio</a>
+              <a class="nav-link" data-toggle="tab" href="#deservio" role="tab">Deservio</a>
             </li>
           </ul>
           <div class="tab-content py-4">
@@ -55,11 +50,11 @@
                 </ul>
               </p>
             </div>
-            <div class="tab-pane" id="youth-ablaze" role="tabpanel">
-              <div class="card border-primary mb-3">
-                <img class="card-img-top" src="img/logos/ablaze.png" alt="Card image cap">
-                <div class="card-body">
-                  <p class="card-text lead">
+            <div class="card border-0 tab-pane" id="youth-ablaze" role="tabpanel">
+              <div class=" mb-3">
+                <img class="card-image-top img-fluid"  src="img/ablaze.png" alt="Card image cap">
+                <div class="">
+                  <p class=" lead">
                     Covering all our members ages 28 and above. It is an acronym;
                     <ul>
                       <li>A- Abiding in Christ</li>
@@ -72,97 +67,14 @@
                     We meet every Sunday from 11am-12.45pm in class 5Faith, 1st floor . Join us! 1Tim4:12 Don't let anyone look down on you because
                     you are young, but set an example for the believers in speech, in conduct, in love, in faith and in purity.
                   </p>
-
-                  <!-- START THE FEATURETTES -->
-
-                  <hr class="featurette-divider">
-
-                  <div class="row featurette">
-                    <div class="col-md-7">
-                      <h2 class="featurette-heading">Our Vision
-                        <span class="text-muted">What we see.</span>
-                      </h2>
-                      <p class="lead">We envision to develop Christ-like men who shall flow in The Father's Vision, Go ye and fill the earth
-                        - Gen. 1:28</p>
-                    </div>
-                    <div class="col-md-5">
-                      <img class="featurette-image img-fluid mx-auto" src="img/ladies/ladies-1.jpg" alt="Generic placeholder image">
-                    </div>
-                  </div>
-
-                  <hr class="featurette-divider">
-
-                  <div class="row featurette">
-                    <div class="col-md-7 order-md-2">
-                      <h2 class="featurette-heading">Mission Statement
-                        <span class="text-muted">Our rallying cry!</span>
-                      </h2>
-                      <p class="lead">We exist to provide men with the resources to develop godly character and to equip them to influence
-                        their world for Jesus Christ.</p>
-                    </div>
-                    <div class="col-md-5 order-md-1">
-                      <img class="featurette-image img-fluid mx-auto" src="img/ladies/ladies-2.jpg" alt="Generic placeholder image">
-                    </div>
-                  </div>
-
-                  <hr class="featurette-divider">
-
-                  <div class="row featurette">
-                    <div class="col-md-7">
-                      <h2 class="featurette-heading">Statement of Purpose
-                        <span class="text-muted">Why we are here.</span>
-                      </h2>
-                      <p class="lead">The purpose of this ministry is as revealed through Jesus Christ in the New Testament:
-                        <ul>
-                          <li>To mobilize men to proclaim faith in Jesus Christ as the Son of the Living God, as Lord and Savior
-                          </li>
-                          <li>To commit men to active engagement in the Church
-                          </li>
-                          <li>To help men grow in grace and knowledge of Christ so they may increasingly know and do His will
-                          </li>
-                          <li>To work for unity of all Christians and with them engage in the common task of building the Kingdom
-                            of God
-                          </li>
-                          <li>To establish stable Christian marriages and families within the body of Christ.
-                          </li>
-
-                        </ul>
-
-                        In particular we shall endeavor to fulfill the following:
-                        <ul>
-                          <li>Bring men into a personal relationship with Jesus Christ.
-                          </li>
-                          <li>Unite men in Bible study, prayer, worship, ministry, fellowship, and accountability.
-                          </li>
-                          <li>Use men to create a supportive environment that touches the lives of the entire church family.
-                          </li>
-                          <li>Promote mentoring opportunities that lead to significant vital relationships.
-                          </li>
-                          <li>To become a magnet for service and a resource for other church ministries and missions.
-                          </li>
-                          <li>Mobilize men to support church programs
-                          </li>
-                          <li>Provide a series of events that will promote fellowship, outreach, and evangelism.</p>
-                      </li>
-                      </ul>
-                    </div>
-                    <div class="col-md-5">
-                      <img class="featurette-image img-fluid mx-auto mt-5" src="img/ladies/ladies-3.jpg" alt="Generic placeholder image">
-                    </div>
-                  </div>
-
-                  <hr class="featurette-divider">
-
-                  <!-- /END THE FEATURETTES -->
-
                 </div>
               </div>
             </div>
 
-            <div class="tab-pane" id="young-professionals" role="tabpanel">
-              <div class="card border-primary mb-3">
-                <img class="card-img-top" src="img/logos/yp.png" alt="Card image cap">
-                <div class="card-body">
+            <div class="card tab-pane" id="young-professionals" role="tabpanel">
+              <div class="card border-0 mb-3">
+                <img class="card-img-top" src="img/yp.png" alt="Card image cap">
+                <div class="">
                   <p class="lead  my-3">
                     Representing Christ In The Market Place YP is a group for youths aged 24-27 yrs young who are employed, in business(entrepreneurs/self-employed)
                     those in transition/still seeking employment. We meet every Sunday from 11.00am-12.45pm in class 6 peace,
@@ -171,94 +83,14 @@
                     the king planned to set him over the whole kingdom.”
                   </p>
 
-                  <!-- START THE FEATURETTES -->
 
-                  <hr class="featurette-divider">
-
-                  <div class="row featurette">
-                    <div class="col-md-7">
-                      <h2 class="featurette-heading">Our Vision
-                        <span class="text-muted">What we see.</span>
-                      </h2>
-                      <p class="lead">We envision to develop Christ-like men who shall flow in The Father's Vision, Go ye and fill the earth
-                        - Gen. 1:28</p>
-                    </div>
-                    <div class="col-md-5">
-                      <img class="featurette-image img-fluid mx-auto" src="img/ladies/ladies-1.jpg" alt="Generic placeholder image">
-                    </div>
-                  </div>
-
-                  <hr class="featurette-divider">
-
-                  <div class="row featurette">
-                    <div class="col-md-7 order-md-2">
-                      <h2 class="featurette-heading">Mission Statement
-                        <span class="text-muted">Our rallying cry!</span>
-                      </h2>
-                      <p class="lead">We exist to provide men with the resources to develop godly character and to equip them to influence
-                        their world for Jesus Christ.</p>
-                    </div>
-                    <div class="col-md-5 order-md-1">
-                      <img class="featurette-image img-fluid mx-auto" src="img/ladies/ladies-2.jpg" alt="Generic placeholder image">
-                    </div>
-                  </div>
-
-                  <hr class="featurette-divider">
-
-                  <div class="row featurette">
-                    <div class="col-md-7">
-                      <h2 class="featurette-heading">Statement of Purpose
-                        <span class="text-muted">Why we are here.</span>
-                      </h2>
-                      <p class="lead">The purpose of this ministry is as revealed through Jesus Christ in the New Testament:
-                        <ul>
-                          <li>To mobilize men to proclaim faith in Jesus Christ as the Son of the Living God, as Lord and Savior
-                          </li>
-                          <li>To commit men to active engagement in the Church
-                          </li>
-                          <li>To help men grow in grace and knowledge of Christ so they may increasingly know and do His will
-                          </li>
-                          <li>To work for unity of all Christians and with them engage in the common task of building the Kingdom
-                            of God
-                          </li>
-                          <li>To establish stable Christian marriages and families within the body of Christ.
-                          </li>
-
-                        </ul>
-
-                        In particular we shall endeavor to fulfill the following:
-                        <ul>
-                          <li>Bring men into a personal relationship with Jesus Christ.
-                          </li>
-                          <li>Unite men in Bible study, prayer, worship, ministry, fellowship, and accountability.
-                          </li>
-                          <li>Use men to create a supportive environment that touches the lives of the entire church family.
-                          </li>
-                          <li>Promote mentoring opportunities that lead to significant vital relationships.
-                          </li>
-                          <li>To become a magnet for service and a resource for other church ministries and missions.
-                          </li>
-                          <li>Mobilize men to support church programs
-                          </li>
-                          <li>Provide a series of events that will promote fellowship, outreach, and evangelism.</p>
-                      </li>
-                      </ul>
-                    </div>
-                    <div class="col-md-5">
-                      <img class="featurette-image img-fluid mx-auto mt-5" src="img/ladies/ladies-3.jpg" alt="Generic placeholder image">
-                    </div>
-                  </div>
-
-                  <hr class="featurette-divider">
-
-                  <!-- /END THE FEATURETTES -->
                 </div>
               </div>
             </div>
 
             <div class="tab-pane" id="gideonites" role="tabpanel">
-              <div class="card border-primary mb-3">
-                <img class="card-img-top" src="img/logos/yp.png" alt="Card image cap">
+              <div class="card border-0 mb-3">
+                <img class="card-img-top" src="https://i.ytimg.com/vi/Djb0NDet0Qw/maxresdefault.jpg" alt="Card image cap">
                 <div class="card-body">
                   <p class="lead  my-3">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo natus, nostrum similique deserunt unde doloribus voluptatibus
@@ -267,94 +99,14 @@
                     vero obcaecati nesciunt magni voluptate!
                   </p>
 
-                  <!-- START THE FEATURETTES -->
 
-                  <hr class="featurette-divider">
-
-                  <div class="row featurette">
-                    <div class="col-md-7">
-                      <h2 class="featurette-heading">Our Vision
-                        <span class="text-muted">What we see.</span>
-                      </h2>
-                      <p class="lead">We envision to develop Christ-like men who shall flow in The Father's Vision, Go ye and fill the earth
-                        - Gen. 1:28</p>
-                    </div>
-                    <div class="col-md-5">
-                      <img class="featurette-image img-fluid mx-auto" src="img/ladies/ladies-1.jpg" alt="Generic placeholder image">
-                    </div>
-                  </div>
-
-                  <hr class="featurette-divider">
-
-                  <div class="row featurette">
-                    <div class="col-md-7 order-md-2">
-                      <h2 class="featurette-heading">Mission Statement
-                        <span class="text-muted">Our rallying cry!</span>
-                      </h2>
-                      <p class="lead">We exist to provide men with the resources to develop godly character and to equip them to influence
-                        their world for Jesus Christ.</p>
-                    </div>
-                    <div class="col-md-5 order-md-1">
-                      <img class="featurette-image img-fluid mx-auto" src="img/ladies/ladies-2.jpg" alt="Generic placeholder image">
-                    </div>
-                  </div>
-
-                  <hr class="featurette-divider">
-
-                  <div class="row featurette">
-                    <div class="col-md-7">
-                      <h2 class="featurette-heading">Statement of Purpose
-                        <span class="text-muted">Why we are here.</span>
-                      </h2>
-                      <p class="lead">The purpose of this ministry is as revealed through Jesus Christ in the New Testament:
-                        <ul>
-                          <li>To mobilize men to proclaim faith in Jesus Christ as the Son of the Living God, as Lord and Savior
-                          </li>
-                          <li>To commit men to active engagement in the Church
-                          </li>
-                          <li>To help men grow in grace and knowledge of Christ so they may increasingly know and do His will
-                          </li>
-                          <li>To work for unity of all Christians and with them engage in the common task of building the Kingdom
-                            of God
-                          </li>
-                          <li>To establish stable Christian marriages and families within the body of Christ.
-                          </li>
-
-                        </ul>
-
-                        In particular we shall endeavor to fulfill the following:
-                        <ul>
-                          <li>Bring men into a personal relationship with Jesus Christ.
-                          </li>
-                          <li>Unite men in Bible study, prayer, worship, ministry, fellowship, and accountability.
-                          </li>
-                          <li>Use men to create a supportive environment that touches the lives of the entire church family.
-                          </li>
-                          <li>Promote mentoring opportunities that lead to significant vital relationships.
-                          </li>
-                          <li>To become a magnet for service and a resource for other church ministries and missions.
-                          </li>
-                          <li>Mobilize men to support church programs
-                          </li>
-                          <li>Provide a series of events that will promote fellowship, outreach, and evangelism.</p>
-                      </li>
-                      </ul>
-                    </div>
-                    <div class="col-md-5">
-                      <img class="featurette-image img-fluid mx-auto mt-5" src="img/ladies/ladies-3.jpg" alt="Generic placeholder image">
-                    </div>
-                  </div>
-
-                  <hr class="featurette-divider">
-
-                  <!-- /END THE FEATURETTES -->
                 </div>
               </div>
             </div>
 
             <div class="tab-pane" id="axis" role="tabpanel">
-              <div class="card border-primary mb-3">
-                <img class="card-img-top" src="img/logos/axix.png" alt="Card image cap">
+              <div class="card border-0 mb-3">
+                <img class="card-img-top" src="img/axix.png" alt="Card image cap">
                 <div class="card-body">
                   <p class="lead  my-3">
                     Why: Because AXIS Christ is the centre upon which our lives revolve. We are a network of young people between age 19-23,
@@ -363,95 +115,15 @@
                     hold together.
                   </p>
 
-                  <!-- START THE FEATURETTES -->
 
-                  <hr class="featurette-divider">
-
-                  <div class="row featurette">
-                    <div class="col-md-7">
-                      <h2 class="featurette-heading">Our Vision
-                        <span class="text-muted">What we see.</span>
-                      </h2>
-                      <p class="lead">We envision to develop Christ-like men who shall flow in The Father's Vision, Go ye and fill the earth
-                        - Gen. 1:28</p>
-                    </div>
-                    <div class="col-md-5">
-                      <img class="featurette-image img-fluid mx-auto" src="img/ladies/ladies-1.jpg" alt="Generic placeholder image">
-                    </div>
-                  </div>
-
-                  <hr class="featurette-divider">
-
-                  <div class="row featurette">
-                    <div class="col-md-7 order-md-2">
-                      <h2 class="featurette-heading">Mission Statement
-                        <span class="text-muted">Our rallying cry!</span>
-                      </h2>
-                      <p class="lead">We exist to provide men with the resources to develop godly character and to equip them to influence
-                        their world for Jesus Christ.</p>
-                    </div>
-                    <div class="col-md-5 order-md-1">
-                      <img class="featurette-image img-fluid mx-auto" src="img/ladies/ladies-2.jpg" alt="Generic placeholder image">
-                    </div>
-                  </div>
-
-                  <hr class="featurette-divider">
-
-                  <div class="row featurette">
-                    <div class="col-md-7">
-                      <h2 class="featurette-heading">Statement of Purpose
-                        <span class="text-muted">Why we are here.</span>
-                      </h2>
-                      <p class="lead">The purpose of this ministry is as revealed through Jesus Christ in the New Testament:
-                        <ul>
-                          <li>To mobilize men to proclaim faith in Jesus Christ as the Son of the Living God, as Lord and Savior
-                          </li>
-                          <li>To commit men to active engagement in the Church
-                          </li>
-                          <li>To help men grow in grace and knowledge of Christ so they may increasingly know and do His will
-                          </li>
-                          <li>To work for unity of all Christians and with them engage in the common task of building the Kingdom
-                            of God
-                          </li>
-                          <li>To establish stable Christian marriages and families within the body of Christ.
-                          </li>
-
-                        </ul>
-
-                        In particular we shall endeavor to fulfill the following:
-                        <ul>
-                          <li>Bring men into a personal relationship with Jesus Christ.
-                          </li>
-                          <li>Unite men in Bible study, prayer, worship, ministry, fellowship, and accountability.
-                          </li>
-                          <li>Use men to create a supportive environment that touches the lives of the entire church family.
-                          </li>
-                          <li>Promote mentoring opportunities that lead to significant vital relationships.
-                          </li>
-                          <li>To become a magnet for service and a resource for other church ministries and missions.
-                          </li>
-                          <li>Mobilize men to support church programs
-                          </li>
-                          <li>Provide a series of events that will promote fellowship, outreach, and evangelism.</p>
-                      </li>
-                      </ul>
-                    </div>
-                    <div class="col-md-5">
-                      <img class="featurette-image img-fluid mx-auto mt-5" src="img/ladies/ladies-3.jpg" alt="Generic placeholder image">
-                    </div>
-                  </div>
-
-                  <hr class="featurette-divider">
-
-                  <!-- /END THE FEATURETTES -->
                 </div>
               </div>
             </div>
 
 
             <div class="tab-pane" id="ropes" role="tabpanel">
-              <div class="card border-primary mb-3">
-                <img class="card-img-top" src="img/logos/axix.png" alt="Card image cap">
+              <div class="card border-0 mb-3">
+                <img class="card-img-top" src="http://www.cousin-trestec.com/wp-content/uploads/2016/10/3-Top-Rock1-1-600x240.jpg" alt="Card image cap">
                 <div class="card-body">
                   <p class="lead  my-3">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius officiis itaque nesciunt dicta provident similique sunt asperiores.
@@ -459,187 +131,92 @@
                     impedit voluptates perferendis libero dolores magnam eaque ducimus quasi cumque. Ad quia minima iusto
                     aliquid amet debitis quaerat!
                   </p>
-
-                  <!-- START THE FEATURETTES -->
-
-                  <hr class="featurette-divider">
-
-                  <div class="row featurette">
-                    <div class="col-md-7">
-                      <h2 class="featurette-heading">Our Vision
-                        <span class="text-muted">What we see.</span>
-                      </h2>
-                      <p class="lead">We envision to develop Christ-like men who shall flow in The Father's Vision, Go ye and fill the earth
-                        - Gen. 1:28</p>
-                    </div>
-                    <div class="col-md-5">
-                      <img class="featurette-image img-fluid mx-auto" src="img/ladies/ladies-1.jpg" alt="Generic placeholder image">
-                    </div>
-                  </div>
-
-                  <hr class="featurette-divider">
-
-                  <div class="row featurette">
-                    <div class="col-md-7 order-md-2">
-                      <h2 class="featurette-heading">Mission Statement
-                        <span class="text-muted">Our rallying cry!</span>
-                      </h2>
-                      <p class="lead">We exist to provide men with the resources to develop godly character and to equip them to influence
-                        their world for Jesus Christ.</p>
-                    </div>
-                    <div class="col-md-5 order-md-1">
-                      <img class="featurette-image img-fluid mx-auto" src="img/ladies/ladies-2.jpg" alt="Generic placeholder image">
-                    </div>
-                  </div>
-
-                  <hr class="featurette-divider">
-
-                  <div class="row featurette">
-                    <div class="col-md-7">
-                      <h2 class="featurette-heading">Statement of Purpose
-                        <span class="text-muted">Why we are here.</span>
-                      </h2>
-                      <p class="lead">The purpose of this ministry is as revealed through Jesus Christ in the New Testament:
-                        <ul>
-                          <li>To mobilize men to proclaim faith in Jesus Christ as the Son of the Living God, as Lord and Savior
-                          </li>
-                          <li>To commit men to active engagement in the Church
-                          </li>
-                          <li>To help men grow in grace and knowledge of Christ so they may increasingly know and do His will
-                          </li>
-                          <li>To work for unity of all Christians and with them engage in the common task of building the Kingdom
-                            of God
-                          </li>
-                          <li>To establish stable Christian marriages and families within the body of Christ.
-                          </li>
-
-                        </ul>
-
-                        In particular we shall endeavor to fulfill the following:
-                        <ul>
-                          <li>Bring men into a personal relationship with Jesus Christ.
-                          </li>
-                          <li>Unite men in Bible study, prayer, worship, ministry, fellowship, and accountability.
-                          </li>
-                          <li>Use men to create a supportive environment that touches the lives of the entire church family.
-                          </li>
-                          <li>Promote mentoring opportunities that lead to significant vital relationships.
-                          </li>
-                          <li>To become a magnet for service and a resource for other church ministries and missions.
-                          </li>
-                          <li>Mobilize men to support church programs
-                          </li>
-                          <li>Provide a series of events that will promote fellowship, outreach, and evangelism.</p>
-                      </li>
-                      </ul>
-                    </div>
-                    <div class="col-md-5">
-                      <img class="featurette-image img-fluid mx-auto mt-5" src="img/ladies/ladies-3.jpg" alt="Generic placeholder image">
-                    </div>
-                  </div>
-
-                  <hr class="featurette-divider">
-
-                  <!-- /END THE FEATURETTES -->
-
                 </div>
               </div>
             </div>
 
 
             <div class="tab-pane" id="deservio" role="tabpanel">
-              <div class="card border-primary mb-3">
-                <img class="card-img-top" src="img/logos/axix.png" alt="Card image cap">
+              <div class="card border-0 mb-3">
+                <img class="card-img-top" src="https://www.dckasarani.org/img/uploads/deservio.png" alt="Card image cap">
                 <div class="card-body">
                   <p class="lead  my-3">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius officiis itaque nesciunt dicta provident similique sunt asperiores.
-                    Quos quibusdam cupiditate velit in nobis voluptatum aspernatur quisquam quas, alias saepe ea quam sunt,
-                    impedit voluptates perferendis libero dolores magnam eaque ducimus quasi cumque. Ad quia minima iusto
-                    aliquid amet debitis quaerat!
+                    Deservio is a Latin word that means to serve zealously. Deservio® is a 6 months teens training and empowering program that prepares them for the future life in college and workplace.
+
+                    Our Mission
+                    To inspire and prepare teens to reach their full potential as productive, responsible and caring citizens.
+                    The after-school hours are the most threatening time for young people, especially those who walk in our most economically challenged neighborhoods ravaged by violence and drugs. Yet, even in these troubled communities, our doors and our arms are open wide to give young people:
+
+                    A safe place to learn and grow…
+                    Ongoing relationships with caring, adult professionals…
+                    Life-enhancing programs and character development experiences…
+                    Hope and opportunity.
                   </p>
 
-                  <!-- START THE FEATURETTES -->
+                  <p class="lead">
+                    Deservio® offers a comprehensive and well-rounded lineup of structured and tested after school program for teens. Each of our programs is fun for young people while addressing today’s most pressing teen issues.
 
-                  <hr class="featurette-divider">
+                    Character & Leadership
+                    An exciting experience designed to help teens connect with God, connect with their purpose, and connect to like-minded people on a journey of discovering and living out their purpose.
+                    Supporting their Community
+                    Sustaining Relationships
+                    Developing a Positive Self-Image
+                    Respecting Others
+                    Activities
+                    Community service projects
+                    Leadership development assignments
+                    Education and career exploration
+                    Hike
+                    Camp
+                    Mission
+                    Mentorship
+                    We have partnered with polished diamonds & KUZA, girls and boys mentorship programs to provide academic and moral support, encouragement and guidance.
+                    Exploring Opportunities for higher Education
+                    Examining Career Aspirations
+                    Guiding Them to Exceed Their Potential
+                    Activities
+                    Education forums
+                    Course assessment
+                    Career counseling & training
+                    Job placement
+                    Health & Life Skills
+                    Cultivating Self-Respect
+                    Living Healthy
+                    Setting Goals
+                    Making healthy Decisions
+                    Activities
+                    Love & sexuality role plays
+                    Peer pressure assessments
+                    Alcohol & drug abuse tests
+                    Entrepreneurship & Financial skills
+                    Inspire and nurture entrepreneurship skills
+                    Sharpen financial skills
+                    Develop work readiness skills
+                    Exposure to 'hands-on experience'
+                    Activities
+                    Entrepreneurship projects
+                    Job shadowing
+                    Income generation
+                    Elective classes (School of worship/ School of creative arts & media)
+                    Cultivating Self-Expression and Creativity
+                    Developing Skills and Talents
+                    Exploring Multicultural Art Forms
+                    Activities
+                    Digital courseware
+                    Instructor-led group activities
+                    Creative arts projects
+                  </p>
 
-                  <div class="row featurette">
-                    <div class="col-md-7">
-                      <h2 class="featurette-heading">Our Vision
-                        <span class="text-muted">What we see.</span>
-                      </h2>
-                      <p class="lead">We envision to develop Christ-like men who shall flow in The Father's Vision, Go ye and fill the earth
-                        - Gen. 1:28</p>
-                    </div>
-                    <div class="col-md-5">
-                      <img class="featurette-image img-fluid mx-auto" src="img/ladies/ladies-1.jpg" alt="Generic placeholder image">
-                    </div>
-                  </div>
+                  <p class="lead">
+                    We give them a sense of belonging that gives them the self-confidence to meet their potential
+                    Our programs build character, and give them the tools that guide them toward being productive, caring and responsible citizens
+                    You will develop some lifelong friendships with like-minded people and build personal practices that will continue to help you grow for the rest of your life
+                    We keep membership fees affordable so all teens, no matter their circumstances, can be benefit.
+                    Our Partners
+                    Polished Diamonds Girls Mentoring Program Turning girls into distinguished ladies
+                    KUZA Boys Mentoring Program
 
-                  <hr class="featurette-divider">
-
-                  <div class="row featurette">
-                    <div class="col-md-7 order-md-2">
-                      <h2 class="featurette-heading">Mission Statement
-                        <span class="text-muted">Our rallying cry!</span>
-                      </h2>
-                      <p class="lead">We exist to provide men with the resources to develop godly character and to equip them to influence
-                        their world for Jesus Christ.</p>
-                    </div>
-                    <div class="col-md-5 order-md-1">
-                      <img class="featurette-image img-fluid mx-auto" src="img/ladies/ladies-2.jpg" alt="Generic placeholder image">
-                    </div>
-                  </div>
-
-                  <hr class="featurette-divider">
-
-                  <div class="row featurette">
-                    <div class="col-md-7">
-                      <h2 class="featurette-heading">Statement of Purpose
-                        <span class="text-muted">Why we are here.</span>
-                      </h2>
-                      <p class="lead">The purpose of this ministry is as revealed through Jesus Christ in the New Testament:
-                        <ul>
-                          <li>To mobilize men to proclaim faith in Jesus Christ as the Son of the Living God, as Lord and Savior
-                          </li>
-                          <li>To commit men to active engagement in the Church
-                          </li>
-                          <li>To help men grow in grace and knowledge of Christ so they may increasingly know and do His will
-                          </li>
-                          <li>To work for unity of all Christians and with them engage in the common task of building the Kingdom
-                            of God
-                          </li>
-                          <li>To establish stable Christian marriages and families within the body of Christ.
-                          </li>
-
-                        </ul>
-
-                        In particular we shall endeavor to fulfill the following:
-                        <ul>
-                          <li>Bring men into a personal relationship with Jesus Christ.
-                          </li>
-                          <li>Unite men in Bible study, prayer, worship, ministry, fellowship, and accountability.
-                          </li>
-                          <li>Use men to create a supportive environment that touches the lives of the entire church family.
-                          </li>
-                          <li>Promote mentoring opportunities that lead to significant vital relationships.
-                          </li>
-                          <li>To become a magnet for service and a resource for other church ministries and missions.
-                          </li>
-                          <li>Mobilize men to support church programs
-                          </li>
-                          <li>Provide a series of events that will promote fellowship, outreach, and evangelism.</p>
-                      </li>
-                      </ul>
-                    </div>
-                    <div class="col-md-5">
-                      <img class="featurette-image img-fluid mx-auto mt-5" src="img/ladies/ladies-3.jpg" alt="Generic placeholder image">
-                    </div>
-                  </div>
-
-                  <hr class="featurette-divider">
-
-                  <!-- /END THE FEATURETTES -->
-
+                  </p>
                 </div>
               </div>
             </div>

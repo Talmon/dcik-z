@@ -1,5 +1,5 @@
 <!-- FOOTER -->
-<footer class=" footer ">
+<footer class=" footer toHide">
   <div class="row row bg-dark mx-auto mt-5">
     <div class="col-md text-white mt-5">
       <div class="logo">

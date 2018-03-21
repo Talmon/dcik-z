@@ -27,8 +27,6 @@ Route::get('/give', function () {
     return view('layouts.give');
 });
 
-
-
 Route::get('/our-history', function () {
     return view('layouts.about-us/our-history');
 });

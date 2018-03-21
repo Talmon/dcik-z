@@ -1,8 +1,8 @@
 @extends('layouts.master')
 
 @section('content')
-    <div class="card" style="margin-top: -80px; border-top: 2px solid #fff;" data-aos="slide-down">
-        <img src="http://newjerusalemcogic.org/wp-content/uploads/Security-Ministry1.jpg" alt="" class="card-img w-100" style="height: 800px;">
+    <div class="card" style="height:25rem; border-top: 2px solid #fff;" data-aos="slide-down">
+        <img src="http://www.perfectingchurchmaraisburg.co.za/wp-content/uploads/2014/07/MINISTRY-BANNER_SERVE_security.jpg" alt="" class="card-img w-100" style="height: 800px;">
     </div>
 
     <div class="container mx-auto" style="" data-aos="zoom-in">
@@ -17,7 +17,7 @@
                     <p class="lead">We envision to develop Christ-like men who shall flow in The Father's Vision, Go ye and fill the earth - Gen. 1:28</p>
                 </div>
                 <div class="col-md-5 order-1">
-                    <img class="featurette-image img-fluid mx-auto" src="https://www.salembiblechurch.org/wp-content/uploads/2014/02/couples-ministry.jpg" alt="Generic placeholder image">
+                    <img class="featurette-image img-fluid mx-auto" src="http://www.scbi.org/images/churchsecuritypageheader.png" alt="Generic placeholder image">
                 </div>
             </div>
 
@@ -25,7 +25,7 @@
 
             <div class="row py-5 featurette">
                 <div class="col-md-7 ">
-                    <h2 class="featurette-heading">Couples' Program <span class="text-muted">These are our activities.</span></h2>
+                    <h2 class="featurette-heading">Security Program <span class="text-muted">These are our activities.</span></h2>
                     <p class="lead">We exist to provide men with the resources to develop Godly character and to equip them to influence their world for Jesus Christ.</p>
                     <p class="lead">We have lots of activities lined up....</p>
                 </div>
@@ -37,7 +37,7 @@
             <hr class="featurette-divider">
 
             <div class="row featurette">
-                <div class="col-md-7 mx-auto offset-3">
+                <div class="col-md-10">
                     <h2 class="featurette-heading">Statement of Purpose <span class="text-muted">Why we are here.</span></h2>
                     <p class="lead">The purpose of this ministry is as revealed through Jesus Christ in the New Testament:
                     <ul>
@@ -79,15 +79,7 @@
 
         <div class="text-center">
             <p class="lead">
-                Some of the couples' groups include:
-            <ul style="list-style: none;">
-                <li class="textcenter">Couples' Ministry</li>
-                <li class="textcenter">Lorem, ipsum dolor.</li>
-                <li class="textcenter">Lorem, ipsum dolor.</li>
-
-            </ul>
-
-            Do you wish to join the couples ministry?For more information call <strong> +254 737 900 477 </strong>
+            Do you wish to join the security ministry?For more information call <strong> +254 737 900 477 </strong>
             </p>
         </div>
 

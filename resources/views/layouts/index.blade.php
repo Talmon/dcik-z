@@ -2,22 +2,23 @@
 @section('content')
 
 <!-- CAROUSEL -->
+
 <div id="carouselIndicators" class="toHide carousel slide" data-ride="carousel" data-interval="35000" style="">
 
-  {{--<ol class="carousel-indicators">--}}
-    {{--<li data-target="#carouselIndicators" data-slide-to="0" class="active indicators"></li>--}}
-    {{--<li data-target="#carouselIndicators" data-slide-to="1" class="indicators"></li>--}}
-    {{--<li data-target="#carouselIndicators" data-slide-to="2" class="indicators"></li>--}}
-    {{--<li data-target="#carouselIndicators" data-slide-to="3" class="indicators"></li>--}}
-  {{--</ol>--}}
+  <ol class="carousel-indicators">
+    <li data-target="#carouselIndicators" data-slide-to="0" class="active indicators"></li>
+    <li data-target="#carouselIndicators" data-slide-to="1" class="indicators"></li>
+    <li data-target="#carouselIndicators" data-slide-to="2" class="indicators"></li>
+    <li data-target="#carouselIndicators" data-slide-to="3" class="indicators"></li>
+  </ol>
   <div class="carousel-inner">
-  <div class="carousel-item active" >
+  <div class="carousel-item active">
 
       <div class="embed-responsive embed-responsive-16by9">
           <video class="embed-responsive-item" src="../img/videos/intro.mp4" controls autoplay loop allowfullscreen data-interval="35000"></video>
       </div>
       <div class="container">
-          <div class="carousel-caption ml-auto">
+          <div class="carousel-caption ml-auto" style="position: absolute; right:0;" >
               <h1 class="animate-plus  text-left display-3" data-animations="zoomIn,bounce" data-animation-delay="0s" data-animation-duration="4s"
               >
                   COME AS YOU ARE
@@ -51,52 +52,45 @@
       </div>
       </div>
 
-      <!-- <div class="carousel-item">
+      <div class="carousel-item poster">
           <img class="d-block w-100" src="http://dcumoja.org/site2/wp-content/uploads/2018/01/slide12-1.jpg" alt="First slide">
 
       </div>
 
-    <div class="carousel-item ">
-      <img class="d-sm-block  w-100" src="../img/doi.jpg" alt="First slide">
+    <div class="carousel-item poster">
+      <img class="d-sm-block  w-100" src="../img/homepage/doi.jpg" alt="First slide">
 
     </div>
 
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../img/fathers-vision.jpeg" alt="First slide">
+    <div class="carousel-item poster">
+      <img class="d-block w-100" src="../img/homepage/fathers-vision.jpeg" alt="First slide">
 
-    </div> -->
-
-
-
-
-
-
+    </div>
 
   </div>
 
-  {{--<a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">--}}
-    {{--<span class="carousel-control-prev-icon" aria-hidden="true"></span>--}}
-    {{--<span class="sr-only">Previous</span>--}}
-  {{--</a>--}}
-  {{--<a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">--}}
-    {{--<span class="carousel-control-next-icon " aria-hidden="true" style="margin-left: -100px;"></span>--}}
-    {{--<span class="sr-only">Next</span>--}}
-  {{--</a>--}}
+  <!-- <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
+   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <span class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
+  <span class="carousel-control-next-icon " aria-hidden="true" style="margin-left: -100px;"></span>
+  <span class="sr-only">Next</span>
+  </a> -->
 </div>
 
 <!-- END OF CAROUSEL -->
 
 {{--WELCOME SECTION--}}
 
-<div class="container-fluid vision-carriers toHide">
+<div class="container-fluid vision-carriers toHide text-light" style="background-color:  rgba(90, 9, 9, 0.973); ">
     <div class="row mt-5">
       <div class="col-md-3">
           <img src="../img/pastors/dad-and-mum.jpg" alt="" class="card-img img-fluid" style="height:auto; max-width:100%;">
       </div>
-      <div class="col-md-9 my-auto">
-          <h2 class="text-white mx-auto px-2 py-5" style="background-color: #0000fe">WELCOME TO DELIVERANCE CHURCH INTERNATIONAL KASARANI</h2>
-          <p class="lead">
-              "We are more than delighted to host you in the Deliverance Church Kasarani - Zimmerman website. Our desire is that in the few minutes that you browse through you will be nourished and when logging out you will be more deeply rooted in the word of Christ as a Christian and ready to do extraordinary exploits like Daniel for it is your portion. (Dan. 11:32) You may check out the life changing Sunday sermon and the history of sermons. You may plan to attend the church activities and support any project like the building of The Cathedral. If you wish to join a cell or volunteer your skills and time we are more than willing to connect you to any of the available ministries in the church. Join us in any of our services or meetings as we grow together in Christ and make Jesus known to all. We appreciate and value you. - Bishop Dr. Jimmy & Pastor Alice Kimani"         </p>
+      <div class="col-md-9">
+          <p class="lead display-5 mt-5">
+              "We are more than delighted to host you in the Deliverance Church Kasarani - Zimmerman website. Our desire is that in the few minutes that you browse through you will be nourished and when logging out you will be more deeply rooted in the word of Christ as a Christian and ready to do extraordinary exploits like Daniel for it is your portion. (Dan. 11:32) You may check out the life changing Sunday sermon and the history of sermons. You may plan to attend the church activities and support any project. If you wish to join a cell or volunteer your skills and time we are more than willing to connect you to any of the available ministries in the church. Join us in any of our services or meetings as we grow together in Christ and make Jesus known to all. We appreciate and value you. - Bishop Dr. Jimmy & Pastor Alice Kimani"         </p>
           <h2>BISHOP DR. JIMMY KIMANI AND PASTOR ALICE KIMANI</h2>
       </div>
     </div>
@@ -105,7 +99,7 @@
 
 
 <!-- EVENTS -->
-<div class="events container-fluid font-official text-white mt-5 toHide">
+<div class="events container-fluid font-official text-white mt-5 toHide bg-light">
     <hr class="w-25 mx-auto" style="border: 1px solid #0000fe">
     <h1 class="text-center mx-auto text-danger">Upcoming Events</h1>
   <div class="row">
@@ -244,7 +238,7 @@
 
 
 
-<div class="slider-pro mt-3 toHide" id="dcik-theme">
+<div class="slider-pro mt-3 toHide bg-danger" id="dcik-theme" >
 	<div class="sp-slides">
 		<!-- Slide 1 -->
 		<div class="sp-slide bg-danger  py-5">
@@ -281,95 +275,11 @@ And the Lord will be king over all the earth. On that day there will be one Lord
 
 
 
-<div class="container toHide">
-    <h2 class="text-white px-2 py-5 w-100 mx-auto mt-5" style="background-color: #0000fe">DELIVERANCE CHURCH INTERNATIONAL KASARANI MINISTRIES</h2>
-    <div class="row mt-5">
-        <div class="col-md">
-            <div class="card">
-                <img src="http://www.caclouisville.org/hp_wordpress/wp-content/uploads/2015/06/LadiesMinistry.png" alt="" class="card-img-top" style="height: 200px;" >
-                <hr>
-                <div class="card-title mt-3">
-                    <a href="/ladies">
-                        <h3 class="text-center text-dark">LADIES' MINISTRY </h3>
-                    </a>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-md">
-            <div class="card">
-                <img src="http://resources.razorplanet.com/510138-5445/510138_223_543150.jpg" alt="" class="card-img-top" style="height: 200px;">
-                <hr>
-                <div class="card-title mt-3">
-                    <a href="/men">
-                        <h3 class="text-center text-dark">MEN'S MINISTRY </h3>
-                    </a>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-md">
-            <div class="card">
-                <img src="https://www.theworshipplace.org/filerequest/2218" alt="" class="card-img-top" style="height: 200px;">
-                <hr>
-                <div class="card-title mt-3">
-                    <a href="/children">
-                        <h3 class="text-center text-dark">CHILDREN'S MINISTRY </h3>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="row mt-5">
-        <div class="col-md">
-            <div class="card">
-                <img src="https://static1.squarespace.com/static/5636cdc7e4b0e79c6ccc21d6/t/56b908911bbee041002c34be/1454966993881/" alt="" class="card-img-top" style="height: 200px;" >
-                <hr>
-                <div class="card-title mt-3">
-                    <a href="/ladies">
-                        <h3 class="text-center text-dark">COMPASSION MINISTRY </h3>
-                    </a>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-md">
-            <div class="card">
-                <img src="http://www.cctustin.org/images/ministries/Couples-Ministry_800x600.png" alt="" class="card-img-top" style="height: 200px;">
-                <hr>
-                <div class="card-title mt-3">
-                    <a href="/men">
-                        <h3 class="text-center text-dark">COUPLES' MINISTRY </h3>
-                    </a>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-md">
-            <div class="card">
-                <img src="http://www.stregis.org/wp-content/uploads/2012/10/youth11.jpg" alt="" class="card-img-top" style="height: 200px;">
-                <hr>
-                <div class="card-title mt-3">
-                    <a href="/children">
-                        <h3 class="text-center text-dark">YOUTH MINISTRY </h3>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-
-
-
-
-
 
 
 <!-- BLOG -->
 
-<div class="row toHide">
+<div class="row toHide bg-light">
     <div class="col-lg-8">
         <h3 class="text-left ml-3 mt-5">Latest From Our Blog</h3>
         <div class="row mt-1">

@@ -9,7 +9,14 @@ $dark-overlay: rgba(0,0,0,0.7);
 $carousel-control-color: $blue;
 
 body{
-  //background: url("/img/backgrounds/gplaypattern.png");
+  margin:0;
+	padding:0;
+  background: url("/img/homepage/sermons.jpeg");
+  background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-family:'Montserrat',sans-serif;
+	font-size:20px;
   overflow-x: hidden;
 }
 
@@ -26,10 +33,13 @@ body{
 .font-official{
   font-family: $font-type;
 }
+.font-jose{
+  font-family: Josephin Slab;
+}
 
-    nav{
-      background-color: #040505;
-    }
+   nav{
+    background: url("/img/backgrounds/gplaypattern.png");
+   }
     .navbar{
         z-index: 9;
        a{
@@ -127,7 +137,9 @@ video{
     height: 47rem;
   }
 
-  
+  .vision-carriers {
+    background-color:  rgba(255, 11, 11, 0.89); 
+  }
   
 
   @include media-breakpoint-down(sm) {

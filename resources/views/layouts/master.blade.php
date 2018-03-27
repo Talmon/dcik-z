@@ -4,12 +4,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="img/logos/logo7.jpeg">
+    <link rel="icon" href="img/logos/logo6.jpeg">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/bs4megamenu.css">
     <link rel="stylesheet" href="css/ihover.css">
+    <link rel="stylesheet" href="css/header1.css">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="owlcarousel/owl.carousel.css">
     <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
@@ -17,7 +18,7 @@
     <link rel="stylesheet" href="dist/css/slider-pro.min.css"/>
     <link rel="stylesheet" href="flipclock/compiled/flipclock.css">
 
-    <title>Deliverance Church International Kasarani</title>
+    <title>| Deliverance Church International Kasarani</title>
 
     <!-- Animate Css -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
@@ -114,6 +115,20 @@ $(document).ready(function() {
     clock = $('.clock').FlipClock(diff, {
         clockFace: 'DailyCounter'
     });
+});
+</script>
+
+<script>
+    $(document).ready(function(){
+    $(".button a").click(function(){
+        $(".overlay").fadeToggle(200);
+       $(this).toggleClass('btn-open').toggleClass('btn-close');
+    });
+});
+$('.overlay').on('click', function(){
+    $(".overlay").fadeToggle(200);   
+    $(".button a").toggleClass('btn-open').toggleClass('btn-close');
+    open = false;
 });
 </script>
 

@@ -1,10 +1,10 @@
 <!-- FOOTER -->
-<footer class=" footer toHide">
-  <div class="row row bg-dark mx-auto mt-5">
+<footer class=" footer  toHide">
+  <div class="row mx-auto mt-5 bg-dark" style="background:rgba(0,0,0,0.7);">
     <div class="col-md text-white mt-5">
       <div class="logo">
         <a class="navbar-brand" href="#">
-          <img class="mx-auto" src="img/church-logo.png" alt="" style="height: 100px; width: 150px;">
+          <img class="mx-auto" src="img/logos/church-logo2.png" alt="" style="height: 100px; width: 150px;">
         </a>
         <h4>Deliverance Church International Kasarani</h4>
       </div>
@@ -32,7 +32,7 @@
       </div>
     </div>
 
-    <div class="col-md text-white mb-5 mt-5">
+    <div class="col-md text-white mb-1 mt-5">
       <form>
         <div class="form-group">
 
@@ -45,13 +45,13 @@
     </div>
   </div>
       <!-- SERVICES -->
-      <div class="services jumbotron  text-white text-center font-official">
+      <div class="services jumbotron h-50 text-white text-center font-official">
         <div class="row">
-          <div class="col-md-7 list-inline">
+          <div class="col-md-7">
             <h4>Sunday Services</h4>
-            <p class="list-inline-item">Express Service: 7:00am - 8:30am</p>
-            <p class="list-inline-item">Celebration Service: 9:00am - 10:45am</p>
-            <p class="list-inline-item">Miracle Service: 11:00am - 1:00pm</p>
+            <p class="">Express Service: 7:00am - 8:30am</p>
+            <p class="">Celebration Service: 9:00am - 10:45am</p>
+            <p class="">Miracle Service: 11:00am - 1:00pm</p>
           </div>
           <div class="col-md-5">
             <h4>Midweek Service</h4>

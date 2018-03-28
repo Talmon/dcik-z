@@ -1,7 +1,7 @@
 <nav class="text-light" style="background: rgba(0,0,0,0.7); position:absolute; top:0;">
 <ul class="church-name">
 	<li><a class="navbar-brand" href="#">
-            <img class="mr-auto" src="img/logos/church-logo.png" alt="" style="height: 100px; width: 150px;">
+            <img class="mr-auto bg-light" src="img/logos/church-logo2.png" alt="" style="height: 100px; width: 150px;">
         </a>
     </li>
 	<li><h1 class="text-center font-bilbo display-4" style="text-transform: capitalize;">Welcome to Deliverance Church International Kasarani</h1></li>

@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="img/logos/logo6.jpeg">
+    <link rel="icon" href="img/logos/church-logo3.png">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css">
@@ -17,6 +17,10 @@
     <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
     <link rel="stylesheet" href="dist/css/slider-pro.min.css"/>
     <link rel="stylesheet" href="flipclock/compiled/flipclock.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css" />
+    <link rel="stylesheet" href="css/gallery-grid.css">
+
+
 
     <title>| Deliverance Church International Kasarani</title>
 
@@ -36,6 +40,7 @@
 
 
 <script src="js/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js"></script>
 <script src="owlcarousel/owl.carousel.min.js"></script>
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
@@ -44,6 +49,7 @@
 <script src="libs/js/jquery-1.11.0.min.js"></script>
 <script src="dist/js/jquery.sliderPro.min.js"></script>
 <script src="flipclock/compiled/flipclock.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
 
 <script>
 $(document).ready(function(){
@@ -68,7 +74,7 @@ $(document).ready(function(){
 	jQuery( document ).ready(function( $ ) {
 		$( '#dcik-theme' ).sliderPro({
             width: '100%',
-            height: 300,
+            height: 180,
             arrows: false,
             buttons: true,
             waitForLayers: true,
@@ -82,9 +88,9 @@ $(document).ready(function(){
 </script>
 <script type="text/javascript">
 	jQuery( document ).ready(function( $ ) {
-		$( '#sermons' ).sliderPro({
+		$( '#sermon-slider' ).sliderPro({
             width: '100%',
-            height: 500,
+            height: 300,
             arrows: false,
             buttons: true,
             waitForLayers: true,
@@ -130,6 +136,10 @@ $('.overlay').on('click', function(){
     $(".button a").toggleClass('btn-open').toggleClass('btn-close');
     open = false;
 });
+</script>
+
+<script>
+    baguetteBox.run('.tz-gallery');
 </script>
 
 

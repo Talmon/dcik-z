@@ -11,7 +11,7 @@ $carousel-control-color: $blue;
 body{
   margin:0;
 	padding:0;
-  background: url("/img/homepage/sermons.jpeg");
+  background: url("/img/homepage/sermons");
   background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -20,7 +20,10 @@ body{
   overflow-x: hidden;
 }
 
-
+.hr-divider {
+  color: red;
+  background-image: url("/img/hr/hr-red.png");
+}
 .font-niconne{
 	font-family: Niconne;
 }
@@ -139,6 +142,10 @@ video{
 
   .vision-carriers {
     background-color:  rgba(255, 11, 11, 0.89); 
+  }
+
+  .events {
+   background: rgba(59, 7, 7, 0.87);
   }
   
 
@@ -521,8 +528,11 @@ width: 100%;
 }
 
 footer {
+  position: relative;
+  bottom: 0;
   color: white;
   background-color: rgba(9, 16, 112, 0.9);
+  height: 100%;
 
   a{
     color: white;

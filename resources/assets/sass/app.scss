@@ -114,13 +114,14 @@ video{
   } 
   .carousel-caption {
     position: absolute;
-    top: 130px;
+    bottom: 0px;
     right: 200px;
     padding:50px 10px 10px 10px;
     z-index: 10;
-    height:20em;
-    background-color: rgba(0, 0, 0, 0.473);
-    width: 50%;
+    height:30rem;
+    // background-color: rgba(0, 0, 0, 0.473);
+    background-color: rgba(35, 141, 240, 0.986);
+    width: 100%;
   }
   .carousel-caption button{
     background-color:  rgba(90, 9, 9, 0.973);
@@ -128,7 +129,7 @@ video{
 
   /* Declare heights because of positioning of img element */
   .carousel-item {
-    height: 47rem;
+    height: 63rem;
     background-color: #fff;
   }
 
@@ -137,7 +138,12 @@ video{
     top: 0;
     left: 0;
     min-width: 100%;
-    height: 47rem;
+    height: 63rem;
+  }
+
+  .carousel-indicators {
+    position: absolute;
+    left: 100px;
   }
 
   .vision-carriers {

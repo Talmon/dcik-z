@@ -18,10 +18,10 @@
             </div>
             <div class="container">
                 <div class="carousel-caption ml-auto" style="position: absolute; right:0;">
-                    <h1 class="animate-plus  text-left display-3" data-animations="zoomIn,bounce" data-animation-delay="0s" data-animation-duration="4s">
+                    <h1 class="animate-plus  text-left display-2" data-animations="zoomIn,bounce" data-animation-delay="0s" data-animation-duration="4s">
                         COME AS YOU ARE
                     </h1>
-                    <p class="animate-plus lead display-4" data-animations="bounceInLeft" data-animation-delay="5s" data-animation-duration="5s">We are a church for the tribe of Kenya,no matter your look,your denomination,your religion,your race,no
+                    <p class="animate-plus lead display-3" data-animations="bounceInLeft" data-animation-delay="5s" data-animation-duration="5s">We are a church for the tribe of Kenya,no matter your look,your denomination,your religion,your race,no
                         matter your social status,you are welcome</p>
                     <a href="/guests">
                         <button class="animate-plus mt btn btn-lg" data-animations="bounceInLeft" data-animation-delay="4s" data-animation-duration="4s">

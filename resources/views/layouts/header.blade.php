@@ -1,14 +1,14 @@
 <nav class="text-light" style="background: rgba(0,0,0,0.7); position:absolute; top:0;">
 <ul class="church-name">
-	<li><a class="navbar-brand" href="#">
+	<li><a class="navbar-brand " href="#">
             <img class="mr-auto bg-light" src="img/logos/church-logo2.png" alt="" style="height: 100px; width: 150px;">
         </a>
     </li>
-	<li><h1 class="text-center font-bilbo display-4" style="text-transform: capitalize;">Welcome to Deliverance Church International Kasarani</h1></li>
+	<li><h1 class="text-center mr-5 font-bilbo display-4" style="text-transform: capitalize;">Welcome to Deliverance Church International Kasarani</h1></li>
     <li>
     
-    <div class="button">
-    <h4 class="mt-2" style="position: absolute; top:20px; font-size: 24px;">Menu</h4>
+    <div class="button ml-5">
+    <h4 class="mt-2 display-4 font-bilbo" style="position: absolute; top:5px; right:120px; ">Menu</h4>
     <a class="btn-open" href="#"></a>
     </div>
     </li>

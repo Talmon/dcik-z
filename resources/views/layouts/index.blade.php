@@ -14,16 +14,17 @@
         <div class="carousel-item active">
 
             <div class="embed-responsive embed-responsive-16by9">
-                <video class="embed-responsive-item" src="../img/videos/intro.mp4" controls autoplay loop allowfullscreen data-interval="35000"></video>
+                <video class="embed-responsive-item" src="../img/videos/video.MP4" controls autoplay loop allowfullscreen data-interval="35000"></video>
             </div>
             <div class="container">
                 <div class="carousel-caption ml-auto" style="position: absolute; right:0;">
-                    <h1 class="animate-plus  text-left display-2" data-animations="zoomIn,bounce" data-animation-delay="0s" data-animation-duration="4s">
-                        COME AS YOU ARE
+                    <h2>WELCOME TO</h2>
+                    <h1 class="animate-plus  text-left display-3" data-animations="zoomIn,bounce" data-animation-delay="0s" data-animation-duration="4s">
+                        DELIVERANCE CHURCH INTERNATIONAL KASARANI
                     </h1>
-                    <p class="animate-plus lead display-3" data-animations="bounceInLeft" data-animation-delay="5s" data-animation-duration="5s">We are a church for the tribe of Kenya,no matter your look,your denomination,your religion,your race,no
-                        matter your social status,you are welcome</p>
-                    <a href="/guests">
+                    <h2 class="animate-plus" data-animations="bounceInLeft" data-animation-delay="5s" data-animation-duration="5s">We are a church for the tribe of Kenya,no matter your look,your denomination,your religion,your race,no
+                        matter your social status,you are welcome</h2>
+                    <!-- <a href="/guests">
                         <button class="animate-plus mt btn btn-lg" data-animations="bounceInLeft" data-animation-delay="4s" data-animation-duration="4s">
                             <h4 class=" text-white">I'M NEW HERE </h4>
                         </button>
@@ -45,7 +46,7 @@
                         <button class="animate-plus mt btn btn-lg" data-animations="bounceInLeft" data-animation-delay="1s" data-animation-duration="4s">
                             <h4 class=" text-white">GIVE</h4>
                         </button>
-                    </a>
+                    </a> -->
 
                 </div>
             </div>
@@ -56,7 +57,7 @@
 
         </div>
 
-        <div class="carousel-item poster">
+        <div class="carousel-item poster" style="position: relative; top: 130px;"> 
             <img class="d-sm-block  w-100" src="../img/homepage/doi.jpg" alt="First slide">
 
         </div>

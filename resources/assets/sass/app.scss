@@ -11,12 +11,12 @@ $carousel-control-color: $blue;
 body{
   margin:0;
 	padding:0;
-  background: url("/img/homepage/sermons");
-  background-size: cover;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	font-family:'Montserrat',sans-serif;
-	font-size:20px;
+  // background: url("/img/homepage/sermons");
+  // background-size: cover;
+	// background-repeat: no-repeat;
+	// background-attachment: fixed;
+	// font-family:'Montserrat',sans-serif;
+	// font-size:20px;
   overflow-x: hidden;
 }
 
@@ -40,7 +40,7 @@ body{
   font-family: Josephin Slab;
 }
 
-   nav{
+  /*  nav{
     background: url("/img/backgrounds/gplaypattern.png");
    }
     .navbar{
@@ -81,7 +81,7 @@ body{
         border-right: solid 1px white;
         margin-right: 5rem;
       }
-    }
+    } */
 
 
 
@@ -119,8 +119,8 @@ video{
     padding:50px 10px 10px 10px;
     z-index: 10;
     height:30rem;
-    // background-color: rgba(0, 0, 0, 0.473);
-    background-color: rgba(35, 141, 240, 0.986);
+    background-color: rgba(0, 0, 0, 0.473);
+    //background-color: rgba(35, 141, 240, 0.986);
     width: 100%;
   }
   .carousel-caption button{
@@ -129,14 +129,12 @@ video{
 
   /* Declare heights because of positioning of img element */
   .carousel-item {
+    margin-top: -130px;
     height: 63rem;
     background-color: #fff;
   }
 
   .carousel-item > img {
-    position: absolute;
-    top: 0;
-    left: 0;
     min-width: 100%;
     height: 63rem;
   }

@@ -1,272 +1,114 @@
-<h4 class="display-4 text-center mb-5 w-50 mx-auto pb-3" style="border-bottom: 5px solid red;" >UPCOMING EVENTS</h4>
-<p class="muted lead mb-5 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque iure eveniet quasi eligendi minus consectetur error expedita rerum doloremque numquam.</p>
-<!-- EVENTS SECTION -->
-<div id="events" class="card-deck mt-5">              
-   <div class="row mb-3">
-   <div class="col-lg-6">            
-   <div class="card hovereffect text-center ml-5 w-100 mb-3" style="height:500px;">
-       <img class="card-img-top img-responsive" src="img/homepage/home-6.JPG" alt="Card image cap">
-       <div class="card-footer overlay ">
-           <h2 class="mt-3"> <strong> SUB-REGION WORSHIP NIGHT </strong> </h2>
-         <p>
-             <a href="#"><button class="btn btn-lg text-white"  style="background-color: #00004c;"> CLICK HERE TO VIEW </button> </a>
-           </p>
-       </div>                       
-   </div>
-   </div>
-   <div class="col-lg-6  mb-3">              
-       <div class="card hovereffect text-center w-100 ml-5"  style="height:500px;">
-           <img class="card-img-top img-responsive" src="img/events-1.JPG" alt="Card image cap">
-           <div class="card-footer overlay">
-               <h2 class="mt-3 "> <strong> THE CROSSOVER </strong> </h2>
-             <p class="">
-                 <a href="#"><button class="btn btn-lg text-white"  style="background-color: #00004c;"> CLICK HERE TO VIEW </button> </a>
-               </p>
-           </div>                       
-       </div>
-   </div>
- </div>
 
- <div class="row mt-3">
- <div class="col-lg-6 " >
-       
- <div class="card hovereffect text-center w-100 ml-5"  style="height:500px;">
- <img class="card-img-top img-responsive" src="img/events-2.JPG" alt="Card image cap">
-           <div class="card-footer overlay">
-               <h2 class=" "> <strong>CATHEDRAL GRAND OPENING </strong> </h2>
-             <p>
-                 <a href="#"><button class="btn btn-lg text-white"  style="background-color: #00004c;"> CLICK HERE TO VIEW </button> </a>
-               </p>
-           </div>
-       </div>
-   </div>
+<div class="overlay">
+	<div class="wrap">
+		<ul class="wrap-nav">
+			<li><a href="#">About Us</a>
+			<ul>
+				<li><a href="#">Who We Are</a></li>
+				<li><a href="#">What We Believe</a></li>
+				<li><a href="#">Father's Vision</a></li>
+                <li><a href="#">Pastors</a></li>
+                <li><a href="#">Cornerstone Academy</a></li>
+			</ul>
+			</li>
+			<li><a href="#">Services</a>
+			<ul>
+				<li><a href="#">Who We Are</a></li>
+				<li><a href="#">What We Believe</a></li>
+				<li><a href="#">Father's Vision</a></li>
+                <li><a href="#">Pastors</a></li>
+                <li><a href="#">Cornerstone Academy</a></li>
+			</ul>
+			</li>
 
-   <div class="col-lg-6 text-center" >
-       
-   <div class="card hovereffect text-center w-100 ml-5"  style="height:500px;">
-   <img class="card-img-top img-responsive" src="img/events-3.JPG" alt="Card image cap">
-           <div class="card-footer overlay ">
-               <h2 class=""> <strong> DEPARTMENTAL LEADERS MEETING </strong> </h2>
-             <p>
-                 <a href="#"><button class="btn btn-lg text-white"  style="background-color: #00004c;"> CLICK HERE TO VIEW </button> </a>
-               </p>
-           </div>                       
-       </div>
- </div>
-</div>    
-                                       
-<!-- END OF EVENTS SECTION -->
+			<li><a href="#">Work</a>
+			<ul class="col-md">
+				<li><a href="#">Web</a></li>
+				<li><a href="#">Graphic</a></li>
+				<li><a href="#">Apps</a></li>
+			</ul>
+			</li>
 
+            <li><a href="#">Services</a>
+			<ul>
+				<li><a href="#">Who We Are</a></li>
+				<li><a href="#">What We Believe</a></li>
+				<li><a href="#">Father's Vision</a></li>
+                <li><a href="#">Pastors</a></li>
+                <li><a href="#">Cornerstone Academy</a></li>
+			</ul>
+			</li>
 
+            <li><a href="#">Services</a>
+			<ul>
+				<li><a href="#">Who We Are</a></li>
+				<li><a href="#">What We Believe</a></li>
+				<li><a href="#">Father's Vision</a></li>
+                <li><a href="#">Pastors</a></li>
+                <li><a href="#">Cornerstone Academy</a></li>
+			</ul>
+			</li>
 
+            <li><a href="#">Services</a>
+			<ul>
+				<li><a href="#">Who We Are</a></li>
+				<li><a href="#">What We Believe</a></li>
+				<li><a href="#">Father's Vision</a></li>
+                <li><a href="#">Pastors</a></li>
+                <li><a href="#">Cornerstone Academy</a></li>
+			</ul>
+			</li>
 
-    {{--<div class="collapse navbar-collapse mt-5" id="navbarSupportedContent">--}}
-    {{--<ul class="navbar-nav">--}}
-      {{--<li class="nav-item active">--}}
-        {{--<a class="nav-link" href="/">Home--}}
-          {{--<span class="sr-only">(current)</span>--}}
-        {{--</a>--}}
-      {{--</li>--}}
-      {{--<li class="nav-item dropdown">--}}
-        {{--<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"--}}
-          {{--aria-expanded="false">--}}
-          {{--About Us--}}
-        {{--</a>--}}
-        {{--<div class="dropdown-menu mega-menu" aria-labelledby="navbarDropdown" style="background: url(img/backgrounds/gplaypattern.png);">--}}
-          {{--<div class="container">--}}
-              {{--<div class="row">--}}
-                  {{--<div class="col-md col-xs">--}}
-                    {{--<img src="img/what-we-believe2.jpg" alt="" class="img-fluid " style="height:auto; max-width:100%;" >--}}
-                    {{--<a class="display-7" href="/what-we-believe">What We Believe</a>--}}
-                  {{--</div>--}}
-                  {{--<div class="col-md col-xs">--}}
-                    {{--<img src="img/the-fathers-vision2.jpg" alt="" class="img-fluid " style="height:auto; max-width:100%;">--}}
-                    {{--<a class="display-7" href="/the-fathers-vision">The Father's Vision</a>--}}
-                  {{--</div>--}}
-                  {{--<div class="col-md col-xs">--}}
-                    {{--<img src="https://www.tms.edu//nas/content/live/tmsbones/m/Pastor.jpg" alt="" class="img-fluid " style="height:inherit; max-width:100%;">--}}
-                    {{--<a class="display-7" href="/pastors">Pastors</a>--}}
-                  {{--</div>--}}
-                  {{----}}
-              {{--</div>--}}
-              {{----}}
-             {{--<div class="row mb-2">--}}
-                {{--<div class="col-md-4 ">--}}
-                    {{--<img src="img/member1.jpg" alt="" class="img-fluid" style="height:auto; max-width:100%;">--}}
-                    {{--<a class="display-7" href="/become-a-member">Become a Member</a>--}}
-                {{--</div>--}}
-                {{--<div class="col-md-4">--}}
-                    {{--<img src="img/academy1.png" alt="" class="img-fluid" style="height:auto; max-width:100%;">--}}
-                    {{--<a class="display-7" href="/cornerstone-academy">Cornerstone Academy</a>--}}
-                {{--</div>  --}}
-             {{--</div> --}}
-        {{--</div>--}}
-          {{--</div>--}}
-              {{----}}
-      {{--</li>--}}
-      {{--<li class="nav-item dropdown">--}}
-        {{--<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"--}}
-          {{--aria-expanded="false">--}}
-          {{--Ministries--}}
-        {{--</a>--}}
-        {{--<div class="dropdown-menu mega-menu ministries" aria-labelledby="navbarDropdown" style="background: url(img/backgrounds/gplaypattern.png);">--}}
-         {{--<div class="container">--}}
-          {{--<div class="row " >--}}
-          {{--<div class="col-md">--}}
-          {{--<img src="img/networks1.jpg" alt="" class="img-fluid " style="height:auto; max-width:100%;">--}}
-              {{--<h4 style="color:orangered">Networks</h4>--}}
-              {{--<p>--}}
-                {{--<a href="/men">Men</a>--}}
-              {{--</p>--}}
-              {{--<p>--}}
-                {{--<a href="/ladies">Ladies</a>--}}
-              {{--</p>--}}
-              {{--<p>--}}
-                {{--<a href="/youth">Youth</a>--}}
-              {{--</p>--}}
-              {{--<p>--}}
-                {{--<a href="/children">Children</a>--}}
-              {{--</p>--}}
-              {{--<p>--}}
-                {{--<a href="/couples">Couples.</a>--}}
-              {{--</p>--}}
-            {{--</div>--}}
-            {{--<div class="col-md">--}}
-              {{--<img src="img/service2.jpg" alt="" class="img-fluid " style="height:auto; max-width:100%;">--}}
-              {{--<h4 style="color:orangered">Service Ministiries</h4>--}}
-              {{--<p>--}}
-                {{--<a href="/ushering">Ushering</a>--}}
-              {{--</p>--}}
-              {{--<p>--}}
-                {{--<a href="/security">Security</a>--}}
-              {{--</p>--}}
-              {{--<p>--}}
-                {{--<a href="/media">Media</a>--}}
-              {{--</p>--}}
-              {{--<p>--}}
-                {{--<a href="/protocol">Protocol</a>--}}
-              {{--</p>--}}
-              {{--<p>--}}
-                {{--<a href="/connect">Connect</a>--}}
-              {{--</p>--}}
-              {{--<p>--}}
-                {{--<a href="/praise-and-worship">Praise & Worship</a>--}}
-              {{--</p>--}}
-              {{--<p>--}}
-                {{--<a href="/new-believers">New Believers</a>--}}
-              {{--</p>--}}
-            {{--</div>--}}
-            {{--<div class="col-md">--}}
-              {{--<img src="img/welfare&compassion.jpg" alt="" class="img-fluid " style="height:auto; max-width:100%;">--}}
-              {{--<h4 style="color:orangered">Welfare & Compassion</h4>--}}
-              {{--<p>--}}
-                {{--<a href="/welfare">Welfare</a>--}}
-              {{--</p>--}}
-              {{--<p>--}}
-                {{--<a href="/compassion">Compassion</a>--}}
-              {{--</p>--}}
-              {{--<p>--}}
-                {{--<a href="/benevolent">Benevolent</a>--}}
-              {{--</p>--}}
-              {{--<p>--}}
-                {{--<a href="/vct">VCT</a>--}}
-              {{--</p>--}}
+            <li><a href="#">Services</a>
+			<ul>
+				<li><a href="#">Who We Are</a></li>
+				<li><a href="#">What We Believe</a></li>
+				<li><a href="#">Father's Vision</a></li>
+                <li><a href="#">Pastors</a></li>
+                <li><a href="#">Cornerstone Academy</a></li>
+			</ul>
+			</li>
 
-            {{--</div>--}}
-
-            {{--<div class="col-md">--}}
-              {{--<img src="img/missions&outreach.jpg" alt="" class="img-fluid " style="height:auto; max-width:100%;">--}}
-              {{--<h4 style="color:orangered">Missions & Outreach</h4>--}}
-              {{--<p>--}}
-                {{--<a href="/missions">Missions</a>--}}
-              {{--</p>--}}
-              {{--<p>--}}
-                {{--<a href="/prisons">Prisons</a>--}}
-              {{--</p>--}}
-              {{--<p>--}}
-                {{--<a href="/hospital-visitation">Hospital Visitation</a>--}}
-              {{--</p>--}}
-              {{--<p>--}}
-                {{--<a href="/school-visitation">School Visitation</a>--}}
-              {{--</p>--}}
-
-            {{--</div>--}}
-          {{--</div>--}}
-          {{--</div>--}}
-        {{--</div>--}}
-      {{--</li>--}}
-      {{--<li class="nav-item dropdown">--}}
-        {{--<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"--}}
-          {{--aria-expanded="false">--}}
-          {{--Resources--}}
-        {{--</a>--}}
-        {{--<div class="dropdown-menu mega-menu resources" aria-labelledby="navbarDropdown" style="background: url(img/backgrounds/gplaypattern.png);">--}}
-         {{--<div class="container">--}}
-          {{--<div class="row">--}}
-              {{--<div class="col-md">--}}
-              {{--<img src="img/careers1.jpg" alt="" class="img-fluid" style="height:auto; max-width:100%;">--}}
-              {{--<a class=" display-7" href="/careers">Careers</a>--}}
-            {{--</div>--}}
-            {{--<div class="col-md ">--}}
-              {{--<img src="img/news2.jpg" alt="" class="img-fluid" style="height:auto; max-width:100%;">--}}
-              {{--<a class="ml-auto display-7" href="/news">News</a>--}}
-            {{--</div>--}}
-            {{--<div class="col-md ">--}}
-              {{--<img src="img/blog3.jpg" alt="" class="img-fluid" style="height:auto; max-width:100%;">--}}
-              {{--<a class="ml-auto display-7" href="/blog">Weekly Articles</a>--}}
-            {{--</div>--}}
-            {{--<div class="col-md ">--}}
-                {{--<img src="img/events/navbar-events.jpg" alt="" class="img-fluid" style="height:auto; max-width:100%;">--}}
-                {{--<a class="display-7" href="/events">Events</a>--}}
-              {{--</div>--}}
-          {{--</div>--}}
-          {{--<div class="row mb-2">--}}
-              {{--<div class="col-md-3">--}}
-              {{--<img src="img/prayers1.jpg" alt="" class="img-fluid" style="height:auto; max-width:100%;">--}}
-              {{--<a class="display-7" href="/prayers">Prayers</a>--}}
-            {{--</div>--}}
-            {{--<div class="col-md-3">--}}
-              {{--<img src="img/what-we-believe1.jpg" alt="" class="img-fluid" style="height:auto; max-width:100%;">--}}
-              {{----}}
-              {{--<a class="display-7" href="/sermons">Sermons</a>--}}
-            {{--</div>--}}
-            {{--<div class="col-md-3">--}}
-                {{--<img src="img/tender2.jpg" alt="" class="img-fluid" style="height:auto; max-width:100%;">--}}
-                {{--<a class="ml-auto display-7" href="/tenders">Tenders</a>--}}
-              {{--</div>--}}
-          {{--</div>--}}
-          {{--</div>--}}
-        {{--</div>--}}
-      {{--</li>--}}
-
-    {{--</ul>--}}
-
-    {{--<form class="form-inline mt-3 ml-auto">--}}
-      {{--<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">--}}
-      {{--<button class="btn btn-light my-2 my-sm-0" type="submit">Search</button>--}}
-    {{--</form>--}}
+            <li><a href="#">Services</a>
+			<ul>
+				<li><a href="#">Who We Are</a></li>
+				<li><a href="#">What We Believe</a></li>
+				<li><a href="#">Father's Vision</a></li>
+                <li><a href="#">Pastors</a></li>
+                <li><a href="#">Cornerstone Academy</a></li>
+			</ul>
+			</li>
+        </ul>     
+    </div>
 
 
-    {{--<ul class="navbar-nav">--}}
-        {{--<li class="nav-item active">--}}
-            {{--<a class="nav-link" href="https://www.facebook.com/dczimma/?fref=ts">--}}
-                {{--<i class="fa  fa-facebook list-inline-item text-dark mr-3 mb-3"></i>--}}
-            {{--</a>--}}
-        {{--</li>--}}
-        {{--<li class="nav-item active">--}}
-            {{--<a class="nav-link" href="#">--}}
-                {{--<i class="fa  fa-twitter list-inline-item text-dark mr-3 mb-3"></i>--}}
-            {{--</a>--}}
-        {{--</li>--}}
-        {{--<li class="nav-item active">--}}
-            {{--<a class="nav-link" href="#">--}}
-                {{--<i class="fa  fa-instagram list-inline-item text-dark mr-3 mb-3"></i>--}}
-            {{--</a>--}}
-        {{--</li>--}}
-        {{--<li class="nav-item active">--}}
-            {{--<a class="nav-link" href="https://www.youtube.com/channel/UCbFf1WXtK4WRV2tz9Zx6nIg">--}}
-                {{--<i class="fa  fa-youtube list-inline-item text-dark mr-3 mb-3"></i>--}}
-            {{--</a>--}}
-        {{--</li>--}}
-    {{--</ul>--}}
-  {{--</div>--}}
+		<div class="social text-center">
+			<a href="http://mario-loncarek.from.hr/">
+			<div class="social-icon">
+				<i class="fa fa-facebook"></i>
+			</div>
+			</a>
+			<a href="#">
+			<div class="social-icon">
+				<i class="fa fa-twitter"></i>
+			</div>
+			</a>
+			<a href="#">
+			<div class="social-icon">
+				<i class="fa fa-codepen"></i>
+			</div>
+			</a>
+			<a href="#">
+			<div class="social-icon">
+				<i class="fa fa-behance"></i>
+			</div>
+			</a>
+			<a href="#">
+			<div class="social-icon">
+				<i class="fa fa-dribbble"></i>
+			</div>
+			</a>
+			
+		</div>
+	</div>
+</div>

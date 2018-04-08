@@ -8,9 +8,8 @@
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/bs4megamenu.css">
-    <link rel="stylesheet" href="css/ihover.css">
     <link rel="stylesheet" href="css/header1.css">
+    <link rel="stylesheet" href="css/ihover.css">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="owlcarousel/owl.carousel.css">
     <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
@@ -19,6 +18,7 @@
     <link rel="stylesheet" href="flipclock/compiled/flipclock.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css" />
     <link rel="stylesheet" href="css/gallery-grid.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
 
 
 

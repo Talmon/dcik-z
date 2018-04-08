@@ -1,133 +1,427 @@
-<nav class="text-light" style="background: rgba(0,0,0,0.7); position:absolute; top:0;">
-<ul class="church-name">
-	<li><a class="navbar-brand " href="#">
-            <img class="mr-auto bg-light" src="img/logos/church-logo2.png" alt="" style="height: 100px; width: 150px;">
+<nav class="navbar navbar-expand-lg navbar-light mx-auto">
+  <img src="../img/logos/church-logo.png" class="bg-light" style="width: 100px; height:90px;">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+    aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav nav-fill w-100">
+      <li class="nav-item active">
+        <a class="nav-link text-light" href="#">Home
+          <span class="sr-only">(current)</span>
         </a>
-    </li>
-	<li><h1 class="text-center mr-5 font-bilbo display-4" style="text-transform: capitalize;">Welcome to Deliverance Church International Kasarani</h1></li>
-    <li>
-    
-    <div class="button ml-5">
-    <h4 class="mt-2 display-4 font-bilbo" style="position: absolute; top:5px; right:120px; ">Menu</h4>
-    <a class="btn-open" href="#"></a>
-    </div>
-    </li>
-    
-</ul>
+      </li>
+      <li class="nav-item dropdown" style="position: static!important;">
+        <a class="nav-link  text-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+          aria-expanded="false">
+        Services
+        </a>
+        <div class="dropdown-menu mega-menu" aria-labelledby="navbarDropdown">
+            <div class="row">
+                <div class="col-md-2"></div>
 
+              <div class="col-md-3 offset-md-2">
+                <div class="card bg-dark text-white mt-5">
+                  <a href="/what-we-believe" class=""> 
+                    <img class="card-img h-100 border border-light d-none d-md-block" src="img/nav/what-we-believe" alt="Card image">
+                  </a>
 
+                  <div class="card-img-overlay">
+                    <h5 class="card-title">
+                      <span class="badge badge-danger">Celebration Service</span>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-2">
+                <div class="card bg-dark text-white">
+                  <a href="/fathers-vision">
+                    <img class="card-img img-fluid  border border-light" src="img/nav/fathers-vision2" alt="Card image" style="width: 100%; height:200px;"> </a>
+                  <div class="card-img-overlay">
+                  <h5 class="card-title">
+                    <span class="badge badge-danger">Express Service</span>
+                  </h5>
+                  </div>
+                </div>
+
+                <div class="card bg-dark text-white mt-3">
+                  <img class="card-img img-fluid  border border-light" src="img/nav/pastors" alt="Card image" style="width: 100%; height:200px;">
+                  <div class="card-img-overlay">
+                    <h5 class="card-title">
+                      <h5 class="card-title">
+                          <span class="badge badge-danger">Miracle Service</span>
+                      </h5> 
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-2">
+                <div class="card bg-dark text-white border border-light">
+                  <img class="card-img img-fluid" src="img/nav/history" alt="Card image" style="width: 100%; height:200px;">
+                  <div class="card-img-overlay">
+                    <h5 class="card-title">
+                        <span class="badge badge-danger">Revival Meeting</span>
+                    </h5>
+                      
+                  </div>
+                </div>
+
+                <div class="card bg-dark text-white mt-3">
+                  <img class="card-img  border border-light" src="img/nav/become-a-member" alt="Card image" style="width: 100%; height:200px;">
+                  <div class="card-img-overlay">
+                    <h5 class="card-title">
+                        <span class="badge badge-danger">Become a Member</span>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+      <li class="nav-item dropdown" style="position: static!important;">
+        <a class="nav-link  text-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+          aria-expanded="false">
+          I'm New Here
+        </a>
+        <div class="dropdown-menu mega-menu" aria-labelledby="navbarDropdown">
+            <div class="row">
+                <div class="col-md-2"></div>
+
+              <div class="col-md-3 offset-md-2">
+                <div class="card bg-dark text-white mt-5">
+                  <a href="/what-we-believe" class=""> 
+                    <img class="card-img h-100 border border-light d-none d-md-block" src="img/nav/what-we-believe" alt="Card image">
+                  </a>
+
+                  <div class="card-img-overlay">
+                    <h5 class="card-title">
+                      <span class="badge badge-danger">What We Believe</span>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-2">
+                <div class="card bg-dark text-white">
+                  <a href="/fathers-vision">
+                    <img class="card-img img-fluid  border border-light" src="img/nav/fathers-vision2" alt="Card image" style="width: 100%; height:200px;"> </a>
+                  <div class="card-img-overlay">
+                    <h5 class="card-title">
+                      <span class="badge badge-danger">The Father's Vision</span>
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="card bg-dark text-white mt-3">
+                  <img class="card-img img-fluid  border border-light" src="img/nav/pastors" alt="Card image" style="width: 100%; height:200px;">
+                  <div class="card-img-overlay">
+                      <h5 class="card-title">
+                          <span class="badge badge-danger">Pastors</span>
+                      </h5> 
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-2">
+                <div class="card bg-dark text-white border border-light">
+                  <img class="card-img img-fluid" src="img/nav/history" alt="Card image" style="width: 100%; height:200px;">
+                  <div class="card-img-overlay">
+                    <h5 class="card-title">
+                        <span class="badge badge-danger">Our History</span>
+                    </h5>
+                      
+                  </div>
+                </div>
+
+                <div class="card bg-dark text-white mt-3">
+                  <img class="card-img  border border-light" src="img/nav/become-a-member" alt="Card image" style="width: 100%; height:200px;">
+                  <div class="card-img-overlay">
+                    <h5 class="card-title">
+                        <span class="badge badge-danger">Become a Member</span>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md">
+                <p class="text-primary"> <a href="/im-new-here" style="color: rgb(213, 210, 226); font-size: 27px; font-weight: 900;"> See More </a> </p>
+                <p>
+                  <a href="/cornerstone-academy" class="card-link">Cornerstone Academy <i class="fas fa-arrow-alt-circle-right text-danger"></i>  </a>
+                </p>
+                <p>
+                    <a href="/cornerstone-academy" class="card-link">Strategic Plan<i class="fas fa-arrow-alt-circle-right text-danger"></i>  </a>
+                  </p>
+                <p>
+                    <a href="/cornerstone-academy" class="card-link">Church Projects <i class="fas fa-arrow-alt-circle-right text-danger"></i>  </a>
+                  </p>
+                <p>
+                    <a href="/cornerstone-academy" class="card-link">Cornerstone Academy <i class="fas fa-arrow-alt-circle-right text-danger"></i>  </a>
+                  </p>
+              </div>
+
+            </div>
+
+            
+
+        </div>
+      </li>
+      <li class="nav-item dropdown" style="position: static!important;">
+        <a class="nav-link  text-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+          aria-expanded="false">
+          Ministries
+        </a>
+        <div class="dropdown-menu mega-menu" aria-labelledby="navbarDropdown">
+            <div class="row">
+                <div class="col-md-2">.col-md-4</div>
+
+              <div class="col-md-3 offset-md-2">
+                <div class="card bg-dark text-white mt-5">
+                  <a href="/what-we-believe" class=""> 
+                    <img class="card-img h-100 border border-light d-none d-md-block" src="img/nav/what-we-believe" alt="Card image">
+                  </a>
+
+                  <div class="card-img-overlay">
+                    <h5 class="card-title">
+                      <span class="badge badge-danger">Ladies Ministry</span>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-2">
+                <div class="card bg-dark text-white">
+                  <a href="/fathers-vision">
+                    <img class="card-img img-fluid  border border-light" src="img/nav/fathers-vision2" alt="Card image" style="width: 100%; height:200px;"> </a>
+                  <div class="card-img-overlay">
+                    <h5 class="card-title">
+                      <span class="badge badge-danger">Men's Ministry
+                  </div>
+                </div>
+
+                <div class="card bg-dark text-white mt-3">
+                  <img class="card-img img-fluid  border border-light" src="img/nav/pastors" alt="Card image" style="width: 100%; height:200px;">
+                  <div class="card-img-overlay">
+                      <h5 class="card-title">
+                          <span class="badge badge-danger">Youth Ministry</span>
+                      </h5> 
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-2">
+                <div class="card bg-dark text-white border border-light">
+                  <img class="card-img img-fluid" src="img/nav/history" alt="Card image" style="width: 100%; height:200px;">
+                  <div class="card-img-overlay">
+                    <h5 class="card-title">
+                        <span class="badge badge-danger">Children Ministry</span>
+                    </h5>
+                      
+                  </div>
+                </div>
+
+                <div class="card bg-dark text-white mt-3">
+                  <img class="card-img  border border-light" src="img/nav/become-a-member" alt="Card image" style="width: 100%; height:200px;">
+                  <div class="card-img-overlay">
+                    <h5 class="card-title">
+                        <span class="badge badge-danger">New Believers Ministry</span>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md">
+                <p class="text-primary"> <a href="/im-new-here" style="color: rgb(213, 210, 226); font-size: 27px; font-weight: 900;"> See More </a> </p>
+                <p>
+                  <a href="/cornerstone-academy" class="card-link"> Couples Ministry <i class="fas fa-arrow-alt-circle-right text-danger"></i>  </a>
+                </p>
+                <p>
+                    <a href="/cornerstone-academy" class="card-link">Connect Ministry<i class="fas fa-arrow-alt-circle-right text-danger"></i>  </a>
+                  </p>
+                <p>
+                    <a href="/cornerstone-academy" class="card-link"> Prisons Ministry <i class="fas fa-arrow-alt-circle-right text-danger"></i>  </a>
+                  </p>
+                <p>
+                    <a href="/cornerstone-academy" class="card-link"> Praise & Worship <i class="fas fa-arrow-alt-circle-right text-danger"></i>  </a>
+                </p>
+              </div>
+
+            </div>
+
+            
+
+        </div>
+      </li>
+
+      <li class="nav-item dropdown" style="position: static!important;">
+        <a class="nav-link  text-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+          aria-expanded="false">
+          Media
+        </a>
+        <div class="dropdown-menu mega-menu" aria-labelledby="navbarDropdown">
+            <div class="row">
+                <div class="col-md-2">.col-md-4</div>
+
+              <div class="col-md-3 offset-md-2">
+                <div class="card bg-dark text-white mt-5">
+                  <a href="/what-we-believe" class=""> 
+                    <img class="card-img h-100 border border-light d-none d-md-block" src="img/nav/what-we-believe" alt="Card image">
+                  </a>
+
+                  <div class="card-img-overlay">
+                    <h5 class="card-title">
+                      <span class="badge badge-danger">Sermons</span>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-2">
+                <div class="card bg-dark text-white">
+                  <a href="/fathers-vision">
+                    <img class="card-img img-fluid  border border-light" src="img/nav/fathers-vision2" alt="Card image" style="width: 100%; height:200px;"> </a>
+                  <div class="card-img-overlay">
+                    <h5 class="card-title">
+                      <span class="badge badge-danger">Events</span>
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="card bg-dark text-white mt-3">
+                  <img class="card-img img-fluid  border border-light" src="img/nav/pastors" alt="Card image" style="width: 100%; height:200px;">
+                  <div class="card-img-overlay">
+                      <h5 class="card-title">
+                          <span class="badge badge-danger">News</span>
+                      </h5> 
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-2">
+                <div class="card bg-dark text-white border border-light">
+                  <img class="card-img img-fluid" src="img/nav/history" alt="Card image" style="width: 100%; height:200px;">
+                  <div class="card-img-overlay">
+                    <h5 class="card-title">
+                        <span class="badge badge-danger">Gallery</span>
+                    </h5>
+                      
+                  </div>
+                </div>
+
+                <div class="card bg-dark text-white mt-3">
+                  <img class="card-img  border border-light" src="img/nav/become-a-member" alt="Card image" style="width: 100%; height:200px;">
+                  <div class="card-img-overlay">
+                    <h5 class="card-title">
+                        <span class="badge badge-danger">Ministry Videos</span>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md">
+                <p class="text-primary"> <a href="/im-new-here" style="color: rgb(213, 210, 226); font-size: 27px; font-weight: 900;"> See More </a> </p>
+                <p>
+                  <a href="/cornerstone-academy" class="card-link">Cornerstone Academy <i class="fas fa-arrow-alt-circle-right text-danger"></i>  </a>
+                </p>
+                <p>
+                    <a href="/cornerstone-academy" class="card-link">Strategic Plan<i class="fas fa-arrow-alt-circle-right text-danger"></i>  </a>
+                  </p>
+                <p>
+                    <a href="/cornerstone-academy" class="card-link">Church Projects <i class="fas fa-arrow-alt-circle-right text-danger"></i>  </a>
+                  </p>
+                <p>
+                    <a href="/cornerstone-academy" class="card-link">Cornerstone Academy <i class="fas fa-arrow-alt-circle-right text-danger"></i>  </a>
+                  </p>
+              </div>
+
+            </div>
+
+            
+
+        </div>
+      </li>
+
+      <li class="nav-item dropdown" style="position: static!important;">
+        <a class="nav-link  text-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+          aria-expanded="false">
+          Resources
+        </a>
+        <div class="dropdown-menu mega-menu" aria-labelledby="navbarDropdown">
+            <div class="row">
+                <div class="col-md-2"></div>
+
+              <div class="col-md-3 offset-md-2">
+                <div class="card bg-dark text-white mt-5">
+                  <a href="/what-we-believe" class=""> 
+                    <img class="card-img h-100 border border-light d-none d-md-block" src="img/nav/what-we-believe" alt="Card image">
+                  </a>
+
+                  <div class="card-img-overlay">
+                    <h5 class="card-title">
+                      <span class="badge badge-danger">Blog</span>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-2">
+                <div class="card bg-dark text-white">
+                  <a href="/fathers-vision">
+                    <img class="card-img img-fluid  border border-light" src="img/nav/fathers-vision2" alt="Card image" style="width: 100%; height:200px;"> </a>
+                  <div class="card-img-overlay">
+                    <h5 class="card-title">
+                      <span class="badge badge-danger">Careers</span>
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="card bg-dark text-white mt-3">
+                  <img class="card-img img-fluid  border border-light" src="img/nav/pastors" alt="Card image" style="width: 100%; height:200px;">
+                  <div class="card-img-overlay">
+                      <h5 class="card-title">
+                          <span class="badge badge-danger">Prayers</span>
+                      </h5> 
+                  </div>
+                </div>
+              </div>
+
+              <!-- <div class="col-md-2">
+                <div class="card bg-dark text-white border border-light">
+                  <img class="card-img img-fluid" src="img/nav/history" alt="Card image" style="width: 100%; height:200px;">
+                  <div class="card-img-overlay">
+                    <h5 class="card-title">
+                        <span class="badge badge-danger">Gallery</span>
+                    </h5>
+                      
+                  </div>
+                </div>
+
+                <div class="card bg-dark text-white mt-3">
+                  <img class="card-img  border border-light" src="img/nav/become-a-member" alt="Card image" style="width: 100%; height:200px;">
+                  <div class="card-img-overlay">
+                    <h5 class="card-title">
+                        <span class="badge badge-danger">Ministry Videos</span>
+                    </h5>
+                  </div>
+                </div>
+              </div> -->
+
+              <!-- <div class="col-md">
+                <p class="text-primary"> <a href="/im-new-here" style="color: rgb(213, 210, 226); font-size: 27px; font-weight: 900;"> See More </a> </p>
+                <p>
+                  <a href="/cornerstone-academy" class="card-link">Cornerstone Academy <i class="fas fa-arrow-alt-circle-right text-danger"></i>  </a>
+                </p>
+                <p>
+                    <a href="/cornerstone-academy" class="card-link">Strategic Plan<i class="fas fa-arrow-alt-circle-right text-danger"></i>  </a>
+                  </p>
+                <p>
+                    <a href="/cornerstone-academy" class="card-link">Church Projects <i class="fas fa-arrow-alt-circle-right text-danger"></i>  </a>
+                  </p>
+                <p>
+                    <a href="/cornerstone-academy" class="card-link">Cornerstone Academy <i class="fas fa-arrow-alt-circle-right text-danger"></i>  </a>
+                  </p>
+              </div> -->
+
+            </div>
+
+            
+
+        </div>
+      </li>
+    </ul>
+    
+  </div>
 </nav>
-
-<div class="overlay">
-	<div class="wrap">
-		<ul class="wrap-nav">
-			<li><a href="#">About Us</a>
-			<ul>
-				<li><a href="#">Who We Are</a></li>
-				<li><a href="#">What We Believe</a></li>
-				<li><a href="#">Father's Vision</a></li>
-                <li><a href="#">Pastors</a></li>
-                <li><a href="#">Cornerstone Academy</a></li>
-			</ul>
-			</li>
-			<li><a href="#">Services</a>
-			<ul>
-				<li><a href="#">Who We Are</a></li>
-				<li><a href="#">What We Believe</a></li>
-				<li><a href="#">Father's Vision</a></li>
-                <li><a href="#">Pastors</a></li>
-                <li><a href="#">Cornerstone Academy</a></li>
-			</ul>
-			</li>
-
-			<li><a href="#">Work</a>
-			<ul class="col-md">
-				<li><a href="#">Web</a></li>
-				<li><a href="#">Graphic</a></li>
-				<li><a href="#">Apps</a></li>
-			</ul>
-			</li>
-
-            <li><a href="#">Services</a>
-			<ul>
-				<li><a href="#">Who We Are</a></li>
-				<li><a href="#">What We Believe</a></li>
-				<li><a href="#">Father's Vision</a></li>
-                <li><a href="#">Pastors</a></li>
-                <li><a href="#">Cornerstone Academy</a></li>
-			</ul>
-			</li>
-
-            <li><a href="#">Services</a>
-			<ul>
-				<li><a href="#">Who We Are</a></li>
-				<li><a href="#">What We Believe</a></li>
-				<li><a href="#">Father's Vision</a></li>
-                <li><a href="#">Pastors</a></li>
-                <li><a href="#">Cornerstone Academy</a></li>
-			</ul>
-			</li>
-
-            <li><a href="#">Services</a>
-			<ul>
-				<li><a href="#">Who We Are</a></li>
-				<li><a href="#">What We Believe</a></li>
-				<li><a href="#">Father's Vision</a></li>
-                <li><a href="#">Pastors</a></li>
-                <li><a href="#">Cornerstone Academy</a></li>
-			</ul>
-			</li>
-
-            <li><a href="#">Services</a>
-			<ul>
-				<li><a href="#">Who We Are</a></li>
-				<li><a href="#">What We Believe</a></li>
-				<li><a href="#">Father's Vision</a></li>
-                <li><a href="#">Pastors</a></li>
-                <li><a href="#">Cornerstone Academy</a></li>
-			</ul>
-			</li>
-
-            <li><a href="#">Services</a>
-			<ul>
-				<li><a href="#">Who We Are</a></li>
-				<li><a href="#">What We Believe</a></li>
-				<li><a href="#">Father's Vision</a></li>
-                <li><a href="#">Pastors</a></li>
-                <li><a href="#">Cornerstone Academy</a></li>
-			</ul>
-			</li>
-        </ul>     
-    </div>
-
-
-		<div class="social text-center">
-			<a href="http://mario-loncarek.from.hr/">
-			<div class="social-icon">
-				<i class="fa fa-facebook"></i>
-			</div>
-			</a>
-			<a href="#">
-			<div class="social-icon">
-				<i class="fa fa-twitter"></i>
-			</div>
-			</a>
-			<a href="#">
-			<div class="social-icon">
-				<i class="fa fa-codepen"></i>
-			</div>
-			</a>
-			<a href="#">
-			<div class="social-icon">
-				<i class="fa fa-behance"></i>
-			</div>
-			</a>
-			<a href="#">
-			<div class="social-icon">
-				<i class="fa fa-dribbble"></i>
-			</div>
-			</a>
-			
-		</div>
-	</div>
-</div>

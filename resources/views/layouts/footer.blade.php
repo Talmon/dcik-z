@@ -45,7 +45,7 @@
     </div>
   </div>
       <!-- SERVICES -->
-      <div class="services jumbotron h-50 text-white text-center font-official">
+      <!-- <div class="services jumbotron h-50 text-white text-center font-official">
         <div class="row">
           <div class="col-md-7">
             <h4>Sunday Services</h4>
@@ -59,7 +59,7 @@
           </div>
         </div>
 
-      </div>
+      </div> -->
 
       <!-- END OF SERVICES -->
 </footer>

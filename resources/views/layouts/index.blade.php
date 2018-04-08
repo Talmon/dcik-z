@@ -83,7 +83,7 @@
 
 {{--WELCOME SECTION--}}
 
-<div class="container-fluid vision-carriers toHide text-light " style="background-color: rgba(0,0,0,0.7); ">
+<!-- <div class="container-fluid vision-carriers toHide text-light " style="background-color: rgba(0,0,0,0.7); ">
     <div class="row mt-5">
         <div class="col-md-3">
             <img src="../img/pastors/dad-and-mum.jpg" alt="" class="card-img img-fluid" style="height:auto; max-width:100%;">
@@ -101,7 +101,7 @@
             <h2>BISHOP DR. JIMMY KIMANI AND PASTOR ALICE KIMANI</h2>
         </div>
     </div>
-</div>
+</div> -->
 
 
 

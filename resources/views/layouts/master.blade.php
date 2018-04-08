@@ -112,7 +112,7 @@ $(document).ready(function() {
     console.log(currentDate);
 
     // Set some date in the past. In this case, it's always been since Jan 1
-    var futureDate  = new Date(currentDate.getFullYear(), 2, 30);
+    var futureDate  = new Date(currentDate.getFullYear(), 3, 13);
     console.log(futureDate);
     // Calculate the difference in seconds between the future and current date
     var diff = futureDate.getTime() / 1000 - currentDate.getTime() / 1000;

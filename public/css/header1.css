@@ -35,7 +35,7 @@ nav {
 }
 
 .nav-link{
-	border-right: 1px solid red;
+	border-right: 1px solid rgb(129, 9, 9);
 	font-weight: 900;
 	font-size: 20px;
 	text-transform: uppercase;

@@ -1,5 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light mx-auto"  style="background: url('/img/homepage/sermons');
-   background-size: cover; background-repeat: no-repeat;">
+<nav class="navbar navbar-expand-lg  fixed-top mx-auto">
   <img src="../img/logos/church-logo.png" class="bg-light" style="width: 100px; height:90px;">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
     aria-expanded="false" aria-label="Toggle navigation">

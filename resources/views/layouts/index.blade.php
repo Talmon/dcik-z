@@ -13,41 +13,24 @@
     <div class="carousel-inner">
         <div class="carousel-item active">
 
-            <div class="embed-responsive embed-responsive-16by9">
-                <video class="embed-responsive-item" src="../img/videos/video.MP4" controls autoplay loop allowfullscreen data-interval="35000"></video>
-            </div>
+            <!-- <div class="" style="margin-top:-50px;"> -->
+                <!-- <video  class="" src="../img/videos/deli.mp4"   autoplay loop></video> -->
+                <div class="video-container">
+                    <video autoplay loop> 
+                        <source src="../img/videos/deli.mp4" type="video/mp4" />
+                    </video>
+                </div>
+            <!-- </div> -->
+            
             <div class="container">
                 <div class="carousel-caption ml-auto" style="position: absolute; right:0;">
-                    <h2>WELCOME TO</h2>
-                    <h1 class="animate-plus  text-left display-3" data-animations="zoomIn,bounce" data-animation-delay="0s" data-animation-duration="4s">
+                    <h2 class="animate-plus  text-center display-3" data-animations="slideInDown" data-animation-delay="0s" data-animation-duration="4s">WELCOME TO</h2>
+                    <h1 class="animate-plus  text-center display-3" data-animations="zoomIn,bounce" data-animation-delay="0s" data-animation-duration="4s">
                         DELIVERANCE CHURCH INTERNATIONAL KASARANI
                     </h1>
-                    <h2 class="animate-plus" data-animations="bounceInLeft" data-animation-delay="5s" data-animation-duration="5s">We are a church for the tribe of Kenya,no matter your look,your denomination,your religion,your race,no
-                        matter your social status,you are welcome</h2>
-                    <!-- <a href="/guests">
-                        <button class="animate-plus mt btn btn-lg" data-animations="bounceInLeft" data-animation-delay="4s" data-animation-duration="4s">
-                            <h4 class=" text-white">I'M NEW HERE </h4>
-                        </button>
-                    </a>
-
-                    <a href="/guests">
-                        <button class="animate-plus mt btn btn-lg" data-animations="bounceInLeft" data-animation-delay="3s" data-animation-duration="4s">
-                            <h4 class=" text-white">WATCH SERMON </h4>
-                        </button>
-                    </a>
-
-                    <a href="/visit-us">
-                        <button class="animate-plus mt btn btn-lg" data-animations="bounceInLeft" data-animation-delay="2s" data-animation-duration="4s">
-                            <h4 class=" text-white">VISIT US </h4>
-                        </button>
-                    </a>
-
-                    <a href="/give">
-                        <button class="animate-plus mt btn btn-lg" data-animations="bounceInLeft" data-animation-delay="1s" data-animation-duration="4s">
-                            <h4 class=" text-white">GIVE</h4>
-                        </button>
-                    </a> -->
-
+                    <h2 class="animate-plus  text-center display-3" data-animations="slideInRight,bounce" data-animation-delay="4s" data-animation-duration="4s">COME AS YOU ARE !</h2>
+                    <h2 class="animate-plus d-none d-md-block" data-animations="bounceInLeft" data-animation-delay="6s" data-animation-duration="5s" style="color:white;">We are a church for the tribe of Kenya,no matter your look,your denomination,your religion,your race,no
+                        matter your social status,you are welcome</h2>   
                 </div>
             </div>
         </div>
@@ -57,43 +40,35 @@
 
         </div>
 
-        <div class="carousel-item poster" style="position: relative; top: 130px;">
+        <div class="carousel-item poster">
             <img class="d-sm-block  w-100" src="../img/homepage/doi.jpg" alt="First slide">
 
         </div>
 
-        <!-- <div class="carousel-item poster">
-            <img class="d-block w-100" src="../img/homepage/fathers-vision.jpeg" alt="First slide">
-
-        </div> -->
+       
 
     </div>
 
-    <!-- <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
-   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <span class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
-  <span class="carousel-control-next-icon " aria-hidden="true" style="margin-left: -100px;"></span>
-  <span class="sr-only">Next</span>
-  </a> -->
+   
 </div>
 
 <!-- END OF CAROUSEL -->
 
 <!-- SERVICES ALERT  -->
 
-<div class="container-fluid mt-1 bg-light" style="height: 100px;">
-    <p class="lead py-4  text-center" style="font-weight:400; font-size:28px;">Join us every Sunday @ 7:00 a.m,9:00 a.m. and 11:00 a.m. <button class="btn btn-large bg-danger ml-5 "> <a href="/services" class="text-light"> <h4> See All Services </h4>  </a>  </button> </p>
+<div class="container-fluid mt-1 bg-light" style="height: 100px; margin-bottom:100px;">
+    <p class="lead py-4  text-center" style="font-weight:400; font-size:28px;">Join us every Sunday @ 7:00 a.m,9:00 a.m. and 11:00 a.m. 
+    <br>
+     <button class="btn btn-large bg-danger ml-5 "> <a href="/services" class="text-light"> <h4> See All Services </h4>  </a>  </button> </p>
 </div>
 
 <!-- END OF SERVICE ALERT -->
 
 <!-- QUICK TOUR -->
-<div class="container-fluid">
+<div class="container-fluid mt-5">
     <div class="row">
             <div class="card-deck mx-auto mt-3">
-                    <div class="card  text-white">
+                    <div class="card   text-white">
                         <img class="card-img " src="img/homepage/sermons" alt="Card image" height="300" >
                         <div class="card-img-overlay text-center" style=" background-color:rgba(150, 136, 7, 0.781); ">
                             <h5 class="card-title mt-5" style="font-weight:900; font-size:30px;">I'M NEW HERE</h5>
@@ -102,7 +77,7 @@
                     </div>
             
                     <div class="card  text-white">
-                            <img class="card-img h-100" src="img/homepage/sermons" alt="Card image" >
+                            <img class="card-img " src="img/homepage/sermons" alt="Card image" height="300">
                             <div class="card-img-overlay text-center" style=" background-color:rgba(19, 150, 7, 0.774);">
                             <h5 class="card-title mt-5" style="font-weight:900; font-size:30px;">NEXT STEPS</h5>
                             <i class="fas fa-10x fa-step-forward"></i>
@@ -110,7 +85,7 @@
                     </div>
             
                     <div class="card  text-white">
-                            <img class="card-img h-100" src="img/homepage/sermons" alt="Card image"  >
+                            <img class="card-img " src="img/homepage/sermons" alt="Card image" height="300" >
                             <div class="card-img-overlay text-center" style=" background-color:rgba(7, 69, 150, 0.774);">
                             <h5 class="card-title mt-5" style="font-weight:900; font-size:30px;">GET INVOLVED</h5>
                             <i class="fas fa-10x fa-people-carry"></i>
@@ -118,7 +93,7 @@
                     </div>
             
                     <div class="card  text-white">
-                            <img class="card-img h-100" src="img/homepage/sermons" alt="Card image"  >
+                            <img class="card-img" src="img/homepage/sermons" alt="Card image" height="300" >
                             <div class="card-img-overlay text-center" style=" background-color:rgba(126, 7, 150, 0.774);"> 
                             <h5 class="card-title mt-5" style="font-weight:900; font-size:30px;">SERVICES</h5>
                             <i class="fas fa-10x fa-bell"></i>
@@ -129,24 +104,24 @@
     </div>
     
 
-
-    <div class="jumbotron mt-5 pl-5 bg-overlay">
-        <h1 class="display-4 mt-5">What We Believe</h1>
-        <p class="lead">The Bible is the inspired, only infallible word of God (2 Tim 3:15-17; 2 Peter 1:19-21; 1 Thessalonians 2:13).</p>
-        <p>This means that God's Word stands on its own - it doesn't need a complement or a supplement.</p>
-        <br>
-        <p class="lead">There is one Eternal, Almighty and Perfect God.</p>
-        <p>He reveals Himself as Father, Son and Holy Spirit with distinct personal attributes, without division of Nature, Essence, or Being (Deuteronomy 6:4; John 1:1; 14; Gen 1:2, 26-27).</p>
-        <p class="lead">
-          <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-        </p>
-      </div>
-
-</div>
-
-<div class="container">
+    <div class="jumbotron text-center ">
+            <h1 class="display-4 mt-5">What We Believe</h1>
+            <p class="lead">The Bible is the inspired, only infallible word of God (2 Tim 3:15-17; 2 Peter 1:19-21; 1 Thessalonians 2:13).</p>
+            <p>This means that God's Word stands on its own - it doesn't need a complement or a supplement.</p>
+            <br>
+            <p class="lead">There is one Eternal, Almighty and Perfect God.</p>
+            <p>He reveals Himself as Father, Son and Holy Spirit with distinct personal attributes, without division of Nature, Essence, or Being (Deuteronomy 6:4; John 1:1; 14; Gen 1:2, 26-27).</p>
+            <p class="lead">
+              <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+            </p>
+    </div>
     
+
 </div>
+
+
+
+
 
 <!-- END OF QUICK TOUR -->
 
@@ -180,7 +155,7 @@
 <!-- EVENTS -->
 <div class="events container-fluid font-official text-white mt-5 bg-light toHide">
     <div class="mx-auto text-center">
-        <img src="https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/f50af39a-3818-4943-b8f9-8fad15b2c22f/hr-stephan-hilbelink2.png" class="mx-auto"> </div>
+        <img src="https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/f50af39a-3818-4943-b8f9-8fad15b2c22f/hr-stephan-hilbelink2.png" class="mx-auto text-center"> </div>
     <h1 class="text-center mx-auto" style="color:blue">UPCOMING EVENTS</h1>
     <div class="row">
         <div class="col-md-4 mt-3">

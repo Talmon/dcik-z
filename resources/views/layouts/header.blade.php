@@ -1,8 +1,8 @@
-<nav class="navbar navbar-expand-lg  fixed-top mx-auto">
+<nav class="navbar navbar-expand-md  mx-auto">
   <img src="../img/logos/church-logo.png" class="bg-light" style="width: 100px; height:90px;">
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+  <button class="navbar-toggler text-white" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
     aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+    <h5>Menu</h5>  <span class="navbar-toggler-icon"> <i class="fas fa-bars"></i> </span>
   </button>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -17,14 +17,14 @@
           aria-expanded="false">
         Services
         </a>
-        <div class="dropdown-menu mega-menu" aria-labelledby="navbarDropdown">
+        <div class="dropdown-menu mega-menu  " aria-labelledby="navbarDropdown">
             <div class="row">
                 <div class="col-md-2"></div>
 
               <div class="col-md-3 offset-md-2">
                 <div class="card bg-dark text-white mt-5">
                   <a href="/what-we-believe" class=""> 
-                    <img class="card-img h-100 border border-light d-none d-md-block" src="img/nav/what-we-believe" alt="Card image">
+                    <img class="card-img h-100 border border-light  d-md-block" src="img/nav/what-we-believe" alt="Card image">
                   </a>
 
                   <div class="card-img-overlay">
@@ -81,14 +81,14 @@
           aria-expanded="false">
           I'm New Here
         </a>
-        <div class="dropdown-menu mega-menu" aria-labelledby="navbarDropdown">
+        <div class="dropdown-menu mega-menu  " aria-labelledby="navbarDropdown">
             <div class="row">
                 <div class="col-md-2"></div>
 
               <div class="col-md-3 offset-md-2">
                 <div class="card bg-dark text-white mt-5">
                   <a href="/what-we-believe" class=""> 
-                    <img class="card-img h-100 border border-light d-none d-md-block" src="img/nav/what-we-believe" alt="Card image">
+                    <img class="card-img h-100 border border-light  d-md-block" src="img/nav/what-we-believe" alt="Card image">
                   </a>
 
                   <div class="card-img-overlay">
@@ -167,14 +167,14 @@
           aria-expanded="false">
           Ministries
         </a>
-        <div class="dropdown-menu mega-menu" aria-labelledby="navbarDropdown">
+        <div class="dropdown-menu mega-menu  " aria-labelledby="navbarDropdown">
             <div class="row">
                 <div class="col-md-2">.col-md-4</div>
 
               <div class="col-md-3 offset-md-2">
                 <div class="card bg-dark text-white mt-5">
                   <a href="/what-we-believe" class=""> 
-                    <img class="card-img h-100 border border-light d-none d-md-block" src="img/nav/what-we-believe" alt="Card image">
+                    <img class="card-img h-100 border border-light  d-md-block" src="img/nav/what-we-believe" alt="Card image">
                   </a>
 
                   <div class="card-img-overlay">
@@ -253,14 +253,14 @@
           aria-expanded="false">
           Media
         </a>
-        <div class="dropdown-menu mega-menu" aria-labelledby="navbarDropdown">
+        <div class="dropdown-menu mega-menu  " aria-labelledby="navbarDropdown">
             <div class="row">
                 <div class="col-md-2">.col-md-4</div>
 
               <div class="col-md-3 offset-md-2">
                 <div class="card bg-dark text-white mt-5">
                   <a href="/what-we-believe" class=""> 
-                    <img class="card-img h-100 border border-light d-none d-md-block" src="img/nav/what-we-believe" alt="Card image">
+                    <img class="card-img h-100 border border-light  d-md-block" src="img/nav/what-we-believe" alt="Card image">
                   </a>
 
                   <div class="card-img-overlay">
@@ -340,14 +340,14 @@
           aria-expanded="false">
           Resources
         </a>
-        <div class="dropdown-menu mega-menu" aria-labelledby="navbarDropdown">
+        <div class="dropdown-menu mega-menu  " aria-labelledby="navbarDropdown">
             <div class="row">
                 <div class="col-md-2"></div>
 
               <div class="col-md-3 offset-md-2">
                 <div class="card bg-dark text-white mt-5">
                   <a href="/what-we-believe" class=""> 
-                    <img class="card-img h-100 border border-light d-none d-md-block" src="img/nav/what-we-believe" alt="Card image">
+                    <img class="card-img h-100 border border-light  d-md-block" src="img/nav/what-we-believe" alt="Card image">
                   </a>
 
                   <div class="card-img-overlay">

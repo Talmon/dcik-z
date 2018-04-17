@@ -46,7 +46,6 @@
 <script src="js/bootstrap.min.js"></script>
 <script src="js/animate-plus.min.js"></script>
 <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
-<script src="libs/js/jquery-1.11.0.min.js"></script>
 <script src="dist/js/jquery.sliderPro.min.js"></script>
 <script src="flipclock/compiled/flipclock.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
@@ -112,7 +111,7 @@ $(document).ready(function() {
     console.log(currentDate);
 
     // Set some date in the past. In this case, it's always been since Jan 1
-    var futureDate  = new Date(currentDate.getFullYear(), 3, 13);
+    var futureDate  = new Date(currentDate.getFullYear(), 3, 20);
     console.log(futureDate);
     // Calculate the difference in seconds between the future and current date
     var diff = futureDate.getTime() / 1000 - currentDate.getTime() / 1000;

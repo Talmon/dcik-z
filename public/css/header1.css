@@ -8,9 +8,7 @@
 .dropdown-menu{
 	width:100%;
 }
-.dropdown:hover>.dropdown-menu{
-    display:block;
-}
+
 
 .mega-menu .card-title {
 	font-size: 27px;
@@ -30,13 +28,17 @@
 	color: #ccc;
 }
 nav {
-	margin-left: 500px;
-    background-color: rgba(0,0,0,0.7);
+background: linear-gradient(rgba(240, 3, 3, 0.801), rgba(10, 9, 9, 0.925)),url("/img/cathedral1.jpg");
+background-repeat: repeat;
+background-size: cover;
+background-position: center center;
+/* background-color: rgba(0, 0, 0, 0.596); */
 }
 
 .nav-link{
-	border-right: 1px solid rgb(129, 9, 9);
+	border-right: 1px solid rgb(219, 209, 209);
 	font-weight: 900;
 	font-size: 20px;
 	text-transform: uppercase;
 }
+

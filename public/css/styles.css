@@ -9197,9 +9197,50 @@ body {
   overflow-x: hidden;
 }
 
-.hr-divider {
-  color: red;
-  background-image: url("/img/hr/hr-red.png");
+nav {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(240, 3, 3, 0.801)), to(rgba(10, 9, 9, 0.925))), url("/img/cathedral1.jpg");
+  background: linear-gradient(rgba(240, 3, 3, 0.801), rgba(10, 9, 9, 0.925)), url("/img/cathedral1.jpg");
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center center;
+  /* background-color: rgba(0, 0, 0, 0.596); */
+}
+
+nav .nav-link {
+  border-right: 1px solid #dbd1d1;
+  font-weight: 900;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+nav .mega-menu {
+  /* width:800px; */
+  overflow: hidden;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+nav .dropdown:hover > .dropdown-menu {
+  display: none;
+}
+
+nav .mega-menu .card-title {
+  font-size: 27px;
+  font-weight: 900;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 10;
+}
+
+nav .card-link {
+  color: white;
+  font-size: 27px;
+  font-weight: 900;
+}
+
+nav .card-link:hover {
+  color: #ccc;
 }
 
 .font-niconne {
@@ -9300,6 +9341,36 @@ body {
     background-color: rgba(13, 70, 146, 0.315);
     height: 5px;
   }
+
+  .hr-divider > img {
+    width: 250px;
+  }
+
+  #dcik-theme h1 {
+    font-size: 25px;
+  }
+
+  #dcik-theme p {
+    font-size: 20px;
+  }
+
+  #sermon-slider iframe {
+    height: 300px;
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+  }
+
+  #sermon-slider h3 {
+    font-size: 20px;
+  }
+
+  #sermon-slider p {
+    font-size: 17px;
+  }
+
+  .dropdown:hover > .dropdown-menu {
+    display: none;
+  }
 }
 
 .tour-card {
@@ -9312,11 +9383,6 @@ body {
 
 .events {
   background: rgba(59, 7, 7, 0.87);
-}
-
-.sp-slide p {
-  font-weight: 700;
-  font-size: 30px;
 }
 
 /* Change the styles of the indicators */

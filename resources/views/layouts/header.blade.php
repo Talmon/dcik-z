@@ -17,7 +17,7 @@
           aria-expanded="false">
         Services
         </a>
-        <div class="dropdown-menu mega-menu  " aria-labelledby="navbarDropdown">
+        <div class="dropdown-menu mega-menu d-none" aria-labelledby="navbarDropdown">
             <div class="row">
                 <div class="col-md-2"></div>
 
@@ -81,7 +81,7 @@
           aria-expanded="false">
           I'm New Here
         </a>
-        <div class="dropdown-menu mega-menu  " aria-labelledby="navbarDropdown">
+        <div class="dropdown-menu mega-menu  d-none" aria-labelledby="navbarDropdown">
             <div class="row">
                 <div class="col-md-2"></div>
 
@@ -167,7 +167,7 @@
           aria-expanded="false">
           Ministries
         </a>
-        <div class="dropdown-menu mega-menu  " aria-labelledby="navbarDropdown">
+        <div class="dropdown-menu mega-menu  d-none" aria-labelledby="navbarDropdown">
             <div class="row">
                 <div class="col-md-2">.col-md-4</div>
 
@@ -253,7 +253,7 @@
           aria-expanded="false">
           Media
         </a>
-        <div class="dropdown-menu mega-menu  " aria-labelledby="navbarDropdown">
+        <div class="dropdown-menu mega-menu  d-none" aria-labelledby="navbarDropdown">
             <div class="row">
                 <div class="col-md-2">.col-md-4</div>
 
@@ -340,7 +340,7 @@
           aria-expanded="false">
           Resources
         </a>
-        <div class="dropdown-menu mega-menu  " aria-labelledby="navbarDropdown">
+        <div class="dropdown-menu mega-menu  d-none" aria-labelledby="navbarDropdown">
             <div class="row">
                 <div class="col-md-2"></div>
 

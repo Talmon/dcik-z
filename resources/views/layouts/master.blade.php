@@ -78,9 +78,14 @@ $(document).ready(function(){
             buttons: true,
             waitForLayers: true,
             fade: true,
-            autoplay: false,
+            autoplay: true,
             autoScaleLayers: false,
-            thumbnailPosition: 'bottom'
+            thumbnailPosition: 'bottom',
+            breakpoints: {
+                576: {
+                    height: 300
+                }
+            }
 
         });
 	});
@@ -96,7 +101,12 @@ $(document).ready(function(){
             fade: true,
             autoplay: false,
             autoScaleLayers: false,
-            thumbnailPosition: 'bottom'
+            thumbnailPosition: 'bottom',
+            breakpoints: {
+                576: {
+                    height: 700
+                }
+            }
 
         });
 	});

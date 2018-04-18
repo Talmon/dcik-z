@@ -5,7 +5,8 @@
     background-color: rgba(0,0,0,0.7);
 }
 
-.dropdown-menu{
+.dropdown:hover>.dropdown-menu{
+	display:block;
 	width:100%;
 }
 

@@ -71,46 +71,19 @@
 <!-- END OF SERVICE ALERT -->
 
 <!-- QUICK TOUR -->
-<div class="container-fluid mt-5">
-    <div class="row">
-        <div class="card-deck mx-auto mt-3">
-            <div class="card   text-white">
-                <img class="card-img " src="img/homepage/sermons" alt="Card image" height="300">
-                <div class="card-img-overlay text-center" style=" background-color:rgba(150, 136, 7, 0.781); ">
-                    <h5 class="card-title mt-5" style="font-weight:900; font-size:30px;">I'M NEW HERE</h5>
-                    <i class="fas fa-10x fa-handshake"></i>
-                </div>
-            </div>
 
-            <div class="card  text-white">
-                <img class="card-img " src="img/homepage/sermons" alt="Card image" height="300">
-                <div class="card-img-overlay text-center" style=" background-color:rgba(19, 150, 7, 0.774);">
-                    <h5 class="card-title mt-5" style="font-weight:900; font-size:30px;">NEXT STEPS</h5>
-                    <i class="fas fa-10x fa-step-forward"></i>
-                </div>
-            </div>
+<!-- <div class="card-deck mx-auto mt-3">
+            
 
-            <div class="card  text-white">
-                <img class="card-img " src="img/homepage/sermons" alt="Card image" height="300">
-                <div class="card-img-overlay text-center" style=" background-color:rgba(7, 69, 150, 0.774);">
-                    <h5 class="card-title mt-5" style="font-weight:900; font-size:30px;">GET INVOLVED</h5>
-                    <i class="fas fa-10x fa-people-carry"></i>
-                </div>
-            </div>
+            
 
-            <div class="card  text-white">
-                <img class="card-img" src="img/homepage/sermons" alt="Card image" height="300">
-                <div class="card-img-overlay text-center" style=" background-color:rgba(126, 7, 150, 0.774);">
-                    <h5 class="card-title mt-5" style="font-weight:900; font-size:30px;">SERVICES</h5>
-                    <i class="fas fa-10x fa-bell"></i>
-                </div>
-            </div>
+            
 
         </div>
-    </div>
+    </div> -->
 
 
-    <div class="jumbotron text-center ">
+<!-- <div class="jumbotron text-center ">
         <h1 class="display-4 mt-5">What We Believe</h1>
         <p class="lead">The Bible is the inspired, only infallible word of God (2 Tim 3:15-17; 2 Peter 1:19-21; 1 Thessalonians 2:13).</p>
         <p>This means that God's Word stands on its own - it doesn't need a complement or a supplement.</p>
@@ -121,10 +94,9 @@
         <p class="lead">
             <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
         </p>
-    </div>
+    </div> -->
 
 
-</div>
 
 
 
@@ -156,6 +128,75 @@
         </div>
     </div>
 </div> -->
+
+
+
+
+<div class="tour container-fluid font-official text-white mt-5 bg-light toHide">
+    <div class="row">
+        <div class="card col-md-4  text-white">
+            <img class="card-img" src="img/homepage/sermons" alt="Card image">
+            <div class="card-img-overlay  text-center" style=" background-color:rgba(150, 136, 7, 0.781); ">
+                <h5 class="card-title " style="font-weight:900; font-size:30px;">I'M NEW HERE</h5>
+                <i class="fas fa-10x fa-handshake"></i>
+            </div>
+        </div>
+
+        <div class="card col-md-4 text-white">
+            <img class="card-img " src="img/homepage/sermons" alt="Card image">
+            <div class="card-img-overlay text-center" style=" background-color:rgba(19, 150, 7, 0.774);">
+                <h5 class="card-title" style="font-weight:900; font-size:30px;">NEXT STEPS</h5>
+                <i class="fas fa-10x fa-step-forward"></i>
+            </div>
+        </div>
+
+        <div class="card col-md-4 text-white">
+            <img class="card-img " src="img/homepage/sermons" alt="Card image">
+            <div class="card-img-overlay text-center" style=" background-color:rgba(7, 69, 150, 0.774);">
+                <h5 class="card-title" style="font-weight:900; font-size:30px;">GET INVOLVED</h5>
+                <i class="fas fa-10x fa-people-carry"></i>
+            </div>
+        </div>
+
+        <div class="card col-md-4 text-white">
+            <img class="card-img" src="img/homepage/sermons" alt="Card image">
+            <div class="card-img-overlay text-center" style=" background-color:rgba(126, 7, 150, 0.774);">
+                <h5 class="card-title" style="font-weight:900; font-size:30px;">SERVICES</h5>
+                <i class="fas fa-10x fa-bell"></i>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END OF EVENTS -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -242,7 +283,7 @@
 
         <!-- Slide 2 -->
         <div class="sp-slide py-5">
-            <p class="lead mt-3 text-center text-white font-official" >Matthew 6:33 New Living Translation (NLT) Seek the Kingdom of God above all else, and live righteously, and he
+            <p class="lead mt-3 text-center text-white font-official">Matthew 6:33 New Living Translation (NLT) Seek the Kingdom of God above all else, and live righteously, and he
                 will give you everything you need.</p>
         </div>
 
@@ -254,13 +295,13 @@
 
         <!-- Slide 4 -->
         <div class="sp-slide py-5">
-            <p class="lead mt-3 text-center text-white font-official" >Matthew 24:14 New Living Translation (NLT) And the Good News about the Kingdom will be preached throughout the
+            <p class="lead mt-3 text-center text-white font-official">Matthew 24:14 New Living Translation (NLT) And the Good News about the Kingdom will be preached throughout the
                 whole world, so that all nations will hear it; and then the end will come.</p>
         </div>
 
         <!-- Slide 5 -->
         <div class="sp-slide py-5">
-            <p class="lead mt-3 text-center text-white font-official" >Zechariah 14:9 New Living Translation (NLT) And the Lord will be king over all the earth. On that day there will
+            <p class="lead mt-3 text-center text-white font-official">Zechariah 14:9 New Living Translation (NLT) And the Lord will be king over all the earth. On that day there will
                 be one Lord—his name alone will be worshiped.</p>
         </div>
     </div>
@@ -275,11 +316,11 @@
 
 
 
-    <div class="text-center hr-divider">
-        <img src="https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/f50af39a-3818-4943-b8f9-8fad15b2c22f/hr-stephan-hilbelink2.png"
-            class="">
-    </div>
-    <h3 class="text-center" style="color:blue">RECENT SERMONS</h3>
+<div class="text-center hr-divider">
+    <img src="https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/f50af39a-3818-4943-b8f9-8fad15b2c22f/hr-stephan-hilbelink2.png"
+        class="">
+</div>
+<h3 class="text-center" style="color:blue">RECENT SERMONS</h3>
 
 <!-- SERMON SLIDE        -->
 <div class="slider-pro" id="sermon-slider">
@@ -289,7 +330,7 @@
             <div class="row mt-1">
                 <div class="col-lg-3">
                     <div class="">
-                        <iframe  src="https://www.youtube.com/embed/lgyakZLwAbc" allowfullscreen>
+                        <iframe src="https://www.youtube.com/embed/lgyakZLwAbc" allowfullscreen>
                         </iframe>
                     </div>
                 </div>
@@ -309,7 +350,7 @@
             <div class="row">
                 <div class="col-lg-3">
                     <div class=" ">
-                        <iframe  src="https://www.youtube.com/embed/dEkfu70PVsk" allowfullscreen>
+                        <iframe src="https://www.youtube.com/embed/dEkfu70PVsk" allowfullscreen>
                         </iframe>
                     </div>
                 </div>
@@ -360,70 +401,70 @@
     <div class="text-center hr-divider">
         <img src="https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/f50af39a-3818-4943-b8f9-8fad15b2c22f/hr-stephan-hilbelink2.png"
             class=""> </div>
-<h3 class="text-center mx-auto" style="color:blue">LATEST ARTICLES</h3>
-<div class="row">
-    <div class="col-lg blog">
-        <div class="ih-item square colored effect4 mx-auto">
-            <a href="#">
-                <div class="img-fluid">
-                    <img src="https://images.pexels.com/photos/34601/pexels-photo.jpg?w=1260&h=750&auto=compress&cs=tinysrgb" alt="img">
-                </div>
-                <div class="mask1"></div>
-                <div class="mask2"></div>
-                <div class="info">
-                    <h5 class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, sequi.</h5>
-                    <h3 class="lead" style="border: 1px solid #ccc">Read More</h3>
-                </div>
-            </a>
+    <h3 class="text-center mx-auto" style="color:blue">LATEST ARTICLES</h3>
+    <div class="row">
+        <div class="col-lg blog">
+            <div class="ih-item square colored effect4 mx-auto">
+                <a href="#">
+                    <div class="img-fluid">
+                        <img src="https://images.pexels.com/photos/34601/pexels-photo.jpg?w=1260&h=750&auto=compress&cs=tinysrgb" alt="img">
+                    </div>
+                    <div class="mask1"></div>
+                    <div class="mask2"></div>
+                    <div class="info">
+                        <h5 class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, sequi.</h5>
+                        <h3 class="lead" style="border: 1px solid #ccc">Read More</h3>
+                    </div>
+                </a>
+            </div>
+            <div class="mt-3 text-center">
+                <a href="#" class="text-dark">STAGES OF DISLOYALTY PART 1</a>
+            </div>
         </div>
-        <div class="mt-3 text-center">
-            <a href="#" class="text-dark">STAGES OF DISLOYALTY PART 1</a>
+
+
+
+
+        <div class="col-lg mt-3 blog">
+            <div class="ih-item square colored effect4 mx-auto">
+                <a href="#">
+                    <div class="img-fluid">
+                        <img src="https://images.pexels.com/photos/34124/pexels-photo.jpg?w=1260&h=750&auto=compress&cs=tinysrgb" alt="img">
+                    </div>
+                    <div class="mask1"></div>
+                    <div class="mask2"></div>
+                    <div class="info">
+                        <h5 class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, sequi.</h5>
+                        <h3 class="lead" style="border: 1px solid #ccc">Read More</h3>
+                    </div>
+                </a>
+            </div>
+            <div class="mt-3 text-center">
+                <a href="#" class="text-dark">STAGES OF DISLOYALTY PART 2</a>
+            </div>
         </div>
+
+
+        <div class="col-lg-3 mt-3 blog">
+            <div class="ih-item square colored effect4 mx-auto">
+                <a href="#">
+                    <div class="img-fluid">
+                        <img src="https://images.pexels.com/photos/34124/pexels-photo.jpg?w=1260&h=750&auto=compress&cs=tinysrgb" alt="img">
+                    </div>
+                    <div class="mask1"></div>
+                    <div class="mask2"></div>
+                    <div class="info">
+                        <h5 class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, sequi.</h5>
+                        <h3 class="lead" style="border: 1px solid #ccc">Read More</h3>
+                    </div>
+                </a>
+            </div>
+            <div class="mt-3 text-center">
+                <a href="#" class="text-dark">STAGES OF DISLOYALTY PART 3</a>
+            </div>
+        </div>
+
     </div>
-
-
-
-
-    <div class="col-lg mt-3 blog">
-        <div class="ih-item square colored effect4 mx-auto">
-            <a href="#">
-                <div class="img-fluid">
-                    <img src="https://images.pexels.com/photos/34124/pexels-photo.jpg?w=1260&h=750&auto=compress&cs=tinysrgb" alt="img">
-                </div>
-                <div class="mask1"></div>
-                <div class="mask2"></div>
-                <div class="info">
-                    <h5 class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, sequi.</h5>
-                    <h3 class="lead" style="border: 1px solid #ccc">Read More</h3>
-                </div>
-            </a>
-        </div>
-        <div class="mt-3 text-center">
-            <a href="#" class="text-dark">STAGES OF DISLOYALTY PART 2</a>
-        </div>
-    </div>
-
-
-    <div class="col-lg-3 mt-3 blog">
-        <div class="ih-item square colored effect4 mx-auto">
-            <a href="#">
-                <div class="img-fluid">
-                    <img src="https://images.pexels.com/photos/34124/pexels-photo.jpg?w=1260&h=750&auto=compress&cs=tinysrgb" alt="img">
-                </div>
-                <div class="mask1"></div>
-                <div class="mask2"></div>
-                <div class="info">
-                    <h5 class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, sequi.</h5>
-                    <h3 class="lead" style="border: 1px solid #ccc">Read More</h3>
-                </div>
-            </a>
-        </div>
-        <div class="mt-3 text-center">
-            <a href="#" class="text-dark">STAGES OF DISLOYALTY PART 3</a>
-        </div>
-    </div>
-
-</div>
 
 </div>
 

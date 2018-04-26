@@ -24,14 +24,14 @@
 
             <div class="container">
                 <div class="carousel-caption ml-auto" style="position: absolute; right:0;">
-                    <h2 class="animate-plus  text-center display-3" data-animations="slideInDown" data-animation-delay="0s" data-animation-duration="4s">WELCOME TO</h2>
-                    <h1 class="animate-plus  text-center display-3" data-animations="zoomIn,bounce" data-animation-delay="0s" data-animation-duration="4s">
+                    <h1 class="animate-plus  text-center " data-animations="slideInDown" data-animation-delay="0s" data-animation-duration="4s">WELCOME TO</h1>
+                    <h2 class="animate-plus  text-center " data-animations="zoomIn,bounce" data-animation-delay="0s" data-animation-duration="4s">
                         DELIVERANCE CHURCH INTERNATIONAL KASARANI
-                    </h1>
-                    <h2 class="animate-plus  text-center display-3" data-animations="slideInRight,bounce" data-animation-delay="4s" data-animation-duration="4s">COME AS YOU ARE !</h2>
-                    <h2 class="animate-plus d-none d-md-block" data-animations="bounceInLeft" data-animation-delay="6s" data-animation-duration="5s"
-                        style="color:white;">We are a church for the tribe of Kenya,no matter your look,your denomination,your religion,your race,no
-                        matter your social status,you are welcome</h2>
+                    </h2>
+                    <h3 class="animate-plus  text-center" data-animations="slideInRight,bounce" data-animation-delay="4s" data-animation-duration="4s">COME AS YOU ARE !</h3>
+                    <p class="animate-plus d-none d-md-block" data-animations="bounceInLeft" data-animation-delay="6s" data-animation-duration="5s"
+                        style="color:white;">We are a church for everyone,no matter your look,your denomination,your religion,your race,no
+                        matter your social status,you are welcome<p>
                 </div>
             </div>
         </div>
@@ -134,7 +134,7 @@
 
 <div class="tour container-fluid font-official text-white mt-5 bg-light toHide">
     <div class="row">
-        <div class="card col-md-4  text-white">
+        <div class="card col-md-6  col-lg-3 mt-lg-0 text-white">
             <img class="card-img" src="img/homepage/sermons" alt="Card image">
             <div class="card-img-overlay  text-center" style=" background-color:rgba(150, 136, 7, 0.781); ">
                 <h5 class="card-title " style="font-weight:900; font-size:30px;">I'M NEW HERE</h5>
@@ -142,7 +142,7 @@
             </div>
         </div>
 
-        <div class="card col-md-4 text-white">
+        <div class="card col-md-6 col-lg-3 mt-lg-0 text-white">
             <img class="card-img " src="img/homepage/sermons" alt="Card image">
             <div class="card-img-overlay text-center" style=" background-color:rgba(19, 150, 7, 0.774);">
                 <h5 class="card-title" style="font-weight:900; font-size:30px;">NEXT STEPS</h5>
@@ -150,7 +150,7 @@
             </div>
         </div>
 
-        <div class="card col-md-4 text-white">
+        <div class="card col-md-6 mt-md-5 mt-lg-0 col-lg-3 text-white">
             <img class="card-img " src="img/homepage/sermons" alt="Card image">
             <div class="card-img-overlay text-center" style=" background-color:rgba(7, 69, 150, 0.774);">
                 <h5 class="card-title" style="font-weight:900; font-size:30px;">GET INVOLVED</h5>
@@ -158,7 +158,7 @@
             </div>
         </div>
 
-        <div class="card col-md-4 text-white">
+        <div class="card col-md-6 mt-md-5 mt-lg-0 col-lg-3 mx-auto text-white">
             <img class="card-img" src="img/homepage/sermons" alt="Card image">
             <div class="card-img-overlay text-center" style=" background-color:rgba(126, 7, 150, 0.774);">
                 <h5 class="card-title" style="font-weight:900; font-size:30px;">SERVICES</h5>
@@ -167,36 +167,7 @@
         </div>
     </div>
 </div>
-<!-- END OF EVENTS -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<!-- END OF TOUR -->
 
 
 
@@ -216,7 +187,7 @@
                 </div>
                 <img src="img/events/navbar-events.jpg" alt="" class="card-img-top img-fluid" style="height: auto; max-width: 100%;">
                 <div class="card-text">
-                    <h4 class=" text-primary text-center">Bolts and Nuts Seminar</h4>
+                    <h4 class=" text-primary text-center">Bolts and Nuts</h4>
                     <hr class="mx-auto">
                     <p class="lead text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, eaque?</p>
                 </div>
@@ -273,6 +244,7 @@
 <!-- END OF EVENTS -->
 
 
+<!-- DCIK THEME OF THE YEAR -->
 <div class="slider-pro mt-3 toHide" id="dcik-theme" style="background:rgba(38, 84, 145, 0.856);">
     <div class="sp-slides">
         <!-- Slide 1 -->
@@ -306,14 +278,7 @@
         </div>
     </div>
 </div>
-
-
-
-
-
-
-<!-- BLOG -->
-
+<!-- END OF THEME -->
 
 
 <div class="text-center hr-divider">
@@ -322,15 +287,15 @@
 </div>
 <h3 class="text-center" style="color:blue">RECENT SERMONS</h3>
 
-<!-- SERMON SLIDE        -->
+<!-- SERMON SLIDE-->
 <div class="slider-pro" id="sermon-slider">
     <div class="sp-slides">
         <!-- Slide 1 -->
         <div class="sp-slide bg-overlay">
             <div class="row mt-1">
-                <div class="col-lg-3">
+                <div class="col-lg-8">
                     <div class="">
-                        <iframe src="https://www.youtube.com/embed/lgyakZLwAbc" allowfullscreen>
+                        <iframe class="" src="https://www.youtube.com/embed/lgyakZLwAbc" allowfullscreen>
                         </iframe>
                     </div>
                 </div>
@@ -348,7 +313,7 @@
         <!-- Slide 2 -->
         <div class="sp-slide bg-overlay">
             <div class="row">
-                <div class="col-lg-3">
+                <div class="col-lg-8">
                     <div class=" ">
                         <iframe src="https://www.youtube.com/embed/dEkfu70PVsk" allowfullscreen>
                         </iframe>
@@ -368,7 +333,7 @@
         <!-- Slide 3 -->
         <div class="sp-slide bg-overlay">
             <div class="row">
-                <div class="col-lg-3">
+                <div class="col-lg-8">
                     <div class="">
                         <iframe src="https://www.youtube.com/embed/vtbdwmLuBBM" allowfullscreen>
                         </iframe>
@@ -388,9 +353,6 @@
 </div>
 
 <!-- END -->
-
-</div>
-</div>
 
 <hr>
 

@@ -15,8 +15,12 @@ Route::get('/', function () {
     return view('layouts.index');
 });
 
-Route::get('/guests', function () {
-    return view('layouts.guests');
+Route::get('/services', function () {
+    return view('layouts.services');
+});
+
+Route::get('/im-new-here', function () {
+    return view('layouts.im-new-here');
 });
 
 Route::get('/visit-us', function () {

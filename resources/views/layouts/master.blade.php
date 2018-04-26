@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/header1.css">
+    <!-- <link rel="stylesheet" href="css/header1.css"> -->
     <link rel="stylesheet" href="css/ihover.css">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="owlcarousel/owl.carousel.css">
@@ -93,8 +93,8 @@ $(document).ready(function(){
 <script type="text/javascript">
 	jQuery( document ).ready(function( $ ) {
 		$( '#sermon-slider' ).sliderPro({
+            height:720,
             width: '100%',
-            height: 300,
             arrows: false,
             buttons: true,
             waitForLayers: true,
@@ -102,12 +102,11 @@ $(document).ready(function(){
             autoplay: false,
             autoScaleLayers: false,
             thumbnailPosition: 'bottom',
-            breakpoints: {
-                576: {
-                    height: 700
-                }
-            }
-
+            // breakpoints: {
+            //     767: {
+            //         height: 700
+            //     }             
+            // }
         });
 	});
 </script>
@@ -151,6 +150,32 @@ $('.overlay').on('click', function(){
     baguetteBox.run('.tz-gallery');
 </script>
 
+<!-- <script>
+
+$(document).ready(function(){
+    // $(window).resize(function(){
+        if(window.innerWidth < 500) {
+            console.log("window resized!!");
+            $(".nav-link").removeAttr("data-toggle");
+        }
+
+//   });
+  $(".nav-link").attr("data-toggle","dropdown");
+});
+
+</script> -->
+
+<script>
+$(document).ready(function(){
+$('.nav-link').click(function() {
+    if (parseInt($(window).width()) < 767) {
+        console.log("window resized!!");
+        $(".nav-link").removeAttr("data-toggle");
+    }
+    });
+});
+
+</script>
 
 </body>
 </html>

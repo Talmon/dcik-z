@@ -5,19 +5,19 @@
     <h5>Menu</h5>  <span class="navbar-toggler-icon"> <i class="fas fa-bars"></i> </span>
   </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <div class="collapse navbar-collapse font-official" id="navbarSupportedContent">
     <ul class="navbar-nav nav-fill w-100">
       <li class="nav-item active">
-        <a class="nav-link text-light" href="/">Home
+        <a class="nav-link " href="/">Home
           <span class="sr-only">(current)</span>
         </a>
       </li>
       <li class="nav-item dropdown" style="position: static!important;">
-        <a class="nav-link  text-light" href="/services" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+        <a class="nav-link  " href="/services" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
           aria-expanded="false">
         Services
         </a>
-        <div class="dropdown-menu mega-menu" aria-labelledby="navbarDropdown">
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <div class="row">
                 <div class="col-md-2"></div>
 
@@ -76,7 +76,7 @@
               
 
       <li class="nav-item dropdown" style="position: static!important;">
-        <a class="nav-link  text-light" href="/im-new-here" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+        <a class="nav-link  " href="/im-new-here" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
           aria-expanded="false">
           I'm New Here
         </a>
@@ -173,7 +173,7 @@
         </div>
       </li>
       <li class="nav-item dropdown" style="position: static!important;">
-        <a class="nav-link  text-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+        <a class="nav-link  " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
           aria-expanded="false">
           Ministries
         </a>
@@ -259,7 +259,7 @@
       </li>
 
       <li class="nav-item dropdown" style="position: static!important;">
-        <a class="nav-link  text-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+        <a class="nav-link  " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
           aria-expanded="false">
           Media
         </a>
@@ -346,7 +346,7 @@
       </li>
 
       <li class="nav-item dropdown" style="position: static!important;">
-        <a class="nav-link  text-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+        <a class="nav-link  " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
           aria-expanded="false">
           Resources
         </a>

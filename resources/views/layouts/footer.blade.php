@@ -1,6 +1,6 @@
 <!-- FOOTER -->
 <footer class=" footer  toHide">
-  <div class="row mx-auto mt-5 bg-dark" style="background:rgba(0,0,0,0.7);">
+  <div class="row mx-auto bg-dark" style="background:rgba(0,0,0,0.7);">
     <div class="col-md text-white mt-5">
       <div class="logo">
         <a class="navbar-brand" href="#">

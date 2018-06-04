@@ -120,7 +120,7 @@ $(document).ready(function() {
     console.log(currentDate);
 
     // Set some date in the past. In this case, it's always been since Jan 1
-    var futureDate  = new Date(currentDate.getFullYear(), 3, 20);
+    var futureDate  = new Date(currentDate.getFullYear(), 8, 2);
     console.log(futureDate);
     // Calculate the difference in seconds between the future and current date
     var diff = futureDate.getTime() / 1000 - currentDate.getTime() / 1000;
@@ -150,28 +150,14 @@ $('.overlay').on('click', function(){
     baguetteBox.run('.tz-gallery');
 </script>
 
-<!-- <script>
-
-$(document).ready(function(){
-    // $(window).resize(function(){
-        if(window.innerWidth < 500) {
-            console.log("window resized!!");
-            $(".nav-link").removeAttr("data-toggle");
-        }
-
-//   });
-  $(".nav-link").attr("data-toggle","dropdown");
-});
-
-</script> -->
-
 <script>
 $(document).ready(function(){
 $('.nav-link').click(function() {
-    if (parseInt($(window).width()) < 767) {
-        console.log("window resized!!");
+    if (parseInt($(window).width()) <= 991) {
+        console.log(" sm breakpoint");
         $(".nav-link").removeAttr("data-toggle");
-    }
+     }
+    
     });
 });
 

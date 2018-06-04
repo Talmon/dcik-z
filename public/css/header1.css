@@ -2,7 +2,7 @@
 	/* width:800px; */
     overflow: hidden;
     padding: 10px;
-    background-color: rgba(0,0,0,0.7);
+    /* background-color: rgba(0,0,0,0.7); */
 }
 
 .dropdown:hover>.dropdown-menu{
@@ -29,10 +29,10 @@
 	color: #ccc;
 }
 nav {
-background: linear-gradient(rgba(240, 3, 3, 0.801), rgba(10, 9, 9, 0.925)),url("/img/cathedral1.jpg");
+/* background: linear-gradient(rgba(240, 3, 3, 0.801), rgba(10, 9, 9, 0.925)),url("/img/cathedral1.jpg");
 background-repeat: repeat;
 background-size: cover;
-background-position: center center;
+background-position: center center; */
 /* background-color: rgba(0, 0, 0, 0.596); */
 }
 

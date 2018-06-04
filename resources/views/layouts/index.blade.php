@@ -77,8 +77,8 @@
 
 {{--WELCOME SECTION--}}
 
-<div class="container-fluid  text-light" style="background-color: #A93720;">
-    <div class="row mt-5">
+<div class="container-fluid  text-light" style="background-color: #A93720;" >
+    <div class="row mt-5" data-aos="zoom-in-left">
         <div class="col-md-3">
             <img src="../img/pastors/dad-and-mum.jpg" alt="" class="card-img img-fluid" style="height:auto; max-width:100%;">
         </div>
@@ -102,7 +102,7 @@
 <!-- QUICK TOUR -->
 
 
-<div class="jumbotron text-center bg-overlay">
+<div class="jumbotron text-center bg-overlay" >
     <h1 class="display-4 mt-5">What We Believe</h1>
     <p class="lead">The Bible is the inspired, only infallible word of God (2 Tim 3:15-17; 2 Peter 1:19-21; 1 Thessalonians 2:13).</p>
     <p>This means that God's Word stands on its own - it doesn't need a complement or a supplement.</p>
@@ -127,7 +127,7 @@
 <div class="tour container-fluid font-official text-white  bg-light">
     <div class="row">
 
-        <div class="card col-md-6  col-lg-3 mt-lg-0 text-white">
+        <div class="card col-md-6  col-lg-3 mt-lg-0 text-white" data-aos="zoom-in" data-aos-duration="500">
             <a href="/im-new-here" class="text-light">
                 <img class="card-img" src="img/homepage/sermons" alt="Card image">
                 <div class="card-img-overlay  text-center" style=" background-color:rgba(150, 136, 7, 0.781); ">
@@ -139,7 +139,7 @@
 
 
 
-        <div class="card col-md-6 col-lg-3 mt-lg-0 text-white">
+        <div class="card col-md-6 col-lg-3 mt-lg-0 text-white" data-aos="zoom-in" data-aos-duration="1500">
             <a href="/next-steps" class="text-light">
                 <img class="card-img " src="img/homepage/sermons" alt="Card image">
                 <div class="card-img-overlay text-center" style=" background-color:rgba(19, 150, 7, 0.774);">
@@ -149,7 +149,7 @@
             </a>
         </div>
 
-        <div class="card col-md-6 mt-md-5 mt-lg-0 col-lg-3 text-white">
+        <div class="card col-md-6 mt-md-5 mt-lg-0 col-lg-3 text-white" data-aos="zoom-in" data-aos-duration="2500">
             <a href="get-involved" class="text-light">
                 <img class="card-img " src="img/homepage/sermons" alt="Card image">
                 <div class="card-img-overlay text-center" style=" background-color:rgba(7, 69, 150, 0.774);">
@@ -159,7 +159,7 @@
             </a>
         </div>
 
-        <div class="card col-md-6 mt-md-5 mt-lg-0 col-lg-3 mx-auto text-white">
+        <div class="card col-md-6 mt-md-5 mt-lg-0 col-lg-3 mx-auto text-white" data-aos="zoom-in" data-aos-duration="3500">
             <a href="/services" class="text-light">
                 <img class="card-img" src="img/homepage/sermons" alt="Card image">
                 <div class="card-img-overlay text-center" style=" background-color:rgba(126, 7, 150, 0.774);">
@@ -175,7 +175,7 @@
 
 
 <!-- EVENTS -->
-<div class="events container font-official text-white mt-5 bg-light">
+<div class="events container-fluid font-official text-white mt-5 bg-light" data-aos="fade-down" data-aos-duration="4500">
     <div class="text-center hr-divider">
         <img src="https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/f50af39a-3818-4943-b8f9-8fad15b2c22f/hr-stephan-hilbelink2.png"
             class=""> </div>

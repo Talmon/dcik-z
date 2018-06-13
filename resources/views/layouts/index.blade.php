@@ -32,8 +32,8 @@
                         style="color:white;">We are a church for everyone,no matter your look,your denomination,your religion,your race,no matter
                         your social status,you are welcome
                         <p>
-                     <button class="animate-plus btn btn-lg btn-danger"  data-animations="bounceInLeft" data-animation-delay="6s" data-animation-duration="5s"><a class="text-light" href="/visit-us">VISIT US</a></button> 
-                     <button class="animate-plus btn btn-lg btn-danger " data-animations="bounceInLeft" data-animation-delay="6s" data-animation-duration="5s"><a class="text-light" href="/sermons">WATCH SERMONS</a></button>      
+                     <button class="animate-plus btn btn-lg btn-danger"  data-animations="bounceInLeft" data-animation-delay="9s" data-animation-duration="5s"><a class="text-light" href="/visit-us">VISIT US</a></button> 
+                     <button class="animate-plus btn btn-lg btn-danger " data-animations="bounceInRight" data-animation-delay="8s" data-animation-duration="5s"><a class="text-light" href="/sermons">WATCH SERMONS</a></button>      
                 </div>
             </div>
         </div>
@@ -648,4 +648,10 @@
     </div>
 </div>
 
+
+<div class="jumbotron bg-danger display-inline">
+<div class="d-inline p-2 display-4  text-white">WANT TO BECOME A NEW MEMBER?</div>
+<div class="d-inline p-2  text-white ml-5">We would be delighted to have you. </div>
+<a class="btn border-light btn-lg d-inline text-white ml-5" href="/become-a-member" role="button" style="border:5px solid;">BECOME A MEMBER</a>
+</div>
 @endsection

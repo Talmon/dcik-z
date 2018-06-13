@@ -73,7 +73,7 @@ $(document).ready(function(){
 	jQuery( document ).ready(function( $ ) {
 		$( '#dcik-theme' ).sliderPro({
             width: '100%',
-            height: 180,
+            height: 300,
             arrows: false,
             buttons: true,
             waitForLayers: true,

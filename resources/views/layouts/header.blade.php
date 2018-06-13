@@ -87,9 +87,7 @@
               <div class="col-md-3 offset-md-2">
                 <a href="/what-we-believe">
                 <div class="card bg-dark text-white mt-5">
-                  <a href="/what-we-believe" class=""> 
                     <img class="card-img h-100 border border-light  d-md-block" src="img/nav/what-we-believe" alt="Card image">
-                  </a>
                   <div class="card-img-overlay">
                     <h5 class="card-title">
                       <span class="badge badge-danger">What We Believe</span>
@@ -102,8 +100,7 @@
               <div class="col-md-2">
                 <a href="/the-fathers-vision">
                 <div class="card bg-dark text-white">
-                  <a href="/fathers-vision">
-                    <img class="card-img img-fluid  border border-light" src="img/nav/fathers-vision2" alt="Card image" style="width: 100%; height:200px;"> </a>
+                    <img class="card-img img-fluid  border border-light" src="img/nav/fathers-vision2" alt="Card image" style="width: 100%; height:200px;">
                   <div class="card-img-overlay">
                     <h5 class="card-title">
                       <span class="badge badge-danger">The Father's Vision</span>
@@ -151,18 +148,18 @@
               </div>
 
               <div class="col-md">
-                <p class="text-primary"> <a href="/im-new-here" style="color: rgb(213, 210, 226); font-size: 27px; font-weight: 900;"> See More </a> </p>
-                <p>
+                 <a href="/im-new-here" style="color: rgb(213, 210, 226); font-size: 27px; font-weight: 900;"> See More </a> </p>
+                
                   <a href="/cornerstone-academy" class="card-link">Cornerstone Academy <i class="fas fa-arrow-alt-circle-right text-danger"></i>  </a>
                 </p>
                 <p>
-                    <a href="/cornerstone-academy" class="card-link">Strategic Plan<i class="fas fa-arrow-alt-circle-right text-danger"></i>  </a>
+                    <a href="#" class="card-link">Strategic Plan<i class="fas fa-arrow-alt-circle-right text-danger"></i>  </a>
                   </p>
                 <p>
-                    <a href="/cornerstone-academy" class="card-link">Church Projects <i class="fas fa-arrow-alt-circle-right text-danger"></i>  </a>
+                    <a href="#" class="card-link">Church Projects <i class="fas fa-arrow-alt-circle-right text-danger"></i>  </a>
                   </p>
                 <p>
-                    <a href="/cornerstone-academy" class="card-link">Cornerstone Academy <i class="fas fa-arrow-alt-circle-right text-danger"></i>  </a>
+                    <a href="#" class="card-link">Another Link <i class="fas fa-arrow-alt-circle-right text-danger"></i>  </a>
                   </p>
               </div>
 
@@ -182,18 +179,18 @@
                 <div class="col-md-2">.col-md-4</div>
 
               <div class="col-md-3 offset-md-2">
+              <a href="/ladies">
                 <div class="card bg-dark text-white mt-5">
-                  <a href="/what-we-believe" class=""> 
                     <img class="card-img h-100 border border-light  d-md-block" src="img/nav/what-we-believe" alt="Card image">
-                  </a>
-
                   <div class="card-img-overlay">
                     <h5 class="card-title">
                       <span class="badge badge-danger">Ladies Ministry</span>
                     </h5>
                   </div>
                 </div>
+                </a>
               </div>
+              
               <div class="col-md-2">
                 <div class="card bg-dark text-white">
                   <a href="/fathers-vision">

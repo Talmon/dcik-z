@@ -5,27 +5,27 @@
         <div class="card" data-aos="slide-down">
             <img src="img/services/cathedral" class="" height="600px"  alt="" style="max-width: 100%;">
             <div class="card-img-overlay">
-                <div class="display-2 text-center text-white font-bilbo" style="margin-top: 10%; background-color:rgba(197, 17, 11, 0.801);">Welcome <i class="fas fa-smile text-white"></i>  We Are Glad You Are Here</div>
+                <div class="sub-heading text-center text-white font-niconne" style="margin-top: 10%;">Welcome <i class="fas fa-smile text-white"></i> </div>
             </div>
         </div>
     </div>
 
 
-<div class="text-dark mb-3 text-center font-niconne">
+<div class="text-dark mb-3 text-center ">
     <h4 class="display-3">I'm New</h4>
     <hr>
     <h5 class="display-4">Know us,where to find us and what to expect</h5>
 </div>
 
 <div class="about-us">
-    <p class="lead font-pacifico">
+    <p class="lead ">
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam assumenda autem blanditiis consequatur dicta dolor doloremque, dolorum eos eum eveniet expedita incidunt inventore iusto magnam modi neque odit optio, pariatur porro possimus sed velit voluptatibus!"
     </p>
 
 </div>
 
-<h4 class="text-center text-dark display-4 mt-3 font-niconne"> Figure Us Out </h4>
-    <div class="container font-pacifico text-white mt-5">
+<h4 class="text-center text-dark display-4 mt-3 "> Figure Us Out </h4>
+    <div class="container  text-white mt-5">
         <div class="row">
             <div class="col-md col-lg-4 mt-3">
                 <div class="card">
@@ -70,7 +70,7 @@
         </div>
 </div>
 
-<div class="container-fluid font-pacifico">
+<div class="container-fluid ">
 <div class="row">
             <div class="col-md col-lg-4 mt-3">
                 <div class="card">
@@ -120,13 +120,13 @@
     <!-- END OF EVENTS -->
 
     <div class="container mt-3">
-        <h4 class="text-center text-dark display-4 mt-3 font-niconne"> Where to Find Us </h4>
-        <p class="lead font-pacifico">
+        <h4 class="text-center text-dark display-4 mt-3 "> Where to Find Us </h4>
+        <p class="lead ">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, maiores, tenetur. Aliquam aliquid aspernatur autem corporis debitis error fuga fugit in, neque nisi nobis pariatur qui quia sapiente vero. Accusamus asperiores, dolores eius illo illum ipsa ipsum laudantium maxime nobis omnis pariatur quas quisquam, ratione recusandae reiciendis rerum sunt, tenetur?
         </p>
 
-        <h4 class="text-center text-dark display-4 mt-3 font-niconne"> What to Expect </h4>
-        <p class="lead font-pacifico">
+        <h4 class="text-center text-dark display-4 mt-3 "> What to Expect </h4>
+        <p class="lead ">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, maiores, tenetur. Aliquam aliquid aspernatur autem corporis debitis error fuga fugit in, neque nisi nobis pariatur qui quia sapiente vero. Accusamus asperiores, dolores eius illo illum ipsa ipsum laudantium maxime nobis omnis pariatur quas quisquam, ratione recusandae reiciendis rerum sunt, tenetur?
         </p>
     </div>

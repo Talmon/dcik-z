@@ -16,6 +16,7 @@
     <div class="carousel-inner">
         <div class="carousel-item active">
 
+            <div class="video-overlay"></div>
             <video class="video-fluid" autoplay loop muted preload>
                 <source src="../img/videos/deli.mp4" type="video/mp4" /> Your browser does not support the video tag.
             </video>
@@ -23,15 +24,16 @@
 
             <div class="container">
                 <div class="carousel-caption ml-auto" style="position: absolute; right:0;">
-                    <h1 class="animate-plus  text-center " data-animations="slideInDown" data-animation-delay="0s" data-animation-duration="4s">WELCOME TO</h1>
+                    <!-- <h1 class="animate-plus  text-center " data-animations="slideInDown" data-animation-delay="0s" data-animation-duration="4s">WELCOME TO</h1> -->
                     <h2 class="animate-plus  text-center " data-animations="zoomIn,bounce" data-animation-delay="0s" data-animation-duration="4s">
                         DELIVERANCE CHURCH INTERNATIONAL KASARANI
                     </h2>
-                    <h3 class="animate-plus  text-center" data-animations="slideInRight,bounce" data-animation-delay="4s" data-animation-duration="4s">COME AS YOU ARE !</h3>
                     <p class="animate-plus d-none d-md-block" data-animations="bounceInLeft" data-animation-delay="6s" data-animation-duration="5s"
                         style="color:white;">We are a church for everyone,no matter your look,your denomination,your religion,your race,no matter
                         your social status,you are welcome
                         <p>
+                     <button class="animate-plus btn btn-lg btn-danger"  data-animations="bounceInLeft" data-animation-delay="6s" data-animation-duration="5s"><a class="text-light" href="/visit-us">VISIT US</a></button> 
+                     <button class="animate-plus btn btn-lg btn-danger " data-animations="bounceInLeft" data-animation-delay="6s" data-animation-duration="5s"><a class="text-light" href="/sermons">WATCH SERMONS</a></button>      
                 </div>
             </div>
         </div>
@@ -77,21 +79,26 @@
 
 {{--WELCOME SECTION--}}
 
-<div class="container-fluid  text-light" style="background-color: #A93720;" >
+<div class="container-fluid  text-dark" style="" >
     <div class="row mt-5" data-aos="zoom-in-left">
         <div class="col-md-3">
             <img src="../img/pastors/dad-and-mum.jpg" alt="" class="card-img img-fluid" style="height:auto; max-width:100%;">
         </div>
         <div class="col-md-9">
+            <h1 class="display-3">Welcome to Deliverance Church Kasarani</h1>
+            <hr>
+            <p class="muted">Come and experience the realness of God.</p>
             <p class="lead display-5 mt-5">
                 "We are more than delighted to host you in the Deliverance Church Kasarani - Zimmerman website. Our desire is that in the
                 few minutes that you browse through you will be nourished and when logging out you will be more deeply rooted
                 in the word of Christ as a Christian and ready to do extraordinary exploits like Daniel for it is your portion.
-                (Dan. 11:32) You may check out the life changing Sunday sermon and the history of sermons. You may plan to
+                (Dan. 11:32) You may check out the life changing Sunday sermon and the history of sermons.</p>
+
+            <p class="lead display-5 mt-1">You may plan to
                 attend the church activities and support any project. If you wish to join a cell or volunteer your skills
                 and time we are more than willing to connect you to any of the available ministries in the church. Join us
                 in any of our services or meetings as we grow together in Christ and make Jesus known to all. We appreciate
-                and value you. - Bishop Dr. Jimmy & Pastor Alice Kimani" </p>
+                and value you. - Bishop Dr. Jimmy & Pastor Alice Kimani"</p>    
             <h2>BISHOP DR. JIMMY KIMANI AND PASTOR ALICE KIMANI</h2>
         </div>
     </div>
@@ -102,7 +109,7 @@
 <!-- QUICK TOUR -->
 
 
-<div class="jumbotron text-center bg-overlay" >
+<div class="jumbotron text-center bg-overlay mt-5" >
     <h1 class="display-4 mt-5">What We Believe</h1>
     <p class="lead">The Bible is the inspired, only infallible word of God (2 Tim 3:15-17; 2 Peter 1:19-21; 1 Thessalonians 2:13).</p>
     <p>This means that God's Word stands on its own - it doesn't need a complement or a supplement.</p>
@@ -129,10 +136,11 @@
 
         <div class="card col-md-6  col-lg-3 mt-lg-0 text-white" data-aos="zoom-in" data-aos-duration="500">
             <a href="/im-new-here" class="text-light">
-                <img class="card-img" src="img/homepage/sermons" alt="Card image">
-                <div class="card-img-overlay  text-center" style=" background-color:rgba(150, 136, 7, 0.781); ">
-                    <h5 class="card-title " style="font-weight:900; font-size:30px;">I'M NEW HERE</h5>
-                    <i class="fas fa-10x fa-handshake"></i>
+                <img class="card-img" src="img/cathedral1.JPG" alt="Card image">
+                <div class="card-img-overlay  text-center" style="">
+                    <h5 class="card-title " style="font-weight:900; font-size:40px; position:absolute; bottom:35px; left:2; z-index:10;">I'M NEW HERE</h5>
+                    <div class="button btn-danger btn-lg" style="position:absolute; bottom:0; left:2;">Check us out...</div>
+                    <!-- <i class="fas fa-10x fa-handshake"></i> -->
                 </div>
             </a>
         </div>
@@ -141,30 +149,33 @@
 
         <div class="card col-md-6 col-lg-3 mt-lg-0 text-white" data-aos="zoom-in" data-aos-duration="1500">
             <a href="/next-steps" class="text-light">
-                <img class="card-img " src="img/homepage/sermons" alt="Card image">
-                <div class="card-img-overlay text-center" style=" background-color:rgba(19, 150, 7, 0.774);">
-                    <h5 class="card-title" style="font-weight:900; font-size:30px;">NEXT STEPS</h5>
-                    <i class="fas fa-10x fa-step-forward"></i>
+                <img class="card-img " src="img/the-fathers-vision.JPG" alt="Card image">
+                <div class="card-img-overlay  text-center" style="">
+                    <h5 class="card-title " style="font-weight:900; font-size:40px; position:absolute; bottom:35px; left:2; z-index:10;">NEXT STEPS</h5>
+                    <div class="button btn-danger btn-lg" style="position:absolute; bottom:0; left:2;">Okay now,what next?...</div>
+                    <!-- <i class="fas fa-10x fa-handshake"></i> -->
                 </div>
             </a>
         </div>
 
         <div class="card col-md-6 mt-md-5 mt-lg-0 col-lg-3 text-white" data-aos="zoom-in" data-aos-duration="2500">
             <a href="get-involved" class="text-light">
-                <img class="card-img " src="img/homepage/sermons" alt="Card image">
-                <div class="card-img-overlay text-center" style=" background-color:rgba(7, 69, 150, 0.774);">
-                    <h5 class="card-title" style="font-weight:900; font-size:30px;">GET INVOLVED</h5>
-                    <i class="fas fa-10x fa-people-carry"></i>
+                <img class="card-img " src="img/gallery/rocks.jpg" alt="Card image">
+                <div class="card-img-overlay  text-center" style="">
+                    <h5 class="card-title " style="font-weight:900; font-size:40px; position:absolute; bottom:35px; left:2; z-index:10;">GET INVOLVED</h5>
+                    <div class="button btn-danger btn-lg" style="position:absolute; bottom:0; left:2;">Serve the Lord with us...</div>
+                    <!-- <i class="fas fa-10x fa-handshake"></i> -->
                 </div>
             </a>
         </div>
 
         <div class="card col-md-6 mt-md-5 mt-lg-0 col-lg-3 mx-auto text-white" data-aos="zoom-in" data-aos-duration="3500">
             <a href="/services" class="text-light">
-                <img class="card-img" src="img/homepage/sermons" alt="Card image">
-                <div class="card-img-overlay text-center" style=" background-color:rgba(126, 7, 150, 0.774);">
-                    <h5 class="card-title" style="font-weight:900; font-size:30px;">SERVICES</h5>
-                    <i class="fas fa-10x fa-bell"></i>
+                <img class="card-img" src="img/bg-1.JPG" alt="Card image">
+                <div class="card-img-overlay  text-center" style="">
+                    <h5 class="card-title " style="font-weight:900; font-size:40px; position:absolute; bottom:35px; left:2; z-index:10;">SERVICES</h5>
+                    <div class="button btn-danger btn-lg" style="position:absolute; bottom:0; left:2;">Come and worship us...</div>
+                    <!-- <i class="fas fa-10x fa-handshake"></i> -->
                 </div>
             </a>
         </div>
@@ -238,6 +249,7 @@
             </div>
         </div>
 
+       
         <div class="mx-auto">
             <h3 class="display-4 text-dark ">Next Event Starts In:</h3>
             <div class="clock mx-auto text-center" style="margin:2em;"></div>
@@ -248,35 +260,35 @@
 
 
 <!-- DCIK THEME OF THE YEAR -->
-<div class="slider-pro  mt-3 toHide" id="dcik-theme">
+<div class="slider-pro  mt-3 toHide" id="dcik-theme" style="">
     <div class="sp-slides ">
         <!-- Slide 1 -->
         <div class="sp-slide bg-overlay py-5">
-            <h1 class="text-center text-light font-official">THEME OF THE YEAR:KINGDOM MANIFESTATION</h1>
+            <h1 class="text-center text-light font-official pt-5">THEME OF THE YEAR:KINGDOM MANIFESTATION</h1>
             <p class="lead mt-3 text-center text-light font-official">Matthew 6:10: Thy kingdom come, Thy will be done in earth, as it is in heaven</p>
         </div>
 
         <!-- Slide 2 -->
         <div class="sp-slide py-5 bg-overlay">
-            <p class="lead mt-3 text-center text-light font-official">Matthew 6:33 New Living Translation (NLT) Seek the Kingdom of God above all else, and live righteously, and he
+            <p class="lead mt-3 text-center text-light font-official pt-5">Matthew 6:33 New Living Translation (NLT) Seek the Kingdom of God above all else, and live righteously, and he
                 will give you everything you need.</p>
         </div>
 
         <!-- Slide 3 -->
         <div class="sp-slide py-5 bg-overlay">
-            <p class="lead mt-3 text-center text-light font-official ">Romans 14:17 New Living Translation (NLT) For the Kingdom of God is not a matter of what we eat or drink, but
+            <p class="lead mt-3 text-center text-light font-official pt-5">Romans 14:17 New Living Translation (NLT) For the Kingdom of God is not a matter of what we eat or drink, but
                 of living a life of goodness and peace and joy in the Holy Spirit.</p>
         </div>
 
         <!-- Slide 4 -->
         <div class="sp-slide py-5 bg-overlay">
-            <p class="lead mt-3 text-center text-light font-official">Matthew 24:14 New Living Translation (NLT) And the Good News about the Kingdom will be preached throughout the
+            <p class="lead mt-3 text-center text-light font-official pt-5">Matthew 24:14 New Living Translation (NLT) And the Good News about the Kingdom will be preached throughout the
                 whole world, so that all nations will hear it; and then the end will come.</p>
         </div>
 
         <!-- Slide 5 -->
         <div class="sp-slide py-5 bg-overlay">
-            <p class="lead mt-3 text-center text-light font-official">Zechariah 14:9 New Living Translation (NLT) And the Lord will be king over all the earth. On that day there will
+            <p class="lead mt-3 text-center text-light font-official pt-5">Zechariah 14:9 New Living Translation (NLT) And the Lord will be king over all the earth. On that day there will
                 be one Lord—his name alone will be worshiped.</p>
         </div>
     </div>
@@ -290,35 +302,68 @@
 </div>
 <h3 class="text-center">RECENT SERMONS</h3>
 
-<!-- SERMON SLIDE-->
-<!-- <div class="slider-pro" id="sermon-slider"> -->
-<!-- <div class="sp-slides"> -->
-<!-- Slide 1 -->
-<!-- <div class="container-fluid bg-overlay"> -->
     <div class="container-fluid mb-5">
         <div class="row mt-5">
-            <div class="col-lg">
-                <iframe height="" class="" src="https://www.youtube.com/embed/lgyakZLwAbc" allowfullscreen>
-                </iframe>
-
-                <h3 class="text-center ">Bishop Dr. Jimmy Kimani</h3>
-                <h3 class="text-center ">Kingdom Manifestation: Abundance in Life</h3>
-                <p class="lead  text-center ">John 10:10(KJV) The thief cometh not, but for to steal, and to kill, and to destroy: I am come that they
-                    might have life, and that they might have it more abundantly.
-                </p>
-                <a href="/sermons" class="text-center " style="border: 1px solid gray;padding:10px 10px 10px 10px; font-weight:999;">VIEW MORE SERMONS</a>
+            <div class="col-lg-6">
+            <img src="https://images.unsplash.com/photo-1481142378093-d0289ea07b78?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=82335800650e058347fd6a1ea372d51e&auto=format&fit=crop&w=1350&q=80" alt="" width="800px" height="700px">
             </div>
 
-            <div class="col-lg">
-                <iframe class="" src="https://www.youtube.com/embed/lgyakZLwAbc" allowfullscreen>
-                </iframe>
+            <div class="col-lg-2">
+                <div class="card"  style="margin-top: 30%;">
+                    <img src="img/homepage/bible1.jpg" height="200px">
+                    <h1 card-title  style="font-size: 25px;">
+                            <span class="badge badge-danger">June 10th 2018</span>
+                    </h1>
+                    <hr class="" style="background-color:red;">
+                    <div class="card-title text-dark display-5"><strong> Can God Use Me? </strong> </div>
+                    <div class="card-text text-muted">Bishop Dr. Jimmy Kimani</div>
+                    <div class="display-inline">
+                    <i class="fas fa-video ml-2 display-inline-item"></i>
+                    <i class="fas fa-headphones ml-2 display-inline-item"></i>
+                    <i class="fas fa-file-pdf ml-2 display-inline-item"></i>
+                    </div>  
+                    <p class="lead card-text" style="font-size: 15px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis nesciunt quae tempore!</p>
+                    <a href="/sermons" class="text-center " style="border: 1px solid gray;padding:10px 10px 10px 10px; font-weight:999;">VIEW MORE SERMONS</a>
+                    </div>       
+            </div>
 
-                <h3 class="text-center ">Bishop Dr. Jimmy Kimani</h3>
-                <h3 class="text-center ">Kingdom Manifestation: Abundance in Life</h3>
-                <p class="lead  text-center ">John 10:10(KJV) The thief cometh not, but for to steal, and to kill, and to destroy: I am come that they
-                    might have life, and that they might have it more abundantly.
-                </p>
-                <a href="/sermons" class="text-center " style="border: 1px solid gray;padding:10px 10px 10px 10px; font-weight:999;">VIEW MORE SERMONS</a>
+           <div class="col-lg-2">
+                <div class="card"  style="margin-top: 30%;">
+                    <img src="img/homepage/bible2.jpg" height="200px">
+                    <h1 card-title  style="font-size: 25px;">
+                            <span class="badge badge-danger">June 3rd 2018</span>
+                    </h1>
+                    <hr class="" style="background-color:red;">
+                    <div class="card-title text-dark display-5"><strong> Fresh Oil </strong> </div>
+                    <div class="card-text text-muted">Bishop Dr. Jimmy Kimani</div>
+                    <div class="display-inline">
+                    <i class="fas fa-video ml-2 display-inline-item"></i>
+                    <i class="fas fa-headphones ml-2 display-inline-item"></i>
+                    <i class="fas fa-file-pdf ml-2 display-inline-item"></i>
+                    </div>  
+                    <p class="lead card-text" style="font-size: 15px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis nesciunt quae tempore!</p>
+                    <a href="/sermons" class="text-center " style="border: 1px solid gray;padding:10px 10px 10px 10px; font-weight:999;">VIEW MORE SERMONS</a>
+                    </div>       
+            </div>
+
+
+            <div class="col-lg-2">
+                <div class="card"  style="margin-top: 30%;">
+                    <img src="img/homepage/bible3.jpg" height="200px">
+                    <h1 card-title  style="font-size: 25px;">
+                            <span class="badge badge-danger">May 27th 2018</span>
+                    </h1>
+                    <hr class="" style="background-color:red;">
+                    <div class="card-title text-dark display-5"><strong> Ministry with the Angels </strong> </div>
+                    <div class="card-text text-muted">Bishop Dr. Jimmy Kimani</div>
+                    <div class="display-inline">
+                    <i class="fas fa-video ml-2 display-inline-item"></i>
+                    <i class="fas fa-headphones ml-2 display-inline-item"></i>
+                    <i class="fas fa-file-pdf ml-2 display-inline-item"></i>
+                    </div>  
+                    <p class="lead card-text" style="font-size: 15px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis nesciunt quae tempore!</p>
+                    <a href="/sermons" class="text-center " style="border: 1px solid gray;padding:10px 10px 10px 10px; font-weight:999;">VIEW MORE SERMONS</a>
+                    </div>       
             </div>
 
 
@@ -336,14 +381,16 @@
 
 
 
-    <div class=" " style="background-color: #A93720;">
+    <div class=" ">
         <div class="text-center hr-divider">
             <img src="https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/f50af39a-3818-4943-b8f9-8fad15b2c22f/hr-stephan-hilbelink2.png"
                 class=""> </div>
         <h3 class="text-center mx-auto" style="">LATEST ARTICLES</h3>
-        <div class="row" style="background-color: #A93720;">
-            <div class="col-lg mt-3 blog" style="background-color: #A93720;">
-                <div class="ih-item square colored effect4 mx-auto" style="background-color: #A93720;">
+        <div class="row">
+
+       
+            <div class="col-lg-2 ml-auto mt-3 blog">
+                <div class="ih-item square colored effect4 mx-auto" style="margin-top:200px;">
                     <a href="#">
                         <div class="img-fluid">
                             <img src="https://images.pexels.com/photos/34601/pexels-photo.jpg?w=1260&h=750&auto=compress&cs=tinysrgb" alt="img">
@@ -351,8 +398,8 @@
                         <div class="mask1"></div>
                         <div class="mask2"></div>
                         <div class="info">
-                            <h5 class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, sequi.</h5>
-                            <h3 class="lead" style="border: 1px solid #ccc">Read More</h3>
+                            <h3 class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, sequi.</h5>
+                            <h3 class="lead" style="border: 1px solid #ccc">READ MORE</h3>
                         </div>
                     </a>
                 </div>
@@ -364,17 +411,17 @@
 
 
 
-            <div class="col-lg mt-3 blog" style="background-color: #A93720;">
-                <div class="ih-item square colored effect4 mx-auto">
+            <div class="col-lg-2 mt-3 ml-auto blog">
+                <div class="ih-item square colored effect4 mx-auto" style="margin-top:200px;">
                     <a href="#">
                         <div class="img-fluid">
-                            <img src="https://images.pexels.com/photos/34124/pexels-photo.jpg?w=1260&h=750&auto=compress&cs=tinysrgb" alt="img">
+                            <img src="https://images.pexels.com/photos/34124/pexels-photo.jpg?w=1260&h=750&auto=compress&cs=tinysrgb" alt="img" width="150px" height="150px">
                         </div>
                         <div class="mask1"></div>
                         <div class="mask2"></div>
                         <div class="info">
-                            <h5 class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, sequi.</h5>
-                            <h3 class="lead" style="border: 1px solid #ccc">Read More</h3>
+                            <h3 class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, sequi.</h3>
+                            <h3 class="lead" style="border: 1px solid #ccc">READ MORE</h3>
                         </div>
                     </a>
                 </div>
@@ -384,8 +431,8 @@
             </div>
 
 
-            <div class="col-lg-3 mt-3 blog">
-                <div class="ih-item square colored effect4 mx-auto">
+            <div class="col-lg-2 ml-auto mt-3 blog">
+                <div class="ih-item square colored effect4 mx-auto" style="margin-top:200px;">
                     <a href="#">
                         <div class="img-fluid" >
                             <img src="https://images.pexels.com/photos/34124/pexels-photo.jpg?w=1260&h=750&auto=compress&cs=tinysrgb" alt="img">
@@ -393,8 +440,8 @@
                         <div class="mask1"></div>
                         <div class="mask2"></div>
                         <div class="info">
-                            <h5 class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, sequi.</h5>
-                            <h3 class="lead" style="border: 1px solid #ccc">Read More</h3>
+                            <h3 class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, sequi.</h3>
+                            <h3 class="lead" style="border: 1px solid #ccc">READ MORE</h3>
                         </div>
                     </a>
                 </div>
@@ -402,6 +449,12 @@
                     <a href="#" class="text-dark">STAGES OF DISLOYALTY PART 3</a>
                 </div>
             </div>
+
+            <div class="col-lg-5 ml-auto">
+            <img src="img/homepage/church.jpg" alt="" width="800px" height="700px">
+            </div>
+
+             
 
         </div>
 
@@ -411,13 +464,10 @@
     <div class="row">
 
 
-        <div class="col-lg-9 " style="background-color: #A93720;">
+        <div class="col-lg-9">
 
-            <div class="container" style="background-color: #A93720;">
-
-
-
-                <div class="container gallery-container" style="background-color: #A93720;">
+            <div class="container">
+                <div class="container gallery-container">
                     <div class="text-center hr-divider">
                         <img src="https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/f50af39a-3818-4943-b8f9-8fad15b2c22f/hr-stephan-hilbelink2.png"
                             class=""> </div>
@@ -525,7 +575,7 @@
                                 </div>
                             </div>
                         </div>
-                        <button class="btn btn-lg btn-dark mt-3 mx-auto text-center">View More</button>
+                        <button class="btn btn-danger btn-lg  mt-3 mx-auto text-center">View More</button>
                     </div>
                 </div>
 
@@ -535,15 +585,15 @@
 
 
 
-        <div class="col-lg-3" style="background-color: #A93720;">
-            <div class="card mt-5" style="background-color: #A93720;">
+        <div class="col-lg-3" style="">
+            <div class="card mt-5" style="">
 
                 <div class="card-body">
                     <div class="card-text">
-                        <h3 class="text-left mx-auto">STAY INFORMED</h3>
-                        <a href="#" class="text-light mt-2">Subscribe To Our Newsletter</a>
+                        <h3 class="text-left text-primary mx-auto">STAY INFORMED</h3>
+                        <a href="#" class="text-dark mt-2">Subscribe To Our Newsletter</a>
                         <hr>
-                        <h5 class="text-light mt-3">Connect With Us On Social Media</h5>
+                        <h5 class="text-primary mt-3">Connect With Us On Social Media</h5>
                         <div class=" social-media mt-4 list-inline mr-5">
                             <a href="https://www.facebook.com/dczimma/?fref=ts">
                                 <i class="fab fa-3x text-secondary list-inline-item fa-facebook-square mr-3 mb-3"></i>
@@ -561,29 +611,29 @@
 
                         <hr>
 
-                        <h3 class="text-left mx-auto">LOOKING FOR SOMETHING?</h3>
+                        <h3 class="text-left text-primary mx-auto">LOOKING FOR SOMETHING?</h3>
                         <p class="lead">
-                            <a href="#" class="text-light">I'm New Here</a>
+                            <a href="#" class="text-dark">I'm New Here</a>
                         </p>
                         <hr>
                         <p class="lead">
-                            <a href="#" class="text-light">Next Steps</a>
+                            <a href="#" class="text-dark">Next Steps</a>
                         </p>
                         <hr>
                         <p class="lead">
-                            <a href="#" class="text-light">Ministries</a>
+                            <a href="#" class="text-dark">Ministries</a>
                         </p>
                         <hr>
                         <p class="lead">
-                            <a href="#" class="text-light">Events</a>
+                            <a href="#" class="text-dark">Events</a>
                         </p>
                         <hr>
                         <p class="lead">
-                            <a href="#" class="text-light">Announcements</a>
+                            <a href="#" class="text-dark">Announcements</a>
                         </p>
                         <hr>
                         <p class="lead">
-                            <a href="#" class="text-light">The Father's Vision</a>
+                            <a href="#" class="text-dark">The Father's Vision</a>
                         </p>
                         <hr>
 

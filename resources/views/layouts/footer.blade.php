@@ -1,5 +1,23 @@
 <!-- FOOTER -->
-<footer class=" footer  toHide">
+<footer class=" footer">
+      <!-- <h3>WANT TO JOIN OUR CHURCH?</h3> -->
+      <!-- <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel recusandae debitis maiores!</p> -->
+      <button type="submit" class="btn btn-primary">Subscribe</button>
+
+  <div class="bg-overlay mt-3" style="height: 400px;">
+    <h1 class="text-center">SIGN UP TO OUR NEWSLETTER</h1>
+    <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda reprehenderit earum consectetur voluptates in aperiam?</p>
+    <form class="text-center">
+        <div class="form-group">
+
+          <label for="Email">Email address</label>
+          <input type="email" class="form-control" id="email" aria-describedby="emailHelp" name="email" placeholder="Enter email">
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <button type="submit" class="btn btn-primary">Subscribe</button>
+      </form>
+  </div>
+
   <div class="row mx-auto bg-dark" style="background:rgba(0,0,0,0.7);">
     <div class="col-md text-white mt-5">
       <div class="logo">

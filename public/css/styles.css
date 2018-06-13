@@ -9277,7 +9277,6 @@ nav .nav-link {
   top: 130px;
   z-index: 10;
   height: 170px;
-  background-color: rgba(8, 8, 148, 0.781);
   width: 100%;
   font-size: 15px;
 }
@@ -9612,6 +9611,13 @@ nav .nav-link {
     background-color: rgba(0, 0, 0, 0.7);
   }
 
+  .sub-heading {
+    font-weight: 400;
+    font-size: 200px;
+    z-index: 10;
+    position: relative;
+  }
+
   .carousel-item {
     height: 780px;
     background-color: #fff;
@@ -9626,6 +9632,7 @@ nav .nav-link {
   }
 
   .carousel-item > video {
+    background-color: rgba(39, 39, 43, 0.233);
     position: absolute;
     top: 0;
     left: 0;
@@ -9637,38 +9644,37 @@ nav .nav-link {
 
   .carousel-caption {
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 500px;
     z-index: 10;
     height: 700px;
-    background-color: rgba(8, 8, 148, 0.781);
     width: 100%;
     font-size: 35px;
   }
 
   .carousel-caption h1 {
-    font-size: 38px;
-    font-family: Niconne;
+    font-size: 40px;
     font-weight: 600;
+    font-family: Montserrat;
     color: white;
   }
 
   .carousel-caption h2 {
-    font-size: 45px;
-    font-family: Cantarell;
+    font-size: 50px;
     color: white;
-    font-weight: 200;
+    font-family: Montserrat;
+    font-weight: 900;
   }
 
   .carousel-caption h3 {
     font-size: 100px;
-    font-family: Cantarell;
+    font-family: Montserrat;
     color: white;
     font-weight: 200;
   }
 
   .carousel-caption p {
-    font-size: 25px;
+    font-size: 30px;
   }
 
   .carousel-indicators {
@@ -9771,16 +9777,15 @@ bg-test {
   width: 100%;
 }
 
-.bg-overlay-footer {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(240, 3, 3, 0.534)), to(rgba(10, 9, 9, 0.6))), url("/img/cathedral1.jpg");
-  background: linear-gradient(rgba(240, 3, 3, 0.534), rgba(10, 9, 9, 0.6)), url("/img/cathedral1.jpg");
-  background-repeat: repeat;
-  background-size: cover;
-  background-position: center center;
-  color: #fff;
-  height: 800px;
-  padding-top: 50px;
+.video-overlay {
+  height: 100%;
   width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 2;
+  background: black;
+  opacity: 0.5;
 }
 
 .hovereffect {
@@ -9961,18 +9966,6 @@ bg-test {
   transform: translateY(0px);
   -webkit-transition-delay: 0.3s;
   transition-delay: 0.3s;
-}
-
-.tz-gallery .card {
-  background-color: #A93720;
-}
-
-footer {
-  position: relative;
-  bottom: 0;
-  color: white;
-  background-color: rgba(9, 16, 112, 0.9);
-  height: 100%;
 }
 
 footer a {

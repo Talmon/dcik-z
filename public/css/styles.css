@@ -9580,11 +9580,16 @@ nav .nav-link {
 }
 
 @media (min-width: 992px) {
+  nav {
+    height: 100px;
+  }
+
   nav .nav-link {
     font-weight: 900;
     font-size: 23px;
     text-transform: uppercase;
     color: black;
+    padding-top: 50px;
   }
 
   nav .dropdown:hover > .dropdown-menu {
@@ -9595,6 +9600,10 @@ nav .nav-link {
   nav .dropdown > .dropdown-toggle:active {
     /*Without this, clicking will make it sticky*/
     pointer-events: none;
+  }
+
+  nav .open > .dropdown-menu {
+    margin-top: initial;
   }
 
   nav .dropdown-menu a {

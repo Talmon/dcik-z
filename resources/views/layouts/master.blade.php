@@ -163,5 +163,14 @@ $('.nav-link').click(function() {
 
 </script>
 
+<script>
+    $(document).ready(function(){
+    const menu = $("li.dropdown");
+    menu.on("mouseenter mouseleave", function(){
+        menu.toggleClass("open");
+    });
+});
+</script>
+
 </body>
 </html>

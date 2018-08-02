@@ -430,11 +430,13 @@ color: #000;
 
 @include media-breakpoint-up(lg) {
   nav{
+    height:100px;
     .nav-link{
       font-weight: 900;
       font-size: 23px;
       text-transform: uppercase;
       color: black;
+      padding-top:50px;
     }
 
   .dropdown:hover>.dropdown-menu{
@@ -444,7 +446,11 @@ color: #000;
   .dropdown > .dropdown-toggle:active {
     /*Without this, clicking will make it sticky*/
     pointer-events: none;
-}
+  }
+
+  .open>.dropdown-menu{
+    margin-top: initial;
+  }
   // .dropdown-menu:after{
   //   display: block;
   // }
@@ -459,6 +465,7 @@ color: #000;
   .dropdown-menu {
     background-color: rgba(0,0,0,0.7);
   }
+
 }
   
 .sub-heading{

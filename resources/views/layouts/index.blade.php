@@ -649,9 +649,20 @@
 </div>
 
 
-<div class="jumbotron bg-danger display-inline">
+<div class="jumbotron bg-danger display-inline" style="margin-bottom:-35px;">
 <div class="d-inline p-2 display-4  text-white">WANT TO BECOME A NEW MEMBER?</div>
 <div class="d-inline p-2  text-white ml-5">We would be delighted to have you. </div>
 <a class="btn border-light btn-lg d-inline text-white ml-5" href="/become-a-member" role="button" style="border:5px solid;">BECOME A MEMBER</a>
 </div>
+<div class="bg-overlay" style="height: 300px;">
+    <h1 class="text-center">SIGN UP TO OUR NEWSLETTER</h1>
+    <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda reprehenderit earum consectetur voluptates in aperiam?</p>
+    <form class="text-center">
+            <label for="Email">Email address</label>
+            <input type="email" class="form-control" id="email" aria-describedby="emailHelp" name="email" placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        <button type="submit" class="btn btn-primary">Subscribe</button>
+    </form>
+</div>
+
 @endsection

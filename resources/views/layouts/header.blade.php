@@ -13,7 +13,7 @@
         </a>
       </li>
       <li class="nav-item dropdown" style="position: static!important;">
-        <a class="nav-link  " href="/services" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+        <a class="nav-link  " href="/services" id="navbarDropdown" role="button" data-toggle="" aria-haspopup="true"
           aria-expanded="false">
         Services
         </a>
@@ -76,7 +76,7 @@
               
 
       <li class="nav-item dropdown" style="position: static!important;">
-        <a class="nav-link  " href="/im-new-here" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+        <a class="nav-link  " href="/im-new-here" id="navbarDropdown" role="button" data-toggle="" aria-haspopup="true"
           aria-expanded="false">
           I'm New Here
         </a>
@@ -170,7 +170,7 @@
         </div>
       </li>
       <li class="nav-item dropdown" style="position: static!important;">
-        <a class="nav-link  " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+        <a class="nav-link  " href="#" id="navbarDropdown" role="button" data-toggle="" aria-haspopup="true"
           aria-expanded="false">
           Ministries
         </a>
@@ -256,7 +256,7 @@
       </li>
 
       <li class="nav-item dropdown" style="position: static!important;">
-        <a class="nav-link  " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+        <a class="nav-link  " href="#" id="navbarDropdown" role="button" data-toggle="" aria-haspopup="true"
           aria-expanded="false">
           Media
         </a>
@@ -343,7 +343,7 @@
       </li>
 
       <li class="nav-item dropdown" style="position: static!important;">
-        <a class="nav-link  " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+        <a class="nav-link  " href="#" id="navbarDropdown" role="button" data-toggle="" aria-haspopup="true"
           aria-expanded="false">
           Resources
         </a>

@@ -2,19 +2,7 @@
 <footer class=" footer">
     
 
-  <div class="bg-overlay" style="height: 300px;">
-    <h1 class="text-center">SIGN UP TO OUR NEWSLETTER</h1>
-    <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda reprehenderit earum consectetur voluptates in aperiam?</p>
-    <form class="text-center">
-        <div class="form-group">
 
-          <label for="Email">Email address</label>
-          <input type="email" class="form-control" id="email" aria-describedby="emailHelp" name="email" placeholder="Enter email">
-          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-        </div>
-        <button type="submit" class="btn btn-primary">Subscribe</button>
-      </form>
-  </div>
 
   <div class="row mx-auto bg-dark" style="background:rgba(0,0,0,0.7);">
     <div class="col-md text-white mt-5">
@@ -54,12 +42,12 @@
           <div class="col-md-7">
             <h4>Sunday Services</h4>
             <p class="">Express Service: 7:00am - 8:30am</p>
-            <p class="">Celebration Service: 9:00am - 10:45am</p>
+            <p class="">Celebration Service: 8:45am - 10:45am</p>
             <p class="">Miracle Service: 11:00am - 1:00pm</p>
           </div>
           <div class="col-md-5">
             <h4>Midweek Service</h4>
-            <p>Every Wednesday: 6:30pm - 8:00pm</p>
+            <p>Every Wednesday: 6:00pm - 8:00pm</p>
           </div>
         </div>
 

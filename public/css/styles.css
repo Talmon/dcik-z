@@ -9341,13 +9341,24 @@ nav .nav-link {
   font-size: 17px;
 }
 
+h1 {
+  font-size: 35px;
+}
+
+.sermons-card-img {
+  height: 400px;
+}
+
+.member {
+  height: 400px;
+  color: white;
+  margin-bottom: -10px;
+  padding-top: 100px;
+}
+
 .tour .col-md-6 {
   margin-top: 10px;
   font-size: 10px;
-}
-
-.tour .col-md-6 img {
-  height: 300px;
 }
 
 .tour .col-md-6 .card-img-overlay {

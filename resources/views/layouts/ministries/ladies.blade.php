@@ -8,78 +8,30 @@
         </div>
 </div>
 
-    <h2 class="text-center display-4 mt-5" style="font-weight: 900;">Who is this ministry for? </h2>
+<div class="container">
+    <div class="row mt-3">
+        <h4>Ministry Information</h4>
+        <p class="text-muted"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab delectus deleniti dolor, dolorem doloremque enim illo iusto officia omnis qui quis quod recusandae sed? Aliquid aspernatur autem commodi cum, ducimus enim exercitationem fugit iste libero maiores molestiae, molestias, nam nihil nulla odio pariatur qui quisquam reprehenderit sint sit unde voluptas.</p>
+        <ul class="col-lg-4 nav nav-tabs flex-column" id="myTab" role="tablist" style="border-right: 2px solid #ccc; height:500px;>
+        <li class="nav-item mt-5">
+            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">DAUGHTERS OF IMPACT</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">LADIES GROUPS</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">LADIES WEEK</a>
+        </li>
+        </ul>
 
-<div class="container-fluid">
-    <div class="card-deck">
-    <div class="card border-0">
-        <img src="https://s3.amazonaws.com/ns.images/newspring/connect/connect.heads-02.png" alt="" class="card-img-top">
-        <div class="card-text"> 
-        <p class="lead">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga necessitatibus perferendis optio reprehenderit praesentium suscipit aliquid minima autem alias eaque repellat, natus libero consequuntur, reiciendis illum doloremque, itaque provident ratione blanditiis doloribus unde est sunt consequatur? Eligendi, similique.
-        </p> 
-    </div>
-    </div>
-
-    <div class="card border-0">
-        <img src="https://s3.amazonaws.com/ns.images/newspring/connect/connect.heads-05.png" alt="" class="card-img-top">
-        <div class="card-text"> 
-        <p class="lead">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga necessitatibus perferendis optio reprehenderit praesentium suscipit aliquid minima autem alias eaque repellat, natus libero consequuntur, reiciendis illum doloremque, itaque provident ratione blanditiis doloribus unde est sunt consequatur? Eligendi, similique.
-        </p>
-    </div>
-    </div>
-
-    <div class="card border-0">
-        <img src="https://s3.amazonaws.com/ns.images/newspring/connect/connect.heads-02.png" alt="" class="card-img-top">
-        <div class="card-text">
-        <p class="lead">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga necessitatibus perferendis optio reprehenderit praesentium suscipit aliquid minima autem alias eaque repellat, natus libero consequuntur, reiciendis illum doloremque, itaque provident ratione blanditiis doloribus unde est sunt consequatur? Eligendi, similique.
-        </p>
-        </div>
-    </div>
-    </div>
-    
-</div>  
-
-<hr>
-
-<div class="container-fluid mt-5">
-    <div class="card-deck">
-        <div class="card">
-            <img src="img/ladies/ladies.jpg" alt="" class="card-img w-100" style="height: 800px;">
+        <div class="col-lg-8 tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab"> <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium delectus dolores et excepturi maiores modi nam numquam optio quam, reprehenderit similique, sunt vero. A animi dicta dolores iusto laudantium? Amet?</p> </div>
+            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab"><p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab dolore dolorum ducimus earum eligendi esse ipsam ipsum maxime nemo numquam odio, perferendis quo recusandae sequi veniam veritatis voluptatem voluptatum. Dignissimos ipsum, nihil? Ab accusamus alias commodi cum, deleniti dolore dolorem et eum fuga itaque minima non placeat repellendus sint tempora.</p></div>
+            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab"><p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, enim error esse ipsam, iure maxime optio quod repellendus sunt tempore tenetur ut voluptas. Accusamus aperiam asperiores enim expedita harum laudantium molestiae, nesciunt numquam praesentium quia suscipit ullam velit! Aspernatur cumque, et illum quae qui quidem ratione sint voluptas? Dolore doloribus earum incidunt inventore laudantium officiis perferendis reiciendis tempora veritatis! A, consectetur dolore dolorum harum numquam recusandae reiciendis repudiandae sed voluptate!</p></div>
         </div>
 
-        <div class="card">
-            <img src="img/ladies/ladies.jpg" alt="" class="card-img w-100" style="height: 800px;">
-        </div>
     </div>
-</div>
 
-
-<h2 class="text-center display-4 mt-5" style="font-weight: 900;">What to Expect </h2>
-
-<p class="lead">
-    <h1 class="display-4 ml-3"> <strong> Ladies ministry will... </strong> </h1>
-    <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni consequuntur rem expedita aut. Blanditiis, debitis. Temporibus debitis cum sit quas deleniti veniam, doloremque autem repellat? Optio laborum iste cupiditate necessitatibus numquam deserunt inventore possimus, labore dolores suscipit officiis quisquam, libero saepe odit. Doloribus cupiditate tempore autem ipsum nihil ducimus architecto.</p>
-</p>
-
-<div class="row">
-    <div class="col-lg-7">
-    <img src="img/ladies/ladies.jpg" alt="">
-    </div>
-    <div class="col-lg-4">
-    <img src="img/ladies/ladies.jpg" alt="">
-    </div>
-</div>
-
-<div class="row">
-    <div class="col-lg-4 ">
-    <img src="img/ladies/ladies.jpg" alt="">
-    </div>
-    <div class="col-lg-7">
-    <img src="img/ladies/ladies.jpg" alt="">
-    </div>
 </div>
 
 <div class="text-center">

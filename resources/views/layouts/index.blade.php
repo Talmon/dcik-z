@@ -81,11 +81,11 @@
 
 <div class="container-fluid  text-dark" style="" >
     <div class="row mt-5" data-aos="zoom-in-left">
-        <div class="col-md-3">
+        <div class="col-md-3 mt-3">
             <img src="../img/pastors/dad-and-mum.jpg" alt="" class="card-img img-fluid" style="height:auto; max-width:100%;">
         </div>
         <div class="col-md-9">
-            <h1 class="display-3">Welcome to Deliverance Church Kasarani</h1>
+            <h1 class="">Welcome to Deliverance Church Kasarani</h1>
             <hr>
             <p class="muted">Come and experience the realness of God.</p>
             <p class="lead display-5 mt-5">
@@ -109,8 +109,8 @@
 <!-- QUICK TOUR -->
 
 
-<div class="jumbotron text-center bg-overlay mt-5" >
-    <h1 class="display-4 mt-5">What We Believe</h1>
+<div class="jumbotron text-center text-light mt-5 bg-danger">
+    <h1 class="display-3 mt-5">What We Believe</h1>
     <p class="lead">The Bible is the inspired, only infallible word of God (2 Tim 3:15-17; 2 Peter 1:19-21; 1 Thessalonians 2:13).</p>
     <p>This means that God's Word stands on its own - it doesn't need a complement or a supplement.</p>
     <br>
@@ -118,7 +118,7 @@
     <p>He reveals Himself as Father, Son and Holy Spirit with distinct personal attributes, without division of Nature, Essence,
         or Being (Deuteronomy 6:4; John 1:1; 14; Gen 1:2, 26-27).</p>
     <p class="lead">
-        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+        <a class="btn btn-info btn-lg" href="#" role="button">Learn more</a>
     </p>
 </div>
 
@@ -302,15 +302,21 @@
 </div>
 <h3 class="text-center">RECENT SERMONS</h3>
 
-    <div class="container-fluid mb-5">
-        <div class="row mt-5">
-            <div class="col-lg-6">
-            <img src="https://images.unsplash.com/photo-1481142378093-d0289ea07b78?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=82335800650e058347fd6a1ea372d51e&auto=format&fit=crop&w=1350&q=80" alt="" width="800px" height="700px">
+        <div class="row  mt-5">
+            <div class="col-lg-4 col-sm-2">
+                <div class="card">
+                    <img class="sermons-card-img" src="https://images.unsplash.com/photo-1481142378093-d0289ea07b78?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=82335800650e058347fd6a1ea372d51e&auto=format&fit=crop&w=1350&q=80" alt="" width="" height="">
+                </div>
+
+            </div>
+
+            <div class="col-md-offset-2">
+                offset
             </div>
 
             <div class="col-lg-2">
                 <div class="card"  style="margin-top: 30%;">
-                    <img src="img/homepage/bible1.jpg" height="200px">
+                    <img  class="sermons-card-img" src="img/homepage/bible1.jpg">
                     <h1 card-title  style="font-size: 25px;">
                             <span class="badge badge-danger">June 10th 2018</span>
                     </h1>
@@ -329,7 +335,7 @@
 
            <div class="col-lg-2">
                 <div class="card"  style="margin-top: 30%;">
-                    <img src="img/homepage/bible2.jpg" height="200px">
+                    <img  class="sermons-card-img" src="img/homepage/bible2.jpg" >
                     <h1 card-title  style="font-size: 25px;">
                             <span class="badge badge-danger">June 3rd 2018</span>
                     </h1>
@@ -349,7 +355,7 @@
 
             <div class="col-lg-2">
                 <div class="card"  style="margin-top: 30%;">
-                    <img src="img/homepage/bible3.jpg" height="200px">
+                    <img class="sermons-card-img" src="img/homepage/bible3.jpg" >
                     <h1 card-title  style="font-size: 25px;">
                             <span class="badge badge-danger">May 27th 2018</span>
                     </h1>
@@ -368,7 +374,6 @@
 
 
         </div>
-    </div>
 
 
     <!-- </div> -->
@@ -393,7 +398,7 @@
                 <div class="ih-item square colored effect4 mx-auto" style="margin-top:200px;">
                     <a href="#">
                         <div class="img-fluid">
-                            <img src="https://images.pexels.com/photos/34601/pexels-photo.jpg?w=1260&h=750&auto=compress&cs=tinysrgb" alt="img">
+                            <img  src="https://images.pexels.com/photos/34601/pexels-photo.jpg?w=1260&h=750&auto=compress&cs=tinysrgb" alt="img">
                         </div>
                         <div class="mask1"></div>
                         <div class="mask2"></div>
@@ -451,7 +456,7 @@
             </div>
 
             <div class="col-lg-5 ml-auto">
-            <img src="img/homepage/church.jpg" alt="" width="800px" height="700px">
+            <img class="sermons-card-img" src="img/homepage/church.jpg" alt="" width="800px" height="700px">
             </div>
 
              
@@ -649,10 +654,13 @@
 </div>
 
 
-<div class="jumbotron bg-danger display-inline" style="margin-bottom:-35px;">
-<div class="d-inline p-2 display-4  text-white">WANT TO BECOME A NEW MEMBER?</div>
-<div class="d-inline p-2  text-white ml-5">We would be delighted to have you. </div>
-<a class="btn border-light btn-lg d-inline text-white ml-5" href="/become-a-member" role="button" style="border:5px solid;">BECOME A MEMBER</a>
+<div class="jumbotron member bg-danger">
+    <div class="row">
+        <div class="col-sm-6 display-4"> WANT TO BECOME A NEW MEMBER? </div>
+        <div class="col-sm-3 mt-3"> We would be delighted to have you. </div>
+        <div class="col-sm-3 mt-3"> <a class="btn border-light btn-lg d-inline text-white ml-5" href="/become-a-member" role="button" style="border:5px solid;">BECOME A MEMBER</a>
+        </div>
+    </div>
 </div>
 <div class="bg-overlay" style="height: 300px;">
     <h1 class="text-center">SIGN UP TO OUR NEWSLETTER</h1>

@@ -17,7 +17,7 @@
         <div class="carousel-item active">
 
             <div class="video-overlay"></div>
-            <video class="video-fluid" autoplay loop muted preload>
+            <video class="video-fluid"  autoplay loop muted preload>
                 <source src="../img/videos/deli.mp4" type="video/mp4" /> Your browser does not support the video tag.
             </video>
 
@@ -134,7 +134,7 @@
 <div class="tour container-fluid font-official text-white  bg-light">
     <div class="row">
 
-        <div class="card col-md-6  col-lg-3 mt-lg-0 text-white" data-aos="zoom-in" data-aos-duration="500">
+        <div class="card col-md-6 border-0  col-lg-6 mt-lg-5 text-white" data-aos="zoom-in" data-aos-duration="500">
             <a href="/im-new-here" class="text-light">
                 <img class="card-img" src="img/cathedral1.JPG" alt="Card image">
                 <div class="card-img-overlay  text-center" style="">
@@ -147,7 +147,7 @@
 
 
 
-        <div class="card col-md-6 col-lg-3 mt-lg-0 text-white" data-aos="zoom-in" data-aos-duration="1500">
+        <div class="card col-md-6 col-lg-6 border-0 mt-lg-0 mt-lg-5 text-white" data-aos="zoom-in" data-aos-duration="1500">
             <a href="/next-steps" class="text-light">
                 <img class="card-img " src="img/the-fathers-vision.JPG" alt="Card image">
                 <div class="card-img-overlay  text-center" style="">
@@ -158,7 +158,7 @@
             </a>
         </div>
 
-        <div class="card col-md-6 mt-md-5 mt-lg-0 col-lg-3 text-white" data-aos="zoom-in" data-aos-duration="2500">
+        <div class="card col-md-6 mt-md-5 mt-lg-0 border-0 col-lg-6 mt-lg-5 text-white" data-aos="zoom-in" data-aos-duration="2500">
             <a href="get-involved" class="text-light">
                 <img class="card-img " src="img/gallery/rocks.jpg" alt="Card image">
                 <div class="card-img-overlay  text-center" style="">
@@ -169,7 +169,7 @@
             </a>
         </div>
 
-        <div class="card col-md-6 mt-md-5 mt-lg-0 col-lg-3 mx-auto text-white" data-aos="zoom-in" data-aos-duration="3500">
+        <div class="card col-md-6 mt-md-5 mt-lg-0 border-0 col-lg-6 mt-lg-5 mx-auto text-white" data-aos="zoom-in" data-aos-duration="3500">
             <a href="/services" class="text-light">
                 <img class="card-img" src="img/bg-1.JPG" alt="Card image">
                 <div class="card-img-overlay  text-center" style="">
@@ -308,18 +308,17 @@
 <h3 class="text-center">RECENT SERMONS</h3>
 
         <div class="row  mt-5">
-            <div class="col-lg-4 col-sm-2">
+            <div class="col-lg-2 ">
                 <div class="card">
                     <img class="sermons-card-img" src="https://images.unsplash.com/photo-1481142378093-d0289ea07b78?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=82335800650e058347fd6a1ea372d51e&auto=format&fit=crop&w=1350&q=80" alt="" width="" height="">
                 </div>
 
             </div>
 
-            <div class="col-md-offset-2">
-                offset
+            <div class="col-md-offset-6">
             </div>
 
-            <div class="col-lg-2">
+            <div class="col-lg-2 mx-auto col-md-8">
                 <div class="card"  style="margin-top: 30%;">
                     <img  class="sermons-card-img" src="img/homepage/bible1.jpg">
                     <h1 card-title  style="font-size: 25px;">
@@ -338,7 +337,7 @@
                     </div>       
             </div>
 
-           <div class="col-lg-2">
+           <div class="col-lg-2  mx-auto col-md-8">
                 <div class="card"  style="margin-top: 30%;">
                     <img  class="sermons-card-img" src="img/homepage/bible2.jpg" >
                     <h1 card-title  style="font-size: 25px;">
@@ -358,7 +357,7 @@
             </div>
 
 
-            <div class="col-lg-2">
+            <div class="col-lg-2 mx-auto col-md-8">
                 <div class="card"  style="margin-top: 30%;">
                     <img class="sermons-card-img" src="img/homepage/bible3.jpg" >
                     <h1 card-title  style="font-size: 25px;">
@@ -661,9 +660,9 @@
 
 <div class="jumbotron member bg-danger">
     <div class="row">
-        <div class="col-sm-6 display-4"> WANT TO BECOME A NEW MEMBER? </div>
-        <div class="col-sm-3 mt-3"> We would be delighted to have you. </div>
-        <div class="col-sm-3 mt-3"> <a class="btn border-light btn-lg d-inline text-white ml-5" href="/become-a-member" role="button" style="border:5px solid;">BECOME A MEMBER</a>
+        <div class="col-lg-6 display-4"> WANT TO BECOME A NEW MEMBER? </div>
+        <div class="col-lg-3 mt-3"> We would be delighted to have you. </div>
+        <div class="col-lg-3 mt-3"> <a class="btn border-light btn-lg d-inline text-white ml-5" href="/become-a-member" role="button" style="border:5px solid;">BECOME A MEMBER</a>
         </div>
     </div>
 </div>

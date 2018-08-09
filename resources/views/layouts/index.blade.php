@@ -667,7 +667,7 @@
         </div>
     </div>
 </div>
-<div class="bg-overlay" style="height: 300px;">
+<div class="bg-overlay" style="height: 400px;">
     <h1 class="text-center">SIGN UP TO OUR NEWSLETTER</h1>
     <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda reprehenderit earum consectetur voluptates in aperiam?</p>
     <form class="text-center">

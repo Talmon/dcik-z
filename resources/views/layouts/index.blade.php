@@ -109,7 +109,7 @@
 <!-- QUICK TOUR -->
 
 
-<div class="jumbotron text-center text-light mt-5 bg-danger">
+<div class="what-we-believe bg-overlay text-center text-light mt-5 ">
     <h1 class="display-3 mt-5">What We Believe</h1>
     <p class="lead">The Bible is the inspired, only infallible word of God (2 Tim 3:15-17; 2 Peter 1:19-21; 1 Thessalonians 2:13).</p>
     <p>This means that God's Word stands on its own - it doesn't need a complement or a supplement.</p>
@@ -118,7 +118,7 @@
     <p>He reveals Himself as Father, Son and Holy Spirit with distinct personal attributes, without division of Nature, Essence,
         or Being (Deuteronomy 6:4; John 1:1; 14; Gen 1:2, 26-27).</p>
     <p class="lead">
-        <a class="btn btn-info btn-lg" href="#" role="button">Learn more</a>
+        <a class="btn btn-primary btn-lg" href="what-we-believe" role="button">Learn more</a>
     </p>
 </div>
 
@@ -237,6 +237,11 @@
                         <span class="badge badge-danger">April 20th-22nd</span>
                     </h1>
                 </div>
+
+
+
+
+
                 <img src="img/events/icc-conference.jpg" alt="" class="card-img-top img-fluid" style="height: auto; max-width: 100%;">
                 <div class="card-text">
                     <h4 class=" text-primary text-center">Men's Encounter</h4>

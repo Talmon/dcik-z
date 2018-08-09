@@ -37,6 +37,9 @@ color: #000;
 
 }
 
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff !important;;
+}
 
 
 .font-niconne{
@@ -151,6 +154,8 @@ color: #000;
     width: 250px;
   }
 
+
+
   #dcik-theme h1{
     font-size: 25px;
   }
@@ -204,6 +209,14 @@ color: #000;
       margin-top: 15%;
     }
   }
+
+.sub-heading{
+  margin-top:50%;
+  font-weight:400;
+  font-size:100px;
+  z-index:10;
+  position:relative
+}
 
 
 
@@ -647,7 +660,7 @@ bg-test{
   background-size: cover;
   background-position: center center;
   color: #fff;
-  height: 600px;
+  height: 650px;
   padding-top: 50px;
   width: 100%;
 }

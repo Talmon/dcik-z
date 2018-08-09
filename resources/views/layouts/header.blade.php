@@ -2,7 +2,7 @@
   <img src="../img/logos/church-logo.png" class="bg-light" style="width: 100px; height:90px;">
   <button class="navbar-toggler text-white" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
     aria-expanded="false" aria-label="Toggle navigation">
-    <h5>Menu</h5>  <span class="navbar-toggler-icon"> <i class="fas fa-bars"></i> </span>
+    <h5 class="text-dark">Menu</h5>  <span class="navbar-toggler-icon"> <i class="fas fa-bars text-dark"></i> </span>
   </button>
 
   <div class="collapse navbar-collapse font-official" id="navbarSupportedContent">

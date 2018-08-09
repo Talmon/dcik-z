@@ -5,7 +5,7 @@
         <div class="card" data-aos="slide-down">
             <img src="img/services/cathedral" class="" height="600px"  alt="" style="max-width: 100%;">
             <div class="card-img-overlay">
-                <div class="sub-heading text-center text-white font-niconne" style="margin-top: 10%;">Welcome <i class="fas fa-smile text-white"></i> </div>
+                <div class="sub-heading text-center text-white font-niconne" style="">Welcome <i class="fas fa-smile text-white"></i> </div>
             </div>
         </div>
     </div>

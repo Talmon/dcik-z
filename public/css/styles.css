@@ -9211,6 +9211,10 @@ nav .nav-link {
   text-transform: uppercase;
 }
 
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff !important;
+}
+
 .font-niconne {
   font-family: Niconne;
 }
@@ -9367,6 +9371,14 @@ h1 {
 
 .tour .col-md-6 h5 {
   margin-top: 15%;
+}
+
+.sub-heading {
+  margin-top: 50%;
+  font-weight: 400;
+  font-size: 100px;
+  z-index: 10;
+  position: relative;
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -9792,7 +9804,7 @@ bg-test {
   background-size: cover;
   background-position: center center;
   color: #fff;
-  height: 600px;
+  height: 650px;
   padding-top: 50px;
   width: 100%;
 }

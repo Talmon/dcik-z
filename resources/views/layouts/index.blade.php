@@ -308,17 +308,17 @@
 <h3 class="text-center">RECENT SERMONS</h3>
 
         <div class="row  mt-5">
-            <div class="col-lg-2 ">
+            <div class="col-lg-11 mx-auto">
                 <div class="card">
                     <img class="sermons-card-img" src="https://images.unsplash.com/photo-1481142378093-d0289ea07b78?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=82335800650e058347fd6a1ea372d51e&auto=format&fit=crop&w=1350&q=80" alt="" width="" height="">
                 </div>
 
             </div>
 
-            <div class="col-md-offset-6">
+            <div class="col-md-offset-6 col-lg-offset-6">
             </div>
 
-            <div class="col-lg-2 mx-auto col-md-8">
+            <div class="col-lg-4 mx-auto col-md-8">
                 <div class="card"  style="margin-top: 30%;">
                     <img  class="sermons-card-img" src="img/homepage/bible1.jpg">
                     <h1 card-title  style="font-size: 25px;">
@@ -337,7 +337,7 @@
                     </div>       
             </div>
 
-           <div class="col-lg-2  mx-auto col-md-8">
+           <div class="col-lg-4  mx-auto col-md-8">
                 <div class="card"  style="margin-top: 30%;">
                     <img  class="sermons-card-img" src="img/homepage/bible2.jpg" >
                     <h1 card-title  style="font-size: 25px;">
@@ -357,7 +357,7 @@
             </div>
 
 
-            <div class="col-lg-2 mx-auto col-md-8">
+            <div class="col-lg-4 mx-auto col-md-8">
                 <div class="card"  style="margin-top: 30%;">
                     <img class="sermons-card-img" src="img/homepage/bible3.jpg" >
                     <h1 card-title  style="font-size: 25px;">
@@ -398,7 +398,7 @@
         <div class="row">
 
        
-            <div class="col-lg-2 ml-auto mt-3 blog">
+            <div class="col-lg-4 ml-auto mt-3 blog">
                 <div class="ih-item square colored effect4 mx-auto" style="margin-top:200px;">
                     <a href="#">
                         <div class="img-fluid">
@@ -420,7 +420,7 @@
 
 
 
-            <div class="col-lg-2 mt-3 ml-auto blog">
+            <div class="col-lg-4 mt-3 ml-auto blog">
                 <div class="ih-item square colored effect4 mx-auto" style="margin-top:200px;">
                     <a href="#">
                         <div class="img-fluid">
@@ -440,7 +440,7 @@
             </div>
 
 
-            <div class="col-lg-2 ml-auto mt-3 blog">
+            <div class="col-lg-4 ml-auto mt-3 blog">
                 <div class="ih-item square colored effect4 mx-auto" style="margin-top:200px;">
                     <a href="#">
                         <div class="img-fluid" >
@@ -459,7 +459,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-5 ml-auto">
+            <div class="col-lg-11 mt-5 ml-auto">
             <img class="sermons-card-img" src="img/homepage/church.jpg" alt="" width="800px" height="700px">
             </div>
 
@@ -470,10 +470,10 @@
     </div>
 
 
-    <div class="row">
+    <div class="row mt-5">
 
 
-        <div class="col-lg-9">
+        <div class="col-lg-8">
 
             <div class="container">
                 <div class="container gallery-container">
@@ -487,7 +487,7 @@
                     <div class="tz-gallery" >
                         <div class="row" >
                             <div class="col-md" >
-                                <div class="card">
+                                <div class="card border-0">
                                     <a class="lightbox" href="img/gallery/park.jpg">
                                         <img src="img/gallery/park.jpg" alt="Park" class="card-img-top">
                                     </a>
@@ -495,7 +495,7 @@
                             </div>
 
                             <div class="col-md">
-                                <div class="card">
+                                <div class="card border-0">
                                     <a class="lightbox" href="img/gallery/benches.jpg">
                                         <img src="img/gallery/benches.jpg" alt="Park" class="card-img-top">
                                     </a>
@@ -503,7 +503,7 @@
                             </div>
 
                             <div class="col-md">
-                                <div class="card">
+                                <div class="card border-0">
                                     <a class="lightbox" href="img/gallery/bridge.jpg">
                                         <img src="img/gallery/bridge.jpg" alt="Park" class="card-img-top">
                                     </a>
@@ -511,7 +511,7 @@
                             </div>
 
                             <div class="col-md">
-                                <div class="card">
+                                <div class="card border-0">
                                     <a class="lightbox" href="img/gallery/sky.jpg">
                                         <img src="img/gallery/sky.jpg" alt="Park" class="card-img-top">
                                     </a>
@@ -519,7 +519,7 @@
                             </div>
 
                             <div class="col-md">
-                                <div class="card">
+                                <div class="card border-0">
                                     <a class="lightbox" href="img/gallery/tunnel.jpg">
                                         <img src="img/gallery/tunnel.jpg" alt="Park" class="card-img-top">
                                     </a>
@@ -527,7 +527,7 @@
                             </div>
 
                             <div class="col-md">
-                                <div class="card">
+                                <div class="card border-0">
                                     <a class="lightbox" href="img/gallery/traffic.jpg">
                                         <img src="img/gallery/traffic.jpg" alt="Park" class="card-img-top">
                                     </a>
@@ -538,7 +538,7 @@
                         <div class="row">
 
                             <div class="col-md">
-                                <div class="card">
+                                <div class="card border-0">
                                     <a class="lightbox" href="img/gallery/sky.jpg">
                                         <img src="img/gallery/sky.jpg" alt="Park" class="card-img-top">
                                     </a>
@@ -546,7 +546,7 @@
                             </div>
 
                             <div class="col-md">
-                                <div class="card">
+                                <div class="card border-0">
                                     <a class="lightbox" href="img/gallery/tunnel.jpg">
                                         <img src="img/gallery/tunnel.jpg" alt="Park" class="card-img-top">
                                     </a>
@@ -554,14 +554,14 @@
                             </div>
 
                             <div class="col-md">
-                                <div class="card">
+                                <div class="card border-0">
                                     <a class="lightbox" href="img/gallery/traffic.jpg">
                                         <img src="img/gallery/traffic.jpg" alt="Park" class="card-img-top">
                                     </a>
                                 </div>
                             </div>
                             <div class="col-md">
-                                <div class="card">
+                                <div class="card border-0">
                                     <a class="lightbox" href="img/gallery/coast.jpg">
                                         <img src="img/gallery/coast.jpg" alt="Park" class="card-img-top">
                                     </a>
@@ -569,7 +569,7 @@
                             </div>
 
                             <div class="col-md">
-                                <div class="card">
+                                <div class="card border-0">
                                     <a class="lightbox" href="img/gallery/rails.jpg">
                                         <img src="img/gallery/rails.jpg" alt="Park" class="card-img-top">
                                     </a>
@@ -577,7 +577,7 @@
                             </div>
 
                             <div class="col-md">
-                                <div class="card">
+                                <div class="card border-0">
                                     <a class="lightbox" href="img/gallery/rocks.jpg">
                                         <img src="img/gallery/rocks.jpg" alt="Park" class="card-img-top">
                                     </a>
@@ -594,7 +594,7 @@
 
 
 
-        <div class="col-lg-3" style="">
+        <div class="col-lg-4" style="">
             <div class="card mt-5" style="">
 
                 <div class="card-body">
@@ -660,7 +660,7 @@
 
 <div class="jumbotron member bg-danger">
     <div class="row">
-        <div class="col-lg-6 display-4"> WANT TO BECOME A NEW MEMBER? </div>
+        <div class="col-lg-4 display-4"> WANT TO BECOME A NEW MEMBER? </div>
         <div class="col-lg-3 mt-3"> We would be delighted to have you. </div>
         <div class="col-lg-3 mt-3"> <a class="btn border-light btn-lg d-inline text-white ml-5" href="/become-a-member" role="button" style="border:5px solid;">BECOME A MEMBER</a>
         </div>

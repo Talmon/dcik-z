@@ -9829,33 +9829,7 @@ nav .nav-link {
     width: 250px;
   }
 
-  #sermon-slider {
-    height: 700px;
-    margin-bottom: 50px;
-  }
-
-  #sermon-slider iframe {
-    height: 400px;
-    width: 50%;
-    padding: 10px 10px 10px 10px;
-    margin-left: 50%;
-  }
-
-  #sermon-slider h3 {
-    margin-left: 50%;
-    font-size: 25px;
-  }
-
-  #sermon-slider p {
-    margin-left: 50%;
-    font-size: 20px;
-  }
-
-  #sermon-slider a {
-    margin-left: 50%;
-  }
-
-  #sermon-slider .bg-overlay {
+  .bg-overlay {
     background: -webkit-gradient(linear, left top, left bottom, from(rgba(14, 3, 3, 0.781)), to(rgba(26, 23, 23, 0.479))), url("/img/homepage/a-good-father");
     background: linear-gradient(rgba(14, 3, 3, 0.781), rgba(26, 23, 23, 0.479)), url("/img/homepage/a-good-father");
     background-repeat: no-repeat;
@@ -9867,20 +9841,19 @@ nav .nav-link {
     width: 100%;
   }
 
+  .sermons-card-img {
+    height: 300px;
+  }
+
   .tour .card-img {
     height: 450px;
   }
 
-  .bg-overlay {
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(14, 3, 3, 0.781)), to(rgba(26, 23, 23, 0.479))), url("/img/homepage/a-good-father");
-    background: linear-gradient(rgba(14, 3, 3, 0.781), rgba(26, 23, 23, 0.479)), url("/img/homepage/a-good-father");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    color: #fff;
-    height: 600px;
-    padding-top: 50px;
-    width: 100%;
+  .member {
+    height: 400px;
+    color: white;
+    margin-bottom: -10px;
+    padding-top: 100px;
   }
 }
 

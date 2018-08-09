@@ -557,41 +557,41 @@ color: #000;
 
 
 @include media-breakpoint-only(lg) {
-  nav{
-    height:100px;
-    .nav-link{
+  nav {
+    height: 100px;
+    .nav-link {
       font-weight: 900;
       font-size: 20px;
       text-transform: uppercase;
       color: black;
-      padding-top:30px;
-      border:none;
+      padding-top: 30px;
+      border: none;
     }
 
-  .dropdown:hover>.dropdown-menu{
-    display:none;
+    .dropdown:hover > .dropdown-menu {
+      display: none;
+    }
+
+    .dropdown-menu a {
+      font-size: 20px;
+      font-weight: 700;
+      color: white;
+    }
+    .dropdown-menu .badge {
+      font-size: 20px;
+    }
+    .dropdown-menu {
+      background-color: rgba(0, 0, 0, 0.7);
+    }
+
   }
 
-  .dropdown-menu a{
-    font-size:20px;
-    font-weight: 700;
-    color:white;
+  .sub-heading {
+    font-weight: 400;
+    font-size: 200px;
+    z-index: 10;
+    position: relative
   }
-  .dropdown-menu .badge{
-    font-size:20px;
-  }
-  .dropdown-menu {
-    background-color: rgba(0,0,0,0.7);
-  }
-
-}
-
-.sub-heading{
-  font-weight:400;
-  font-size:200px;
-  z-index:10;
-  position:relative
-}
 
   .carousel-item {
     height: 780px;
@@ -611,51 +611,50 @@ color: #000;
     position: absolute;
     top: 0;
     left: 0;
-    width:100%;
+    width: 100%;
     object-fit: cover;
     height: 780px;
   }
-
 
   .carousel-caption {
     position: absolute;
     top: 40%;
     left: 500px;
     z-index: 10;
-    height:700px;
+    height: 700px;
     width: 100%;
     font-size: 35px;
   }
-  .carousel-caption h1{
-       font-size: 40px;
-       font-weight: 600;
-       font-family: $font-type;
-       color: white;
+  .carousel-caption h1 {
+    font-size: 40px;
+    font-weight: 600;
+    font-family: $font-type;
+    color: white;
   }
-  .carousel-caption h2{
+  .carousel-caption h2 {
     font-size: 50px;
     color: white;
     font-family: $font-type;
     font-weight: 900;
   }
-  .carousel-caption h3{
+  .carousel-caption h3 {
     font-size: 100px;
     font-family: $font-type;
     color: white;
     font-weight: 200;
   }
-  .carousel-caption p{
+  .carousel-caption p {
     font-size: 30px;
   }
 
   .carousel-indicators {
-       position: absolute;
-       bottom: 0;
-     }
+    position: absolute;
+    bottom: 0;
+  }
 
-  .carousel-indicators li{
-      background-color: rgba(197, 17, 11, 0.801);
-      height: 5px;
+  .carousel-indicators li {
+    background-color: rgba(197, 17, 11, 0.801);
+    height: 5px;
   }
 
   .tour .col-lg-3{
@@ -678,30 +677,9 @@ color: #000;
     width: 250px;
   }
 
-  
-  #sermon-slider {
-    height: 700px;
-    margin-bottom: 50px;
-    iframe {
-      height: 400px;
-      width: 50%;
-      padding: 10px 10px 10px 10px;
-      margin-left: 50%;
-    }
-  
-    h3{
-      margin-left: 50%;
-      font-size: 25px;
-    }
-    p{
-      margin-left: 50%;
-      font-size:20px;
-    }
-    a{
-      margin-left: 50%;
-    }
 
-    .bg-overlay {
+
+  .bg-overlay {
       //background: #ccc;
       background: linear-gradient(rgba(14, 3, 3, 0.781), rgba(26, 23, 23, 0.479)), url("/img/homepage/a-good-father");
       background-repeat: no-repeat;
@@ -712,21 +690,21 @@ color: #000;
       padding-top: 50px;
       width: 100%;
     }
+
+  .sermons-card-img {
+    height:300px;
+
   }
 
   .tour .card-img {
     height:450px;
   }
-  .bg-overlay {
-    //background: #ccc;
-    background: linear-gradient(rgba(14, 3, 3, 0.781), rgba(26, 23, 23, 0.479)), url("/img/homepage/a-good-father");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    color: #fff;
-    height: 600px;
-    padding-top: 50px;
-    width: 100%;
+
+  .member {
+    height:400px;
+    color: white;
+    margin-bottom: -10px;
+    padding-top: 100px;
   }
  
 

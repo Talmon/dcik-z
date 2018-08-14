@@ -60,7 +60,7 @@
 <!-- SERVICES ALERT  -->
 
 <div class="container-fluid mt-1 bg-light font-official" style="height: 100px; margin-bottom:100px;">
-    <p class="lead py-4  text-center" style="font-weight:400; font-size:28px;">Join us every Sunday @ 7:00 a.m,9:00 a.m. and 11:00 a.m.
+    <p class="lead py-4 col-sm text-center" style="font-weight:400; font-size:28px;">Join us every Sunday @ 7:00 a.m,9:00 a.m. and 11:00 a.m.
         <br>
         <button class="btn btn-large bg-danger ml-5 ">
             <a href="/services" class="text-light">
@@ -81,8 +81,8 @@
 
 <div class="container-fluid  text-dark" style="" >
     <div class="row mt-5" data-aos="zoom-in-left">
-        <div class="col-md-3 mt-3">
-            <img src="../img/pastors/dad-and-mum.jpg" alt="" class="card-img img-fluid" style="height:auto; max-width:100%;">
+        <div class="col-12 col-sm-3 col-md-3 mt-5">
+            <img src="../img/pastors/dad-and-mum.jpg" alt="" class="card-img img-fluid" style="">
         </div>
         <div class="col-md-9">
             <h1 class="">Welcome to Deliverance Church Kasarani</h1>

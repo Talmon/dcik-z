@@ -9199,3 +9199,1022 @@ body {
   font-family: Montserrat;
 }
 
+.font-niconne {
+  font-family: Niconne;
+}
+
+.font-bilbo {
+  font-family: Bilbo Swash Caps;
+}
+
+.font-pacifico {
+  font-family: Gloria Hallelujah;
+}
+
+.font-official {
+  color: black;
+  font-family: Montserrat;
+}
+
+.font-jose {
+  font-family: Josephin Slab;
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+nav .dropdown > .dropdown-menu {
+  display: none;
+}
+
+.tour .card-body {
+  color: black;
+}
+
+.sermons .card {
+  height: 700px;
+}
+
+@media (max-width: 575.98px) {
+  .carousel-item {
+    height: 300px;
+    background-color: #fff;
+  }
+
+  .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 300px;
+  }
+
+  .video1-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .video1-container video1 {
+    /* Make video1 to at least 100% wide and tall */
+    min-width: 100%;
+    min-height: 100%;
+    /* Setting width & height to auto prevents the browser from stretching or squishing the video1 */
+    width: auto;
+    height: auto;
+    /* Center the video1 */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+
+  .carousel-caption {
+    position: absolute;
+    top: 130px;
+    z-index: 10;
+    height: 170px;
+    width: 100%;
+    font-size: 15px;
+  }
+
+  .carousel-caption h1 {
+    font-size: 20px;
+    font-family: Niconne;
+    font-weight: 900;
+    color: white;
+  }
+
+  .carousel-caption h2 {
+    font-size: 17px;
+    font-family: Cantarell;
+    font-weight: 600;
+    color: white;
+  }
+
+  .carousel-caption h3 {
+    font-size: 20px;
+    font-family: Cantarell;
+    color: white;
+  }
+
+  .carousel-caption p {
+    font-size: 12px;
+  }
+
+  .carousel-indicators {
+    position: absolute;
+    bottom: 0;
+  }
+
+  .carousel-indicators li {
+    background-color: rgba(211, 19, 6, 0.685);
+    height: 5px;
+  }
+
+  .hr-divider > img {
+    width: 250px;
+  }
+
+  #dcik-theme h1 {
+    font-size: 25px;
+  }
+
+  #dcik-theme p {
+    font-size: 20px;
+  }
+
+  #sermon-slider iframe {
+    height: 300px;
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+  }
+
+  #sermon-slider h3 {
+    font-size: 20px;
+  }
+
+  #sermon-slider p {
+    font-size: 17px;
+  }
+
+  h1 {
+    font-size: 35px;
+  }
+
+  .sermons-card-img {
+    height: 400px;
+  }
+
+  .member {
+    height: 500px;
+    color: white;
+    margin-bottom: -10px;
+    padding-top: 100px;
+  }
+
+  .sub-heading {
+    margin-top: 50%;
+    font-weight: 400;
+    font-size: 70px;
+    z-index: 10;
+    position: relative;
+  }
+
+  .bg-overlay {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(14, 3, 3, 0.781)), to(rgba(26, 23, 23, 0.479))), url("/img/homepage/a-good-father");
+    background: linear-gradient(rgba(14, 3, 3, 0.781), rgba(26, 23, 23, 0.479)), url("/img/homepage/a-good-father");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    height: 850px;
+    padding-top: 50px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .carousel-item {
+    height: 350px;
+    background-color: #fff;
+  }
+
+  .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 350px;
+  }
+
+  video {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    /* Make video1 to at least 100% wide and tall */
+    min-width: 100%;
+    min-height: 100%;
+    /* Setting width & height to auto prevents the browser from stretching or squishing the video1 */
+    width: auto;
+    height: auto;
+    /* Center the video1 */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+
+  .carousel-caption {
+    position: absolute;
+    top: 130px;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    font-size: 15px;
+  }
+
+  .carousel-caption h1 {
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: Niconne;
+    font-weight: 900;
+    color: white;
+  }
+
+  .carousel-caption h2 {
+    font-size: 30px;
+    font-family: Cantarell;
+    font-weight: 400;
+    color: white;
+  }
+
+  .carousel-caption h3 {
+    font-size: 40px;
+    font-family: Cantarell;
+    font-weight: 200;
+    color: white;
+  }
+
+  .carousel-caption p {
+    font-size: 12px;
+  }
+
+  .carousel-indicators {
+    position: absolute;
+    bottom: 0;
+  }
+
+  .carousel-indicators li {
+    background-color: rgba(211, 19, 6, 0.685);
+    height: 5px;
+  }
+
+  .hr-divider > img {
+    width: 250px;
+  }
+
+  #dcik-theme h1 {
+    font-size: 25px;
+  }
+
+  #dcik-theme p {
+    font-size: 20px;
+  }
+
+  .sermons-card-img {
+    height: 400px;
+    width: 100%;
+  }
+
+  #sermon-slider iframe {
+    height: 300px;
+    width: 50%;
+    margin-left: 25%;
+    padding: 10px 10px 10px 10px;
+  }
+
+  #sermon-slider h3 {
+    font-size: 20px;
+  }
+
+  #sermon-slider p {
+    font-size: 17px;
+  }
+
+  .dropdown:hover > .dropdown-menu {
+    display: none;
+  }
+
+  .tour .col-md {
+    margin-top: 10px;
+    font-size: 10px;
+  }
+
+  .tour .col-md .card-img-overlay {
+    height: 100%;
+  }
+
+  .member {
+    height: 500px;
+    color: white;
+    margin-bottom: -10px;
+    padding-top: 100px;
+  }
+
+  .sub-heading {
+    margin-top: 30%;
+    font-weight: 400;
+    font-size: 100px;
+    z-index: 10;
+    position: relative;
+  }
+
+  .bg-overlay {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(14, 3, 3, 0.781)), to(rgba(26, 23, 23, 0.479))), url("/img/homepage/a-good-father");
+    background: linear-gradient(rgba(14, 3, 3, 0.781), rgba(26, 23, 23, 0.479)), url("/img/homepage/a-good-father");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    height: 850px;
+    padding-top: 50px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  nav .nav-link {
+    font-weight: 900;
+    font-size: 17px;
+    text-transform: uppercase;
+  }
+
+  .carousel-item {
+    height: 500px;
+  }
+
+  video {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    /* Make video1 to at least 100% wide and tall */
+    min-width: 100%;
+    min-height: 100%;
+    /* Setting width & height to auto prevents the browser from stretching or squishing the video1 */
+    width: auto;
+    height: auto;
+    /* Center the video1 */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+
+  .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 500px;
+  }
+
+  .carousel-caption {
+    position: absolute;
+    top: 130px;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    font-size: 25px;
+  }
+
+  .carousel-caption h1 {
+    font-size: 28px;
+    font-family: Niconne;
+    font-weight: 900;
+    color: white;
+  }
+
+  .carousel-caption h2 {
+    font-size: 25px;
+    font-family: Cantarell;
+    font-weight: 600;
+    color: white;
+  }
+
+  .carousel-caption h3 {
+    font-size: 40px;
+    font-family: Cantarell;
+    font-weight: 600;
+    color: white;
+  }
+
+  .carousel-caption p {
+    font-size: 20px;
+  }
+
+  .carousel-indicators {
+    position: absolute;
+    bottom: 0;
+  }
+
+  .carousel-indicators li {
+    background-color: rgba(211, 19, 6, 0.685);
+    height: 5px;
+  }
+
+  .tour .col-md-6 {
+    margin-top: 10px;
+    font-size: 10px;
+  }
+
+  .tour .col-md-6 img {
+    height: 250px;
+  }
+
+  .events .badge {
+    font-size: 20px;
+  }
+
+  .hr-divider > img {
+    width: 250px;
+  }
+
+  #sermon-slider {
+    height: 700px;
+    margin-bottom: 50px;
+  }
+
+  #sermon-slider iframe {
+    height: 200px;
+    width: 50%;
+    padding: 10px 10px 10px 10px;
+    margin-left: 25%;
+  }
+
+  #sermon-slider h3 {
+    font-size: 20px;
+  }
+
+  #sermon-slider p {
+    font-size: 17px;
+  }
+
+  .dropdown:hover > .dropdown-menu {
+    display: none;
+  }
+
+  .member {
+    height: 400px;
+    color: white;
+    margin-bottom: -10px;
+    padding-top: 100px;
+  }
+
+  .sub-heading {
+    font-weight: 400;
+    font-size: 150px;
+    z-index: 10;
+    position: relative;
+    margin-top: 30%;
+  }
+
+  .bg-overlay {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(14, 3, 3, 0.781)), to(rgba(26, 23, 23, 0.479))), url("/img/homepage/a-good-father");
+    background: linear-gradient(rgba(14, 3, 3, 0.781), rgba(26, 23, 23, 0.479)), url("/img/homepage/a-good-father");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    height: 600px;
+    padding-top: 50px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  nav {
+    height: 100px;
+  }
+
+  nav .nav-link {
+    font-weight: 900;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: black;
+    padding-top: 30px;
+    border: none;
+  }
+
+  nav .dropdown:hover > .dropdown-menu {
+    display: none;
+  }
+
+  nav .dropdown-menu a {
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+  }
+
+  nav .dropdown-menu .badge {
+    font-size: 20px;
+  }
+
+  nav .dropdown-menu {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  .sub-heading {
+    font-weight: 400;
+    font-size: 200px;
+    z-index: 10;
+    position: relative;
+  }
+
+  .carousel-item {
+    height: 780px;
+    background-color: #fff;
+  }
+
+  .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 780px;
+  }
+
+  .carousel-item > video {
+    background-color: rgba(39, 39, 43, 0.233);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 780px;
+  }
+
+  .carousel-caption {
+    position: absolute;
+    top: 40%;
+    left: 500px;
+    z-index: 10;
+    height: 700px;
+    width: 100%;
+    font-size: 35px;
+  }
+
+  .carousel-caption h1 {
+    font-size: 40px;
+    font-weight: 600;
+    font-family: Montserrat;
+    color: white;
+  }
+
+  .carousel-caption h2 {
+    font-size: 50px;
+    color: white;
+    font-family: Montserrat;
+    font-weight: 900;
+  }
+
+  .carousel-caption h3 {
+    font-size: 100px;
+    font-family: Montserrat;
+    color: white;
+    font-weight: 200;
+  }
+
+  .carousel-caption p {
+    font-size: 30px;
+  }
+
+  .carousel-indicators {
+    position: absolute;
+    bottom: 0;
+  }
+
+  .carousel-indicators li {
+    background-color: rgba(197, 17, 11, 0.801);
+    height: 5px;
+  }
+
+  .tour .col-lg-3 {
+    font-size: 20px;
+  }
+
+  .tour .col-lg-3 img {
+    height: 300px;
+  }
+
+  .tour .col-lg-3 h5 {
+    margin-top: -5px;
+  }
+
+  .events .badge {
+    font-size: 20px;
+  }
+
+  .hr-divider > img {
+    width: 250px;
+  }
+
+  .member {
+    height: 400px;
+    color: white;
+    margin-bottom: -10px;
+    padding-top: 100px;
+  }
+
+  .sub-heading {
+    font-weight: 400;
+    font-size: 150px;
+    z-index: 10;
+    position: relative;
+    margin-top: 30%;
+  }
+
+  .bg-overlay {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(14, 3, 3, 0.781)), to(rgba(26, 23, 23, 0.479))), url("/img/homepage/a-good-father");
+    background: linear-gradient(rgba(14, 3, 3, 0.781), rgba(26, 23, 23, 0.479)), url("/img/homepage/a-good-father");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    height: 850px;
+    padding-top: 50px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  nav {
+    height: 100px;
+  }
+
+  nav .nav-link {
+    font-weight: 900;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: black;
+    padding-top: 30px;
+    border: none;
+  }
+
+  nav .dropdown:hover > .dropdown-menu {
+    display: none;
+  }
+
+  nav .dropdown-menu a {
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+  }
+
+  nav .dropdown-menu .badge {
+    font-size: 20px;
+  }
+
+  nav .dropdown-menu {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  .sub-heading {
+    font-weight: 400;
+    font-size: 200px;
+    z-index: 10;
+    position: relative;
+  }
+
+  .carousel-item {
+    height: 780px;
+    background-color: #fff;
+  }
+
+  .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 780px;
+  }
+
+  .carousel-item > video {
+    background-color: rgba(39, 39, 43, 0.233);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 780px;
+  }
+
+  .carousel-caption {
+    position: absolute;
+    top: 40%;
+    left: 500px;
+    z-index: 10;
+    height: 700px;
+    width: 100%;
+    font-size: 35px;
+  }
+
+  .carousel-caption h1 {
+    font-size: 40px;
+    font-weight: 600;
+    font-family: Montserrat;
+    color: white;
+  }
+
+  .carousel-caption h2 {
+    font-size: 50px;
+    color: white;
+    font-family: Montserrat;
+    font-weight: 900;
+  }
+
+  .carousel-caption h3 {
+    font-size: 100px;
+    font-family: Montserrat;
+    color: white;
+    font-weight: 200;
+  }
+
+  .carousel-caption p {
+    font-size: 30px;
+  }
+
+  .carousel-indicators {
+    position: absolute;
+    bottom: 0;
+  }
+
+  .carousel-indicators li {
+    background-color: rgba(197, 17, 11, 0.801);
+    height: 5px;
+  }
+
+  .tour .col-lg-3 {
+    font-size: 20px;
+  }
+
+  .tour .col-lg-3 img {
+    height: 300px;
+  }
+
+  .tour .col-lg-3 h5 {
+    margin-top: -5px;
+  }
+
+  .events .badge {
+    font-size: 20px;
+  }
+
+  .hr-divider > img {
+    width: 250px;
+  }
+
+  .member {
+    height: 300px;
+    color: white;
+    margin-bottom: -10px;
+    padding-top: 100px;
+  }
+
+  .bg-overlay {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(14, 3, 3, 0.781)), to(rgba(26, 23, 23, 0.479))), url("/img/homepage/a-good-father");
+    background: linear-gradient(rgba(14, 3, 3, 0.781), rgba(26, 23, 23, 0.479)), url("/img/homepage/a-good-father");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    height: 850px;
+    padding-top: 50px;
+    width: 100%;
+  }
+}
+
+.vision-carriers {
+  background-color: rgba(255, 11, 11, 0.89);
+}
+
+.events {
+  background: rgba(59, 7, 7, 0.87);
+}
+
+a:hover {
+  color: #ff3232;
+  text-decoration: none;
+}
+
+a {
+  color: #ff3232;
+}
+
+.services {
+  color: black;
+  background: rgba(5, 45, 119, 0.473);
+}
+
+.sermons i {
+  margin-left: 10px;
+  color: #000;
+}
+
+bg-test {
+  background: rgba(236, 232, 232, 0.24);
+}
+
+.video-overlay {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 2;
+  background: black;
+  opacity: 0.5;
+}
+
+.hovereffect {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+
+.hovereffect .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  padding: 50px 20px;
+}
+
+.hovereffect img {
+  display: block;
+  position: relative;
+  max-width: none;
+  width: calc(100% + 20px);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s, -webkit-transform 0.35s;
+  -webkit-transform: translate3d(-10px, 0, 0);
+  transform: translate3d(-10px, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.hovereffect:hover img {
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+.hovereffect h2 {
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  padding: 0.5em 0;
+  background-color: transparent;
+}
+
+.hovereffect h2:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #fff;
+  content: '';
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  transition: transform 0.35s, -webkit-transform 0.35s;
+  -webkit-transform: translate3d(-100%, 0, 0);
+  transform: translate3d(-100%, 0, 0);
+}
+
+.hovereffect:hover h2:after {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+.hovereffect a,
+.hovereffect p {
+  color: #FFF;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s, -webkit-transform 0.35s;
+  -webkit-transform: translate3d(100%, 0, 0);
+  transform: translate3d(100%, 0, 0);
+}
+
+.hovereffect:hover a,
+.hovereffect:hover p {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+#blog .hovereffect {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+
+#blog .hovereffect .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transform: translate(460px, -100px) rotate(180deg);
+  transform: translate(460px, -100px) rotate(180deg);
+  -webkit-transition: all 0.2s 0.4s ease-in-out;
+  transition: all 0.2s 0.4s ease-in-out;
+}
+
+#blog .hovereffect img {
+  display: block;
+  position: relative;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+#blog .hovereffect h2 {
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  font-size: 17px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+#blog .hovereffect a.info {
+  display: inline-block;
+  text-decoration: none;
+  padding: 7px 14px;
+  text-transform: uppercase;
+  color: #fff;
+  border: 1px solid #fff;
+  margin: 50px 0 0 0;
+  background-color: transparent;
+  -webkit-transform: translateY(-200px);
+  transform: translateY(-200px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+#blog .hovereffect a.info:hover {
+  -webkit-box-shadow: 0 0 5px #fff;
+          box-shadow: 0 0 5px #fff;
+}
+
+#blog .hovereffect:hover .overlay {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+  -webkit-transform: translate(0px, 0px);
+  transform: translate(0px, 0px);
+}
+
+#blog .hovereffect:hover h2 {
+  -webkit-transform: translateY(0px);
+  transform: translateY(0px);
+  -webkit-transition-delay: 0.5s;
+  transition-delay: 0.5s;
+}
+
+#blog .hovereffect:hover a.info {
+  -webkit-transform: translateY(0px);
+  transform: translateY(0px);
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+
+footer a {
+  color: white;
+}
+
+footer a:hover {
+  color: white;
+}
+

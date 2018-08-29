@@ -1,5 +1,8 @@
 /* Get the bourbon mixin from http://bourbon.io */
 /* Reset */
+.flip-clock {
+  background-color: #0b2e13;
+}
 .flip-clock-wrapper * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -45,7 +48,7 @@
   box-shadow: 0 0 0 !important;
   font-size: 36px !important; }
 
-.flip-clock-meridium a { color: #313333; }
+.flip-clock-meridium a { color: #fff3cd; }
 
 .flip-clock-wrapper {
   text-align: center;
@@ -74,7 +77,7 @@
   font-weight: bold;
   line-height: 87px;
   border-radius: 6px;
-  background: #000;
+  background: #1a2cd2;
 }
 
 .flip-clock-wrapper ul li {
@@ -108,7 +111,7 @@
   width: 100%;
   height: 50%;
   font-size: 80px;
-  overflow: hidden; 
+  overflow: hidden;
   outline: 1px solid transparent; }
 
 .flip-clock-wrapper ul li a div .shadow {
@@ -156,7 +159,7 @@
   color: #ccc;
   text-shadow: 0 1px 2px #000;
   text-align: center;
-  background-color: #333;
+  background-color: #1a2cd2;
   border-radius: 6px;
   font-size: 70px; }
 
@@ -190,7 +193,7 @@
 
 .flip-clock-dot {
   display: block;
-  background: #323434;
+  background: #1a2cd2;
   width: 10px;
   height: 10px;
   position: absolute;
@@ -200,16 +203,27 @@
 
 .flip-clock-divider .flip-clock-label {
   position: absolute;
-  top: -1.5em;
-  right: -86px;
-  color: black;
+  text-transform: uppercase;
+  bottom: -2em;
+  color: #000000;
+  width: 50px;
+  font-size:30px;
+  font-weight: 900px;
   text-shadow: none; }
 
+.flip-clock-divider.days .flip-clock-label {
+  right: -60px; }
+
+.flip-clock-divider.hours .flip-clock-label {
+  right: -60px; }
+
 .flip-clock-divider.minutes .flip-clock-label {
-  right: -88px; }
+  right: -60px; }
 
 .flip-clock-divider.seconds .flip-clock-label {
-  right: -91px; }
+  right: -65px; }
+
+
 
 .flip-clock-dot.top {
   top: 30px; }

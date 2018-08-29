@@ -5,7 +5,7 @@
 
 <!-- CAROUSEL -->
 
-<div id="carouselIndicators" class="container-fluid carousel slide" data-ride="carousel" data-interval="35000" style="">
+<div id="carouselIndicators" class="carousel slide" data-ride="carousel" data-interval="35000" style="">
 
     <ol class="carousel-indicators">
         <li data-target="#carouselIndicators" data-slide-to="0" class="active indicators"></li>
@@ -32,8 +32,8 @@
                         style="color:white;">We are a church for everyone,no matter your look,your denomination,your religion,your race,no matter
                         your social status,you are welcome
                         <p>
-                     <button class="animate-plus btn btn-sm btn-danger"  data-animations="bounceInLeft" data-animation-delay="9s" data-animation-duration="5s"><a class="text-light" href="/visit-us">VISIT US</a></button>
-                     <button class="animate-plus btn btn-sm btn-danger" data-animations="bounceInRight" data-animation-delay="8s" data-animation-duration="5s"><a class="text-light" href="/sermons">WATCH SERMONS</a></button>
+                     <button class="animate-plus btn "  data-animations="bounceInLeft" data-animation-delay="9s" data-animation-duration="5s"><a class="text-light" href="/visit-us">VISIT US</a></button>
+                     <button class="animate-plus btn " data-animations="bounceInRight" data-animation-delay="8s" data-animation-duration="5s"><a class="text-light" href="/sermons">WATCH SERMONS</a></button>
                 </div>
             </div>
         </div>
@@ -59,7 +59,7 @@
 
 <!-- SERVICES ALERT  -->
 
-<div class="container-fluid mt-1 bg-light font-official" style="height: 100px; margin-bottom:100px;">
+<div class="container-fluid mt-1 font-official" style="height: 100px; margin-bottom:100px;">
     <p class="lead py-4 col-sm text-center" style="font-weight:400; font-size:28px;">Join us every Sunday @ 7:00 a.m,9:00 a.m. and 11:00 a.m.
         <br>
         <button class="btn btn-large bg-danger ml-5 ">
@@ -105,7 +105,7 @@
 <!-- QUICK TOUR -->
 
 
-<div class="bg-dark row  text-center text-light mt-5">
+{{--<div class="bg-dark row  text-center text-light mt-5">
     <div class="col">
         <h1 class="display-3 mt-5">What We Believe</h1>
         <p class="lead">The Bible is the inspired, only infallible word of God (2 Tim 3:15-17; 2 Peter 1:19-21; 1 Thessalonians 2:13).</p>
@@ -118,7 +118,7 @@
             <a class="btn btn-primary btn-lg" href="what-we-believe" role="button">Learn more</a>
         </p>
     </div>
-</div>
+</div>--}}
 
 
 
@@ -127,43 +127,69 @@
 
 
 <!-- END OF QUICK TOUR -->
-<div class="tour container-fluid font-official text-white  bg-light">
-    <div class="row mt-5">
-        <div class="card border-0 col-12 col-sm-12 col-md-6 col-lg-6 col-xl-5 mx-xl-auto mt-3 text-white" style="">
-            <img class="card-img-top" src="img/gallery/rocks.jpg" alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">THE FATHER'S VISION</h5>
-                <p class="card-text">This is a great intiative by the church</p>
-                <a href="#" class="btn btn-primary">Read More</a>
+<div class="tour mt-5 font-official text-white  ">
+
+    <div class="row card-group">
+        <div class="col-sm-3 card">
+
+            <!-- colored -->
+            <div class="w-100 h-100 ih-item square colored effect7"><a href="#">
+                    <div class="img"><img src="img/gallery/bridge.jpg" alt="img"></div>
+                    <div class="info">
+                        <h3>GET TO KNOW US</h3>
+                        <p>Click To Know More</p>
+                    </div></a>
             </div>
+            <!-- end colored -->
+            <a href="#" class="btn btn-lg btn-primary">I'M NEW HERE</a>
+
+
+        </div>
+        <div class="col-sm-3 card">
+
+            <!-- colored -->
+            <div class="w-100 h-100 ih-item square colored effect7"><a href="#">
+                    <div class="img"><img src="img/gallery/park.jpg" alt="img"></div>
+                    <div class="info">
+                        <h3>WHAT NEXT?</h3>
+                        <p>Click To Know More</p>
+                    </div></a>
+            </div>
+            <!-- end colored -->
+            <a href="#" class="btn btn-lg btn-primary">NEXT STEPS</a>
+
         </div>
 
-        <div class="card border-0 col-12 col-sm-12 col-md-6 col-lg-6 col-xl-5 mx-xl-auto mt-3 text-white" style="">
-            <img class="card-img-top" src="img/gallery/rocks.jpg" alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">SERVE</h5>
-                <p class="card-text">I want to serve in a ministry.</p>
-                <a href="#" class="btn btn-primary">Read More</a>
+        <div class="col-sm-3 card">
+
+            <!-- colored -->
+            <div class="w-100 h-100 ih-item square colored effect7"><a href="#">
+                    <div class="img"><img src="img/gallery/sky.jpg" alt="img"></div>
+                    <div class="info">
+                        <h3>BELONG HERE</h3>
+                        <p>Click To Know More</p>
+                    </div></a>
             </div>
+            <!-- end colored -->
+            <a href="#" class="btn btn-lg btn-primary">CONNECT</a>
+
         </div>
 
-        <div class="card border-0 col-12 col-sm-12 col-md-6 col-lg-6 col-xl-5 mx-xl-auto mt-3 text-white" style="">
-            <img class="card-img-top" src="img/the-fathers-vision.JPG" alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">I'M NEW HERE</h5>
-                <p class="card-text">Want to know us more?</p>
-                <a href="#" class="btn btn-primary">Read More</a>
-            </div>
-        </div>
+        <div class="col-sm-3 card">
 
-        <div class="card border-0 col-12 col-sm-12 col-md-6 col-lg-6 col-xl-5 mx-xl-auto mt-3 text-white" style="">
-            <img class="card-img-top" src="img/bg-1.JPG" alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">NEXT STEPS</h5>
-                <p class="card-text">How do I become more involved</p>
-                <a href="#" class="btn btn-primary">Read More</a>
+            <!-- colored -->
+            <div class="w-100 h-100 ih-item square colored effect7"><a href="#">
+                    <div class="img"><img src="img/gallery/rocks.jpg" alt="img"></div>
+                    <div class="info">
+                        <h3>JOIN A MINISTRY</h3>
+                        <p>Click To Know More</p>
+                    </div></a>
             </div>
+            <!-- end colored -->
+            <a href="#" class="btn btn-lg btn-primary">SERVE</a>
+
         </div>
+    </div>
 </div>
 
 <!-- END OF TOUR -->
@@ -171,32 +197,50 @@
 
 
 <!-- EVENTS -->
-<div class="events container-fluid font-official text-white mt-5 bg-light" data-aos="fade-down" data-aos-duration="4500">
+<div class="events container-fluid font-official text-white mt-5 " data-aos="fade-down" data-aos-duration="4500">
     <div class="text-center hr-divider">
         <img src="https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/f50af39a-3818-4943-b8f9-8fad15b2c22f/hr-stephan-hilbelink2.png"
             class=""> </div>
     <h1 class="text-center text-dark mx-auto">UPCOMING EVENTS</h1>
     <div class="row">
-        <div class="col-md-4 mt-3">
+        <div class="col-sm-6 col-md ">
             <div class="card">
-                <div class="card-title">
-                    <h1 style="position:absolute; top:50px; left:0;">
-                        <span class="badge badge-danger">August 2nd-7th</span>
-                    </h1>
-                </div>
-                <img src="img/events/navbar-events.jpg" alt="" class="card-img-top img-fluid" style="height: auto; max-width: 100%;">
-                <div class="card-text">
-                    <h4 class=" text-primary text-center">Harvest Conference</h4>
-                    <hr class="mx-auto">
-                    <p class="lead text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, eaque?</p>
-                </div>
-                <div class="card-footer mx-auto">
-                    <button class="btn btn-danger btn-large  text-right mt">Go To Event</button>
-                </div>
+                {{--<img src="img/events/grand-opening.jpg" alt="" class="card-img-top">--}}
             </div>
+            <div class="card-img-overlay countdown d-flex flex-column justify-content-center">
+                <h3 class="display-4 text-dark">Next Event Starts In:</h3>
+                <div class="clock mt-3 mx-auto text-center"></div>
+            </div>
+
         </div>
 
-        <div class="col-md-4 mt-3">
+        <div class="col-5 mt-3">
+            <ul class="list-group my-auto mt-5 ">
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    <span class="badge badge-primary badge-pill">2nd September<br> <br>
+                    Sunday
+                    </span>
+                    <p class="lead text-dark">Member Induction</p>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    <span class="badge badge-primary badge-pill">2nd September<br> <br>
+                    Sunday
+                    </span>
+                    <p class="lead text-dark">Member Induction</p>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    <span class="badge badge-primary badge-pill">2nd September<br> <br>
+                    Sunday
+                    </span>
+                    <p class="lead text-dark">Member Induction</p>
+                </li>
+            </ul>
+        </div>
+
+
+
+
+       {{-- <div class="col-md-4 mt-3">
             <div class="card">
                 <div class="card-title">
                     <h1 style="position:absolute; top:50px; left:0;">
@@ -237,15 +281,12 @@
                     <button class="btn btn-danger btn-large  text-right mt">Go To Event</button>
                 </div>
             </div>
-        </div>
+        </div>--}}
 
     </div>
 
 
-    <div class="col-12 col-md ">
-        <h3 class="display-4 text-dark ">Next Event Starts In:</h3>
-        <div class="clock mt-3 mx-auto text-center"></div>
-    </div>
+
 </div>
 <!-- END OF EVENTS -->
 

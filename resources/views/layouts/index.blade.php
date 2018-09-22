@@ -14,12 +14,14 @@
         <!-- <li data-target="#carouselIndicators" data-slide-to="3" class="indicators"></li> -->
     </ol>
     <div class="carousel-inner">
-        <div class="carousel-item active">
+        <div class="carousel-item church active">
 
-            <div class="video-overlay"></div>
+            <!-- <div class="video-overlay"></div>
             <video class="video-fluid"  autoplay loop muted preload>
                 <source src="../img/videos/deli.mp4" type="video/mp4" /> Your browser does not support the video tag.
-            </video>
+            </video> -->
+
+            <img class="d-block w-100" src="../img/homepage/dcik_gathering2.jpg" alt="First slide">
 
 
             <div class="container">
@@ -39,13 +41,12 @@
         </div>
 
         <div class="carousel-item poster">
-            <img class="d-block w-100" src="../img/homepage/fathers-vision" alt="First slide">
+            <img class="d-block w-100" src="../img/homepage/icc1.jpg" alt="Second slide">
 
         </div>
 
         <div class="carousel-item poster">
-            <img class="d-sm-block  w-100" src="../img/homepage/doi.jpg" alt="First slide">
-
+            <img class="d-sm-block  w-100" src="../img/homepage/doi2.jpg" alt="Third slide">
         </div>
 
 
@@ -72,16 +73,15 @@
 
 <!-- END OF SERVICE ALERT -->
 
-
-{{--WELCOME SECTION--}}
+<!-- WELCOME -->
 
 <div class="container-fluid  text-dark" style="" >
-    <div class="row mt-5" data-aos="zoom-in-left">
+    <div class="row mt-2" data-aos="zoom-in-left">
         <div class="col col-sm col-md-4 mt-5">
-            <img src="../img/pastors/dad-and-mum.jpg" alt="" class="card-img img-fluid" style="">
+            <img src="../img/homepage/dad_and_mum.jpg" alt="" class="card-img img-fluid" style=""> 
         </div>
-        <div class="col-md-8">
-            <h1 class="">Welcome to Deliverance Church Kasarani</h1>
+        <div class="col-md-8 text-center text-dark">
+            <h1 class="text-dark">Welcome to Deliverance Church Kasarani</h1>
             <hr>
             <p class="muted">Come and experience the realness of God.</p>
             <p class="lead display-5 mt-5">
@@ -100,17 +100,19 @@
     </div>
 </div>
 
+<!-- END WELCOME -->
 
 
 <!-- QUICK TOUR -->
 
 
-{{--<div class="bg-dark row  text-center text-light mt-5">
-    <div class="col">
+<div class=" row bg-overlay-3 what-we-believe  text-center text-dark mt-5">
+    <div class="col text-light">
         <h1 class="display-3 mt-5">What We Believe</h1>
         <p class="lead">The Bible is the inspired, only infallible word of God (2 Tim 3:15-17; 2 Peter 1:19-21; 1 Thessalonians 2:13).</p>
         <p>This means that God's Word stands on its own - it doesn't need a complement or a supplement.</p>
         <br>
+        <hr>
         <p class="lead">There is one Eternal, Almighty and Perfect God.</p>
         <p>He reveals Himself as Father, Son and Holy Spirit with distinct personal attributes, without division of Nature, Essence,
             or Being (Deuteronomy 6:4; John 1:1; 14; Gen 1:2, 26-27).</p>
@@ -118,7 +120,7 @@
             <a class="btn btn-primary btn-lg" href="what-we-believe" role="button">Learn more</a>
         </p>
     </div>
-</div>--}}
+</div>
 
 
 
@@ -130,63 +132,71 @@
 <div class="tour mt-5 font-official text-white  ">
 
     <div class="row card-group">
-        <div class="col-sm-3 card">
+        <div class="col-sm-3 card border-0">
 
             <!-- colored -->
-            <div class="w-100 h-100 ih-item square colored effect7"><a href="#">
+            <div class="card w-100 h-100 ih-item square colored effect7"><a href="#">
                     <div class="img"><img src="img/gallery/bridge.jpg" alt="img"></div>
+                    <div class="card-img-overlay">
+                    <h1 class="lead btn btn-block btn-danger" >I'm New Here</h1>
+                    </div>
                     <div class="info">
                         <h3>GET TO KNOW US</h3>
                         <p>Click To Know More</p>
                     </div></a>
             </div>
             <!-- end colored -->
-            <a href="#" class="btn btn-lg btn-primary">I'M NEW HERE</a>
 
 
         </div>
-        <div class="col-sm-3 card">
+        <div class="col-sm-3 card border-0">
 
             <!-- colored -->
             <div class="w-100 h-100 ih-item square colored effect7"><a href="#">
                     <div class="img"><img src="img/gallery/park.jpg" alt="img"></div>
+                    <div class="card-img-overlay">
+                    <h1 class="lead btn btn-block btn-danger" >Next Steps</h1>
+                    </div>
                     <div class="info">
                         <h3>WHAT NEXT?</h3>
                         <p>Click To Know More</p>
                     </div></a>
             </div>
             <!-- end colored -->
-            <a href="#" class="btn btn-lg btn-primary">NEXT STEPS</a>
 
         </div>
 
-        <div class="col-sm-3 card">
+        <div class="col-sm-3 card border-0">
 
             <!-- colored -->
             <div class="w-100 h-100 ih-item square colored effect7"><a href="#">
                     <div class="img"><img src="img/gallery/sky.jpg" alt="img"></div>
+                    <div class="card-img-overlay">
+                    <h1 class="lead btn btn-block btn-danger" >Connect</h1>
+                    </div>
                     <div class="info">
                         <h3>BELONG HERE</h3>
                         <p>Click To Know More</p>
                     </div></a>
             </div>
             <!-- end colored -->
-            <a href="#" class="btn btn-lg btn-primary">CONNECT</a>
 
         </div>
 
-        <div class="col-sm-3 card">
+        <div class="col-sm-3 card border-0">
 
             <!-- colored -->
             <div class="w-100 h-100 ih-item square colored effect7"><a href="#">
                     <div class="img"><img src="img/gallery/rocks.jpg" alt="img"></div>
+                    <div class="card-img-overlay">
+                    <h1 class="lead btn btn-block btn-danger">Serve</h1>
+                    </div>
                     <div class="info">
                         <h3>JOIN A MINISTRY</h3>
                         <p>Click To Know More</p>
                     </div></a>
             </div>
             <!-- end colored -->
-            <a href="#" class="btn btn-lg btn-primary">SERVE</a>
 
         </div>
     </div>
@@ -202,133 +212,130 @@
         <img src="https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/f50af39a-3818-4943-b8f9-8fad15b2c22f/hr-stephan-hilbelink2.png"
             class=""> </div>
     <h1 class="text-center text-dark mx-auto">UPCOMING EVENTS</h1>
-    <div class="row">
-        <div class="col-sm-6 col-md ">
+    <div class="row events">
+        <div class="col-sm-12 col-md-6 col-lg-6 ">
             <div class="card">
-                {{--<img src="img/events/grand-opening.jpg" alt="" class="card-img-top">--}}
+                <img src="https://velikorodnov.com/dev/devchurhius/wp-content/uploads/2018/08/960x728_bg1.jpg" alt="" class="">
             </div>
-            <div class="card-img-overlay countdown d-flex flex-column justify-content-center">
-                <h3 class="display-4 text-dark">Next Event Starts In:</h3>
+            <div class="card-img-overlay  countdown d-flex flex-column justify-content-center">
+                <h3 class=" bg-info display-4 text-light">Next Event Starts In:</h3>
                 <div class="clock mt-3 mx-auto text-center"></div>
             </div>
 
         </div>
 
-        <div class="col-5 mt-3">
-            <ul class="list-group my-auto mt-5 ">
-                <li class="list-group-item d-flex justify-content-between align-items-center">
-                    <span class="badge badge-primary badge-pill">2nd September<br> <br>
-                    Sunday
-                    </span>
-                    <p class="lead text-dark">Member Induction</p>
-                </li>
-                <li class="list-group-item d-flex justify-content-between align-items-center">
-                    <span class="badge badge-primary badge-pill">2nd September<br> <br>
-                    Sunday
-                    </span>
-                    <p class="lead text-dark">Member Induction</p>
-                </li>
-                <li class="list-group-item d-flex justify-content-between align-items-center">
-                    <span class="badge badge-primary badge-pill">2nd September<br> <br>
-                    Sunday
-                    </span>
-                    <p class="lead text-dark">Member Induction</p>
-                </li>
-            </ul>
-        </div>
-
-
-
-
-       {{-- <div class="col-md-4 mt-3">
-            <div class="card">
-                <div class="card-title">
-                    <h1 style="position:absolute; top:50px; left:0;">
-                        <span class="badge badge-danger">April 13th-15th</span>
-                    </h1>
+       
+		<div class="col-md-6  col-sm-12  col-xs-12 col-xs-offset-">
+            <!-- Fluid width widget -->        
+    	    <div class="card calendar">
+                <div class="card-heading">
+                    <h3 class="card-title text-danger">
+                        <span class="glyphicon glyphicon-calendar "></span> 
+                        Calendar Events
+                    </h3>
                 </div>
-                <img src="img/events/grand-opening.jpg" alt="" class="card-img-top img-fluid" style="height: auto; max-width: 100%;">
-                <div class="card-text">
-                    <h4 class=" text-primary text-center">Ladies Encounter</h4>
-                    <hr class="mx-auto">
-                    <p class="lead text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, eaque?</p>
-                </div>
-                <div class="card-footer mx-auto">
-                    <button class="btn btn-danger btn-large  text-right mt">Go To Event</button>
-                </div>
+                <div class="card-body">
+                    <ul class="media-list">
+                        <li class="media">
+                            <div class="media-left">
+                                <div class="card card-danger text-center date" style="width:90%;">
+                                    <div class="card-heading month text-dark">
+                                        <span class="card-title text-danger strong">
+                                            22
+                                        </span>
+                                        <span class="card-text text-danger strong">
+                                            September
+                                        </span>
+                                    </div>
+                                    <div class="card-body day text-muted">
+                                        Saturday
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading text-dark">
+                                    Daughters of Impact September Edition
+                                </h4>
+                                <p class="text-muted">
+                                    Saturday @ DCIK from 2pm-5pm
+                                    <br>
+                                    All daughters are invited.
+                                </p>
+                            </div>
+                            <div class="media-right ">
+                                <a href="#" class="btn  bg-light text-dark btn-secondary">MORE DETAILS</a>
+                            </div>
+                        </li>
+                        <hr>
+                        <li class="media">
+                            <div class="media-left">
+                                <div class="card card-danger text-center date" style="width:90%;">
+                                    <div class="card-heading month text-dark">
+                                        <span class="card-title text-danger strong">
+                                            1
+                                        </span>
+                                        <span class="card-text text-danger strong">
+                                            October
+                                        </span>
+                                    </div>
+                                    <div class="card-body day text-muted">
+                                        Monday
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading text-dark">
+                                    Men's Week
+                                </h4>
+                                <p class="text-muted">
+                                    Monday-Sunday @ DCIK
+                                    <br>
+                                    All men are invited.                                </p>
+                            </div>
+                            <div class="media-right">
+                                <a href="#" class="btn bg-light text-dark btn-secondary">MORE DETAILS</a>
+                            </div>
+                        </li>
+                        <hr>
+                        <li class="media">
+                            <div class="media-left">
+                                <div class="card card-danger text-center date" style="width:90%;">
+                                    <div class="card-heading month text-dark">
+                                        <span class="card-title text-danger strong">
+                                            17
+                                        </span>
+                                        <span class="card-text text-danger strong">
+                                            October
+                                        </span>
+                                    </div>
+                                    <div class="card-body day text-muted">
+                                        Wednesday
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading text-dark">
+                                    Revival Meeting
+                                </h4>
+                                <p class="text-muted">
+                                    Wednesday-Friday @ DCIK from 6pm-8pm
+                                    <br>
+                                    All members are invited.                                </p>
+                            </div>
+                            <div class="media-right">
+                                <a href="#" class="btn  bg-light text-dark btn-secondary">MORE DETAILS</a>
+                            </div>
+                        </li>
+                        <hr>
+                    </ul>
+                    <a href="#" class="btn btn-default btn-block">More Events »</a>
             </div>
-        </div>
-
-        <div class="col-md-4 mt-3">
-            <div class="card">
-                <div class="card-title">
-                    <h1 style="position:absolute; top:50px; left:0;">
-                        <span class="badge badge-danger">April 20th-22nd</span>
-                    </h1>
-                </div>
-
-
-
-
-
-                <img src="img/events/icc-conference.jpg" alt="" class="card-img-top img-fluid" style="height: auto; max-width: 100%;">
-                <div class="card-text">
-                    <h4 class=" text-primary text-center">Men's Encounter</h4>
-                    <hr class="mx-auto">
-                    <p class="lead text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, eaque?</p>
-                </div>
-                <div class="card-footer mx-auto">
-                    <button class="btn btn-danger btn-large  text-right mt">Go To Event</button>
-                </div>
-            </div>
-        </div>--}}
-
-    </div>
-
-
-
+            <!-- End fluid width widget --> 
+            
+		</div>
+	</div>
 </div>
 <!-- END OF EVENTS -->
-
-
-<!-- DCIK THEME OF THE YEAR -->
-<div class="row ">
-    <div class="slider-pro  mt-3 " id="dcik-theme" style="">
-        <div class="sp-slides ">
-            <!-- Slide 1 -->
-            <div class="sp-slide bg-overlay py-5">
-                <h1 class="text-center text-light font-official pt-5">THEME OF THE YEAR:KINGDOM MANIFESTATION</h1>
-                <p class="lead mt-3 text-center text-light font-official">Matthew 6:10: Thy kingdom come, Thy will be done in earth, as it is in heaven</p>
-            </div>
-
-            <!-- Slide 2 -->
-            <div class="sp-slide py-5 bg-overlay">
-                <p class="lead mt-3 text-center text-light font-official pt-5">Matthew 6:33 New Living Translation (NLT) Seek the Kingdom of God above all else, and live righteously, and he
-                    will give you everything you need.</p>
-            </div>
-
-            <!-- Slide 3 -->
-            <div class="sp-slide py-5 bg-overlay">
-                <p class="lead mt-3 text-center text-light font-official pt-5">Romans 14:17 New Living Translation (NLT) For the Kingdom of God is not a matter of what we eat or drink, but
-                    of living a life of goodness and peace and joy in the Holy Spirit.</p>
-            </div>
-
-            <!-- Slide 4 -->
-            <div class="sp-slide py-5 bg-overlay">
-                <p class="lead mt-3 text-center text-light font-official pt-5">Matthew 24:14 New Living Translation (NLT) And the Good News about the Kingdom will be preached throughout the
-                    whole world, so that all nations will hear it; and then the end will come.</p>
-            </div>
-
-            <!-- Slide 5 -->
-            <div class="sp-slide py-5 bg-overlay">
-                <p class="lead mt-3 text-center text-light font-official pt-5">Zechariah 14:9 New Living Translation (NLT) And the Lord will be king over all the earth. On that day there will
-                    be one Lord—his name alone will be worshiped.</p>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- END OF THEME -->
-
 
 <div class="text-center hr-divider">
     <img src="https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/f50af39a-3818-4943-b8f9-8fad15b2c22f/hr-stephan-hilbelink2.png"
@@ -336,12 +343,12 @@
 </div>
 <h3 class="text-center text-dark">RECENT SERMONS</h3>
 
-        <div class="row mt-5">
+        <div class="row mt-5 ">
             <div class="col-12 col-sm-12 col-md-6 col-lg-10 mt-5 col-xl-4 mx-auto" >
                     <img class="card-img-top" src="https://images.unsplash.com/photo-1481142378093-d0289ea07b78?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=82335800650e058347fd6a1ea372d51e&auto=format&fit=crop&w=1350&q=80" alt="">
             </div>
 
-            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-2 mx-auto col-md-8">
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-2 mx-auto col-md-8 sermons">
                 <div class="card"  style="margin-top: 30%;">
                     <img  class="card-img-top" src="img/homepage/bible1.jpg">
                     <h1 card-title  style="font-size: 25px;">
@@ -360,7 +367,7 @@
                     </div>       
             </div>
 
-           <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-2  mx-auto col-md-8">
+           <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-2  mx-auto col-md-8 sermons">
                 <div class="card"  style="margin-top: 30%;">
                     <img  class="card-img-top" src="img/homepage/bible2.jpg" >
                     <h1 card-title  style="font-size: 25px;">
@@ -380,7 +387,7 @@
             </div>
 
 
-            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-2 mx-auto col-md-8">
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-2 mx-auto col-md-8 sermons">
                 <div class="card"  style="margin-top: 30%;">
                     <img class="card-img-top" src="img/homepage/bible3.jpg" >
                     <h1 card-title  style="font-size: 25px;">
@@ -410,19 +417,112 @@
 
     <hr>
 
+<!-- DCIK THEME OF THE YEAR -->
+<div class=" ">
+    <div class="slider-pro " id="dcik-theme" style="">
+        <div class="sp-slides ">
+            <!-- Slide 1 -->
+            <div class="sp-slide bg-overlay">
+                <h1 class="text-center text-light font-official display-3">THEME OF THE YEAR:KINGDOM MANIFESTATION</h1>
+                <p class="lead mt-3 text-center text-light font-official">Matthew 6:10: Thy kingdom come, Thy will be done in earth, as it is in heaven</p>
+            </div>
 
+            <!-- Slide 2 -->
+            <div class="sp-slide py-5 bg-overlay aya">
+                <p class="lead mt-3 text-center text-light font-official pt-5">Matthew 6:33 New Living Translation (NLT) Seek the Kingdom of God above all else, and live righteously, and he
+                    will give you everything you need.</p>
+            </div>
 
+            <!-- Slide 3 -->
+            <div class="sp-slide py-5 bg-overlay aya">
+                <p class="lead mt-3 text-center text-light font-official pt-5">Romans 14:17 New Living Translation (NLT) For the Kingdom of God is not a matter of what we eat or drink, but
+                    of living a life of goodness and peace and joy in the Holy Spirit.</p>
+            </div>
 
-    <div class=" ">
-        <div class="text-center hr-divider">
+            <!-- Slide 4 -->
+            <div class="sp-slide py-5 bg-overlay aya">
+                <p class="lead mt-3 text-center text-light font-official pt-5">Matthew 24:14 New Living Translation (NLT) And the Good News about the Kingdom will be preached throughout the
+                    whole world, so that all nations will hear it; and then the end will come.</p>
+            </div>
+
+            <!-- Slide 5 -->
+            <div class="sp-slide py-5 bg-overlay aya">
+                <p class="lead mt-3 text-center text-light font-official pt-5">Zechariah 14:9 New Living Translation (NLT) And the Lord will be king over all the earth. On that day there will
+                    be one Lord—his name alone will be worshiped.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END OF THEME -->
+
+    <!-- MINISTRIES -->
+
+    <div class="text-center mt-2 hr-divider">
             <img src="https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/f50af39a-3818-4943-b8f9-8fad15b2c22f/hr-stephan-hilbelink2.png"
                 class=""> </div>
-        <h3 class="text-center text-dark mx-auto" style="">LATEST ARTICLES</h3>
-        <div class="row">
+        <h3 class="text-center text-dark mx-auto" style="">MINISTRIES</h3>
+        
+    <div class="container-fluid  ministries">
 
-       
-            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-2">
-                <div class="ih-item square colored effect4 mx-auto" style="margin-top:200px;">
+    <div class="card-deck">
+        <div class="card">
+            <img class="card-img-top" src="img/homepage/mens_ministry2.jpg" alt="Card image cap">
+            <div class="card-footer">
+            <small class="text-muted"><a href="/men" class="btn btn-lg btn-primary"> Men's Ministry </a></small>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="img/homepage/ladies.jpg" alt="Card image cap">
+            <div class="card-footer">
+            <small class="text-muted"><a href="/men" class="btn btn-lg btn-primary"> Ladies Ministry </a></small>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="img/homepage/childrens_ministry.jpg" alt="Card image cap">
+            <div class="card-footer">
+            <small class="text-muted"><a href="/men" class="btn btn-lg btn-primary"> Children Ministry </a></small>
+            </div>
+        </div>
+    </div>
+
+    <div class="card-deck">
+        <div class="card">
+            <img class="card-img-top" src="img/homepage/youth_ministry3.jpg" alt="Card image cap">
+            <div class="card-footer">
+            <small class="text-muted"><a href="/men" class="btn btn-lg btn-primary"> Youth Ministry </a></small>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="img/homepage/media_ministry.jpg" alt="Card image cap">
+            <div class="card-footer">
+            <small class="text-muted"><a href="/men" class="btn btn-lg btn-primary"> Media Ministry </a></small>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="img/homepage/youth_ministry.jpg" alt="Card image cap">
+            <div class="card-footer">
+            <small class="text-muted"><a href="/men" class="btn btn-lg btn-primary"> Connect Ministry </a></small>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    
+
+<!-- END OF TOUR -->
+
+    <!-- END OF MINISTRIES -->
+
+
+    <!-- ARTICLES -->
+
+    
+    <div class="bg-overlay-2">
+        
+        <h3 class="text-center text-light mx-auto" style="font-weight:900; font-size:40px;">LATEST ARTICLES</h3>
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                <div class="ih-item square colored effect4 mx-auto" style="margin-top:20px;">
                     <a href="#">
                         <div class="img-fluid">
                             <img  src="https://images.pexels.com/photos/34601/pexels-photo.jpg?w=1260&h=750&auto=compress&cs=tinysrgb" alt="img">
@@ -436,15 +536,15 @@
                     </a>
                 </div>
                 <div class="mt-3 text-center">
-                    <a href="#" class="text-dark">STAGES OF DISLOYALTY PART 1</a>
+                    <a href="#" class="text-light" style="font-weight:900; font-size:20px;">STAGES OF DISLOYALTY PART 1</a>
                 </div>
             </div>
 
 
 
 
-            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-2">
-                <div class="ih-item square colored effect4 mx-auto" style="margin-top:200px;">
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                <div class="ih-item square colored effect4 mx-auto" style="margin-top:20px;">
                     <a href="#">
                         <div class="img-fluid">
                             <img src="https://images.pexels.com/photos/34124/pexels-photo.jpg?w=1260&h=750&auto=compress&cs=tinysrgb" alt="img" width="150px" height="150px">
@@ -458,13 +558,13 @@
                     </a>
                 </div>
                 <div class="mt-3 text-center">
-                    <a href="#" class="text-dark">STAGES OF DISLOYALTY PART 2</a>
+                    <a href="#" class="text-light" style="font-weight:900; font-size:20px;">STAGES OF DISLOYALTY PART 2</a>
                 </div>
             </div>
 
 
-            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-2 mr-xl-3">
-                <div class="ih-item square colored effect4 mx-auto" style="margin-top:200px;">
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                <div class="ih-item square colored effect4 mx-auto" style="margin-top:20px;">
                     <a href="#">
                         <div class="img-fluid" >
                             <img src="https://images.pexels.com/photos/34124/pexels-photo.jpg?w=1260&h=750&auto=compress&cs=tinysrgb" alt="img">
@@ -478,216 +578,147 @@
                     </a>
                 </div>
                 <div class="mt-3 text-center">
-                    <a href="#" class="text-dark">STAGES OF DISLOYALTY PART 3</a>
+                    <a href="#" class="text-light" style="font-weight:900; font-size:20px;">STAGES OF DISLOYALTY PART 3</a>
                 </div>
             </div>
 
-            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 ml-xl-auto">
-            <img class="sermons-card-img" src="img/homepage/church.jpg" alt="">
-            </div>
 
         </div>
 
-    </div>
 
-
+        <!-- GALLERY -->
     <div class="row mt-5">
 
 
-        <div class="col-lg-8">
+<div class="col-lg-12">
 
-            <div class="container">
-                <div class="container gallery-container">
-                    <div class="text-center hr-divider">
-                        <img src="https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/f50af39a-3818-4943-b8f9-8fad15b2c22f/hr-stephan-hilbelink2.png"
-                            class=""> </div>
-                    <h3 class="text-center">DCIK GALLERY</h3>
+    <div class="container">
+        <div class="container gallery-container">
+            
+            <h3 class="text-center text-light" style="font-weight:900; font-size:40px;">DCIK GALLERY</h3>
 
-                    <p class="page-description text-center text-light">Share special moments with friends :)</p>
+            <p class="page-description text-center text-light" style="font-weight:900; font-size:30px;">Share special moments with friends :)</p>
 
-                    <div class="tz-gallery" >
-                        <div class="row" >
-                            <div class="col-md" >
-                                <div class="card border-0">
-                                    <a class="lightbox" href="img/gallery/park.jpg">
-                                        <img src="img/gallery/park.jpg" alt="Park" class="card-img-top">
-                                    </a>
-                                </div>
-                            </div>
-
-                            <div class="col-md">
-                                <div class="card border-0">
-                                    <a class="lightbox" href="img/gallery/benches.jpg">
-                                        <img src="img/gallery/benches.jpg" alt="Park" class="card-img-top">
-                                    </a>
-                                </div>
-                            </div>
-
-                            <div class="col-md">
-                                <div class="card border-0">
-                                    <a class="lightbox" href="img/gallery/bridge.jpg">
-                                        <img src="img/gallery/bridge.jpg" alt="Park" class="card-img-top">
-                                    </a>
-                                </div>
-                            </div>
-
-                            <div class="col-md">
-                                <div class="card border-0">
-                                    <a class="lightbox" href="img/gallery/sky.jpg">
-                                        <img src="img/gallery/sky.jpg" alt="Park" class="card-img-top">
-                                    </a>
-                                </div>
-                            </div>
-
-                            <div class="col-md">
-                                <div class="card border-0">
-                                    <a class="lightbox" href="img/gallery/tunnel.jpg">
-                                        <img src="img/gallery/tunnel.jpg" alt="Park" class="card-img-top">
-                                    </a>
-                                </div>
-                            </div>
-
-                            <div class="col-md">
-                                <div class="card border-0">
-                                    <a class="lightbox" href="img/gallery/traffic.jpg">
-                                        <img src="img/gallery/traffic.jpg" alt="Park" class="card-img-top">
-                                    </a>
-                                </div>
-                            </div>
+            <div class="tz-gallery" >
+                <div class="row" >
+                    <div class="col-md" >
+                        <div class="card border-0 bg-none">
+                            <a class="lightbox" href="img/gallery/church1.jpg">
+                                <img src="img/gallery/church1.jpg" alt="Park" class="card-img-top">
+                            </a>
                         </div>
+                    </div>
 
-                        <div class="row">
-
-                            <div class="col-md">
-                                <div class="card border-0">
-                                    <a class="lightbox" href="img/gallery/sky.jpg">
-                                        <img src="img/gallery/sky.jpg" alt="Park" class="card-img-top">
-                                    </a>
-                                </div>
-                            </div>
-
-                            <div class="col-md">
-                                <div class="card border-0">
-                                    <a class="lightbox" href="img/gallery/tunnel.jpg">
-                                        <img src="img/gallery/tunnel.jpg" alt="Park" class="card-img-top">
-                                    </a>
-                                </div>
-                            </div>
-
-                            <div class="col-md">
-                                <div class="card border-0">
-                                    <a class="lightbox" href="img/gallery/traffic.jpg">
-                                        <img src="img/gallery/traffic.jpg" alt="Park" class="card-img-top">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-md">
-                                <div class="card border-0">
-                                    <a class="lightbox" href="img/gallery/coast.jpg">
-                                        <img src="img/gallery/coast.jpg" alt="Park" class="card-img-top">
-                                    </a>
-                                </div>
-                            </div>
-
-                            <div class="col-md">
-                                <div class="card border-0">
-                                    <a class="lightbox" href="img/gallery/rails.jpg">
-                                        <img src="img/gallery/rails.jpg" alt="Park" class="card-img-top">
-                                    </a>
-                                </div>
-                            </div>
-
-                            <div class="col-md">
-                                <div class="card border-0">
-                                    <a class="lightbox" href="img/gallery/rocks.jpg">
-                                        <img src="img/gallery/rocks.jpg" alt="Park" class="card-img-top">
-                                    </a>
-                                </div>
-                            </div>
+                    <div class="col-md">
+                        <div class="card border-0">
+                            <a class="lightbox" href="img/gallery/church2.jpg">
+                                <img src="img/gallery/church2.jpg" alt="Park" class="card-img-top">
+                            </a>
                         </div>
-                        <button class="btn btn-danger btn-lg  mt-3 mx-auto text-center">View More</button>
+                    </div>
+
+                    <div class="col-md">
+                        <div class="card border-0">
+                            <a class="lightbox" href="img/gallery/church3.jpg">
+                                <img src="img/gallery/church3.jpg" alt="Park" class="card-img-top">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-md">
+                        <div class="card border-0">
+                            <a class="lightbox" href="img/gallery/church4.jpg">
+                                <img src="img/gallery/church4.jpg" alt="Park" class="card-img-top">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-md">
+                        <div class="card border-0">
+                            <a class="lightbox" href="img/gallery/church5.jpg">
+                                <img src="img/gallery/church5.jpg" alt="Park" class="card-img-top">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-md">
+                        <div class="card border-0">
+                            <a class="lightbox" href="img/gallery/church6.jpg">
+                                <img src="img/gallery/church6.jpg" alt="Park" class="card-img-top">
+                            </a>
+                        </div>
                     </div>
                 </div>
 
-            </div>
+                <div class="row">
 
-        </div>
-
-
-
-        <div class="col-lg-4" style="">
-            <div class="card mt-5" style="">
-
-                <div class="card-body">
-                    <div class="card-text">
-                        <h3 class="text-left text-primary mx-auto">STAY INFORMED</h3>
-                        <a href="#" class="text-dark mt-2">Subscribe To Our Newsletter</a>
-                        <hr>
-                        <h5 class="text-primary mt-3">Connect With Us On Social Media</h5>
-                        <div class=" social-media mt-4 list-inline mr-5">
-                            <a href="https://www.facebook.com/dczimma/?fref=ts">
-                                <i class="fab fa-3x text-secondary list-inline-item fa-facebook-square mr-3 mb-3"></i>
-                            </a>
-                            <a class="" href="#">
-                                <i class="fab fa-3x fa-twitter-square list-inline-item text-secondary mr-3 mb-3"></i>
-                            </a>
-                            <a class="" href="https://www.youtube.com/channel/UCbFf1WXtK4WRV2tz9Zx6nIg">
-                                <i class="fab fa-3x fa-youtube list-inline-item text-secondary mr-3 mb-3"></i>
-                            </a>
-                            <a class="" href="#">
-                                <i class="fab fa-3x fa-instagram list-inline-item text-secondary mr-3 mb-3"></i>
+                    <div class="col-md">
+                        <div class="card border-0">
+                            <a class="lightbox" href="img/gallery/church7.jpg">
+                                <img src="img/gallery/church7.jpg" alt="Park" class="card-img-top">
                             </a>
                         </div>
+                    </div>
 
-                        <hr>
+                    <div class="col-md">
+                        <div class="card border-0">
+                            <a class="lightbox" href="img/gallery/church8.jpg">
+                                <img src="img/gallery/church8.jpg" alt="Park" class="card-img-top">
+                            </a>
+                        </div>
+                    </div>
 
-                        <h3 class="text-left text-primary mx-auto">LOOKING FOR SOMETHING?</h3>
-                        <p class="lead">
-                            <a href="#" class="text-dark">I'm New Here</a>
-                        </p>
-                        <hr>
-                        <p class="lead">
-                            <a href="#" class="text-dark">Next Steps</a>
-                        </p>
-                        <hr>
-                        <p class="lead">
-                            <a href="#" class="text-dark">Ministries</a>
-                        </p>
-                        <hr>
-                        <p class="lead">
-                            <a href="#" class="text-dark">Events</a>
-                        </p>
-                        <hr>
-                        <p class="lead">
-                            <a href="#" class="text-dark">Announcements</a>
-                        </p>
-                        <hr>
-                        <p class="lead">
-                            <a href="#" class="text-dark">The Father's Vision</a>
-                        </p>
-                        <hr>
+                    <div class="col-md">
+                        <div class="card border-0">
+                            <a class="lightbox" href="img/gallery/church9.jpg">
+                                <img src="img/gallery/church9.jpg" alt="Park" class="card-img-top">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="card border-0">
+                            <a class="lightbox" href="img/gallery/church10.jpg">
+                                <img src="img/gallery/church10.jpg" alt="Park" class="card-img-top">
+                            </a>
+                        </div>
+                    </div>
 
+                    <div class="col-md">
+                        <div class="card border-0">
+                            <a class="lightbox" href="img/gallery/church11.jpg">
+                                <img src="img/gallery/church11.jpg" alt="Park" class="card-img-top">
+                            </a>
+                        </div>
+                    </div>
 
+                    <div class="col-md">
+                        <div class="card border-0">
+                            <a class="lightbox" href="img/gallery/church12.jpg">
+                                <img src="img/gallery/church12.jpg" alt="Park" class="card-img-top">
+                            </a>
+                        </div>
                     </div>
                 </div>
-
+                <button class="btn btn-danger btn-lg  mt-3 mx-auto text-center">View More</button>
             </div>
-
-
         </div>
+
     </div>
+
 </div>
+</div>
+<!-- END OF GALLERY -->
+
+    </div>
+
+    <!-- END OF ARTICLES -->
 
 
-<div class="jumbotron member bg-danger">
-    <div class="row">
-        <div class="col-lg-4 display-4"> WANT TO BECOME A NEW MEMBER? </div>
-        <div class="col-lg-3 mt-3"> We would be delighted to have you. </div>
-        <div class="col-lg-3 mt-3"> <a class="btn border-light btn-lg d-inline text-white ml-5" href="/become-a-member" role="button" style="border:5px solid;">BECOME A MEMBER</a>
-        </div>
-    </div>
-</div>
-<div class="bg-overlay" style="height: 400px;">
+
+    
+
+       
+<!-- <div class="bg-overlay" style="height: 100px;">
     <h1 class="text-center">SIGN UP TO OUR NEWSLETTER</h1>
     <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda reprehenderit earum consectetur voluptates in aperiam?</p>
     <form class="text-center">
@@ -696,6 +727,6 @@
             <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
         <button type="submit" class="btn btn-primary">Subscribe</button>
     </form>
-</div>
+</div> -->
 
 @endsection

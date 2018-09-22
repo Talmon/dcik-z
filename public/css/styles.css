@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);@import url(https://fonts.googleapis.com/css?family=Tangerine|Montserrat|Marmelad|Josephin+Slab|Artifika|Belleza|Maven+Pro|Niconne|Calligraffitti|Cantarell|Courgette|Bilbo+Swash+Caps|Pacifico|Berkshire+Swash|Bilbo+Swash+Caps|Cookie|Dancing+Script|Gloria+Hallelujah|Great+Vibes|Handlee|Sacramento|Satisfy);/*!
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);@import url(https://fonts.googleapis.com/css?family=Tangerine|Montserrat|Marmelad|Josephin+Slab|Artifika|Belleza|Maven+Pro|Niconne|Calligraffitti|Cantarell|Courgette|Bilbo+Swash+Caps|Pacifico|Berkshire+Swash|Bilbo+Swash+Caps|Cookie|Dancing+Script|Gloria+Hallelujah|Great+Vibes|Handlee|Sacramento|Satisfy);@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);/*!
  * Bootstrap v4.0.0-beta (https://getbootstrap.com)
  * Copyright 2011-2017 The Bootstrap Authors
  * Copyright 2011-2017 Twitter, Inc.
@@ -9259,6 +9259,64 @@ nav .logo {
   height: 700px;
 }
 
+.carousel-item.church:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+#dcik-theme {
+  margin-top: -190px;
+}
+
+#dcik-theme h1 {
+  margin-top: 5%;
+  font-size: 40px;
+}
+
+#dcik-theme .aya .lead {
+  padding-top: 15%;
+  font-size: 30px;
+}
+
+.ministries .card-deck {
+  height: 450px;
+}
+
+.ministries .card-img-top {
+  height: 350px;
+}
+
+.bg-overlay-2 {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(14, 3, 3, 0.781)), to(rgba(26, 23, 23, 0.479))), url("https://velikorodnov.com/dev/devchurhius/wp-content/uploads/2018/08/1920x800_bg4.jpg");
+  background: linear-gradient(rgba(14, 3, 3, 0.781), rgba(26, 23, 23, 0.479)), url("https://velikorodnov.com/dev/devchurhius/wp-content/uploads/2018/08/1920x800_bg4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  color: #fff;
+  padding-top: 50px;
+  width: 100%;
+}
+
+.bg-overlay-3 {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(14, 3, 3, 0.781)), to(rgba(26, 23, 23, 0.479))), url("/img/homepage/dcik_gathering.jpg");
+  background: linear-gradient(rgba(14, 3, 3, 0.781), rgba(26, 23, 23, 0.479)), url("/img/homepage/dcik_gathering.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 600px;
+  padding-top: 50px;
+  margin-top: 100px;
+  width: 100%;
+}
+
 @media (max-width: 575.98px) {
   nav {
     height: 100px;
@@ -9292,6 +9350,14 @@ nav .logo {
     margin-top: -100px;
   }
 
+  .carousel button {
+    width: 100%;
+    height: 60px;
+    font-size: 15px;
+    padding: 10px 10px 10px 10px;
+    background-color: rgba(26, 23, 23, 0.479);
+  }
+
   .carousel-item {
     height: 400px;
     background-color: #fff;
@@ -9319,7 +9385,7 @@ nav .logo {
 
   .carousel-caption {
     position: absolute;
-    top: 230px;
+    top: 150px;
     z-index: 10;
     height: 170px;
     width: 100%;
@@ -9362,6 +9428,24 @@ nav .logo {
 
   .hr-divider > img {
     width: 250px;
+  }
+
+  .what-we-believe {
+    height: 100%;
+  }
+
+  .effect7 h1 {
+    font-weight: 900;
+    font-size: 30px;
+    z-index: 1;
+  }
+
+  .events img {
+    height: 100%;
+  }
+
+  .calendar {
+    margin-top: 200px;
   }
 
   .countdown h3 {
@@ -10016,6 +10100,12 @@ nav .logo {
     margin-top: -5px;
   }
 
+  .effect7 h1 {
+    font-weight: 900;
+    font-size: 45px;
+    z-index: 1;
+  }
+
   .events .badge {
     font-size: 20px;
   }
@@ -10046,10 +10136,6 @@ nav .logo {
 
 .vision-carriers {
   background-color: rgba(255, 11, 11, 0.89);
-}
-
-.events {
-  background: rgba(59, 7, 7, 0.87);
 }
 
 a:hover {
@@ -10266,11 +10352,115 @@ bg-test {
   transition-delay: 0.3s;
 }
 
-footer a {
-  color: white;
+.card.date {
+  margin: 0px;
+  width: 60px;
+  text-align: center;
 }
 
-footer a:hover {
-  color: white;
+.card.date .month {
+  padding: 2px 0px;
+  font-weight: 700;
+}
+
+.card.date .day {
+  padding: 3px 0px;
+  font-weight: 700;
+  font-size: 1em;
+}
+
+.sermons .card-img-top {
+  width: 100%;
+  height: 35%;
+}
+
+.sermons .card {
+  border: none;
+}
+
+/* Footer */
+
+section {
+  padding: 60px 0;
+}
+
+section .section-title {
+  text-align: center;
+  color: #007b5e;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+}
+
+#footer {
+  background: #030b55 !important;
+}
+
+#footer h5 {
+  padding-left: 10px;
+  border-left: 3px solid #eeeeee;
+  padding-bottom: 6px;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+#footer a {
+  color: #ffffff;
+  text-decoration: none !important;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+#footer ul.social li {
+  padding: 3px 0;
+}
+
+#footer ul.social li a i {
+  margin-right: 5px;
+  font-size: 25px;
+  -webkit-transition: .5s all ease;
+  transition: .5s all ease;
+}
+
+#footer ul.social li:hover a i {
+  font-size: 30px;
+  margin-top: -10px;
+}
+
+#footer ul.social li a,
+#footer ul.quick-links li a {
+  color: #ffffff;
+}
+
+#footer ul.social li a:hover {
+  color: #eeeeee;
+}
+
+#footer ul.quick-links li {
+  padding: 3px 0;
+  -webkit-transition: .5s all ease;
+  transition: .5s all ease;
+}
+
+#footer ul.quick-links li:hover {
+  padding: 3px 0;
+  margin-left: 5px;
+  font-weight: 700;
+}
+
+#footer ul.quick-links li a i {
+  margin-right: 5px;
+}
+
+#footer ul.quick-links li:hover a i {
+  font-weight: 700;
+}
+
+@media (max-width: 767px) {
+  #footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+  }
 }
 

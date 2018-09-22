@@ -3140,7 +3140,7 @@
 }
 .ih-item.square.effect7.colored .info {
   background: #1a4a72;
-  background: rgba(26, 74, 114, 0.6);
+  background: rgba(175, 31, 5, 0.596);
 }
 .ih-item.square.effect7.colored .info h3 {
   background: rgba(12, 34, 52, 0.6);
@@ -3157,7 +3157,7 @@
 }
 .ih-item.square.effect7 .info {
   background: #333333;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(173, 34, 15, 0.651);
   visibility: hidden;
   opacity: 0;
   -webkit-transition: all 0.35s ease-in-out;

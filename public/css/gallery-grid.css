@@ -1,5 +1,5 @@
 .gallery{
-    background-color: rgba(177, 109, 104, 0.377);
+    background-color: none;
 }
 
 .container.gallery-container {
@@ -24,11 +24,17 @@
 }
 
 .tz-gallery {
+    width:100%;
     padding: 40px;
+}
+
+.tz-gallery .card {
+    background-color: rgba(90, 85, 85, 0.06);
 }
 
 .tz-gallery .lightbox img {
     width: 100%;
+    opacity:1;
     margin-bottom: 30px;
     transition: 0.2s ease-in-out;
     box-shadow: 0 2px 3px rgba(0,0,0,0.2);
@@ -41,6 +47,8 @@
 }
 
 .tz-gallery img {
+    width:200px;
+    height:150px;
     border-radius: 4px;
 }
 

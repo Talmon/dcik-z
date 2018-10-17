@@ -81,6 +81,40 @@ body{
     background:rgba(0,0,0,0.7);
   }
 
+  .quicktour-img-caption {
+    position:absolute;
+    bottom:0;
+    background-color: rgba(28, 3, 73, 0.884);
+    color:white;
+    z-index:1;
+    width:100%;
+    font-family: 'PT Sans', sans-serif;
+    h1{
+     font-size:40px;   
+     font-weight:900;
+    }
+   
+ }
+ 
+ .event-countdown{
+     margin-top: -50px;
+ 
+     h1{
+         font-size:50px;
+         font-weight:900;
+         margin-top:20%;
+     }
+ 
+     .clock{
+         margin-left:20%;
+         font-size:25px;
+         font-weight:600;
+         margin-top:10%;
+     }
+ }
+ 
+ 
+
 
   #dcik-theme {
     margin-top: -190px;

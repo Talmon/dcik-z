@@ -114,221 +114,110 @@
         </p>
     </div>
 </div>
-
-
-
-
-
-
-
 <!-- END OF QUICK TOUR -->
-<div class="tour mt-5 font-official text-white  ">
 
-    <div class="row card-group">
-        <div class="col-sm-3 card border-0">
 
-            <!-- colored -->
-            <div class="card w-100 h-100 ih-item square colored effect7"><a href="#">
-                    <div class="img"><img src="img/gallery/bridge.jpg" alt="img"></div>
-                    <div class="card-img-overlay">
-                    <h1 class="lead btn btn-block btn-danger" >I'm New Here</h1>
-                    </div>
-                    <div class="info">
-                        <h3>GET TO KNOW US</h3>
-                        <p>Click To Know More</p>
-                    </div></a>
+<!-- QUICKTOUR -->
+<div class="row quicktour">
+    <div class="col-xl-3 col-xs-12 col-sm-12 dark-overlay">
+        <img src="/img/gallery/bridge.jpg" height="300" alt="">
+        <a href="#">
+            <div class=" quicktour-img-caption">
+                <h1 class="ml-3">I'm New Here</h1>
+                <hr class="bg-light w-25">
+                <button class="ml-3 mb-2 btn btn-lg" style="background-color:transparent; border:1px solid #fff; color:white;">Know
+                    More</button>
             </div>
-            <!-- end colored -->
+        </a>
+    </div>
 
-
-        </div>
-        <div class="col-sm-3 card border-0">
-
-            <!-- colored -->
-            <div class="w-100 h-100 ih-item square colored effect7"><a href="#">
-                    <div class="img"><img src="img/gallery/park.jpg" alt="img"></div>
-                    <div class="card-img-overlay">
-                    <h1 class="lead btn btn-block btn-danger" >Next Steps</h1>
-                    </div>
-                    <div class="info">
-                        <h3>WHAT NEXT?</h3>
-                        <p>Click To Know More</p>
-                    </div></a>
+    <div class="col-xl-3">
+        <img src="/img/gallery/benches.jpg" height="300" alt="">
+        <a href="#">
+            <div class=" quicktour-img-caption">
+                <h1 class="ml-3">Join a Cell</h1>
+                <hr class="bg-light w-25">
+                <button class="ml-3 mb-2 btn btn-lg" style="background-color:transparent; border:1px solid #fff; color:white;">Know
+                    More</button>
             </div>
-            <!-- end colored -->
+        </a>
+    </div>
 
-        </div>
-
-        <div class="col-sm-3 card border-0">
-
-            <!-- colored -->
-            <div class="w-100 h-100 ih-item square colored effect7"><a href="#">
-                    <div class="img"><img src="img/gallery/sky.jpg" alt="img"></div>
-                    <div class="card-img-overlay">
-                    <h1 class="lead btn btn-block btn-danger" >Connect</h1>
-                    </div>
-                    <div class="info">
-                        <h3>BELONG HERE</h3>
-                        <p>Click To Know More</p>
-                    </div></a>
+    <div class="col-xl-3">
+        <img src="/img/gallery/rails.jpg" height="300" alt="">
+        <a href="#">
+            <div class=" quicktour-img-caption">
+                <h1 class="ml-3">Serve</h1>
+                <hr class="bg-light w-25">
+                <button class="ml-3 mb-2 btn btn-lg" style="background-color:transparent; border:1px solid #fff; color:white;">Know
+                    More</button>
             </div>
-            <!-- end colored -->
+        </a>
+    </div>
 
-        </div>
-
-        <div class="col-sm-3 card border-0">
-
-            <!-- colored -->
-            <div class="w-100 h-100 ih-item square colored effect7"><a href="#">
-                    <div class="img"><img src="img/gallery/rocks.jpg" alt="img"></div>
-                    <div class="card-img-overlay">
-                    <h1 class="lead btn btn-block btn-danger">Serve</h1>
-                    </div>
-                    <div class="info">
-                        <h3>JOIN A MINISTRY</h3>
-                        <p>Click To Know More</p>
-                    </div></a>
+    <div class="col-xl-3">
+        <img src="/img/gallery/traffic.jpg" height="300" alt="">
+        <a href="#">
+            <div class=" quicktour-img-caption">
+                <h1 class="ml-3">Discipleship</h1>
+                <hr class="bg-light w-25">
+                <button class="ml-3 mb-2 btn btn-lg" style="background-color:transparent; border:1px solid #fff; color:white;">Know
+                    More</button>
             </div>
-            <!-- end colored -->
-
-        </div>
+        </a>
     </div>
 </div>
 
-<!-- END OF TOUR -->
 
 
+<!-- END QUICKTOUR -->
 
 <!-- EVENTS -->
-<div class="events container-fluid font-official text-white mt-5 " data-aos="fade-down" data-aos-duration="4500">
-    <div class="text-center hr-divider">
-        <img src="https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/f50af39a-3818-4943-b8f9-8fad15b2c22f/hr-stephan-hilbelink2.png"
-            class=""> </div>
-    <h1 class="text-center text-dark mx-auto">UPCOMING EVENTS</h1>
-    <div class="row events">
-        <div class="col-sm-12 col-md-6 col-lg-6 ">
-            <div class="card">
-                <img src="https://velikorodnov.com/dev/devchurhius/wp-content/uploads/2018/08/960x728_bg1.jpg" alt="" class="">
-            </div>
-            <div class="card-img-overlay  countdown d-flex flex-column justify-content-center">
-                <h3 class=" bg-info display-4 text-light">Next Event Starts In:</h3>
-                <div class="clock mt-3 mx-auto text-center"></div>
-            </div>
+<div class="row mt-5">
+    <div class="col-xl-9 col-xs-12 event-countdown" style="background-image: url('/img/gallery/bg-5.jpg');">
+        <h1 class="text-center">Next Event Starts In:</h1>
+        <div class="clock  "></div>
+    </div>
 
+    <div class="col-xl-3">
+        <h1>Upcoming Events</h1>
+        <div class="">
+            <div class="col-md-3">
+                <h3><span class="badge badge-danger">Nov 4</span></h3>
+            </div>
+            <div class="col-md-9">
+                <strong>Family Day</strong><br>
+                <em>Food,Fun,Family</em><br>
+                <span class="small">9:00 AM - 1:00 PM</span>
+            </div>
         </div>
 
-       
-		<div class="col-md-6  col-sm-12  col-xs-12 col-xs-offset-">
-            <!-- Fluid width widget -->        
-    	    <div class="card calendar">
-                <div class="card-heading">
-                    <h3 class="card-title text-danger">
-                        <span class="glyphicon glyphicon-calendar "></span> 
-                        Calendar Events
-                    </h3>
-                </div>
-                <div class="card-body">
-                    <ul class="media-list">
-                        <li class="media">
-                            <div class="media-left">
-                                <div class="card card-danger text-center date" style="width:90%;">
-                                    <div class="card-heading month text-dark">
-                                        <span class="card-title text-danger strong">
-                                            22
-                                        </span>
-                                        <span class="card-text text-danger strong">
-                                            September
-                                        </span>
-                                    </div>
-                                    <div class="card-body day text-muted">
-                                        Saturday
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="media-heading text-dark">
-                                    Daughters of Impact September Edition
-                                </h4>
-                                <p class="text-muted">
-                                    Saturday @ DCIK from 2pm-5pm
-                                    <br>
-                                    All daughters are invited.
-                                </p>
-                            </div>
-                            <div class="media-right ">
-                                <a href="#" class="btn  bg-light text-dark btn-secondary">MORE DETAILS</a>
-                            </div>
-                        </li>
-                        <hr>
-                        <li class="media">
-                            <div class="media-left">
-                                <div class="card card-danger text-center date" style="width:90%;">
-                                    <div class="card-heading month text-dark">
-                                        <span class="card-title text-danger strong">
-                                            1
-                                        </span>
-                                        <span class="card-text text-danger strong">
-                                            October
-                                        </span>
-                                    </div>
-                                    <div class="card-body day text-muted">
-                                        Monday
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="media-heading text-dark">
-                                    Men's Week
-                                </h4>
-                                <p class="text-muted">
-                                    Monday-Sunday @ DCIK
-                                    <br>
-                                    All men are invited.                                </p>
-                            </div>
-                            <div class="media-right">
-                                <a href="#" class="btn bg-light text-dark btn-secondary">MORE DETAILS</a>
-                            </div>
-                        </li>
-                        <hr>
-                        <li class="media">
-                            <div class="media-left">
-                                <div class="card card-danger text-center date" style="width:90%;">
-                                    <div class="card-heading month text-dark">
-                                        <span class="card-title text-danger strong">
-                                            17
-                                        </span>
-                                        <span class="card-text text-danger strong">
-                                            October
-                                        </span>
-                                    </div>
-                                    <div class="card-body day text-muted">
-                                        Wednesday
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="media-heading text-dark">
-                                    Revival Meeting
-                                </h4>
-                                <p class="text-muted">
-                                    Wednesday-Friday @ DCIK from 6pm-8pm
-                                    <br>
-                                    All members are invited.                                </p>
-                            </div>
-                            <div class="media-right">
-                                <a href="#" class="btn  bg-light text-dark btn-secondary">MORE DETAILS</a>
-                            </div>
-                        </li>
-                        <hr>
-                    </ul>
-                    <a href="#" class="btn btn-default btn-block">More Events »</a>
+        <div class="events">
+            <div class="col-md-3">
+                <h3><span class="badge badge-danger">Nov 25</span></h3>
             </div>
-            <!-- End fluid width widget --> 
-            
-		</div>
-	</div>
+            <div class="col-md-9">
+                <strong>International Conquerors Conference</strong><br>
+                <em>Come,let us worship.</em><br>
+                <span class="small">8:00 AM - 8:00 PM</span>
+            </div>
+        </div>
+
+        <div class="events">
+            <div class="col-md-3">
+                <h3><span class="badge badge-danger">Dec 12</span></h3>
+            </div>
+            <div class="col-md-9">
+                <strong>Lorem, ipsum.</strong><br>
+                <em>Lorem ipsum dolor sit.</em><br>
+                <span class="small">5:30 PM - 8:00 PM</span>
+            </div>
+        </div>
+    </div>
 </div>
-<!-- END OF EVENTS -->
+<!-- END EVENTS -->
+.
+
 
 <div class="text-center hr-divider">
     <img src="https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/f50af39a-3818-4943-b8f9-8fad15b2c22f/hr-stephan-hilbelink2.png"
@@ -336,13 +225,9 @@
 </div>
 <h3 class="text-center text-dark">RECENT SERMONS</h3>
 
-        <div class="row mt-5 ">
-            <div class="col-12 col-sm-12 col-md-6 col-lg-10 mt-5 col-xl-4 mx-auto" >
-                    <img class="card-img-top" src="https://images.unsplash.com/photo-1481142378093-d0289ea07b78?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=82335800650e058347fd6a1ea372d51e&auto=format&fit=crop&w=1350&q=80" alt="">
-            </div>
-
-            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-2 mx-auto col-md-8 sermons">
-                <div class="card"  style="margin-top: 30%;">
+        <div class="row mt-1 ">
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl mx-auto col-md-8 sermons">
+                <div class="card"  style="margin-top: 10%;">
                     <img  class="card-img-top" src="img/homepage/bible1.jpg">
                     <h1 card-title  style="font-size: 25px;">
                             <span class="badge badge-danger">June 10th 2018</span>
@@ -360,8 +245,8 @@
                     </div>       
             </div>
 
-           <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-2  mx-auto col-md-8 sermons">
-                <div class="card"  style="margin-top: 30%;">
+           <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl  mx-auto col-md-8 sermons">
+                <div class="card"  style="margin-top: 10%;">
                     <img  class="card-img-top" src="img/homepage/bible2.jpg" >
                     <h1 card-title  style="font-size: 25px;">
                             <span class="badge badge-danger">June 3rd 2018</span>
@@ -380,8 +265,8 @@
             </div>
 
 
-            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-2 mx-auto col-md-8 sermons">
-                <div class="card"  style="margin-top: 30%;">
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl mx-auto col-md-8 sermons">
+                <div class="card"  style="margin-top: 10%;">
                     <img class="card-img-top" src="img/homepage/bible3.jpg" >
                     <h1 card-title  style="font-size: 25px;">
                             <span class="badge badge-danger">May 27th 2018</span>

@@ -31,8 +31,7 @@
                         DELIVERANCE CHURCH INTERNATIONAL KASARANI
                     </h2>
                     <p class="animate-plus d-none d-md-block" data-animations="bounceInLeft" data-animation-delay="6s" data-animation-duration="5s"
-                        style="color:white;">We are a church for everyone,no matter your look,your denomination,your religion,your race,no matter
-                        your social status,you are welcome
+                        style="color:white;">"We are a ministry on time, centered on the Bible, believing in the Holy Spirit, and preaching Jesus(Col 1:28), Him Risen and Reigning. 34 Years in, He has not once failed us! Karibu Sana DCIK_z.
                         <p>
                      <button class="animate-plus btn "  data-animations="bounceInLeft" data-animation-delay="9s" data-animation-duration="5s"><a class="text-light" href="/visit-us">VISIT US</a></button>
                      <button class="animate-plus btn " data-animations="bounceInRight" data-animation-delay="8s" data-animation-duration="5s"><a class="text-light" href="/sermons">WATCH SERMONS</a></button>
@@ -41,7 +40,7 @@
         </div>
 
         <div class="carousel-item poster">
-            <img class="d-block w-100" src="../img/homepage/icc1.jpg" alt="Second slide">
+            <img class="d-block w-100" src="../img/homepage/icc_2018.jpeg" alt="Second slide">
 
         </div>
 
@@ -85,17 +84,11 @@
             <hr>
             <p class="muted">Come and experience the realness of God.</p>
             <p class="lead display-5 mt-5">
-                "We are more than delighted to host you in the Deliverance Church Kasarani - Zimmerman website. Our desire is that in the
-                few minutes that you browse through you will be nourished and when logging out you will be more deeply rooted
-                in the word of Christ as a Christian and ready to do extraordinary exploits like Daniel for it is your portion.
-                (Dan. 11:32) You may check out the life changing Sunday sermon and the history of sermons.</p>
+                We are more than delighted to host you on the Deliverance Church Kasarani - Zimmerman website. Our desire is that as you browse through, you will be so nourished as you log out you will be more deeply rooted in the word of Christ, ready to do extraordinary exploits like Daniel (Dan. 11:32). You're welcome to watch the impactful sermons on our database.
+            </p>
 
-            <p class="lead display-5 mt-1">You may plan to
-                attend the church activities and support any project. If you wish to join a cell or volunteer your skills
-                and time we are more than willing to connect you to any of the available ministries in the church. Join us
-                in any of our services or meetings as we grow together in Christ and make Jesus known to all. We appreciate
-                and value you. - Bishop Dr. Jimmy & Pastor Alice Kimani"</p>    
-            <h2>BISHOP DR. JIMMY KIMANI AND PASTOR ALICE KIMANI</h2>
+            <p class="lead display-5 mt-1">If you wish to join a cell or volunteer your skills and time we are more than willing to connect you to any of the ministries in the church. Join us in any of our services or meetings as we grow together in Christ and make Jesus known to all. We appreciate and value you. - </p>
+            <h2> Bishop Dr. Jimmy & Pastor Alice Kimani (Lead Pastors)</h2>
         </div>
     </div>
 </div>
@@ -474,7 +467,7 @@
         <div class="card">
             <img class="card-img-top" src="img/homepage/ladies.jpg" alt="Card image cap">
             <div class="card-footer">
-            <small class="text-muted"><a href="/men" class="btn btn-lg btn-primary"> Ladies Ministry </a></small>
+            <small class="text-muted"><a href="/ladies" class="btn btn-lg btn-primary"> Ladies Ministry </a></small>
             </div>
         </div>
         <div class="card">

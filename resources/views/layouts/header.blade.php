@@ -170,7 +170,7 @@
         </div>
       </li>
       <li class="nav-item dropdown" style="position: static!important;">
-        <a class="nav-link  " href="#" id="navbarDropdown" role="button" data-toggle="" aria-haspopup="true"
+        <a class="nav-link  " href="/ministries" id="navbarDropdown" role="button" data-toggle="" aria-haspopup="true"
           aria-expanded="false">
           Ministries
         </a>

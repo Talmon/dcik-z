@@ -56,6 +56,10 @@ Route::get('/cornerstone-academy', function () {
     return view('layouts.about-us/cornerstone-academy');
 });
 
+Route::get('/ministries', function () {
+    return view('layouts.ministries');
+});
+
 Route::get('/men', function () {
     return view('layouts.ministries/men');
 });

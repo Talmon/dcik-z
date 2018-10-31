@@ -448,63 +448,7 @@
 </div>
 <!-- END OF THEME -->
 
-    <!-- MINISTRIES -->
-
-    <div class="text-center mt-2 hr-divider">
-            <img src="https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/f50af39a-3818-4943-b8f9-8fad15b2c22f/hr-stephan-hilbelink2.png"
-                class=""> </div>
-        <h3 class="text-center text-dark mx-auto" style="">MINISTRIES</h3>
-        
-    <div class="container-fluid  ministries">
-
-    <div class="card-deck">
-        <div class="card">
-            <img class="card-img-top" src="img/homepage/mens_ministry2.jpg" alt="Card image cap">
-            <div class="card-footer">
-            <small class="text-muted"><a href="/men" class="btn btn-lg btn-primary"> Men's Ministry </a></small>
-            </div>
-        </div>
-        <div class="card">
-            <img class="card-img-top" src="img/homepage/ladies.jpg" alt="Card image cap">
-            <div class="card-footer">
-            <small class="text-muted"><a href="/ladies" class="btn btn-lg btn-primary"> Ladies Ministry </a></small>
-            </div>
-        </div>
-        <div class="card">
-            <img class="card-img-top" src="img/homepage/childrens_ministry.jpg" alt="Card image cap">
-            <div class="card-footer">
-            <small class="text-muted"><a href="/men" class="btn btn-lg btn-primary"> Children Ministry </a></small>
-            </div>
-        </div>
-    </div>
-
-    <div class="card-deck">
-        <div class="card">
-            <img class="card-img-top" src="img/homepage/youth_ministry3.jpg" alt="Card image cap">
-            <div class="card-footer">
-            <small class="text-muted"><a href="/men" class="btn btn-lg btn-primary"> Youth Ministry </a></small>
-            </div>
-        </div>
-        <div class="card">
-            <img class="card-img-top" src="img/homepage/media_ministry.jpg" alt="Card image cap">
-            <div class="card-footer">
-            <small class="text-muted"><a href="/men" class="btn btn-lg btn-primary"> Media Ministry </a></small>
-            </div>
-        </div>
-        <div class="card">
-            <img class="card-img-top" src="img/homepage/youth_ministry.jpg" alt="Card image cap">
-            <div class="card-footer">
-            <small class="text-muted"><a href="/men" class="btn btn-lg btn-primary"> Connect Ministry </a></small>
-            </div>
-        </div>
-    </div>
-
-    </div>
-    
-
-<!-- END OF TOUR -->
-
-    <!-- END OF MINISTRIES -->
+   
 
 
     <!-- ARTICLES -->

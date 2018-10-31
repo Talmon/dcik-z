@@ -47,6 +47,8 @@
 <script src="js/animate-plus.min.js"></script>
 <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
 <script src="dist/js/jquery.sliderPro.min.js"></script>
+<script src="https://momentjs.com/downloads/moment.js"></script>
+<script src="https://momentjs.com/downloads/moment-timezone-with-data-2012-2022.js"></script>
 <script src="flipclock/compiled/flipclock.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
 
@@ -111,24 +113,54 @@ $(document).ready(function(){
 	});
 </script>
 <script>
-var clock;
-
 $(document).ready(function() {
-
-    // Grab the current date
-    var currentDate = new Date();
-    console.log(currentDate);
-
-    // Set some date in the past. In this case, it's always been since Jan 1
-    var futureDate  = new Date(currentDate.getFullYear(), 10, 30);
-    console.log(futureDate);
-    // Calculate the difference in seconds between the future and current date
-    var diff = futureDate.getTime() / 1000 - currentDate.getTime() / 1000;
-
-    // Instantiate a coutdown FlipClock
-    clock = $('.clock').FlipClock(diff, {
-        clockFace: 'DailyCounter'
+  var clock;
+ 
+  // Grab the current date
+  var currentDate = new Date();
+ 
+  // Target future date/24 hour time/Timezone.
+  var targetDate = moment.tz("2018-11-25 17:30", "Africa/Nairobi");
+ 
+  // Calculate the difference in seconds between the future and current date
+  var diff = targetDate / 1000 - currentDate.getTime() / 1000;
+ 
+  if (diff <= 0) {
+    // If remaining countdown is 0
+    clock = $(".clock").FlipClock(0, {
+      clockFace: "DailyCounter",
+      countdown: true,
+      autostart: false
     });
+    console.log("Date has already passed!")
+    
+  } else {
+    // Run countdown timer
+    clock = $(".clock").FlipClock(diff, {
+      clockFace: "DailyCounter",
+      countdown: true,
+      callbacks: {
+        stop: function() {
+          console.log("Timer has ended!")
+        }
+      }
+    });
+    
+    // Check when timer reaches 0, then stop at 0
+    setTimeout(function() {
+      checktime();
+    }, 1000);
+    
+    function checktime() {
+      t = clock.getTime();
+      if (t <= 0) {
+        clock.setTime(0);
+      }
+      setTimeout(function() {
+        checktime();
+      }, 1000);
+    }
+  }
 });
 </script>
 

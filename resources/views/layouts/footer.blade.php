@@ -58,10 +58,10 @@
 		<div class="container">
 			<div class="row text-center text-xs-center text-sm-left text-md-left">
 				<div class="col-xs-12 col-sm-4 col-md-4">
-					<h5>Quick links</h5>
+					<h5>Go to</h5>
 					<ul class="list-unstyled quick-links">
 						<li><a href="/"><i class="fa fa-angle-double-right"></i>Home</a></li>
-						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>I'm New Here</a></li>
+						<li><a href="/im-new-here"><i class="fa fa-angle-double-right"></i>I'm New Here</a></li>
 						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Ministries</a></li>
             <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Resources</a></li>
             <li><a href="/the-fathers-vision"><i class="fa fa-angle-double-right"></i>The Father's Vision</a></li>
@@ -69,7 +69,7 @@
 					</ul>
 				</div>
 				<div class="col-xs-12 col-sm-4 col-md-4">
-          <h5>Services</h5>
+          <h5>Worship With Us</h5>
 					<ul class="list-unstyled quick-links">
             <li>
             <a href="/services"><i class="fa fa-angle-double-right"></i>
@@ -87,7 +87,7 @@
 					</ul>
 				</div>
 				<div class="col-xs-12 col-sm-4 col-md-4">
-          <h5>Quick links</h5>
+          <h5>Locate Us</h5>
 					<ul class="list-unstyled quick-links">
 						<li><a href="#"> <i class="fa fa-3x fa-map-marker"></i> Zimmerman Estate, Opp Mirema Drive, Off Kamiti Road, Nairobi </a></li>
 						<li><a href="#">
